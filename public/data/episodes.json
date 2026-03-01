@@ -1,0 +1,2917 @@
+{
+  "generated": "2026-03-01T23:10:56.350Z",
+  "count": 19,
+  "episodes": [
+    {
+      "id": 1975,
+      "date": "2026-03-01",
+      "host": "Cary",
+      "caption": "On this week's MRR Radio, Cary plays a small sampling of the underground scene in Kentucky and Ohio (and of course a sprinkling of Tennessee) Opener NINE POUND HAMMER – Do You Remember Rock 'N' Roll Radio Stright Kentucky Rock 'N' Roll APPALACHIATARI – Rock 'n' Roll Kitty BUZZ-HO",
+      "thumbnailUrl": null,
+      "mp3Url": "https://media.blubrry.com/mrrradio/www.maximumrocknroll.com/wp-content/uploads/2026/03/MRR1975.mp3",
+      "durationSecs": 3444,
+      "trackCount": 14,
+      "localAudio": false,
+      "tracks": [
+        {
+          "id": 19750000,
+          "episodeId": 1975,
+          "artist": "NINE POUND HAMMER",
+          "title": "Do You Remember Rock 'N' Roll Radio",
+          "section": "Opener",
+          "trackIndex": 0
+        },
+        {
+          "id": 19750001,
+          "episodeId": 1975,
+          "artist": "APPALACHIATARI",
+          "title": "Rock 'n' Roll Kitty",
+          "section": "Stright Kentucky Rock 'N' Roll",
+          "trackIndex": 1
+        },
+        {
+          "id": 19750002,
+          "episodeId": 1975,
+          "artist": "BUZZ-HOUND",
+          "title": "VoidWalker",
+          "section": "Stright Kentucky Rock 'N' Roll",
+          "trackIndex": 2
+        },
+        {
+          "id": 19750003,
+          "episodeId": 1975,
+          "artist": "RABBY FEEBER",
+          "title": "Sunburn Brain Freeze",
+          "section": "Stright Kentucky Rock 'N' Roll",
+          "trackIndex": 3
+        },
+        {
+          "id": 19750004,
+          "episodeId": 1975,
+          "artist": "LAID BACK COUNTRY PICKER",
+          "title": "8-Track Weekend",
+          "section": "Stright Kentucky Rock 'N' Roll",
+          "trackIndex": 4
+        },
+        {
+          "id": 19750005,
+          "episodeId": 1975,
+          "artist": "KYARN",
+          "title": "Eternal",
+          "section": "Kentucky Heavy",
+          "trackIndex": 5
+        },
+        {
+          "id": 19750006,
+          "episodeId": 1975,
+          "artist": "PINHEAD POISON",
+          "title": "Avium",
+          "section": "Kentucky Heavy",
+          "trackIndex": 6
+        },
+        {
+          "id": 19750007,
+          "episodeId": 1975,
+          "artist": "L.I.P.S.",
+          "title": "Hick",
+          "section": "Kentucky Heavy",
+          "trackIndex": 7
+        },
+        {
+          "id": 19750008,
+          "episodeId": 1975,
+          "artist": "TOJO YAMAMOTO",
+          "title": "A Face Made For Radio (Hog Jowls)",
+          "section": "Kentucky Heavy",
+          "trackIndex": 8
+        },
+        {
+          "id": 19750009,
+          "episodeId": 1975,
+          "artist": "ALBUM",
+          "title": "Hell to Pay",
+          "section": "Round on the edge, hi in the middle",
+          "trackIndex": 9
+        },
+        {
+          "id": 19750010,
+          "episodeId": 1975,
+          "artist": "WAGE CAGE",
+          "title": "Chasing Careers",
+          "section": "Round on the edge, hi in the middle",
+          "trackIndex": 10
+        },
+        {
+          "id": 19750011,
+          "episodeId": 1975,
+          "artist": "FORWARD TO CONTACT",
+          "title": "Forward To Contact",
+          "section": "Round on the edge, hi in the middle",
+          "trackIndex": 11
+        },
+        {
+          "id": 19750012,
+          "episodeId": 1975,
+          "artist": "THE SCURVIES",
+          "title": "Heart Of A Lion",
+          "section": "Round on the edge, hi in the middle",
+          "trackIndex": 12
+        },
+        {
+          "id": 19750013,
+          "episodeId": 1975,
+          "artist": "YEAR OF OCTOBER",
+          "title": "Flannel",
+          "section": "Closer",
+          "trackIndex": 13
+        }
+      ]
+    },
+    {
+      "id": 1974,
+      "date": "2026-02-15",
+      "host": "Erika Elizabeth",
+      "caption": "Love is over and done on this week's episode of MRR Radio with Erika Elizabeth.Intro 25 CENTS – Don’t Deceive Me Always Telling Lies BRAIN DAMAGE – Forget Her DOGMATIC ELEMENT – Just Friends EARWIGS – A Martyr is Made DYBBUK – Dopis Please Pay Attention WINSTON – New Confidence W",
+      "thumbnailUrl": null,
+      "mp3Url": "https://media.blubrry.com/mrrradio/www.maximumrocknroll.com/wp-content/uploads/2026/02/mrr-radio-1974.mp3",
+      "durationSecs": 3469,
+      "trackCount": 18,
+      "localAudio": false,
+      "tracks": [
+        {
+          "id": 19740000,
+          "episodeId": 1974,
+          "artist": "25 CENTS",
+          "title": "Don’t Deceive Me",
+          "section": "Intro",
+          "trackIndex": 0
+        },
+        {
+          "id": 19740001,
+          "episodeId": 1974,
+          "artist": "BRAIN DAMAGE",
+          "title": "Forget Her",
+          "section": "Always Telling Lies",
+          "trackIndex": 1
+        },
+        {
+          "id": 19740002,
+          "episodeId": 1974,
+          "artist": "DOGMATIC ELEMENT",
+          "title": "Just Friends",
+          "section": "Always Telling Lies",
+          "trackIndex": 2
+        },
+        {
+          "id": 19740003,
+          "episodeId": 1974,
+          "artist": "EARWIGS",
+          "title": "A Martyr is Made",
+          "section": "Always Telling Lies",
+          "trackIndex": 3
+        },
+        {
+          "id": 19740004,
+          "episodeId": 1974,
+          "artist": "DYBBUK",
+          "title": "Dopis",
+          "section": "Always Telling Lies",
+          "trackIndex": 4
+        },
+        {
+          "id": 19740005,
+          "episodeId": 1974,
+          "artist": "WINSTON",
+          "title": "New Confidence",
+          "section": "Please Pay Attention",
+          "trackIndex": 5
+        },
+        {
+          "id": 19740006,
+          "episodeId": 1974,
+          "artist": "WHITE WOMEN",
+          "title": "Midge",
+          "section": "Please Pay Attention",
+          "trackIndex": 6
+        },
+        {
+          "id": 19740007,
+          "episodeId": 1974,
+          "artist": "FEATURE",
+          "title": "Jealous",
+          "section": "Please Pay Attention",
+          "trackIndex": 7
+        },
+        {
+          "id": 19740008,
+          "episodeId": 1974,
+          "artist": "​​LA LOI DE LA JUNGLE",
+          "title": "Célébration",
+          "section": "Please Pay Attention",
+          "trackIndex": 8
+        },
+        {
+          "id": 19740009,
+          "episodeId": 1974,
+          "artist": "BIKINI MUTANTS",
+          "title": "Prey",
+          "section": "Dark is Behind Me",
+          "trackIndex": 9
+        },
+        {
+          "id": 19740010,
+          "episodeId": 1974,
+          "artist": "RED",
+          "title": "Walking in the Park",
+          "section": "Dark is Behind Me",
+          "trackIndex": 10
+        },
+        {
+          "id": 19740011,
+          "episodeId": 1974,
+          "artist": "BELLE DU SOIR",
+          "title": "Treasure Island",
+          "section": "Dark is Behind Me",
+          "trackIndex": 11
+        },
+        {
+          "id": 19740012,
+          "episodeId": 1974,
+          "artist": "DORMANNU",
+          "title": "Until the Fear",
+          "section": "Dark is Behind Me",
+          "trackIndex": 12
+        },
+        {
+          "id": 19740013,
+          "episodeId": 1974,
+          "artist": "THE BLACKOUT",
+          "title": "The Cry",
+          "section": "Blow My Cover",
+          "trackIndex": 13
+        },
+        {
+          "id": 19740014,
+          "episodeId": 1974,
+          "artist": "LENASIX-UP",
+          "title": "Child Hood's End",
+          "section": "Blow My Cover",
+          "trackIndex": 14
+        },
+        {
+          "id": 19740015,
+          "episodeId": 1974,
+          "artist": "CHINAS COMIDAS",
+          "title": "Lover Lover",
+          "section": "Blow My Cover",
+          "trackIndex": 15
+        },
+        {
+          "id": 19740016,
+          "episodeId": 1974,
+          "artist": "THIRTEEN AT MIDNIGHT",
+          "title": "Follow Yourself",
+          "section": "Blow My Cover",
+          "trackIndex": 16
+        },
+        {
+          "id": 19740017,
+          "episodeId": 1974,
+          "artist": "NEW RECRUITS",
+          "title": "All in an Hour",
+          "section": "Outro",
+          "trackIndex": 17
+        }
+      ]
+    },
+    {
+      "id": 1973,
+      "date": "2026-02-01",
+      "host": "Zu From All Over",
+      "caption": "On this week's MRR Radio, Zu From All Over takes a sick day to celebrate The Year of the Fire Horse and the last great batch of 2k25 releases, with the best Hardcore, Indie Punk, and Punkgaze, featuring a surprise appearance from Michael From The North Bay to celebrate his 10 YEA",
+      "thumbnailUrl": null,
+      "mp3Url": "https://media.blubrry.com/mrrradio/www.maximumrocknroll.com/wp-content/uploads/2026/02/mrrradio1973.mp3",
+      "durationSecs": 3697,
+      "trackCount": 14,
+      "localAudio": false,
+      "tracks": [
+        {
+          "id": 19730000,
+          "episodeId": 1973,
+          "artist": "VIOLETTA",
+          "title": "Year of the Horse",
+          "section": "Happy Year Of The Fire Horse!",
+          "trackIndex": 0
+        },
+        {
+          "id": 19730001,
+          "episodeId": 1973,
+          "artist": "DEATH VALLEY SWEETHEARTS",
+          "title": "Fire Horse Girls",
+          "section": "Happy Year Of The Fire Horse!",
+          "trackIndex": 1
+        },
+        {
+          "id": 19730002,
+          "episodeId": 1973,
+          "artist": "HORSE",
+          "title": "Dignity",
+          "section": "A Year of Bold Action and Innovation, With Potential For Impulsiveness",
+          "trackIndex": 2
+        },
+        {
+          "id": 19730003,
+          "episodeId": 1973,
+          "artist": "RABBIT",
+          "title": "Supreme Identity / Muck",
+          "section": "A Year of Bold Action and Innovation, With Potential For Impulsiveness",
+          "trackIndex": 3
+        },
+        {
+          "id": 19730004,
+          "episodeId": 1973,
+          "artist": "GRAND SCHEME",
+          "title": "It’s On You",
+          "section": "A Year of Bold Action and Innovation, With Potential For Impulsiveness",
+          "trackIndex": 4
+        },
+        {
+          "id": 19730005,
+          "episodeId": 1973,
+          "artist": "NISEMONO 偽者",
+          "title": "不安な人生",
+          "section": "A Year of Bold Action and Innovation, With Potential For Impulsiveness",
+          "trackIndex": 5
+        },
+        {
+          "id": 19730006,
+          "episodeId": 1973,
+          "artist": "MONK",
+          "title": "Your Rules",
+          "section": "2K25 Year End Top Twenty",
+          "trackIndex": 6
+        },
+        {
+          "id": 19730007,
+          "episodeId": 1973,
+          "artist": "GRAYCEON",
+          "title": "3 Points of Light",
+          "section": "2K25 Year End Top Twenty",
+          "trackIndex": 7
+        },
+        {
+          "id": 19730008,
+          "episodeId": 1973,
+          "artist": "PLOSIVS",
+          "title": "Metacine",
+          "section": "2K25 Year End Top Twenty",
+          "trackIndex": 8
+        },
+        {
+          "id": 19730009,
+          "episodeId": 1973,
+          "artist": "ALGERNON CADWALLADER",
+          "title": "Shameless Faces (Even The Guy Who Made The Thing Was A Piece Of Shit)",
+          "section": "Put Good Out There and Accept Good When Goodness Comes",
+          "trackIndex": 9
+        },
+        {
+          "id": 19730010,
+          "episodeId": 1973,
+          "artist": "BULL SHANNON",
+          "title": "Dragon Boy",
+          "section": "Put Good Out There and Accept Good When Goodness Comes",
+          "trackIndex": 10
+        },
+        {
+          "id": 19730011,
+          "episodeId": 1973,
+          "artist": "PIGEON ISLAND",
+          "title": "Surfin The Yellow Room",
+          "section": "Put Good Out There and Accept Good When Goodness Comes",
+          "trackIndex": 11
+        },
+        {
+          "id": 19730012,
+          "episodeId": 1973,
+          "artist": "DROUGHT",
+          "title": "Old Seed/New Grain",
+          "section": "Here’s To 10 More Years",
+          "trackIndex": 12
+        },
+        {
+          "id": 19730013,
+          "episodeId": 1973,
+          "artist": "BOY COMMANDOS",
+          "title": "Life On A String",
+          "section": "Here’s To 10 More Years",
+          "trackIndex": 13
+        }
+      ]
+    },
+    {
+      "id": 1972,
+      "date": "2026-01-25",
+      "host": "Jennifer",
+      "caption": "On this week's MRR Radio, Jennifer plays some of her favorite recent releases!Intro STREETS OF SEPARATION - You Miss Out (1) DISKET - Running COLD MEAT - FFP RIFLE - Protest NORM DOGS - Stains IMPLODERS - Eat, Sleep, Repeat (2) COFFEE STAIN - Shrink FLOWER POWER - Raw Power LAUGH",
+      "thumbnailUrl": null,
+      "mp3Url": "https://media.blubrry.com/mrrradio/www.maximumrocknroll.com/wp-content/uploads/2026/01/mrrradio1972.mp3",
+      "durationSecs": 3117,
+      "trackCount": 21,
+      "localAudio": false,
+      "tracks": [
+        {
+          "id": 19720000,
+          "episodeId": 1972,
+          "artist": "STREETS OF SEPARATION",
+          "title": "You Miss Out",
+          "section": "Intro",
+          "trackIndex": 0
+        },
+        {
+          "id": 19720001,
+          "episodeId": 1972,
+          "artist": "DISKET",
+          "title": "Running",
+          "section": "(1)",
+          "trackIndex": 1
+        },
+        {
+          "id": 19720002,
+          "episodeId": 1972,
+          "artist": "COLD MEAT",
+          "title": "FFP",
+          "section": "(1)",
+          "trackIndex": 2
+        },
+        {
+          "id": 19720003,
+          "episodeId": 1972,
+          "artist": "RIFLE",
+          "title": "Protest",
+          "section": "(1)",
+          "trackIndex": 3
+        },
+        {
+          "id": 19720004,
+          "episodeId": 1972,
+          "artist": "NORM DOGS",
+          "title": "Stains",
+          "section": "(1)",
+          "trackIndex": 4
+        },
+        {
+          "id": 19720005,
+          "episodeId": 1972,
+          "artist": "IMPLODERS",
+          "title": "Eat, Sleep, Repeat",
+          "section": "(1)",
+          "trackIndex": 5
+        },
+        {
+          "id": 19720006,
+          "episodeId": 1972,
+          "artist": "COFFEE STAIN",
+          "title": "Shrink",
+          "section": "(2)",
+          "trackIndex": 6
+        },
+        {
+          "id": 19720007,
+          "episodeId": 1972,
+          "artist": "FLOWER POWER",
+          "title": "Raw Power",
+          "section": "(2)",
+          "trackIndex": 7
+        },
+        {
+          "id": 19720008,
+          "episodeId": 1972,
+          "artist": "LAUGHING CORPSE",
+          "title": "Revenge",
+          "section": "(2)",
+          "trackIndex": 8
+        },
+        {
+          "id": 19720009,
+          "episodeId": 1972,
+          "artist": "SARNA",
+          "title": "Gerardo",
+          "section": "(2)",
+          "trackIndex": 9
+        },
+        {
+          "id": 19720010,
+          "episodeId": 1972,
+          "artist": "SCHENECTAVOIDZ",
+          "title": "Held to Account",
+          "section": "(2)",
+          "trackIndex": 10
+        },
+        {
+          "id": 19720011,
+          "episodeId": 1972,
+          "artist": "PILL MILL",
+          "title": "Dead Minds",
+          "section": "(2)",
+          "trackIndex": 11
+        },
+        {
+          "id": 19720012,
+          "episodeId": 1972,
+          "artist": "CLICKBAIT",
+          "title": "Fish Fillet",
+          "section": "(3)",
+          "trackIndex": 12
+        },
+        {
+          "id": 19720013,
+          "episodeId": 1972,
+          "artist": "FLIPPEUR",
+          "title": "Plastique",
+          "section": "(3)",
+          "trackIndex": 13
+        },
+        {
+          "id": 19720014,
+          "episodeId": 1972,
+          "artist": "DBR",
+          "title": "The Nest",
+          "section": "(3)",
+          "trackIndex": 14
+        },
+        {
+          "id": 19720015,
+          "episodeId": 1972,
+          "artist": "ZULO",
+          "title": "Nueva Iglesia",
+          "section": "(3)",
+          "trackIndex": 15
+        },
+        {
+          "id": 19720016,
+          "episodeId": 1972,
+          "artist": "ERROR DE PARALAJE",
+          "title": "Nada",
+          "section": "(4)",
+          "trackIndex": 16
+        },
+        {
+          "id": 19720017,
+          "episodeId": 1972,
+          "artist": "ONYON",
+          "title": "The Figurine",
+          "section": "(4)",
+          "trackIndex": 17
+        },
+        {
+          "id": 19720018,
+          "episodeId": 1972,
+          "artist": "FORMA",
+          "title": "Aspettative",
+          "section": "(4)",
+          "trackIndex": 18
+        },
+        {
+          "id": 19720019,
+          "episodeId": 1972,
+          "artist": "TAKER",
+          "title": "Town",
+          "section": "(4)",
+          "trackIndex": 19
+        },
+        {
+          "id": 19720020,
+          "episodeId": 1972,
+          "artist": "INSTIGATORS",
+          "title": "The Blood Is On Your Hands",
+          "section": "OUTRO",
+          "trackIndex": 20
+        }
+      ]
+    },
+    {
+      "id": 1971,
+      "date": "2026-01-18",
+      "host": "Cary",
+      "caption": "On this week's MRR Radio, Cary Plays songs from his top ten releases of 2025 (mostly) Opener SCORNFUL - Fields of Decaying Obsidian Urn - Stagnant Stagnant Sex Mex - Repackaged II Left Me (In the Dark) Fucking It UP Tojo Yamamoto - Turning Face! Loser Leaves Town (A Cautiomary Ta",
+      "thumbnailUrl": null,
+      "mp3Url": "https://media.blubrry.com/mrrradio/www.maximumrocknroll.com/wp-content/uploads/2026/01/MRR1971.mp3",
+      "durationSecs": 3556,
+      "trackCount": 1,
+      "localAudio": false,
+      "tracks": [
+        {
+          "id": 19710000,
+          "episodeId": 1971,
+          "artist": "SCORNFUL",
+          "title": "Fields of Decaying",
+          "section": "Opener",
+          "trackIndex": 0
+        }
+      ]
+    },
+    {
+      "id": 1970,
+      "date": "2026-01-04",
+      "host": "",
+      "caption": "Rearrange your mind with this week's episode of MRR Radio brought to you by Erika Elizabeth.Intro CHANCE OPERATION – Din Can't Have a Life ?FOG – 5 Heads of State SHAKTI शक्ति – Maut मौत (Death) BAAT-BAAL – Taboo Death REAL IMITATORS – Make Up Your Mind An Indication of My State ",
+      "thumbnailUrl": null,
+      "mp3Url": "https://media.blubrry.com/mrrradio/www.maximumrocknroll.com/wp-content/uploads/2026/01/mrr-radio-1970.mp3",
+      "durationSecs": 3457,
+      "trackCount": 19,
+      "localAudio": false,
+      "tracks": [
+        {
+          "id": 19700000,
+          "episodeId": 1970,
+          "artist": "CHANCE OPERATION",
+          "title": "Din",
+          "section": "Intro",
+          "trackIndex": 0
+        },
+        {
+          "id": 19700001,
+          "episodeId": 1970,
+          "artist": "?FOG",
+          "title": "5 Heads of State",
+          "section": "Can't Have a Life",
+          "trackIndex": 1
+        },
+        {
+          "id": 19700002,
+          "episodeId": 1970,
+          "artist": "SHAKTI शक्ति",
+          "title": "Maut मौत (Death)",
+          "section": "Can't Have a Life",
+          "trackIndex": 2
+        },
+        {
+          "id": 19700003,
+          "episodeId": 1970,
+          "artist": "BAAT-BAAL",
+          "title": "Taboo Death",
+          "section": "Can't Have a Life",
+          "trackIndex": 3
+        },
+        {
+          "id": 19700004,
+          "episodeId": 1970,
+          "artist": "REAL IMITATORS",
+          "title": "Make Up Your Mind",
+          "section": "Can't Have a Life",
+          "trackIndex": 4
+        },
+        {
+          "id": 19700005,
+          "episodeId": 1970,
+          "artist": "PARISIAN ORGY",
+          "title": "Come Pretty Pump Sleep",
+          "section": "An Indication of My State of Mind",
+          "trackIndex": 5
+        },
+        {
+          "id": 19700006,
+          "episodeId": 1970,
+          "artist": "THE URINALS",
+          "title": "Scholastic Aptitude",
+          "section": "An Indication of My State of Mind",
+          "trackIndex": 6
+        },
+        {
+          "id": 19700007,
+          "episodeId": 1970,
+          "artist": "RHYTHM OF LIFE",
+          "title": "Portrait of Heart",
+          "section": "An Indication of My State of Mind",
+          "trackIndex": 7
+        },
+        {
+          "id": 19700008,
+          "episodeId": 1970,
+          "artist": "KABUKI",
+          "title": "My Hair",
+          "section": "An Indication of My State of Mind",
+          "trackIndex": 8
+        },
+        {
+          "id": 19700009,
+          "episodeId": 1970,
+          "artist": "ART REMAINS TANGIBLE",
+          "title": "TV Nut",
+          "section": "Quality Time is Flashing By",
+          "trackIndex": 9
+        },
+        {
+          "id": 19700010,
+          "episodeId": 1970,
+          "artist": "PERSONNEL",
+          "title": "Close Quarters",
+          "section": "Quality Time is Flashing By",
+          "trackIndex": 10
+        },
+        {
+          "id": 19700011,
+          "episodeId": 1970,
+          "artist": "HÉLÈNE BARBIER",
+          "title": "A House",
+          "section": "Quality Time is Flashing By",
+          "trackIndex": 11
+        },
+        {
+          "id": 19700012,
+          "episodeId": 1970,
+          "artist": "STOLEN POWER",
+          "title": "Family Snapshots",
+          "section": "Quality Time is Flashing By",
+          "trackIndex": 12
+        },
+        {
+          "id": 19700013,
+          "episodeId": 1970,
+          "artist": "LA STRADA",
+          "title": "On",
+          "section": "Fantasy or Ecstasy",
+          "trackIndex": 13
+        },
+        {
+          "id": 19700014,
+          "episodeId": 1970,
+          "artist": "OUR HEROES",
+          "title": "Fantasenile",
+          "section": "Fantasy or Ecstasy",
+          "trackIndex": 14
+        },
+        {
+          "id": 19700015,
+          "episodeId": 1970,
+          "artist": "NEONBABIES",
+          "title": "Die Krönung",
+          "section": "Fantasy or Ecstasy",
+          "trackIndex": 15
+        },
+        {
+          "id": 19700016,
+          "episodeId": 1970,
+          "artist": "BEAUTY PAGEANT",
+          "title": "Lashes",
+          "section": "Fantasy or Ecstasy",
+          "trackIndex": 16
+        },
+        {
+          "id": 19700017,
+          "episodeId": 1970,
+          "artist": "THE NIXE",
+          "title": "Commercial",
+          "section": "Fantasy or Ecstasy",
+          "trackIndex": 17
+        },
+        {
+          "id": 19700018,
+          "episodeId": 1970,
+          "artist": "PERFECT END",
+          "title": "Puppets",
+          "section": "Outro",
+          "trackIndex": 18
+        }
+      ]
+    },
+    {
+      "id": 1969,
+      "date": "2025-12-21",
+      "host": "Zu From All Over",
+      "caption": "On this week's MRR Radio, Zu From All Over invites her dearest friend Michael From The North Bay back to the show for a super sneaky peek at their Year End Top Ten Lists for their annual YEET episode, with the best College Rock, Indie Punk, Hardcore, and Weirdo Punk that 2k25 had",
+      "thumbnailUrl": null,
+      "mp3Url": "https://media.blubrry.com/mrrradio/www.maximumrocknroll.com/wp-content/uploads/2025/12/mrrradio1969.mp3",
+      "durationSecs": 3617,
+      "trackCount": 16,
+      "localAudio": false,
+      "tracks": [
+        {
+          "id": 19690000,
+          "episodeId": 1969,
+          "artist": "HOME FRONT",
+          "title": "Watch It Die",
+          "section": "Michael and Zu from Hosford-Abernethy",
+          "trackIndex": 0
+        },
+        {
+          "id": 19690001,
+          "episodeId": 1969,
+          "artist": "MOVING TARGETS",
+          "title": "Saw Too Much",
+          "section": "Michael and Zu from Hosford-Abernethy",
+          "trackIndex": 1
+        },
+        {
+          "id": 19690002,
+          "episodeId": 1969,
+          "artist": "SUTRAS",
+          "title": "Bloom Watch",
+          "section": "Halfway Through, The Decade Starts To Define Itself",
+          "trackIndex": 2
+        },
+        {
+          "id": 19690003,
+          "episodeId": 1969,
+          "artist": "SWAIN",
+          "title": "Cold Fever",
+          "section": "Halfway Through, The Decade Starts To Define Itself",
+          "trackIndex": 3
+        },
+        {
+          "id": 19690004,
+          "episodeId": 1969,
+          "artist": "VISUAL LEARNER",
+          "title": "Bullet Proof",
+          "section": "Halfway Through, The Decade Starts To Define Itself",
+          "trackIndex": 4
+        },
+        {
+          "id": 19690005,
+          "episodeId": 1969,
+          "artist": "TENTÁCULO",
+          "title": "Estallar",
+          "section": "Halfway Through, The Decade Starts To Define Itself",
+          "trackIndex": 5
+        },
+        {
+          "id": 19690006,
+          "episodeId": 1969,
+          "artist": "DENEVÉR",
+          "title": "Fast Forward",
+          "section": "Have Everything Ready And By The Door",
+          "trackIndex": 6
+        },
+        {
+          "id": 19690007,
+          "episodeId": 1969,
+          "artist": "HARAM",
+          "title": "معركة العرب اليوم Battle of the Arab of Today",
+          "section": "Have Everything Ready And By The Door",
+          "trackIndex": 7
+        },
+        {
+          "id": 19690008,
+          "episodeId": 1969,
+          "artist": "TRITONIC",
+          "title": "Alexamenos!",
+          "section": "Have Everything Ready And By The Door",
+          "trackIndex": 8
+        },
+        {
+          "id": 19690009,
+          "episodeId": 1969,
+          "artist": "LAST BIAS",
+          "title": "You",
+          "section": "Have Everything Ready And By The Door",
+          "trackIndex": 9
+        },
+        {
+          "id": 19690010,
+          "episodeId": 1969,
+          "artist": "CÖSMIC PSYCHÖS",
+          "title": "Have One More",
+          "section": "Not Gonna Have Another Easy Year For A While",
+          "trackIndex": 10
+        },
+        {
+          "id": 19690011,
+          "episodeId": 1969,
+          "artist": "ALIMENT",
+          "title": "Futura degeneració",
+          "section": "Not Gonna Have Another Easy Year For A While",
+          "trackIndex": 11
+        },
+        {
+          "id": 19690012,
+          "episodeId": 1969,
+          "artist": "ZERO AZÚCAR FEATURING ÁLVARO BIZNAGA",
+          "title": "Píxel",
+          "section": "Not Gonna Have Another Easy Year For A While",
+          "trackIndex": 12
+        },
+        {
+          "id": 19690013,
+          "episodeId": 1969,
+          "artist": "FRANKIE AND THE WITCH FINGERS",
+          "title": "Eggs Laid Brain",
+          "section": "Not Gonna Have Another Easy Year For A While",
+          "trackIndex": 13
+        },
+        {
+          "id": 19690014,
+          "episodeId": 1969,
+          "artist": "SPARES",
+          "title": "Influence",
+          "section": "2k25 MVPs",
+          "trackIndex": 14
+        },
+        {
+          "id": 19690015,
+          "episodeId": 1969,
+          "artist": "GONIES",
+          "title": "Jonies",
+          "section": "2k25 MVPs",
+          "trackIndex": 15
+        }
+      ]
+    },
+    {
+      "id": 1968,
+      "date": "2025-12-14",
+      "host": "Jennifer",
+      "caption": "On this week's MRR Radio, Jennifer gifts you lots of new releases just in time for the holidays.Intro EXTRAŃA HUMANA - Enigma I SCREAMING EYES - Duality LUMPEN - DESPLAZADOS DURS CŒURS - Tempête FESTER - Blameless PUBLIC ERROR - make me sick II RATA NEGRA - Antonio SKEPTIS - Abl",
+      "thumbnailUrl": null,
+      "mp3Url": "https://media.blubrry.com/mrrradio/www.maximumrocknroll.com/wp-content/uploads/2025/12/mrrradio1968.mp3",
+      "durationSecs": 3192,
+      "trackCount": 20,
+      "localAudio": false,
+      "tracks": [
+        {
+          "id": 19680000,
+          "episodeId": 1968,
+          "artist": "EXTRAŃA HUMANA",
+          "title": "Enigma",
+          "section": "Intro",
+          "trackIndex": 0
+        },
+        {
+          "id": 19680001,
+          "episodeId": 1968,
+          "artist": "SCREAMING EYES",
+          "title": "Duality",
+          "section": "I",
+          "trackIndex": 1
+        },
+        {
+          "id": 19680002,
+          "episodeId": 1968,
+          "artist": "LUMPEN",
+          "title": "DESPLAZADOS",
+          "section": "I",
+          "trackIndex": 2
+        },
+        {
+          "id": 19680003,
+          "episodeId": 1968,
+          "artist": "DURS CŒURS",
+          "title": "Tempête",
+          "section": "I",
+          "trackIndex": 3
+        },
+        {
+          "id": 19680004,
+          "episodeId": 1968,
+          "artist": "FESTER",
+          "title": "Blameless",
+          "section": "I",
+          "trackIndex": 4
+        },
+        {
+          "id": 19680005,
+          "episodeId": 1968,
+          "artist": "PUBLIC ERROR",
+          "title": "make me sick",
+          "section": "I",
+          "trackIndex": 5
+        },
+        {
+          "id": 19680006,
+          "episodeId": 1968,
+          "artist": "RATA NEGRA",
+          "title": "Antonio",
+          "section": "II",
+          "trackIndex": 6
+        },
+        {
+          "id": 19680007,
+          "episodeId": 1968,
+          "artist": "SKEPTIS",
+          "title": "Ablasa",
+          "section": "II",
+          "trackIndex": 7
+        },
+        {
+          "id": 19680008,
+          "episodeId": 1968,
+          "artist": "RHDP",
+          "title": "Sirang Plaka",
+          "section": "II",
+          "trackIndex": 8
+        },
+        {
+          "id": 19680009,
+          "episodeId": 1968,
+          "artist": "BOTOX",
+          "title": "Green Street",
+          "section": "II",
+          "trackIndex": 9
+        },
+        {
+          "id": 19680010,
+          "episodeId": 1968,
+          "artist": "JODIE FASTER",
+          "title": "Call Me Stupid",
+          "section": "II",
+          "trackIndex": 10
+        },
+        {
+          "id": 19680011,
+          "episodeId": 1968,
+          "artist": "CIGARETTE CAMP",
+          "title": "Sidewalks",
+          "section": "II",
+          "trackIndex": 11
+        },
+        {
+          "id": 19680012,
+          "episodeId": 1968,
+          "artist": "KRISE",
+          "title": "Fehl am Platz",
+          "section": "II",
+          "trackIndex": 12
+        },
+        {
+          "id": 19680013,
+          "episodeId": 1968,
+          "artist": "CONTROL FREAKS",
+          "title": "TV Generation",
+          "section": "II",
+          "trackIndex": 13
+        },
+        {
+          "id": 19680014,
+          "episodeId": 1968,
+          "artist": "NAPE NECK",
+          "title": "Dig For Misery",
+          "section": "II",
+          "trackIndex": 14
+        },
+        {
+          "id": 19680015,
+          "episodeId": 1968,
+          "artist": "XRAY XEROXX",
+          "title": "Bored and Loving It",
+          "section": "II",
+          "trackIndex": 15
+        },
+        {
+          "id": 19680016,
+          "episodeId": 1968,
+          "artist": "BABY MUFFLER",
+          "title": "Peach",
+          "section": "II",
+          "trackIndex": 16
+        },
+        {
+          "id": 19680017,
+          "episodeId": 1968,
+          "artist": "WAVERS",
+          "title": "Melodies",
+          "section": "II",
+          "trackIndex": 17
+        },
+        {
+          "id": 19680018,
+          "episodeId": 1968,
+          "artist": "TEE VEE REPAIRMANN",
+          "title": "Only a Memory",
+          "section": "II",
+          "trackIndex": 18
+        },
+        {
+          "id": 19680019,
+          "episodeId": 1968,
+          "artist": "FINAL CONFLICT",
+          "title": "AMERICAN SCREAM",
+          "section": "II",
+          "trackIndex": 19
+        }
+      ]
+    },
+    {
+      "id": 1966,
+      "date": "2025-11-23",
+      "host": "Erika Elizabeth",
+      "caption": "On this week's episode of MRR Radio, Erika Elizabeth plays uneasy sounds for unknown futures.Intro BLACK EYES – Break a Leg These Dreams Are Made to Make You Pay FAKE LAST NAME – Rules ATOL ATOL ATOL – Płytki Sen QUIX*O*TIC – Prediction of a Crash PUPPET WIPES – Puppets Jamboree ",
+      "thumbnailUrl": null,
+      "mp3Url": "https://media.blubrry.com/mrrradio/www.maximumrocknroll.com/wp-content/uploads/2025/11/mrr-radio-1966.mp3",
+      "durationSecs": 3470,
+      "trackCount": 20,
+      "localAudio": false,
+      "tracks": [
+        {
+          "id": 19660000,
+          "episodeId": 1966,
+          "artist": "BLACK EYES",
+          "title": "Break a Leg",
+          "section": "Intro",
+          "trackIndex": 0
+        },
+        {
+          "id": 19660001,
+          "episodeId": 1966,
+          "artist": "FAKE LAST NAME",
+          "title": "Rules",
+          "section": "These Dreams Are Made to Make You Pay",
+          "trackIndex": 1
+        },
+        {
+          "id": 19660002,
+          "episodeId": 1966,
+          "artist": "ATOL ATOL ATOL",
+          "title": "Płytki Sen",
+          "section": "These Dreams Are Made to Make You Pay",
+          "trackIndex": 2
+        },
+        {
+          "id": 19660003,
+          "episodeId": 1966,
+          "artist": "QUIX*O*TIC",
+          "title": "Prediction of a Crash",
+          "section": "These Dreams Are Made to Make You Pay",
+          "trackIndex": 3
+        },
+        {
+          "id": 19660004,
+          "episodeId": 1966,
+          "artist": "PUPPET WIPES",
+          "title": "Puppets Jamboree",
+          "section": "These Dreams Are Made to Make You Pay",
+          "trackIndex": 4
+        },
+        {
+          "id": 19660005,
+          "episodeId": 1966,
+          "artist": "HUGGY BEAR",
+          "title": "Hop Scorch",
+          "section": "Looking the Other Way",
+          "trackIndex": 5
+        },
+        {
+          "id": 19660006,
+          "episodeId": 1966,
+          "artist": "SCORCHED EARTH POLICY",
+          "title": "Paralysed",
+          "section": "Looking the Other Way",
+          "trackIndex": 6
+        },
+        {
+          "id": 19660007,
+          "episodeId": 1966,
+          "artist": "KITCHENETTE",
+          "title": "Piece of Glass",
+          "section": "Looking the Other Way",
+          "trackIndex": 7
+        },
+        {
+          "id": 19660008,
+          "episodeId": 1966,
+          "artist": "HOT CHICKS",
+          "title": "Curve",
+          "section": "Looking the Other Way",
+          "trackIndex": 8
+        },
+        {
+          "id": 19660009,
+          "episodeId": 1966,
+          "artist": "THE CANNANES",
+          "title": "Cardboard",
+          "section": "Looking the Other Way",
+          "trackIndex": 9
+        },
+        {
+          "id": 19660010,
+          "episodeId": 1966,
+          "artist": "MARAUDEUR",
+          "title": "Clever Sneaker",
+          "section": "You Threw Me in the Bin",
+          "trackIndex": 10
+        },
+        {
+          "id": 19660011,
+          "episodeId": 1966,
+          "artist": "CLICKBAIT",
+          "title": "Money",
+          "section": "You Threw Me in the Bin",
+          "trackIndex": 11
+        },
+        {
+          "id": 19660012,
+          "episodeId": 1966,
+          "artist": "THE FRANTIC ELEVATORS",
+          "title": "Every Day I Die",
+          "section": "You Threw Me in the Bin",
+          "trackIndex": 12
+        },
+        {
+          "id": 19660013,
+          "episodeId": 1966,
+          "artist": "DIE BENJAMINS",
+          "title": "In 10 Jahren",
+          "section": "You Threw Me in the Bin",
+          "trackIndex": 13
+        },
+        {
+          "id": 19660014,
+          "episodeId": 1966,
+          "artist": "RUBY PINS",
+          "title": "Chariot",
+          "section": "You Threw Me in the Bin",
+          "trackIndex": 14
+        },
+        {
+          "id": 19660015,
+          "episodeId": 1966,
+          "artist": "HALF JAPANESE",
+          "title": "Thing With a Hook",
+          "section": "A Promise You Don't Understand",
+          "trackIndex": 15
+        },
+        {
+          "id": 19660016,
+          "episodeId": 1966,
+          "artist": "CHIME OBLIVION",
+          "title": "Smoke Ring",
+          "section": "A Promise You Don't Understand",
+          "trackIndex": 16
+        },
+        {
+          "id": 19660017,
+          "episodeId": 1966,
+          "artist": "SCHIMMEL ÜBER BERLIN",
+          "title": "Komm Schon",
+          "section": "A Promise You Don't Understand",
+          "trackIndex": 17
+        },
+        {
+          "id": 19660018,
+          "episodeId": 1966,
+          "artist": "FLESH WORLD",
+          "title": "Sturdy Swiss Hiker",
+          "section": "A Promise You Don't Understand",
+          "trackIndex": 18
+        },
+        {
+          "id": 19660019,
+          "episodeId": 1966,
+          "artist": "OPTIC SINK",
+          "title": "How Can I Help You?",
+          "section": "Outro",
+          "trackIndex": 19
+        }
+      ]
+    },
+    {
+      "id": 1965,
+      "date": "2025-11-09",
+      "host": "Zu From All Over",
+      "caption": "On this week's MRR Radio, Zu From All Over brings her turntable into her empty bedroom to listen to 8 lengthy songs amplified by 4 reflective walls, with the best Proto-Slowcore, Post-Hardcore, Slacker Noise, and loudQUIETloud to drown out the outside world. 4 Walls With Nothing ",
+      "thumbnailUrl": null,
+      "mp3Url": "https://media.blubrry.com/mrrradio/www.maximumrocknroll.com/wp-content/uploads/2025/11/mrrradio1965.mp3",
+      "durationSecs": 3740,
+      "trackCount": 8,
+      "localAudio": false,
+      "tracks": [
+        {
+          "id": 19650000,
+          "episodeId": 1965,
+          "artist": "THOUSANDAIRE",
+          "title": "One Day I'll Finally Go Deaf",
+          "section": "4 Walls With Nothing But Sound",
+          "trackIndex": 0
+        },
+        {
+          "id": 19650001,
+          "episodeId": 1965,
+          "artist": "COMMON GIRL",
+          "title": "i’d rather you not",
+          "section": "4 Walls With Nothing But Sound",
+          "trackIndex": 1
+        },
+        {
+          "id": 19650002,
+          "episodeId": 1965,
+          "artist": "SLUGFEAST",
+          "title": "Heavy Heart",
+          "section": "Soundwave Massage",
+          "trackIndex": 2
+        },
+        {
+          "id": 19650003,
+          "episodeId": 1965,
+          "artist": "KEROSENE 454",
+          "title": "Continued",
+          "section": "Soundwave Massage",
+          "trackIndex": 3
+        },
+        {
+          "id": 19650004,
+          "episodeId": 1965,
+          "artist": "FLOODING",
+          "title": "Silver Gilt",
+          "section": "Let Them Make Their Point",
+          "trackIndex": 4
+        },
+        {
+          "id": 19650005,
+          "episodeId": 1965,
+          "artist": "A MINOR FOREST",
+          "title": "The Loneliest Enuretic",
+          "section": "Let Them Make Their Point",
+          "trackIndex": 5
+        },
+        {
+          "id": 19650006,
+          "episodeId": 1965,
+          "artist": "JUNE OF 44",
+          "title": "Take It With A Grain of Salt",
+          "section": "Final Hurrah of Solitude",
+          "trackIndex": 6
+        },
+        {
+          "id": 19650007,
+          "episodeId": 1965,
+          "artist": "OFFICE OF FUTURE PLANS",
+          "title": "Salamander",
+          "section": "Final Hurrah of Solitude",
+          "trackIndex": 7
+        }
+      ]
+    },
+    {
+      "id": 1964,
+      "date": "2025-11-02",
+      "host": "Jennifer",
+      "caption": "On this week's MRR Radio, Jennifer plays lots of new music!Intro DESENCARNATS - Mystica One NAVAJA - Pilas GOB - Infantino KISSLAND - Random One INTEL - Virtual Signal Fire SPLIT SYSTEM - Pull the Trigger JACKET BURNER - Re-Wire My Brain Two WIFE - Splintered Smile GOLDEN STARLET",
+      "thumbnailUrl": null,
+      "mp3Url": "https://media.blubrry.com/mrrradio/www.maximumrocknroll.com/wp-content/uploads/2025/11/mrrradio1964.mp3",
+      "durationSecs": 3270,
+      "trackCount": 22,
+      "localAudio": false,
+      "tracks": [
+        {
+          "id": 19640000,
+          "episodeId": 1964,
+          "artist": "DESENCARNATS",
+          "title": "Mystica",
+          "section": "Intro",
+          "trackIndex": 0
+        },
+        {
+          "id": 19640001,
+          "episodeId": 1964,
+          "artist": "NAVAJA",
+          "title": "Pilas",
+          "section": "One",
+          "trackIndex": 1
+        },
+        {
+          "id": 19640002,
+          "episodeId": 1964,
+          "artist": "GOB",
+          "title": "Infantino",
+          "section": "One",
+          "trackIndex": 2
+        },
+        {
+          "id": 19640003,
+          "episodeId": 1964,
+          "artist": "KISSLAND",
+          "title": "Random One",
+          "section": "One",
+          "trackIndex": 3
+        },
+        {
+          "id": 19640004,
+          "episodeId": 1964,
+          "artist": "INTEL",
+          "title": "Virtual Signal Fire",
+          "section": "One",
+          "trackIndex": 4
+        },
+        {
+          "id": 19640005,
+          "episodeId": 1964,
+          "artist": "SPLIT SYSTEM",
+          "title": "Pull the Trigger",
+          "section": "One",
+          "trackIndex": 5
+        },
+        {
+          "id": 19640006,
+          "episodeId": 1964,
+          "artist": "JACKET BURNER",
+          "title": "Re-Wire My Brain",
+          "section": "One",
+          "trackIndex": 6
+        },
+        {
+          "id": 19640007,
+          "episodeId": 1964,
+          "artist": "WIFE",
+          "title": "Splintered Smile",
+          "section": "Two",
+          "trackIndex": 7
+        },
+        {
+          "id": 19640008,
+          "episodeId": 1964,
+          "artist": "GOLDEN STARLET",
+          "title": "Stupid Punk Boy",
+          "section": "Two",
+          "trackIndex": 8
+        },
+        {
+          "id": 19640009,
+          "episodeId": 1964,
+          "artist": "STUPID WORLD",
+          "title": "Symbol",
+          "section": "Two",
+          "trackIndex": 9
+        },
+        {
+          "id": 19640010,
+          "episodeId": 1964,
+          "artist": "BESTA QUADRADA",
+          "title": "Spiral",
+          "section": "Two",
+          "trackIndex": 10
+        },
+        {
+          "id": 19640011,
+          "episodeId": 1964,
+          "artist": "HOMEFRONT",
+          "title": "Watch It Die",
+          "section": "Two",
+          "trackIndex": 11
+        },
+        {
+          "id": 19640012,
+          "episodeId": 1964,
+          "artist": "BILLIAM",
+          "title": "Houston We Have Rock",
+          "section": "Three",
+          "trackIndex": 12
+        },
+        {
+          "id": 19640013,
+          "episodeId": 1964,
+          "artist": "MITRAILLE",
+          "title": "Tired (Need a Break)",
+          "section": "Three",
+          "trackIndex": 13
+        },
+        {
+          "id": 19640014,
+          "episodeId": 1964,
+          "artist": "GONIES",
+          "title": "Dream Pop",
+          "section": "Three",
+          "trackIndex": 14
+        },
+        {
+          "id": 19640015,
+          "episodeId": 1964,
+          "artist": "PEGAMENTO",
+          "title": "Pegamento",
+          "section": "Three",
+          "trackIndex": 15
+        },
+        {
+          "id": 19640016,
+          "episodeId": 1964,
+          "artist": "SNOOPER",
+          "title": "Pom Pom",
+          "section": "Three",
+          "trackIndex": 16
+        },
+        {
+          "id": 19640017,
+          "episodeId": 1964,
+          "artist": "THE SEIZE",
+          "title": "Wetbrain",
+          "section": "Four",
+          "trackIndex": 17
+        },
+        {
+          "id": 19640018,
+          "episodeId": 1964,
+          "artist": "FAVOURED STATE",
+          "title": "I’ll Finish It",
+          "section": "Four",
+          "trackIndex": 18
+        },
+        {
+          "id": 19640019,
+          "episodeId": 1964,
+          "artist": "HEATHER THE JERK",
+          "title": "No Animals",
+          "section": "Four",
+          "trackIndex": 19
+        },
+        {
+          "id": 19640020,
+          "episodeId": 1964,
+          "artist": "CARNIVEROUS FLOWER",
+          "title": "All the Time",
+          "section": "Four",
+          "trackIndex": 20
+        },
+        {
+          "id": 19640021,
+          "episodeId": 1964,
+          "artist": "SPAZZ",
+          "title": "Return of the Wall of Death",
+          "section": "Outro",
+          "trackIndex": 21
+        }
+      ]
+    },
+    {
+      "id": 1963,
+      "date": "2025-10-26",
+      "host": "Cary",
+      "caption": "On this week's MRR Radio, Cary Plays a hodge Podge of Halloween Song! Opener THE DEADLINES – Go-Go To The Graveyard The Maximum Rock'n'Roll Picture Show THE MIGRAINES – I'm Going Home LOVE EQUALS DEATH – Dammit Janet BLACK LULLABIES– The Sword of Damocles QUEEN WOLF – Hot Patooti",
+      "thumbnailUrl": null,
+      "mp3Url": "https://media.blubrry.com/mrrradio/www.maximumrocknroll.com/wp-content/uploads/2025/10/MRR1963.mp3",
+      "durationSecs": 3474,
+      "trackCount": 16,
+      "localAudio": false,
+      "tracks": [
+        {
+          "id": 19630000,
+          "episodeId": 1963,
+          "artist": "THE DEADLINES",
+          "title": "Go-Go To The Graveyard",
+          "section": "Opener",
+          "trackIndex": 0
+        },
+        {
+          "id": 19630001,
+          "episodeId": 1963,
+          "artist": "THE MIGRAINES",
+          "title": "I'm Going Home",
+          "section": "The Maximum Rock'n'Roll Picture Show",
+          "trackIndex": 1
+        },
+        {
+          "id": 19630002,
+          "episodeId": 1963,
+          "artist": "LOVE EQUALS DEATH",
+          "title": "Dammit Janet",
+          "section": "The Maximum Rock'n'Roll Picture Show",
+          "trackIndex": 2
+        },
+        {
+          "id": 19630003,
+          "episodeId": 1963,
+          "artist": "BLACK LULLABIES",
+          "title": "The Sword of Damocles",
+          "section": "The Maximum Rock'n'Roll Picture Show",
+          "trackIndex": 3
+        },
+        {
+          "id": 19630004,
+          "episodeId": 1963,
+          "artist": "QUEEN WOLF",
+          "title": "Hot Patootie",
+          "section": "The Maximum Rock'n'Roll Picture Show",
+          "trackIndex": 4
+        },
+        {
+          "id": 19630005,
+          "episodeId": 1963,
+          "artist": "HUNTINGTONS",
+          "title": "Let's Go To Haddonfield",
+          "section": "BOO",
+          "trackIndex": 5
+        },
+        {
+          "id": 19630006,
+          "episodeId": 1963,
+          "artist": "TOGETHER PANGEA & THE RED PEARS",
+          "title": "Halloween",
+          "section": "BOO",
+          "trackIndex": 6
+        },
+        {
+          "id": 19630007,
+          "episodeId": 1963,
+          "artist": "DRU THE DRIFTER",
+          "title": "Rockin' The Monster House",
+          "section": "BOO",
+          "trackIndex": 7
+        },
+        {
+          "id": 19630008,
+          "episodeId": 1963,
+          "artist": "UPCHUCK",
+          "title": "Freaky",
+          "section": "BOO",
+          "trackIndex": 8
+        },
+        {
+          "id": 19630009,
+          "episodeId": 1963,
+          "artist": "GUITAR WOLF",
+          "title": "UFO Romantics",
+          "section": "Coast to Coast MRR",
+          "trackIndex": 9
+        },
+        {
+          "id": 19630010,
+          "episodeId": 1963,
+          "artist": "THE SCREECH BOYS",
+          "title": "We're From Outer Space",
+          "section": "Coast to Coast MRR",
+          "trackIndex": 10
+        },
+        {
+          "id": 19630011,
+          "episodeId": 1963,
+          "artist": "CHERRY CHEEKS",
+          "title": "UFO",
+          "section": "Coast to Coast MRR",
+          "trackIndex": 11
+        },
+        {
+          "id": 19630012,
+          "episodeId": 1963,
+          "artist": "THE RED ORCHESTRA",
+          "title": "Children of The Night Theme",
+          "section": "Dark POP",
+          "trackIndex": 12
+        },
+        {
+          "id": 19630013,
+          "episodeId": 1963,
+          "artist": "ANNA RANGER",
+          "title": "The Ghost of Soloman Grundy",
+          "section": "Dark POP",
+          "trackIndex": 13
+        },
+        {
+          "id": 19630014,
+          "episodeId": 1963,
+          "artist": "FRANKIE AND THE WITCH FINGERS",
+          "title": "Futurephobic",
+          "section": "Dark POP",
+          "trackIndex": 14
+        },
+        {
+          "id": 19630015,
+          "episodeId": 1963,
+          "artist": "COFFIN SMOKE",
+          "title": "Keepers of the Crypt",
+          "section": "Closer",
+          "trackIndex": 15
+        }
+      ]
+    },
+    {
+      "id": 1962,
+      "date": "2025-10-20",
+      "host": "Eric",
+      "caption": "On this week’s MRR Radio, Eric begins pondering his end-of-year lists with selections from hardcore punk records that came out in 2025.Set 1 THE MASSACRED - Allegiance THE HELL - Circling The Drain LANGUID - Highest Power HEADSPLITTERS - Onslaught For Peace NISEMONO - 諦めたい (Akira",
+      "thumbnailUrl": null,
+      "mp3Url": "https://media.blubrry.com/mrrradio/www.maximumrocknroll.com/wp-content/uploads/2025/10/mrrradio1962.mp3",
+      "durationSecs": 3534,
+      "trackCount": 30,
+      "localAudio": false,
+      "tracks": [
+        {
+          "id": 19620000,
+          "episodeId": 1962,
+          "artist": "THE MASSACRED",
+          "title": "Allegiance",
+          "section": "Set 1",
+          "trackIndex": 0
+        },
+        {
+          "id": 19620001,
+          "episodeId": 1962,
+          "artist": "THE HELL",
+          "title": "Circling The Drain",
+          "section": "Set 1",
+          "trackIndex": 1
+        },
+        {
+          "id": 19620002,
+          "episodeId": 1962,
+          "artist": "LANGUID",
+          "title": "Highest Power",
+          "section": "Set 1",
+          "trackIndex": 2
+        },
+        {
+          "id": 19620003,
+          "episodeId": 1962,
+          "artist": "HEADSPLITTERS",
+          "title": "Onslaught For Peace",
+          "section": "Set 1",
+          "trackIndex": 3
+        },
+        {
+          "id": 19620004,
+          "episodeId": 1962,
+          "artist": "NISEMONO",
+          "title": "諦めたい (Akirametai)",
+          "section": "Set 1",
+          "trackIndex": 4
+        },
+        {
+          "id": 19620005,
+          "episodeId": 1962,
+          "artist": "TOTAL CON",
+          "title": "Common Enemy",
+          "section": "Set 2",
+          "trackIndex": 5
+        },
+        {
+          "id": 19620006,
+          "episodeId": 1962,
+          "artist": "NECRON 9",
+          "title": "Bad Habits",
+          "section": "Set 2",
+          "trackIndex": 6
+        },
+        {
+          "id": 19620007,
+          "episodeId": 1962,
+          "artist": "SISTEMA OBSOLETO",
+          "title": "Esmagado Pela Engrenagem Capitalista",
+          "section": "Set 2",
+          "trackIndex": 7
+        },
+        {
+          "id": 19620008,
+          "episodeId": 1962,
+          "artist": "S.S.I.K.",
+          "title": "Pressure",
+          "section": "Set 2",
+          "trackIndex": 8
+        },
+        {
+          "id": 19620009,
+          "episodeId": 1962,
+          "artist": "ULTIMATE DISASTER",
+          "title": "March To Oblivion",
+          "section": "Set 2",
+          "trackIndex": 9
+        },
+        {
+          "id": 19620010,
+          "episodeId": 1962,
+          "artist": "PUÑAL",
+          "title": "Nadie Te Puede Calmer",
+          "section": "Set 3",
+          "trackIndex": 10
+        },
+        {
+          "id": 19620011,
+          "episodeId": 1962,
+          "artist": "KALEIDOSCOPE",
+          "title": "Manufactured Squalor",
+          "section": "Set 3",
+          "trackIndex": 11
+        },
+        {
+          "id": 19620012,
+          "episodeId": 1962,
+          "artist": "CONTRAST ATTITUDE",
+          "title": "Resignation",
+          "section": "Set 3",
+          "trackIndex": 12
+        },
+        {
+          "id": 19620013,
+          "episodeId": 1962,
+          "artist": "NO SECTOR",
+          "title": "Flush Your Brain",
+          "section": "Set 3",
+          "trackIndex": 13
+        },
+        {
+          "id": 19620014,
+          "episodeId": 1962,
+          "artist": "SUBVERSIVE RITE",
+          "title": "Charge Into Chaos",
+          "section": "Set 3",
+          "trackIndex": 14
+        },
+        {
+          "id": 19620015,
+          "episodeId": 1962,
+          "artist": "TOTAL NADA",
+          "title": "Lamebotas",
+          "section": "Set 4",
+          "trackIndex": 15
+        },
+        {
+          "id": 19620016,
+          "episodeId": 1962,
+          "artist": "ELECTRIC CHAIR",
+          "title": "Barbed Wire Fence",
+          "section": "Set 4",
+          "trackIndex": 16
+        },
+        {
+          "id": 19620017,
+          "episodeId": 1962,
+          "artist": "ALIENATOR",
+          "title": "You’re Nothing",
+          "section": "Set 4",
+          "trackIndex": 17
+        },
+        {
+          "id": 19620018,
+          "episodeId": 1962,
+          "artist": "NUCLEAR FEAR",
+          "title": "D.T.Z.W.M.",
+          "section": "Set 4",
+          "trackIndex": 18
+        },
+        {
+          "id": 19620019,
+          "episodeId": 1962,
+          "artist": "TRAMADOL",
+          "title": "Crucifixion",
+          "section": "Set 4",
+          "trackIndex": 19
+        },
+        {
+          "id": 19620020,
+          "episodeId": 1962,
+          "artist": "FUCKIN LOVERS",
+          "title": "Arrogance",
+          "section": "Set 5",
+          "trackIndex": 20
+        },
+        {
+          "id": 19620021,
+          "episodeId": 1962,
+          "artist": "WARTHOG",
+          "title": "Iron Fist",
+          "section": "Set 5",
+          "trackIndex": 21
+        },
+        {
+          "id": 19620022,
+          "episodeId": 1962,
+          "artist": "AYUCABA",
+          "title": "Oxido",
+          "section": "Set 5",
+          "trackIndex": 22
+        },
+        {
+          "id": 19620023,
+          "episodeId": 1962,
+          "artist": "PURE TERROR",
+          "title": "Accused Of Terror",
+          "section": "Set 5",
+          "trackIndex": 23
+        },
+        {
+          "id": 19620024,
+          "episodeId": 1962,
+          "artist": "NEGATIVE CHARGE",
+          "title": "Chained To Life IV",
+          "section": "Set 5",
+          "trackIndex": 24
+        },
+        {
+          "id": 19620025,
+          "episodeId": 1962,
+          "artist": "ACID CASUALTIES",
+          "title": "Southern Cross",
+          "section": "Set 6",
+          "trackIndex": 25
+        },
+        {
+          "id": 19620026,
+          "episodeId": 1962,
+          "artist": "DELETÄR",
+          "title": "Funambule",
+          "section": "Set 6",
+          "trackIndex": 26
+        },
+        {
+          "id": 19620027,
+          "episodeId": 1962,
+          "artist": "STUNTED YOUTH",
+          "title": "You Are What You Hate",
+          "section": "Set 6",
+          "trackIndex": 27
+        },
+        {
+          "id": 19620028,
+          "episodeId": 1962,
+          "artist": "TRAUMATIZER",
+          "title": "Murder",
+          "section": "Set 6",
+          "trackIndex": 28
+        },
+        {
+          "id": 19620029,
+          "episodeId": 1962,
+          "artist": "HARAM",
+          "title": "The Last Night",
+          "section": "Set 6",
+          "trackIndex": 29
+        }
+      ]
+    },
+    {
+      "id": 1961,
+      "date": "2025-10-12",
+      "host": "",
+      "caption": "It's another episode of MRR Radio brought to you by Erika Elizabeth!Intro THE RAINCOATS – Adventures Close to Home One Step Forward & Three Steps Back ALIBI – Attitüde BADGEWEARER – You Don't Look at the Fire When You're Poking the Mantlepiece TUNABUNNY – Chalked Up THE LIGGERS –",
+      "thumbnailUrl": null,
+      "mp3Url": "https://media.blubrry.com/mrrradio/www.maximumrocknroll.com/wp-content/uploads/2025/10/mrr-radio-1961.mp3",
+      "durationSecs": 3463,
+      "trackCount": 18,
+      "localAudio": false,
+      "tracks": [
+        {
+          "id": 19610000,
+          "episodeId": 1961,
+          "artist": "THE RAINCOATS",
+          "title": "Adventures Close to Home",
+          "section": "Intro",
+          "trackIndex": 0
+        },
+        {
+          "id": 19610001,
+          "episodeId": 1961,
+          "artist": "ALIBI",
+          "title": "Attitüde",
+          "section": "One Step Forward & Three Steps Back",
+          "trackIndex": 1
+        },
+        {
+          "id": 19610002,
+          "episodeId": 1961,
+          "artist": "BADGEWEARER",
+          "title": "You Don't Look at the Fire When You're Poking the Mantlepiece",
+          "section": "One Step Forward & Three Steps Back",
+          "trackIndex": 2
+        },
+        {
+          "id": 19610003,
+          "episodeId": 1961,
+          "artist": "TUNABUNNY",
+          "title": "Chalked Up",
+          "section": "One Step Forward & Three Steps Back",
+          "trackIndex": 3
+        },
+        {
+          "id": 19610004,
+          "episodeId": 1961,
+          "artist": "THE LIGGERS",
+          "title": "Deathwish",
+          "section": "One Step Forward & Three Steps Back",
+          "trackIndex": 4
+        },
+        {
+          "id": 19610005,
+          "episodeId": 1961,
+          "artist": "VITAL IDLES",
+          "title": "This is Real?",
+          "section": "I Can't Make My Mind Up",
+          "trackIndex": 5
+        },
+        {
+          "id": 19610006,
+          "episodeId": 1961,
+          "artist": "UNIT 5",
+          "title": "Decisions",
+          "section": "I Can't Make My Mind Up",
+          "trackIndex": 6
+        },
+        {
+          "id": 19610007,
+          "episodeId": 1961,
+          "artist": "NO PEELING",
+          "title": "Hi Vis",
+          "section": "I Can't Make My Mind Up",
+          "trackIndex": 7
+        },
+        {
+          "id": 19610008,
+          "episodeId": 1961,
+          "artist": "BEACHOUSE",
+          "title": "Soul by Soul",
+          "section": "I Can't Make My Mind Up",
+          "trackIndex": 8
+        },
+        {
+          "id": 19610009,
+          "episodeId": 1961,
+          "artist": "E.D.P.S.",
+          "title": "Death Composition",
+          "section": "Now We're the Same",
+          "trackIndex": 9
+        },
+        {
+          "id": 19610010,
+          "episodeId": 1961,
+          "artist": "MISERE",
+          "title": "Abrieb",
+          "section": "Now We're the Same",
+          "trackIndex": 10
+        },
+        {
+          "id": 19610011,
+          "episodeId": 1961,
+          "artist": "PROBLEM DOGS",
+          "title": "You Are the Knife",
+          "section": "Now We're the Same",
+          "trackIndex": 11
+        },
+        {
+          "id": 19610012,
+          "episodeId": 1961,
+          "artist": "LIFE SUPPORT",
+          "title": "Confusion",
+          "section": "Now We're the Same",
+          "trackIndex": 12
+        },
+        {
+          "id": 19610013,
+          "episodeId": 1961,
+          "artist": "TYRANNA",
+          "title": "Neighbour",
+          "section": "Time is Money Burning",
+          "trackIndex": 13
+        },
+        {
+          "id": 19610014,
+          "episodeId": 1961,
+          "artist": "JILL KROESEN",
+          "title": "I Am Not Seeing That You Are Here",
+          "section": "Time is Money Burning",
+          "trackIndex": 14
+        },
+        {
+          "id": 19610015,
+          "episodeId": 1961,
+          "artist": "SNATCH",
+          "title": "Trial by Fire",
+          "section": "Time is Money Burning",
+          "trackIndex": 15
+        },
+        {
+          "id": 19610016,
+          "episodeId": 1961,
+          "artist": "UNMARRY ME",
+          "title": "Spanner in the Hurt",
+          "section": "Time is Money Burning",
+          "trackIndex": 16
+        },
+        {
+          "id": 19610017,
+          "episodeId": 1961,
+          "artist": "TUXEDOMOON",
+          "title": "Dark Companion",
+          "section": "Outro",
+          "trackIndex": 17
+        }
+      ]
+    },
+    {
+      "id": 1960,
+      "date": "2025-09-28",
+      "host": "Zu From All Over",
+      "caption": "On this week's MRR Radio, Zu From All Over ushers in the Autumn season by chanting along with the best Oi!, Street Punk, and Hardcore, along with 2 middle fingers to Summer behind her. Smell Ya La8r Summer! (Oi Oi Oi!) THE DISCOCKS - Long Live Oi! UK SUBS - Young Criminals Breaki",
+      "thumbnailUrl": null,
+      "mp3Url": "https://media.blubrry.com/mrrradio/www.maximumrocknroll.com/wp-content/uploads/2025/09/mrrradio1960.mp3",
+      "durationSecs": 3600,
+      "trackCount": 19,
+      "localAudio": false,
+      "tracks": [
+        {
+          "id": 19600000,
+          "episodeId": 1960,
+          "artist": "THE DISCOCKS",
+          "title": "Long Live Oi!",
+          "section": "Smell Ya La8r Summer! (Oi Oi Oi!)",
+          "trackIndex": 0
+        },
+        {
+          "id": 19600001,
+          "episodeId": 1960,
+          "artist": "UK SUBS",
+          "title": "Young Criminals",
+          "section": "Smell Ya La8r Summer! (Oi Oi Oi!)",
+          "trackIndex": 1
+        },
+        {
+          "id": 19600002,
+          "episodeId": 1960,
+          "artist": "ANTI-NOWHERE LEAGUE",
+          "title": "World War III",
+          "section": "Breaking Old Habits Makes Life New Again",
+          "trackIndex": 2
+        },
+        {
+          "id": 19600003,
+          "episodeId": 1960,
+          "artist": "SYMPOS",
+          "title": "soft society",
+          "section": "Breaking Old Habits Makes Life New Again",
+          "trackIndex": 3
+        },
+        {
+          "id": 19600004,
+          "episodeId": 1960,
+          "artist": "SMZB",
+          "title": "阳光下的猜想",
+          "section": "Breaking Old Habits Makes Life New Again",
+          "trackIndex": 4
+        },
+        {
+          "id": 19600005,
+          "episodeId": 1960,
+          "artist": "STREET DOGS",
+          "title": "Fading American Dream",
+          "section": "Breaking Old Habits Makes Life New Again",
+          "trackIndex": 5
+        },
+        {
+          "id": 19600006,
+          "episodeId": 1960,
+          "artist": "SORDID SHIP",
+          "title": "Naufragé",
+          "section": "Breaking Old Habits Makes Life New Again",
+          "trackIndex": 6
+        },
+        {
+          "id": 19600007,
+          "episodeId": 1960,
+          "artist": "CHEAP SEX",
+          "title": "It’s Up To You",
+          "section": "Doesn’t Have To Feel Different in Flannel",
+          "trackIndex": 7
+        },
+        {
+          "id": 19600008,
+          "episodeId": 1960,
+          "artist": "CONDITIONS APPLY",
+          "title": "2 Words 1 Finger",
+          "section": "Doesn’t Have To Feel Different in Flannel",
+          "trackIndex": 8
+        },
+        {
+          "id": 19600009,
+          "episodeId": 1960,
+          "artist": "THE RESTARTS",
+          "title": "First World Problems",
+          "section": "Doesn’t Have To Feel Different in Flannel",
+          "trackIndex": 9
+        },
+        {
+          "id": 19600010,
+          "episodeId": 1960,
+          "artist": "CORRUPTED YOUTH",
+          "title": "Death On The Streets",
+          "section": "Doesn’t Have To Feel Different in Flannel",
+          "trackIndex": 10
+        },
+        {
+          "id": 19600011,
+          "episodeId": 1960,
+          "artist": "GRAFFITI 3X",
+          "title": "Unidad",
+          "section": "Doesn’t Have To Feel Different in Flannel",
+          "trackIndex": 11
+        },
+        {
+          "id": 19600012,
+          "episodeId": 1960,
+          "artist": "THE BUSINESS",
+          "title": "Real Enemy",
+          "section": "Same Music Under A Different Backdrop",
+          "trackIndex": 12
+        },
+        {
+          "id": 19600013,
+          "episodeId": 1960,
+          "artist": "FACÇÃO OPPOSTA",
+          "title": "Facção Opposta",
+          "section": "Same Music Under A Different Backdrop",
+          "trackIndex": 13
+        },
+        {
+          "id": 19600014,
+          "episodeId": 1960,
+          "artist": "DEMERIT",
+          "title": "愛與和平?",
+          "section": "Same Music Under A Different Backdrop",
+          "trackIndex": 14
+        },
+        {
+          "id": 19600015,
+          "episodeId": 1960,
+          "artist": "CITY SAINTS",
+          "title": "Nitad",
+          "section": "Same Music Under A Different Backdrop",
+          "trackIndex": 15
+        },
+        {
+          "id": 19600016,
+          "episodeId": 1960,
+          "artist": "MARCHING ORDERS",
+          "title": "Brothers In Arms",
+          "section": "Same Music Under A Different Backdrop",
+          "trackIndex": 16
+        },
+        {
+          "id": 19600017,
+          "episodeId": 1960,
+          "artist": "BLITZ",
+          "title": "Voice of a Generation",
+          "section": "We Can Experience The Seasons In Whichever Order We Want",
+          "trackIndex": 17
+        },
+        {
+          "id": 19600018,
+          "episodeId": 1960,
+          "artist": "NOI!SE",
+          "title": "Bottom of the Barrel",
+          "section": "We Can Experience The Seasons In Whichever Order We Want",
+          "trackIndex": 18
+        }
+      ]
+    },
+    {
+      "id": 1959,
+      "date": "2025-09-14",
+      "host": "Cary",
+      "caption": "On this week's MRR Radio, Cary does an Appalachian Punk Rock Show (mostly). Opener SHITTY HALFPIPE – Drain the Pool Set 1 QUIT EVERYTHING – Minus Fatass BUSY WEATHER – In on an Island ACCIDENTS CLUB – WAR NERVE ENDINGS – Incarcerate Me Set 2 L.I.P.S. – Family Man GHOULGASM – Dead",
+      "thumbnailUrl": null,
+      "mp3Url": "https://media.blubrry.com/mrrradio/www.maximumrocknroll.com/wp-content/uploads/2025/09/MRR1959.mp3",
+      "durationSecs": 3600,
+      "trackCount": 17,
+      "localAudio": false,
+      "tracks": [
+        {
+          "id": 19590000,
+          "episodeId": 1959,
+          "artist": "SHITTY HALFPIPE",
+          "title": "Drain the Pool",
+          "section": "Opener",
+          "trackIndex": 0
+        },
+        {
+          "id": 19590001,
+          "episodeId": 1959,
+          "artist": "QUIT EVERYTHING",
+          "title": "Minus Fatass",
+          "section": "Set 1",
+          "trackIndex": 1
+        },
+        {
+          "id": 19590002,
+          "episodeId": 1959,
+          "artist": "BUSY WEATHER",
+          "title": "In on an Island",
+          "section": "Set 1",
+          "trackIndex": 2
+        },
+        {
+          "id": 19590003,
+          "episodeId": 1959,
+          "artist": "ACCIDENTS CLUB",
+          "title": "WAR",
+          "section": "Set 1",
+          "trackIndex": 3
+        },
+        {
+          "id": 19590004,
+          "episodeId": 1959,
+          "artist": "NERVE ENDINGS",
+          "title": "Incarcerate Me",
+          "section": "Set 1",
+          "trackIndex": 4
+        },
+        {
+          "id": 19590005,
+          "episodeId": 1959,
+          "artist": "L.I.P.S.",
+          "title": "Family Man",
+          "section": "Set 2",
+          "trackIndex": 5
+        },
+        {
+          "id": 19590006,
+          "episodeId": 1959,
+          "artist": "GHOULGASM",
+          "title": "Dead is Dead",
+          "section": "Set 2",
+          "trackIndex": 6
+        },
+        {
+          "id": 19590007,
+          "episodeId": 1959,
+          "artist": "FAILURE 2 CONFORM",
+          "title": "Bang Bang",
+          "section": "Set 2",
+          "trackIndex": 7
+        },
+        {
+          "id": 19590008,
+          "episodeId": 1959,
+          "artist": "DIE LAUGHING",
+          "title": "Hellbound Blues",
+          "section": "Set 2",
+          "trackIndex": 8
+        },
+        {
+          "id": 19590009,
+          "episodeId": 1959,
+          "artist": "EX PARENTS",
+          "title": "Failure",
+          "section": "Set 3",
+          "trackIndex": 9
+        },
+        {
+          "id": 19590010,
+          "episodeId": 1959,
+          "artist": "MAN! ILOVE....FROGS",
+          "title": "Ego Check",
+          "section": "Set 3",
+          "trackIndex": 10
+        },
+        {
+          "id": 19590011,
+          "episodeId": 1959,
+          "artist": "BACALOU",
+          "title": "Hell From Above",
+          "section": "Set 3",
+          "trackIndex": 11
+        },
+        {
+          "id": 19590012,
+          "episodeId": 1959,
+          "artist": "DRU THE DRIFTER",
+          "title": "Social Part",
+          "section": "Set 4",
+          "trackIndex": 12
+        },
+        {
+          "id": 19590013,
+          "episodeId": 1959,
+          "artist": "TOJO YAMAMOTO",
+          "title": "Killer/Victim",
+          "section": "Set 4",
+          "trackIndex": 13
+        },
+        {
+          "id": 19590014,
+          "episodeId": 1959,
+          "artist": "PART TIME FILTH",
+          "title": "D.U.I In My U.F.O",
+          "section": "Set 4",
+          "trackIndex": 14
+        },
+        {
+          "id": 19590015,
+          "episodeId": 1959,
+          "artist": "BLACK MARKET KIDNEY SURGEON",
+          "title": "Wired Shut",
+          "section": "Set 4",
+          "trackIndex": 15
+        },
+        {
+          "id": 19590016,
+          "episodeId": 1959,
+          "artist": "POVERTYBOMB",
+          "title": "No Anchor",
+          "section": "Closer",
+          "trackIndex": 16
+        }
+      ]
+    },
+    {
+      "id": 1958,
+      "date": "2025-08-31",
+      "host": "Erika Elizabeth",
+      "caption": "Seek out answers to unasked questions on this week's episode of MRR Radio with Erika Elizabeth.Intro FRAU – Trouble Power of Persuasion NAPE NECK – Uh Oh HISSEY MIYAKE – Modern Life SYNTAX-ERROR – Remember Remember THE LO YO YO – No Answers Too Late to Go Home PRIMETIME – Right T",
+      "thumbnailUrl": null,
+      "mp3Url": "https://media.blubrry.com/mrrradio/www.maximumrocknroll.com/wp-content/uploads/2025/08/mrr-radio-1958.mp3",
+      "durationSecs": 3579,
+      "trackCount": 18,
+      "localAudio": false,
+      "tracks": [
+        {
+          "id": 19580000,
+          "episodeId": 1958,
+          "artist": "FRAU",
+          "title": "Trouble",
+          "section": "Intro",
+          "trackIndex": 0
+        },
+        {
+          "id": 19580001,
+          "episodeId": 1958,
+          "artist": "NAPE NECK",
+          "title": "Uh Oh",
+          "section": "Power of Persuasion",
+          "trackIndex": 1
+        },
+        {
+          "id": 19580002,
+          "episodeId": 1958,
+          "artist": "HISSEY MIYAKE",
+          "title": "Modern Life",
+          "section": "Power of Persuasion",
+          "trackIndex": 2
+        },
+        {
+          "id": 19580003,
+          "episodeId": 1958,
+          "artist": "SYNTAX-ERROR",
+          "title": "Remember Remember",
+          "section": "Power of Persuasion",
+          "trackIndex": 3
+        },
+        {
+          "id": 19580004,
+          "episodeId": 1958,
+          "artist": "THE LO YO YO",
+          "title": "No Answers",
+          "section": "Power of Persuasion",
+          "trackIndex": 4
+        },
+        {
+          "id": 19580005,
+          "episodeId": 1958,
+          "artist": "PRIMETIME",
+          "title": "Right Track",
+          "section": "Too Late to Go Home",
+          "trackIndex": 5
+        },
+        {
+          "id": 19580006,
+          "episodeId": 1958,
+          "artist": "FLIN FLON",
+          "title": "Floods",
+          "section": "Too Late to Go Home",
+          "trackIndex": 6
+        },
+        {
+          "id": 19580007,
+          "episodeId": 1958,
+          "artist": "INTERNATIONAL EXILES",
+          "title": "Note to Roger",
+          "section": "Too Late to Go Home",
+          "trackIndex": 7
+        },
+        {
+          "id": 19580008,
+          "episodeId": 1958,
+          "artist": "QUITE RIDICULOUS NONSENSE",
+          "title": "Appropriate Blocks",
+          "section": "Too Late to Go Home",
+          "trackIndex": 8
+        },
+        {
+          "id": 19580009,
+          "episodeId": 1958,
+          "artist": "THE JELLIES",
+          "title": "Jive Baby on a Saturday Night",
+          "section": "I Could Have Told You",
+          "trackIndex": 9
+        },
+        {
+          "id": 19580010,
+          "episodeId": 1958,
+          "artist": "FRIZBEE",
+          "title": "So Sick",
+          "section": "I Could Have Told You",
+          "trackIndex": 10
+        },
+        {
+          "id": 19580011,
+          "episodeId": 1958,
+          "artist": "THE SNARES",
+          "title": "The Enthusiasts",
+          "section": "I Could Have Told You",
+          "trackIndex": 11
+        },
+        {
+          "id": 19580012,
+          "episodeId": 1958,
+          "artist": "TERRA SOROR",
+          "title": "Lover Nature",
+          "section": "I Could Have Told You",
+          "trackIndex": 12
+        },
+        {
+          "id": 19580013,
+          "episodeId": 1958,
+          "artist": "THE YOUNG SNAKES",
+          "title": "Suit Me",
+          "section": "No Change Without a Push",
+          "trackIndex": 13
+        },
+        {
+          "id": 19580014,
+          "episodeId": 1958,
+          "artist": "VATS",
+          "title": "Green Glass Room",
+          "section": "No Change Without a Push",
+          "trackIndex": 14
+        },
+        {
+          "id": 19580015,
+          "episodeId": 1958,
+          "artist": "BLUG",
+          "title": "Tell a Lie",
+          "section": "No Change Without a Push",
+          "trackIndex": 15
+        },
+        {
+          "id": 19580016,
+          "episodeId": 1958,
+          "artist": "THE JANET AND JOHNS",
+          "title": "Let Bygones Be Bygone",
+          "section": "No Change Without a Push",
+          "trackIndex": 16
+        },
+        {
+          "id": 19580017,
+          "episodeId": 1958,
+          "artist": "THE FALL",
+          "title": "Hotel Blôedel",
+          "section": "Outro",
+          "trackIndex": 17
+        }
+      ]
+    },
+    {
+      "id": 1957,
+      "date": "2025-08-17",
+      "host": "Zu From All Over",
+      "caption": "On this week's MRR Radio, Zu From All Over involuntarily pulls an all-nighter with the best Hardcore, xhardcorex, and Crossover from around the world to muscle through the brain melting summer. A Warzone On Either Side of the Walls REPAIR - We Don't Need You SIBAFÜ - ぶどうの種 Sun Dr",
+      "thumbnailUrl": null,
+      "mp3Url": "https://media.blubrry.com/mrrradio/www.maximumrocknroll.com/wp-content/uploads/2025/08/mrrradio1957.mp3",
+      "durationSecs": 3240,
+      "trackCount": 20,
+      "localAudio": false,
+      "tracks": [
+        {
+          "id": 19570000,
+          "episodeId": 1957,
+          "artist": "REPAIR",
+          "title": "We Don't Need You",
+          "section": "A Warzone On Either Side of the Walls",
+          "trackIndex": 0
+        },
+        {
+          "id": 19570001,
+          "episodeId": 1957,
+          "artist": "SIBAFÜ",
+          "title": "ぶどうの種",
+          "section": "A Warzone On Either Side of the Walls",
+          "trackIndex": 1
+        },
+        {
+          "id": 19570002,
+          "episodeId": 1957,
+          "artist": "DISTANTE",
+          "title": "Depende De Vos",
+          "section": "Sun Drenched",
+          "trackIndex": 2
+        },
+        {
+          "id": 19570003,
+          "episodeId": 1957,
+          "artist": "ELECTRIC CHAIR",
+          "title": "Active Aggression",
+          "section": "Sun Drenched",
+          "trackIndex": 3
+        },
+        {
+          "id": 19570004,
+          "episodeId": 1957,
+          "artist": "SILENT DRAMA",
+          "title": "Ignorance Is Blissing",
+          "section": "Sun Drenched",
+          "trackIndex": 4
+        },
+        {
+          "id": 19570005,
+          "episodeId": 1957,
+          "artist": "FLUSH!!",
+          "title": "Day By Day",
+          "section": "Sun Drenched",
+          "trackIndex": 5
+        },
+        {
+          "id": 19570006,
+          "episodeId": 1957,
+          "artist": "HOOD RATS",
+          "title": "Hate the Radio",
+          "section": "Sun Drenched",
+          "trackIndex": 6
+        },
+        {
+          "id": 19570007,
+          "episodeId": 1957,
+          "artist": "VIOLIN",
+          "title": "Last Breath",
+          "section": "Sun Drenched",
+          "trackIndex": 7
+        },
+        {
+          "id": 19570008,
+          "episodeId": 1957,
+          "artist": "FATAL STATE",
+          "title": "Ni Un Paso Atras",
+          "section": "Drown the Heat Out",
+          "trackIndex": 8
+        },
+        {
+          "id": 19570009,
+          "episodeId": 1957,
+          "artist": "THE NECESSARY EVIL",
+          "title": "Destruye Huye",
+          "section": "Drown the Heat Out",
+          "trackIndex": 9
+        },
+        {
+          "id": 19570010,
+          "episodeId": 1957,
+          "artist": "DISCREET",
+          "title": "Leave Everything Behind",
+          "section": "Drown the Heat Out",
+          "trackIndex": 10
+        },
+        {
+          "id": 19570011,
+          "episodeId": 1957,
+          "artist": "SPAM CALLER",
+          "title": "Crowded Room",
+          "section": "Drown the Heat Out",
+          "trackIndex": 11
+        },
+        {
+          "id": 19570012,
+          "episodeId": 1957,
+          "artist": "FUSHOJIKI",
+          "title": "Atypical",
+          "section": "Drown the Heat Out",
+          "trackIndex": 12
+        },
+        {
+          "id": 19570013,
+          "episodeId": 1957,
+          "artist": "BAD JESUS EXPERIENCE",
+          "title": "Rotta",
+          "section": "Drown the Heat Out",
+          "trackIndex": 13
+        },
+        {
+          "id": 19570014,
+          "episodeId": 1957,
+          "artist": "STATICØ",
+          "title": "Mind Castration",
+          "section": "Molten, Melted, Mad",
+          "trackIndex": 14
+        },
+        {
+          "id": 19570015,
+          "episodeId": 1957,
+          "artist": "UNSANITARY NAPKIN",
+          "title": "TERF War",
+          "section": "Molten, Melted, Mad",
+          "trackIndex": 15
+        },
+        {
+          "id": 19570016,
+          "episodeId": 1957,
+          "artist": "WHITE COLLAR",
+          "title": "Compassion Fatigue",
+          "section": "Molten, Melted, Mad",
+          "trackIndex": 16
+        },
+        {
+          "id": 19570017,
+          "episodeId": 1957,
+          "artist": "FUTURE SUCK",
+          "title": "Mantra",
+          "section": "Molten, Melted, Mad",
+          "trackIndex": 17
+        },
+        {
+          "id": 19570018,
+          "episodeId": 1957,
+          "artist": "HOTZA",
+          "title": "Iturribideko Labanak",
+          "section": "Molten, Melted, Mad",
+          "trackIndex": 18
+        },
+        {
+          "id": 19570019,
+          "episodeId": 1957,
+          "artist": "MEDIOCORE",
+          "title": "Keep Punching",
+          "section": "Inflicted Insomnia",
+          "trackIndex": 19
+        }
+      ]
+    },
+    {
+      "id": 1956,
+      "date": "2025-08-10",
+      "host": "Jennifer",
+      "caption": "On this week's MRR Radio, Jennifer plays lots of newbies!Intro NECIA - Necia I SNEER - Brain Dead CLASS ACT - Monkey Business BODY WORLD II - Illusion LA LLAMA - Psychotic Nerve BETA MAXIMO - Antimateria Auntiemateria II SNOOPER - Worldwide WEALTH GAP - makes me sick BESTA QUADRA",
+      "thumbnailUrl": null,
+      "mp3Url": "https://media.blubrry.com/mrrradio/www.maximumrocknroll.com/wp-content/uploads/2025/08/mrrradio1956.mp3",
+      "durationSecs": 3323,
+      "trackCount": 22,
+      "localAudio": false,
+      "tracks": [
+        {
+          "id": 19560000,
+          "episodeId": 1956,
+          "artist": "NECIA",
+          "title": "Necia",
+          "section": "Intro",
+          "trackIndex": 0
+        },
+        {
+          "id": 19560001,
+          "episodeId": 1956,
+          "artist": "SNEER",
+          "title": "Brain Dead",
+          "section": "I",
+          "trackIndex": 1
+        },
+        {
+          "id": 19560002,
+          "episodeId": 1956,
+          "artist": "CLASS ACT",
+          "title": "Monkey Business",
+          "section": "I",
+          "trackIndex": 2
+        },
+        {
+          "id": 19560003,
+          "episodeId": 1956,
+          "artist": "BODY WORLD II",
+          "title": "Illusion",
+          "section": "I",
+          "trackIndex": 3
+        },
+        {
+          "id": 19560004,
+          "episodeId": 1956,
+          "artist": "LA LLAMA",
+          "title": "Psychotic Nerve",
+          "section": "I",
+          "trackIndex": 4
+        },
+        {
+          "id": 19560005,
+          "episodeId": 1956,
+          "artist": "BETA MAXIMO",
+          "title": "Antimateria Auntiemateria",
+          "section": "I",
+          "trackIndex": 5
+        },
+        {
+          "id": 19560006,
+          "episodeId": 1956,
+          "artist": "SNOOPER",
+          "title": "Worldwide",
+          "section": "II",
+          "trackIndex": 6
+        },
+        {
+          "id": 19560007,
+          "episodeId": 1956,
+          "artist": "WEALTH GAP",
+          "title": "makes me sick",
+          "section": "II",
+          "trackIndex": 7
+        },
+        {
+          "id": 19560008,
+          "episodeId": 1956,
+          "artist": "BESTA QUADRADA",
+          "title": "Running",
+          "section": "II",
+          "trackIndex": 8
+        },
+        {
+          "id": 19560009,
+          "episodeId": 1956,
+          "artist": "MANTIS",
+          "title": "Armas Cortas",
+          "section": "II",
+          "trackIndex": 9
+        },
+        {
+          "id": 19560010,
+          "episodeId": 1956,
+          "artist": "DUREX",
+          "title": "Boy Mode",
+          "section": "II",
+          "trackIndex": 10
+        },
+        {
+          "id": 19560011,
+          "episodeId": 1956,
+          "artist": "BARAKA FACE JUNTA",
+          "title": "Czysta Kultura",
+          "section": "III",
+          "trackIndex": 11
+        },
+        {
+          "id": 19560012,
+          "episodeId": 1956,
+          "artist": "BODY MAINTENANCE",
+          "title": "Symphony of Bliss",
+          "section": "III",
+          "trackIndex": 12
+        },
+        {
+          "id": 19560013,
+          "episodeId": 1956,
+          "artist": "ZERO BARS",
+          "title": "A.D.S",
+          "section": "III",
+          "trackIndex": 13
+        },
+        {
+          "id": 19560014,
+          "episodeId": 1956,
+          "artist": "LAME",
+          "title": "El Paco Del Horror",
+          "section": "III",
+          "trackIndex": 14
+        },
+        {
+          "id": 19560015,
+          "episodeId": 1956,
+          "artist": "TVO",
+          "title": "Sweet Spot",
+          "section": "III",
+          "trackIndex": 15
+        },
+        {
+          "id": 19560016,
+          "episodeId": 1956,
+          "artist": "EYE BALL",
+          "title": "If She Were Me (move first)",
+          "section": "IV",
+          "trackIndex": 16
+        },
+        {
+          "id": 19560017,
+          "episodeId": 1956,
+          "artist": "METHO",
+          "title": "Lonely Time",
+          "section": "IV",
+          "trackIndex": 17
+        },
+        {
+          "id": 19560018,
+          "episodeId": 1956,
+          "artist": "BALLOON THIEF",
+          "title": "Hole In My Head",
+          "section": "IV",
+          "trackIndex": 18
+        },
+        {
+          "id": 19560019,
+          "episodeId": 1956,
+          "artist": "CIGARETTE CAMP",
+          "title": "Quick Fix",
+          "section": "IV",
+          "trackIndex": 19
+        },
+        {
+          "id": 19560020,
+          "episodeId": 1956,
+          "artist": "ZANNY STARS",
+          "title": "Here We Go Again",
+          "section": "IV",
+          "trackIndex": 20
+        },
+        {
+          "id": 19560021,
+          "episodeId": 1956,
+          "artist": "JAWBREAKER",
+          "title": "Down",
+          "section": "Outro",
+          "trackIndex": 21
+        }
+      ]
+    }
+  ]
+}

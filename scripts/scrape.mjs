@@ -2,14 +2,14 @@
 /**
  * MRR Radio Scraper
  *
- * Usage:
- *   node scripts/scrape.mjs                  # fetch 15 most recent episodes
- *   node scripts/scrape.mjs --all             # full archive (~800 episodes)
- *   node scripts/scrape.mjs --since 1970      # episodes above number 1970
- *   node scripts/scrape.mjs --download        # also download MP3s locally
+ * Parses everything from RSS (enclosure, tracklist via content:encoded).
+ * No individual episode page fetching needed — no per-episode thumbnails exist.
  *
- * Outputs: public/data/episodes.json
- * Downloads: public/audio/mrr-radio-[N].mp3  (with --download)
+ * Usage:
+ *   node scripts/scrape.mjs                  # 15 most recent episodes
+ *   node scripts/scrape.mjs --all             # full archive (multi-page)
+ *   node scripts/scrape.mjs --since 1970      # only episodes > 1970
+ *   node scripts/scrape.mjs --download        # also download MP3s locally
  */
 
 import { readFileSync, writeFileSync, existsSync, mkdirSync, createWriteStream } from 'fs';
@@ -25,7 +25,7 @@ const AUDIO_DIR = resolve(ROOT, 'public/audio');
 const OUTPUT_FILE = resolve(DATA_DIR, 'episodes.json');
 
 const BASE_URL = 'https://www.maximumrocknroll.com';
-const RSS_URL = `${BASE_URL}/cat/mrr-radio/mrr-radio-podcast/feed/`;
+const RSS_BASE = `${BASE_URL}/cat/mrr-radio/mrr-radio-podcast/feed/`;
 
 const args = process.argv.slice(2);
 const MODE_ALL = args.includes('--all');
@@ -47,9 +47,8 @@ function fetchUrl(url, hops = 0) {
       },
     }, (res) => {
       if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
-        const redir = new URL(res.headers.location, url).href;
         res.resume();
-        return ok(fetchUrl(redir, hops + 1));
+        return ok(fetchUrl(new URL(res.headers.location, url).href, hops + 1));
       }
       if (res.statusCode !== 200) {
         res.resume();
@@ -70,9 +69,8 @@ function downloadBinary(url, dest, hops = 0) {
     const lib = url.startsWith('https') ? https : http;
     const req = lib.get(url, { headers: { 'User-Agent': 'MRRRadioScraper/1.0' } }, (res) => {
       if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
-        const redir = new URL(res.headers.location, url).href;
         res.resume();
-        return ok(downloadBinary(redir, dest, hops + 1));
+        return ok(downloadBinary(new URL(res.headers.location, url).href, dest, hops + 1));
       }
       if (res.statusCode !== 200) {
         res.resume();
@@ -87,70 +85,64 @@ function downloadBinary(url, dest, hops = 0) {
   });
 }
 
-function parseRssPage(xml) {
-  const items = [];
-  const itemRe = /<item>([\s\S]*?)<\/item>/g;
-  let m;
-  while ((m = itemRe.exec(xml)) !== null) {
-    const block = m[1];
-    const title = (block.match(/<title><!\[CDATA\[(.*?)\]\]><\/title>/) ||
-      block.match(/<title>(.*?)<\/title>/))?.[1]?.trim() || '';
-    const link = (block.match(/<link>(.*?)<\/link>/) || [])[1]?.trim() || '';
-    const pubDate = (block.match(/<pubDate>(.*?)<\/pubDate>/) || [])[1]?.trim() || '';
-    const desc = (block.match(/<description><!\[CDATA\[([\s\S]*?)\]\]><\/description>/) || [])[1]?.trim() || '';
-    const enclosure = block.match(/<enclosure url="([^"]+)"[^/]*\/>/)?.[1] || '';
-    const duration = (block.match(/<itunes:duration>(.*?)<\/itunes:duration>/) || [])[1]?.trim() || '';
-
-    if (!enclosure) continue;
-
-    const epNumMatch = title.match(/#(\d+)/) || link.match(/mrr-radio-(\d+)/);
-    const epNum = epNumMatch ? parseInt(epNumMatch[1], 10) : null;
-    if (!epNum) continue;
-
-    let durationSecs = 0;
-    if (duration) {
-      const parts = duration.split(':').map(Number);
-      if (parts.length === 3) durationSecs = parts[0] * 3600 + parts[1] * 60 + parts[2];
-      else if (parts.length === 2) durationSecs = parts[0] * 60 + parts[1];
-      else durationSecs = parts[0] || 0;
-    }
-
-    const dateObj = pubDate ? new Date(pubDate) : null;
-    const date = dateObj ? dateObj.toISOString().slice(0, 10) : '';
-
-    const hostMatch = desc.match(/hosted by ([^<\n,]+)/i);
-    const host = hostMatch ? hostMatch[1].trim().replace(/[.,!?]+$/, '') : '';
-
-    const caption = desc.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim().slice(0, 300);
-
-    items.push({ epNum, date, host, caption, mp3Url: enclosure, durationSecs, link });
-  }
-  return items;
-}
-
-function parseEpisodePage(html) {
-  let thumbnailUrl = null;
-  const contentMatch = html.match(/<div[^>]*class="[^"]*entry-content[^"]*"[^>]*>([\s\S]*?)(?:<div[^>]*class="[^"]*(?:entry-footer|sharedaddy|jp-relatedposts)[^"]*"|$)/);
-  const content = contentMatch ? contentMatch[1] : html;
-
-  const imgSrc = content.match(/<img[^>]+src="([^"]+\.(jpg|jpeg|png|webp))[^"]*"/i);
-  if (imgSrc) {
-    thumbnailUrl = imgSrc[1];
-    if (thumbnailUrl.startsWith('/')) thumbnailUrl = BASE_URL + thumbnailUrl;
-  }
-
-  const tracks = [];
-  let currentSection = '';
-
-  const decode = (s) => s
+// ── HTML/entity decode ────────────────────────────────────────────────────────
+function decode(s) {
+  return s
     .replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>')
     .replace(/&quot;/g, '"').replace(/&#8211;/g, '\u2013').replace(/&#8212;/g, '\u2014')
-    .replace(/&#8220;/g, '\u201C').replace(/&#8221;/g, '\u201D')
     .replace(/&#8216;/g, '\u2018').replace(/&#8217;/g, '\u2019')
+    .replace(/&#8220;/g, '\u201C').replace(/&#8221;/g, '\u201D')
     .replace(/&nbsp;/g, ' ')
     .replace(/&#(\d+);/g, (_, n) => String.fromCharCode(parseInt(n, 10)))
     .replace(/&#x([\da-f]+);/gi, (_, h) => String.fromCharCode(parseInt(h, 16)));
+}
 
+// ── Parse tracklist from content:encoded (dl/dt/dd format) ───────────────────
+function addTrack(tracks, artist, title, section, trackIndex) {
+  artist = artist.trim();
+  title = title.trim();
+  if (artist.length > 0 && artist.length < 80 && title.length > 0 && title.length < 200) {
+    tracks.push({ artist: artist.toUpperCase(), title, section, trackIndex });
+    return trackIndex + 1;
+  }
+  return trackIndex;
+}
+
+function splitTrack(raw) {
+  // Split on em-dash, en-dash, or " - " separator
+  return raw.match(/^(.+?)\s*[\u2013\u2014]\s*(.+)$/) || raw.match(/^(.+?)\s+-\s+(.+)$/);
+}
+
+function parseTracklist(html) {
+  const tracks = [];
+  let currentSection = '';
+  let trackIndex = 0;
+
+  // Strip CDATA wrapper if present
+  const content = html.replace(/^<!\[CDATA\[/, '').replace(/\]\]>$/, '');
+
+  // ── Format 1: <dl>/<dt>/<dd> (newer episodes) ────────────────────────────
+  if (/<dl[^>]*>/i.test(content)) {
+    const dlRe = /<dl[^>]*>([\s\S]*?)(?:<\/dl>|<dl)/gi;
+    let dlMatch;
+    while ((dlMatch = dlRe.exec(content)) !== null) {
+      const block = dlMatch[1];
+      const dtMatch = block.match(/<dt[^>]*>([\s\S]*?)<\/dt>/i);
+      if (dtMatch) {
+        currentSection = decode(dtMatch[1].replace(/<[^>]+>/g, '').trim());
+      }
+      const ddRe = /<dd[^>]*>([\s\S]*?)(?:<\/dd>|<dd|$)/gi;
+      let ddMatch;
+      while ((ddMatch = ddRe.exec(block)) !== null) {
+        const raw = decode(ddMatch[1].replace(/<[^>]+>/g, '').trim());
+        const sep = splitTrack(raw);
+        if (sep) trackIndex = addTrack(tracks, sep[1], sep[2], currentSection, trackIndex);
+      }
+    }
+    if (tracks.length > 0) return tracks;
+  }
+
+  // ── Format 2: <strong> headers + plain ARTIST – Song lines (older episodes) ─
   const lines = content
     .replace(/<strong[^>]*>([\s\S]*?)<\/strong>/gi, '\n__STRONG__$1__STRONG__\n')
     .replace(/<br\s*\/?>/gi, '\n')
@@ -160,55 +152,112 @@ function parseEpisodePage(html) {
     .map((l) => decode(l).trim())
     .filter((l) => l.length > 0);
 
-  let trackIndex = 0;
   for (const line of lines) {
     if (line.startsWith('__STRONG__') && line.endsWith('__STRONG__')) {
       currentSection = line.slice(10, -10).trim();
       continue;
     }
-    const trackMatch = line.match(/^(.+?)\s*[\u2013\u2014-]\s*(.+)$/);
-    if (trackMatch) {
-      const rawArtist = trackMatch[1].trim();
-      const rawTitle = trackMatch[2].trim();
-      if (
-        rawArtist.length > 0 && rawTitle.length > 0 &&
-        rawArtist.length < 80 && rawTitle.length < 150 &&
-        !rawArtist.startsWith('http') && !rawArtist.match(/^\d{4}/)
-      ) {
-        tracks.push({
-          artist: rawArtist.toUpperCase().trim(),
-          title: rawTitle.trim(),
-          section: currentSection,
-          trackIndex: trackIndex++,
-        });
-      }
+    const sep = splitTrack(line);
+    if (sep && !sep[1].startsWith('http') && !sep[1].match(/^\d{4}/)) {
+      trackIndex = addTrack(tracks, sep[1], sep[2], currentSection, trackIndex);
     }
   }
 
-  return { thumbnailUrl, tracks };
+  return tracks;
 }
 
-async function fetchRssItems(targetCount) {
+// ── Parse RSS page ────────────────────────────────────────────────────────────
+function parseRssPage(xml) {
   const items = [];
-  let page = 1;
-  while (true) {
-    const url = page === 1 ? RSS_URL : `${RSS_URL}?paged=${page}`;
-    console.log(`  RSS page ${page}: ${url}`);
-    const xml = await fetchUrl(url);
-    const pageItems = parseRssPage(xml);
-    if (pageItems.length === 0) break;
-    items.push(...pageItems);
-    if (!MODE_ALL && items.length >= targetCount) break;
-    page++;
-    await delay(300);
+  const itemRe = /<item>([\s\S]*?)<\/item>/g;
+  let m;
+  while ((m = itemRe.exec(xml)) !== null) {
+    const block = m[1];
+
+    // Title (no CDATA on MRR)
+    const title = (block.match(/<title><!\[CDATA\[(.*?)\]\]><\/title>/) ||
+      block.match(/<title>([^<]*)<\/title>/))?.[1]?.trim() || '';
+
+    const epNumMatch = title.match(/#(\d+)/);
+    const epNum = epNumMatch ? parseInt(epNumMatch[1], 10) : null;
+    if (!epNum) continue;
+
+    // Link
+    const link = (block.match(/<link>([^<]+)<\/link>/) || [])[1]?.trim() || '';
+
+    // Enclosure — use [^>]* to safely skip type="audio/mpeg" which contains /
+    const enclosure = block.match(/<enclosure url="([^"]+)"[^>]*>/)?.[1] || '';
+    if (!enclosure) continue;
+
+    // Duration
+    const durationRaw = (block.match(/<itunes:duration>([^<]+)<\/itunes:duration>/) || [])[1]?.trim() || '';
+    let durationSecs = 0;
+    if (durationRaw) {
+      const parts = durationRaw.split(':').map(Number);
+      if (parts.length === 3) durationSecs = parts[0] * 3600 + parts[1] * 60 + parts[2];
+      else if (parts.length === 2) durationSecs = parts[0] * 60 + parts[1];
+      else durationSecs = parts[0] || 0;
+    }
+
+    // Date
+    const pubDate = (block.match(/<pubDate>([^<]+)<\/pubDate>/) || [])[1]?.trim() || '';
+    const date = pubDate ? new Date(pubDate).toISOString().slice(0, 10) : '';
+
+    // Host — "On this week's MRR Radio, <Name> plays..."
+    const desc = (block.match(/<description><!\[CDATA\[([\s\S]*?)\]\]><\/description>/) || [])[1] || '';
+    const plainDesc = decode(desc.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim());
+    // Extract host: grab consecutive Title-Case words after "MRR Radio with/,"
+    // then strip trailing verb words (which may be capitalised on MRR)
+    const HOST_VERBS = new Set([
+      'plays','presents','begins','brings','hosts','spins','is','does','will',
+      'has','was','takes','makes','goes','gives','looks','comes','sets','ends',
+      'spends','runs','heads','picks','digs','wraps','walks','explores',
+    ]);
+    const hostMatch = plainDesc.match(/MRR Radio(?:,| with)\s+((?:[A-Z][a-zA-Z']+(?: (?=[A-Z]))?)+)/);
+    let host = '';
+    if (hostMatch) {
+      const words = hostMatch[1].trim().split(/\s+/);
+      while (words.length > 0 && HOST_VERBS.has(words[words.length - 1].toLowerCase())) {
+        words.pop();
+      }
+      host = words.join(' ').replace(/[.,!?]+$/, '').trim();
+    }
+    const caption = plainDesc.slice(0, 280);
+
+    // Tracklist from content:encoded
+    const contentEncoded = (block.match(/<content:encoded><!\[CDATA\[([\s\S]*?)\]\]><\/content:encoded>/) || [])[1] || '';
+    const tracks = contentEncoded ? parseTracklist(contentEncoded) : [];
+
+    items.push({ epNum, date, host, caption, mp3Url: enclosure, durationSecs, link, tracks });
   }
   return items;
 }
 
+// ── Fetch RSS pages ───────────────────────────────────────────────────────────
+async function fetchRssItems(targetCount) {
+  const items = [];
+  let page = 1;
+  while (true) {
+    const url = page === 1 ? RSS_BASE : `${RSS_BASE}?paged=${page}`;
+    console.log(`  RSS page ${page}: ${url}`);
+    const xml = await fetchUrl(url);
+    const pageItems = parseRssPage(xml);
+    console.log(`    → ${pageItems.length} episodes parsed`);
+    if (pageItems.length === 0) break;
+    items.push(...pageItems);
+    if (!MODE_ALL && items.length >= targetCount) break;
+    page++;
+    await delay(400);
+  }
+  return items;
+}
+
+// ── Main ──────────────────────────────────────────────────────────────────────
 async function main() {
   mkdirSync(DATA_DIR, { recursive: true });
   mkdirSync(AUDIO_DIR, { recursive: true });
 
+  // Load existing data
   let existing = [];
   if (existsSync(OUTPUT_FILE)) {
     try {
@@ -222,73 +271,56 @@ async function main() {
   console.log('\n── Fetching RSS ──');
   const rssItems = await fetchRssItems(SINCE_NUM ? 9999 : RECENT_COUNT);
 
-  const toFetch = rssItems.filter((ep) => {
+  const toImport = rssItems.filter((ep) => {
     if (SINCE_NUM && ep.epNum <= SINCE_NUM) return false;
     if (!MODE_ALL && existingIds.has(ep.epNum)) return false;
     return true;
   });
 
-  if (toFetch.length === 0) {
-    console.log('No new episodes. Up to date.');
+  if (toImport.length === 0) {
+    console.log('No new episodes to import.');
     return;
   }
 
-  console.log(`\n── Fetching ${toFetch.length} episode pages ──`);
+  console.log(`\n── Importing ${toImport.length} episodes ──`);
+
   const newEpisodes = [];
-  const newTracks = {};
-
-  for (let i = 0; i < toFetch.length; i++) {
-    const ep = toFetch[i];
-    const pageUrl = ep.link || `${BASE_URL}/radio_show/mrr-radio-${ep.epNum}/`;
-    console.log(`  [${i + 1}/${toFetch.length}] #${ep.epNum}: ${pageUrl}`);
-
-    let thumbnailUrl = null;
-    let tracks = [];
-    try {
-      const html = await fetchUrl(pageUrl);
-      const parsed = parseEpisodePage(html);
-      thumbnailUrl = parsed.thumbnailUrl;
-      tracks = parsed.tracks;
-    } catch (err) {
-      console.warn(`    ! Page fetch failed: ${err.message}`);
-    }
-
+  for (const ep of toImport) {
     const episode = {
       id: ep.epNum,
       date: ep.date,
       host: ep.host,
       caption: ep.caption,
-      thumbnailUrl,
+      thumbnailUrl: null,
       mp3Url: ep.mp3Url,
       durationSecs: ep.durationSecs,
-      trackCount: tracks.length,
+      trackCount: ep.tracks.length,
       localAudio: false,
+      tracks: ep.tracks.map((t, idx) => ({
+        id: ep.epNum * 10000 + idx,
+        episodeId: ep.epNum,
+        ...t,
+      })),
     };
-
-    newTracks[ep.epNum] = tracks.map((t, idx) => ({
-      id: ep.epNum * 10000 + idx,
-      episodeId: ep.epNum,
-      ...t,
-    }));
 
     if (MODE_DOWNLOAD && ep.mp3Url) {
       const audioPath = resolve(AUDIO_DIR, `mrr-radio-${ep.epNum}.mp3`);
       if (!existsSync(audioPath)) {
-        console.log('    ↓ Downloading MP3...');
+        process.stdout.write(`  Downloading #${ep.epNum}... `);
         try {
           await downloadBinary(ep.mp3Url, audioPath);
           episode.localAudio = true;
-          console.log('    ✓ Downloaded');
+          console.log('done');
         } catch (err) {
-          console.warn(`    ! Download failed: ${err.message}`);
+          console.log(`failed: ${err.message}`);
         }
       } else {
         episode.localAudio = true;
       }
     }
 
+    console.log(`  #${ep.epNum} ${ep.date}  host="${ep.host}"  tracks=${ep.tracks.length}`);
     newEpisodes.push(episode);
-    await delay(500);
   }
 
   const merged = [
@@ -296,20 +328,16 @@ async function main() {
     ...existing.filter((e) => !newEpisodes.find((n) => n.id === e.id)),
   ].sort((a, b) => b.id - a.id);
 
-  const existingTracksMap = existing.reduce((acc, ep) => {
-    if (ep.tracks) acc[ep.id] = ep.tracks;
-    return acc;
-  }, {});
-  const mergedTracks = { ...existingTracksMap, ...newTracks };
-
   const output = {
     generated: new Date().toISOString(),
     count: merged.length,
-    episodes: merged.map((ep) => ({ ...ep, tracks: mergedTracks[ep.id] || [] })),
+    episodes: merged,
   };
 
   writeFileSync(OUTPUT_FILE, JSON.stringify(output, null, 2));
   console.log(`\n✓ ${merged.length} episodes written to public/data/episodes.json`);
+  const totalTracks = merged.reduce((s, e) => s + (e.tracks?.length || 0), 0);
+  console.log(`  ${totalTracks} total tracks`);
 }
 
 main().catch((err) => { console.error('Scraper failed:', err); process.exit(1); });
