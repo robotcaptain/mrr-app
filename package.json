@@ -1,0 +1,15 @@
+{
+  "name": "mrr-radio",
+  "version": "1.0.0",
+  "description": "Maximum Rock N Roll Radio PWA",
+  "type": "module",
+  "scripts": {
+    "scrape": "node scripts/scrape.mjs",
+    "scrape:all": "node scripts/scrape.mjs --all",
+    "scrape:download": "node scripts/scrape.mjs --download",
+    "gen-icons": "node scripts/gen-icons.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
