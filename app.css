@@ -58,6 +58,19 @@ img { display: block; object-fit: cover; }
   text-transform: uppercase;
 }
 
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.last-updated {
+  font-size: 10px;
+  color: var(--muted);
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
 .icon-btn {
   width: 40px;
   height: 40px;
@@ -69,6 +82,33 @@ img { display: block; object-fit: cover; }
 }
 .icon-btn:active { opacity: 1; }
 .icon-btn svg { width: 18px; height: 18px; }
+
+/* Indexed episode badge on cards */
+.ep-indexed-badge {
+  position: absolute;
+  bottom: 10px;
+  right: 12px;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--bg);
+  background: var(--accent);
+  padding: 1px 5px;
+  text-transform: uppercase;
+}
+
+/* Seekable track items in the player */
+.track-item.has-timestamp {
+  cursor: pointer;
+}
+.track-item.has-timestamp:active { background: var(--surface); }
+.track-timestamp {
+  float: right;
+  font-size: 11px;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+  margin-left: 8px;
+}
 
 .icon-btn.spinning svg {
   animation: spin 1s linear infinite;
@@ -345,9 +385,11 @@ img { display: block; object-fit: cover; }
 .player-sheet {
   position: fixed;
   bottom: 0; left: 0; right: 0;
-  height: 100dvh;
+  height: 72dvh;
+  max-height: 72dvh;
   background: var(--bg);
   border-top: 1px solid var(--border);
+  border-radius: 16px 16px 0 0;
   z-index: 300;
   transform: translateY(100%);
   transition: transform 0.35s cubic-bezier(0.32, 0.72, 0, 1);
@@ -500,6 +542,26 @@ img { display: block; object-fit: cover; }
   opacity: 1;
 }
 .ctrl-btn--play svg { width: 34px; height: 34px; }
+
+/* Skip ±15 buttons — icon stacked above label */
+.skip-btn {
+  flex-direction: column;
+  gap: 3px;
+  height: 52px;
+}
+.skip-label {
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  line-height: 1;
+  color: var(--text);
+}
+
+/* Play/pause icon toggling via CSS class */
+.play-pause-btn .icon-pause { display: none; }
+.play-pause-btn .icon-play  { display: block; }
+.play-pause-btn.is-playing .icon-play  { display: none; }
+.play-pause-btn.is-playing .icon-pause { display: block; }
 
 /* ─── Tracklist ─────────────────────────────────────────────────────────── */
 .tracklist-section {

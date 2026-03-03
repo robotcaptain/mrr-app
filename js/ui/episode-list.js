@@ -89,6 +89,13 @@ export function buildCard(ep, isPlayed, onClick) {
     card.appendChild(dot);
   }
 
+  if (ep.indexed) {
+    const badge = document.createElement('div');
+    badge.className = 'ep-indexed-badge';
+    badge.textContent = 'INDEXED';
+    card.appendChild(badge);
+  }
+
   const handle = (e) => {
     if (e.type === 'keydown' && e.key !== 'Enter' && e.key !== ' ') return;
     e.preventDefault();

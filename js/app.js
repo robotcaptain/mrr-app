@@ -22,11 +22,25 @@ const state = {
 };
 
 // ── DOM refs ───────────────────────────────────────────────────────────────────
-const loadingView  = document.getElementById('loading-view');
-const loadingMsg   = document.getElementById('loading-msg');
-const emptyView    = document.getElementById('empty-view');
-const episodeList  = document.getElementById('episode-list');
-const syncBtn      = document.getElementById('sync-btn');
+const loadingView   = document.getElementById('loading-view');
+const loadingMsg    = document.getElementById('loading-msg');
+const emptyView     = document.getElementById('empty-view');
+const episodeList   = document.getElementById('episode-list');
+const syncBtn       = document.getElementById('sync-btn');
+const lastUpdatedEl = document.getElementById('last-updated');
+
+function updateLastUpdatedDisplay() {
+  const raw = localStorage.getItem('mrr-last-updated');
+  if (!raw || !lastUpdatedEl) return;
+  const d = new Date(raw);
+  const fmt = d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+  lastUpdatedEl.textContent = `Updated ${fmt}`;
+}
+
+function markUpdatedNow() {
+  localStorage.setItem('mrr-last-updated', new Date().toISOString());
+  updateLastUpdatedDisplay();
+}
 
 // ── Modules ────────────────────────────────────────────────────────────────────
 const player = new Player();
@@ -68,6 +82,10 @@ async function boot() {
   state.episodes = state.allEpisodes;
   renderEpisodes(state.episodes);
   showMain();
+
+  // Show last updated timestamp; set it now if first run
+  if (!localStorage.getItem('mrr-last-updated')) markUpdatedNow();
+  else updateLastUpdatedDisplay();
 }
 
 function showMain() {
@@ -167,15 +185,18 @@ player.subscribe((playerState) => {
 // ── Sync button ────────────────────────────────────────────────────────────────
 syncBtn.addEventListener('click', async () => {
   syncBtn.classList.add('spinning');
+  if (lastUpdatedEl) lastUpdatedEl.textContent = 'Syncing…';
   try {
     const result = await sync((msg) => console.log('sync:', msg));
+    markUpdatedNow();
     if (result.added > 0) {
       state.allEpisodes = await getEpisodes();
       await handleFilterChange(state.filters);
-      await filters.populate(); // refresh dropdowns
+      await filters.populate();
     }
   } catch (err) {
     console.warn('Sync failed:', err);
+    updateLastUpdatedDisplay(); // restore previous text on error
   } finally {
     syncBtn.classList.remove('spinning');
   }

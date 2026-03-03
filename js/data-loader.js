@@ -6,7 +6,7 @@
  * Exposes a sync() function for manually fetching new episodes in-app.
  */
 
-import { openDB, getEpisodeCount, getEpisodes, putEpisodes, putTracks } from './db.js';
+import { openDB, getEpisodeCount, getEpisodes, getEpisode, putEpisodes, putTracks } from './db.js';
 
 const EPISODES_JSON = '/public/data/episodes.json';
 const EPISODES_JSON_ALT = '/data/episodes.json';
@@ -30,6 +30,8 @@ async function _run(onProgress) {
   const count = await getEpisodeCount();
   if (count > 0) {
     onProgress?.(`${count} episodes loaded`);
+    // Background: refresh any episodes that gained timestamps since last import
+    _refreshIndexed().catch(() => {});
     return { count, imported: 0 };
   }
 
@@ -82,6 +84,31 @@ async function _run(onProgress) {
   return { count: episodeRows.length, imported: episodeRows.length };
 }
 
+/**
+ * Background: fetch episodes.json and update any episodes that are now
+ * indexed (have track timestamps) but weren't when first imported.
+ */
+async function _refreshIndexed() {
+  let data;
+  try {
+    data = await _fetchJson(`${EPISODES_JSON}?t=${Date.now()}`);
+  } catch {
+    return;
+  }
+  const episodes = Array.isArray(data) ? data : (data.episodes ?? []);
+  const nowIndexed = episodes.filter((ep) => ep.indexed && Array.isArray(ep.tracks));
+  if (nowIndexed.length === 0) return;
+
+  for (const ep of nowIndexed) {
+    const inDb = await getEpisode(ep.id);
+    if (!inDb?.indexed) {
+      const { tracks, ...epData } = ep;
+      await putEpisodes([epData]);
+      await putTracks(tracks);
+    }
+  }
+}
+
 async function _fetchJson(url) {
   const res = await fetch(url);
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
@@ -117,16 +144,25 @@ export async function sync(onProgress) {
   const existingIds = new Set(existing.map((e) => e.id));
 
   const newEpisodes = episodes.filter((e) => !existingIds.has(e.id));
-  if (newEpisodes.length === 0) {
+
+  // Also refresh existing episodes that gained timestamps since last import
+  const toRefresh = episodes.filter(
+    (ep) => ep.indexed && existingIds.has(ep.id) &&
+    !existing.find((e) => e.id === ep.id)?.indexed
+  );
+
+  if (newEpisodes.length === 0 && toRefresh.length === 0) {
     onProgress?.('Already up to date');
     return { added: 0 };
   }
 
-  onProgress?.(`Adding ${newEpisodes.length} new episodes...`);
+  const allToWrite = [...newEpisodes, ...toRefresh];
+  if (newEpisodes.length > 0) onProgress?.(`Adding ${newEpisodes.length} new episodes...`);
+  if (toRefresh.length > 0) onProgress?.(`Refreshing ${toRefresh.length} indexed episode(s)...`);
 
   const episodeRows = [];
   const trackRows = [];
-  for (const ep of newEpisodes) {
+  for (const ep of allToWrite) {
     const { tracks, ...epData } = ep;
     episodeRows.push(epData);
     if (Array.isArray(tracks)) trackRows.push(...tracks);
@@ -135,6 +171,6 @@ export async function sync(onProgress) {
   await putEpisodes(episodeRows);
   if (trackRows.length) await putTracks(trackRows);
 
-  onProgress?.(`Added ${newEpisodes.length} new episodes`);
+  if (newEpisodes.length > 0) onProgress?.(`Added ${newEpisodes.length} new episodes`);
   return { added: newEpisodes.length };
 }

@@ -138,10 +138,7 @@ export class PlayerUI {
 
   _setPlayingIcons(isPlaying) {
     for (const btn of [this._miniPlayBtn, this._sheetPlayBtn]) {
-      const playIcon = btn.querySelector('.icon-play');
-      const pauseIcon = btn.querySelector('.icon-pause');
-      if (playIcon) playIcon.hidden = isPlaying;
-      if (pauseIcon) pauseIcon.hidden = !isPlaying;
+      btn.classList.toggle('is-playing', isPlaying);
     }
   }
 
@@ -210,7 +207,20 @@ export class PlayerUI {
       }
 
       const item = document.createElement('div');
-      item.className = 'track-item';
+      const hasTime = track.startTime !== undefined && track.startTime !== null;
+      item.className = hasTime ? 'track-item has-timestamp' : 'track-item';
+
+      // Timestamp badge (right-aligned) — shown when track has a start time
+      if (hasTime) {
+        const ts = document.createElement('span');
+        ts.className = 'track-timestamp';
+        ts.textContent = fmtTime(track.startTime);
+        item.appendChild(ts);
+        item.addEventListener('click', (e) => {
+          if (e.target.closest('.track-artist')) return; // artist click handled below
+          this._player.seek(track.startTime);
+        });
+      }
 
       const artistEl = document.createElement('span');
       artistEl.className = 'track-artist';

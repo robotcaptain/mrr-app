@@ -11,7 +11,7 @@
       "mp3Url": "https://media.blubrry.com/mrrradio/www.maximumrocknroll.com/wp-content/uploads/2026/03/MRR1975.mp3",
       "durationSecs": 3444,
       "trackCount": 14,
-      "localAudio": false,
+      "localAudio": true,
       "tracks": [
         {
           "id": 19750000,
@@ -19,7 +19,8 @@
           "artist": "NINE POUND HAMMER",
           "title": "Do You Remember Rock 'N' Roll Radio",
           "section": "Opener",
-          "trackIndex": 0
+          "trackIndex": 0,
+          "startTime": 0
         },
         {
           "id": 19750001,
@@ -27,7 +28,8 @@
           "artist": "APPALACHIATARI",
           "title": "Rock 'n' Roll Kitty",
           "section": "Stright Kentucky Rock 'N' Roll",
-          "trackIndex": 1
+          "trackIndex": 1,
+          "startTime": 293.8
         },
         {
           "id": 19750002,
@@ -35,7 +37,8 @@
           "artist": "BUZZ-HOUND",
           "title": "VoidWalker",
           "section": "Stright Kentucky Rock 'N' Roll",
-          "trackIndex": 2
+          "trackIndex": 2,
+          "startTime": 786.2
         },
         {
           "id": 19750003,
@@ -43,7 +46,8 @@
           "artist": "RABBY FEEBER",
           "title": "Sunburn Brain Freeze",
           "section": "Stright Kentucky Rock 'N' Roll",
-          "trackIndex": 3
+          "trackIndex": 3,
+          "startTime": 1177.2
         },
         {
           "id": 19750004,
@@ -51,7 +55,8 @@
           "artist": "LAID BACK COUNTRY PICKER",
           "title": "8-Track Weekend",
           "section": "Stright Kentucky Rock 'N' Roll",
-          "trackIndex": 4
+          "trackIndex": 4,
+          "startTime": 1384.3
         },
         {
           "id": 19750005,
@@ -59,7 +64,8 @@
           "artist": "KYARN",
           "title": "Eternal",
           "section": "Kentucky Heavy",
-          "trackIndex": 5
+          "trackIndex": 5,
+          "startTime": 1951.2
         },
         {
           "id": 19750006,
@@ -67,7 +73,8 @@
           "artist": "PINHEAD POISON",
           "title": "Avium",
           "section": "Kentucky Heavy",
-          "trackIndex": 6
+          "trackIndex": 6,
+          "startTime": 2535.8
         },
         {
           "id": 19750007,
@@ -75,7 +82,8 @@
           "artist": "L.I.P.S.",
           "title": "Hick",
           "section": "Kentucky Heavy",
-          "trackIndex": 7
+          "trackIndex": 7,
+          "startTime": 3211.7
         },
         {
           "id": 19750008,
@@ -125,7 +133,8 @@
           "section": "Closer",
           "trackIndex": 13
         }
-      ]
+      ],
+      "indexed": true
     },
     {
       "id": 1974,
