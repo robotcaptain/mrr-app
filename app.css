@@ -39,7 +39,7 @@ img { display: block; object-fit: cover; }
   position: fixed;
   top: 0;
   left: 0; right: 0;
-  height: var(--header-h);
+  height: calc(var(--header-h) + env(safe-area-inset-top, 0px));
   padding-top: env(safe-area-inset-top, 0px);
   background: var(--bg);
   border-bottom: 1px solid var(--border);
