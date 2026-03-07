@@ -235,7 +235,20 @@ function parseRssPage(xml) {
       }
       host = words.join(' ').replace(/[.,!?]+$/, '').trim();
     }
-    const caption = plainDesc.slice(0, 280);
+    // Extract description only — stop before tracklist.
+    // Artist names in MRR tracklists are ALL-CAPS followed by em/en-dash or space-hyphen-space.
+    const trackStart = plainDesc.match(/\b[A-Z][A-Z\-']*(?:[ ][A-Z][A-Z\-']*)* [-\u2013\u2014] [A-Z]/);
+    let caption;
+    if (trackStart) {
+      const beforeTrack = plainDesc.slice(0, trackStart.index);
+      const lastPunct = Math.max(
+        beforeTrack.lastIndexOf(')'), beforeTrack.lastIndexOf('.'),
+        beforeTrack.lastIndexOf('!'), beforeTrack.lastIndexOf('?'),
+      );
+      caption = (lastPunct >= 0 ? beforeTrack.slice(0, lastPunct + 1) : beforeTrack).trim().slice(0, 280);
+    } else {
+      caption = plainDesc.slice(0, 280);
+    }
 
     // Tracklist from content:encoded
     const contentEncoded = (block.match(/<content:encoded><!\[CDATA\[([\s\S]*?)\]\]><\/content:encoded>/) || [])[1] || '';
