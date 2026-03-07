@@ -10,6 +10,7 @@ import { openDB, getEpisodeCount, getEpisodes, getEpisode, putEpisodes, putTrack
 
 const EPISODES_JSON = '/public/data/episodes.json';
 const EPISODES_JSON_ALT = '/data/episodes.json';
+const DATA_VERSION_KEY = 'mrr-data-version';
 
 let _loadPromise = null;
 
@@ -99,13 +100,23 @@ async function _refreshIndexed() {
   const nowIndexed = episodes.filter((ep) => ep.indexed && Array.isArray(ep.tracks));
   if (nowIndexed.length === 0) return;
 
+  const newVersion = data.generated ?? null;
+  const lastVersion = localStorage.getItem(DATA_VERSION_KEY);
+  const dataChanged = newVersion && newVersion !== lastVersion;
+
+  let didUpdate = false;
   for (const ep of nowIndexed) {
     const inDb = await getEpisode(ep.id);
-    if (!inDb?.indexed) {
+    if (!inDb?.indexed || dataChanged) {
       const { tracks, ...epData } = ep;
       await putEpisodes([epData]);
       await putTracks(tracks);
+      didUpdate = true;
     }
+  }
+
+  if (didUpdate && newVersion) {
+    localStorage.setItem(DATA_VERSION_KEY, newVersion);
   }
 }
 
@@ -145,11 +156,16 @@ export async function sync(onProgress) {
 
   const newEpisodes = episodes.filter((e) => !existingIds.has(e.id));
 
-  // Also refresh existing episodes that gained timestamps since last import
-  const toRefresh = episodes.filter(
-    (ep) => ep.indexed && existingIds.has(ep.id) &&
-    !existing.find((e) => e.id === ep.id)?.indexed
-  );
+  // Also refresh indexed episodes that changed since last import
+  const newVersion = data.generated ?? null;
+  const lastVersion = localStorage.getItem(DATA_VERSION_KEY);
+  const dataChanged = newVersion && newVersion !== lastVersion;
+
+  const toRefresh = episodes.filter((ep) => {
+    if (!ep.indexed || !existingIds.has(ep.id)) return false;
+    const inDb = existing.find((e) => e.id === ep.id);
+    return !inDb?.indexed || dataChanged;
+  });
 
   if (newEpisodes.length === 0 && toRefresh.length === 0) {
     onProgress?.('Already up to date');
@@ -172,5 +188,6 @@ export async function sync(onProgress) {
   if (trackRows.length) await putTracks(trackRows);
 
   if (newEpisodes.length > 0) onProgress?.(`Added ${newEpisodes.length} new episodes`);
+  if (newVersion) localStorage.setItem(DATA_VERSION_KEY, newVersion);
   return { added: newEpisodes.length };
 }

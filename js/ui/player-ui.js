@@ -309,7 +309,8 @@ export class PlayerUI {
     const sheet = this._sheet;
 
     sheet.addEventListener('touchstart', (e) => {
-      if (sheet.scrollTop > 0) return; // only trigger when at top
+      // Don't intercept touches on the scrollable tracklist
+      if (e.target.closest('.tracklist-section')) return;
       startY = e.touches[0].clientY;
     }, { passive: true });
 

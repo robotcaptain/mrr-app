@@ -2,8 +2,8 @@
 /**
  * MRR Radio Scraper
  *
- * Parses everything from RSS (enclosure, tracklist via content:encoded).
- * No individual episode page fetching needed — no per-episode thumbnails exist.
+ * Parses RSS for episode metadata + tracklist, then fetches each episode page
+ * to extract the featured thumbnail image.
  *
  * Usage:
  *   node scripts/scrape.mjs                  # 15 most recent episodes
@@ -95,6 +95,19 @@ function decode(s) {
     .replace(/&nbsp;/g, ' ')
     .replace(/&#(\d+);/g, (_, n) => String.fromCharCode(parseInt(n, 10)))
     .replace(/&#x([\da-f]+);/gi, (_, h) => String.fromCharCode(parseInt(h, 16)));
+}
+
+// ── Extract featured thumbnail from episode page ──────────────────────────────
+async function fetchThumbnail(epNum) {
+  try {
+    const html = await fetchUrl(`${BASE_URL}/radio_show/mrr-radio-${epNum}/`);
+    const m = html.match(/<img class="lazyload border"[^>]+data-srcset="([^"]+)"/);
+    if (!m) return null;
+    const urls = m[1].split(',').map((s) => s.trim().split(' ')[0]);
+    return urls[urls.length - 1] || null;
+  } catch {
+    return null;
+  }
 }
 
 // ── Parse tracklist from content:encoded (dl/dt/dd format) ───────────────────
@@ -291,7 +304,7 @@ async function main() {
       date: ep.date,
       host: ep.host,
       caption: ep.caption,
-      thumbnailUrl: null,
+      thumbnailUrl: await fetchThumbnail(ep.epNum),
       mp3Url: ep.mp3Url,
       durationSecs: ep.durationSecs,
       trackCount: ep.tracks.length,

@@ -7,7 +7,8 @@
     "scrape": "node scripts/scrape.mjs",
     "scrape:all": "node scripts/scrape.mjs --all",
     "scrape:download": "node scripts/scrape.mjs --download",
-    "gen-icons": "node scripts/gen-icons.mjs"
+    "gen-icons": "node scripts/gen-icons.mjs",
+    "find-onsets": "node scripts/find-onsets.mjs"
   },
   "engines": {
     "node": ">=18"

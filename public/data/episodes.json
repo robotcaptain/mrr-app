@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-01T23:10:56.350Z",
+  "generated": "2026-03-07T20:46:15.605Z",
   "count": 19,
   "episodes": [
     {
@@ -7,11 +7,11 @@
       "date": "2026-03-01",
       "host": "Cary",
       "caption": "On this week's MRR Radio, Cary plays a small sampling of the underground scene in Kentucky and Ohio (and of course a sprinkling of Tennessee) Opener NINE POUND HAMMER – Do You Remember Rock 'N' Roll Radio Stright Kentucky Rock 'N' Roll APPALACHIATARI – Rock 'n' Roll Kitty BUZZ-HO",
-      "thumbnailUrl": null,
+      "thumbnailUrl": "https://www.maximumrocknroll.com/wp-content/uploads/2026/03/LBHONEY23spt-1000x667.webp",
       "mp3Url": "https://media.blubrry.com/mrrradio/www.maximumrocknroll.com/wp-content/uploads/2026/03/MRR1975.mp3",
       "durationSecs": 3444,
-      "trackCount": 14,
-      "localAudio": true,
+      "trackCount": 18,
+      "localAudio": false,
       "tracks": [
         {
           "id": 19750000,
@@ -20,7 +20,9 @@
           "title": "Do You Remember Rock 'N' Roll Radio",
           "section": "Opener",
           "trackIndex": 0,
-          "startTime": 0
+          "startTime": 38,
+          "durationSecs": 187,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19750001,
@@ -29,7 +31,9 @@
           "title": "Rock 'n' Roll Kitty",
           "section": "Stright Kentucky Rock 'N' Roll",
           "trackIndex": 1,
-          "startTime": 293.8
+          "startTime": 293,
+          "durationSecs": 173,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19750002,
@@ -38,7 +42,9 @@
           "title": "VoidWalker",
           "section": "Stright Kentucky Rock 'N' Roll",
           "trackIndex": 2,
-          "startTime": 786.2
+          "startTime": 466,
+          "durationSecs": 181,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19750003,
@@ -47,7 +53,9 @@
           "title": "Sunburn Brain Freeze",
           "section": "Stright Kentucky Rock 'N' Roll",
           "trackIndex": 3,
-          "startTime": 1177.2
+          "startTime": 647,
+          "durationSecs": 184,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19750004,
@@ -56,7 +64,9 @@
           "title": "8-Track Weekend",
           "section": "Stright Kentucky Rock 'N' Roll",
           "trackIndex": 4,
-          "startTime": 1384.3
+          "startTime": 831,
+          "durationSecs": 320,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19750005,
@@ -65,7 +75,9 @@
           "title": "Eternal",
           "section": "Kentucky Heavy",
           "trackIndex": 5,
-          "startTime": 1951.2
+          "startTime": 1217,
+          "durationSecs": 165,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19750006,
@@ -74,7 +86,9 @@
           "title": "Avium",
           "section": "Kentucky Heavy",
           "trackIndex": 6,
-          "startTime": 2535.8
+          "startTime": 1382,
+          "durationSecs": 158,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19750007,
@@ -83,7 +97,9 @@
           "title": "Hick",
           "section": "Kentucky Heavy",
           "trackIndex": 7,
-          "startTime": 3211.7
+          "startTime": 1540,
+          "durationSecs": 91,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19750008,
@@ -91,47 +107,109 @@
           "artist": "TOJO YAMAMOTO",
           "title": "A Face Made For Radio (Hog Jowls)",
           "section": "Kentucky Heavy",
-          "trackIndex": 8
+          "trackIndex": 8,
+          "startTime": 1631,
+          "durationSecs": 258,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19750009,
           "episodeId": 1975,
-          "artist": "ALBUM",
-          "title": "Hell to Pay",
-          "section": "Round on the edge, hi in the middle",
-          "trackIndex": 9
+          "artist": "MK ULTRAS",
+          "title": "Teenage Revolt",
+          "section": "O-hi-O",
+          "trackIndex": 9,
+          "startTime": 1954,
+          "durationSecs": 125,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19750010,
           "episodeId": 1975,
-          "artist": "WAGE CAGE",
-          "title": "Chasing Careers",
-          "section": "Round on the edge, hi in the middle",
-          "trackIndex": 10
+          "artist": "SLUTBOMB",
+          "title": "Slippery Elm Bark",
+          "section": "O-hi-O",
+          "trackIndex": 10,
+          "startTime": 2079,
+          "durationSecs": 134,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19750011,
           "episodeId": 1975,
-          "artist": "FORWARD TO CONTACT",
-          "title": "Forward To Contact",
-          "section": "Round on the edge, hi in the middle",
-          "trackIndex": 11
+          "artist": "JAGUAR 777",
+          "title": "Velvet On The Razor's Edge",
+          "section": "O-hi-O",
+          "trackIndex": 11,
+          "startTime": 2213,
+          "durationSecs": 127,
+          "startTimeConfidence": "low"
         },
         {
           "id": 19750012,
           "episodeId": 1975,
-          "artist": "THE SCURVIES",
-          "title": "Heart Of A Lion",
-          "section": "Round on the edge, hi in the middle",
-          "trackIndex": 12
+          "artist": "DOLLAR DRAFTS",
+          "title": "Burger City Nights",
+          "section": "O-hi-O",
+          "trackIndex": 12,
+          "startTime": 2340,
+          "durationSecs": 133,
+          "startTimeConfidence": "low"
         },
         {
           "id": 19750013,
           "episodeId": 1975,
+          "artist": "ALBUM",
+          "title": "Hell to Pay",
+          "section": "Round on the edge, hi in the middle",
+          "trackIndex": 13,
+          "startTime": 2541,
+          "durationSecs": 165,
+          "startTimeConfidence": "high"
+        },
+        {
+          "id": 19750014,
+          "episodeId": 1975,
+          "artist": "WAGE CAGE",
+          "title": "Chasing Careers",
+          "section": "Round on the edge, hi in the middle",
+          "trackIndex": 14,
+          "startTime": 2706,
+          "durationSecs": 163,
+          "startTimeConfidence": "high"
+        },
+        {
+          "id": 19750015,
+          "episodeId": 1975,
+          "artist": "FORWARD TO CONTACT",
+          "title": "Forward To Contact",
+          "section": "Round on the edge, hi in the middle",
+          "trackIndex": 15,
+          "startTime": 2869,
+          "durationSecs": 111,
+          "startTimeConfidence": "medium"
+        },
+        {
+          "id": 19750016,
+          "episodeId": 1975,
+          "artist": "THE SCURVIES",
+          "title": "Heart Of A Lion",
+          "section": "Round on the edge, hi in the middle",
+          "trackIndex": 16,
+          "startTime": 2980,
+          "durationSecs": 136,
+          "startTimeConfidence": "medium"
+        },
+        {
+          "id": 19750017,
+          "episodeId": 1975,
           "artist": "YEAR OF OCTOBER",
           "title": "Flannel",
           "section": "Closer",
-          "trackIndex": 13
+          "trackIndex": 17,
+          "startTime": 3223,
+          "durationSecs": 221,
+          "startTimeConfidence": "high"
         }
       ],
       "indexed": true
@@ -141,7 +219,7 @@
       "date": "2026-02-15",
       "host": "Erika Elizabeth",
       "caption": "Love is over and done on this week's episode of MRR Radio with Erika Elizabeth.Intro 25 CENTS – Don’t Deceive Me Always Telling Lies BRAIN DAMAGE – Forget Her DOGMATIC ELEMENT – Just Friends EARWIGS – A Martyr is Made DYBBUK – Dopis Please Pay Attention WINSTON – New Confidence W",
-      "thumbnailUrl": null,
+      "thumbnailUrl": "https://www.maximumrocknroll.com/wp-content/uploads/2026/02/The-Blackout-768x529.jpg",
       "mp3Url": "https://media.blubrry.com/mrrradio/www.maximumrocknroll.com/wp-content/uploads/2026/02/mrr-radio-1974.mp3",
       "durationSecs": 3469,
       "trackCount": 18,
@@ -153,7 +231,10 @@
           "artist": "25 CENTS",
           "title": "Don’t Deceive Me",
           "section": "Intro",
-          "trackIndex": 0
+          "trackIndex": 0,
+          "startTime": 38,
+          "durationSecs": 147,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19740001,
@@ -161,7 +242,10 @@
           "artist": "BRAIN DAMAGE",
           "title": "Forget Her",
           "section": "Always Telling Lies",
-          "trackIndex": 1
+          "trackIndex": 1,
+          "startTime": 232,
+          "durationSecs": 193,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19740002,
@@ -169,7 +253,10 @@
           "artist": "DOGMATIC ELEMENT",
           "title": "Just Friends",
           "section": "Always Telling Lies",
-          "trackIndex": 2
+          "trackIndex": 2,
+          "startTime": 425,
+          "durationSecs": 115,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19740003,
@@ -177,7 +264,10 @@
           "artist": "EARWIGS",
           "title": "A Martyr is Made",
           "section": "Always Telling Lies",
-          "trackIndex": 3
+          "trackIndex": 3,
+          "startTime": 540,
+          "durationSecs": 115,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19740004,
@@ -185,7 +275,10 @@
           "artist": "DYBBUK",
           "title": "Dopis",
           "section": "Always Telling Lies",
-          "trackIndex": 4
+          "trackIndex": 4,
+          "startTime": 655,
+          "durationSecs": 94,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19740005,
@@ -193,7 +286,10 @@
           "artist": "WINSTON",
           "title": "New Confidence",
           "section": "Please Pay Attention",
-          "trackIndex": 5
+          "trackIndex": 5,
+          "startTime": 900,
+          "durationSecs": 148,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19740006,
@@ -201,7 +297,10 @@
           "artist": "WHITE WOMEN",
           "title": "Midge",
           "section": "Please Pay Attention",
-          "trackIndex": 6
+          "trackIndex": 6,
+          "startTime": 1060,
+          "durationSecs": 61,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19740007,
@@ -209,7 +308,10 @@
           "artist": "FEATURE",
           "title": "Jealous",
           "section": "Please Pay Attention",
-          "trackIndex": 7
+          "trackIndex": 7,
+          "startTime": 1121,
+          "durationSecs": 49,
+          "startTimeConfidence": "low"
         },
         {
           "id": 19740008,
@@ -217,7 +319,10 @@
           "artist": "​​LA LOI DE LA JUNGLE",
           "title": "Célébration",
           "section": "Please Pay Attention",
-          "trackIndex": 8
+          "trackIndex": 8,
+          "startTime": 1170,
+          "durationSecs": 97,
+          "startTimeConfidence": "low"
         },
         {
           "id": 19740009,
@@ -225,7 +330,10 @@
           "artist": "BIKINI MUTANTS",
           "title": "Prey",
           "section": "Dark is Behind Me",
-          "trackIndex": 9
+          "trackIndex": 9,
+          "startTime": 1305,
+          "durationSecs": 81,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19740010,
@@ -233,7 +341,10 @@
           "artist": "RED",
           "title": "Walking in the Park",
           "section": "Dark is Behind Me",
-          "trackIndex": 10
+          "trackIndex": 10,
+          "startTime": 1386,
+          "durationSecs": 272,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19740011,
@@ -241,7 +352,10 @@
           "artist": "BELLE DU SOIR",
           "title": "Treasure Island",
           "section": "Dark is Behind Me",
-          "trackIndex": 11
+          "trackIndex": 11,
+          "startTime": 1658,
+          "durationSecs": 188,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19740012,
@@ -249,7 +363,10 @@
           "artist": "DORMANNU",
           "title": "Until the Fear",
           "section": "Dark is Behind Me",
-          "trackIndex": 12
+          "trackIndex": 12,
+          "startTime": 1846,
+          "durationSecs": 139,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19740013,
@@ -257,7 +374,10 @@
           "artist": "THE BLACKOUT",
           "title": "The Cry",
           "section": "Blow My Cover",
-          "trackIndex": 13
+          "trackIndex": 13,
+          "startTime": 1995,
+          "durationSecs": 182,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19740014,
@@ -265,7 +385,10 @@
           "artist": "LENASIX-UP",
           "title": "Child Hood's End",
           "section": "Blow My Cover",
-          "trackIndex": 14
+          "trackIndex": 14,
+          "startTime": 2275,
+          "durationSecs": 157,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19740015,
@@ -273,7 +396,10 @@
           "artist": "CHINAS COMIDAS",
           "title": "Lover Lover",
           "section": "Blow My Cover",
-          "trackIndex": 15
+          "trackIndex": 15,
+          "startTime": 2495,
+          "durationSecs": 292,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19740016,
@@ -281,7 +407,10 @@
           "artist": "THIRTEEN AT MIDNIGHT",
           "title": "Follow Yourself",
           "section": "Blow My Cover",
-          "trackIndex": 16
+          "trackIndex": 16,
+          "startTime": 2827,
+          "durationSecs": 166,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19740017,
@@ -289,16 +418,20 @@
           "artist": "NEW RECRUITS",
           "title": "All in an Hour",
           "section": "Outro",
-          "trackIndex": 17
+          "trackIndex": 17,
+          "startTime": 3200,
+          "durationSecs": 269,
+          "startTimeConfidence": "high"
         }
-      ]
+      ],
+      "indexed": true
     },
     {
       "id": 1973,
       "date": "2026-02-01",
       "host": "Zu From All Over",
       "caption": "On this week's MRR Radio, Zu From All Over takes a sick day to celebrate The Year of the Fire Horse and the last great batch of 2k25 releases, with the best Hardcore, Indie Punk, and Punkgaze, featuring a surprise appearance from Michael From The North Bay to celebrate his 10 YEA",
-      "thumbnailUrl": null,
+      "thumbnailUrl": "https://www.maximumrocknroll.com/wp-content/uploads/2026/02/HORSE-Live_on_April_20th_2025_for_Spread_The_Threat_Volume_3_at_the_Indonesian_Institute_of_Arts_in_Surakarta_Central_Java_Indonesia_photo_by_Direct_Stab_Organizer-1000x1237.jpg",
       "mp3Url": "https://media.blubrry.com/mrrradio/www.maximumrocknroll.com/wp-content/uploads/2026/02/mrrradio1973.mp3",
       "durationSecs": 3697,
       "trackCount": 14,
@@ -310,7 +443,10 @@
           "artist": "VIOLETTA",
           "title": "Year of the Horse",
           "section": "Happy Year Of The Fire Horse!",
-          "trackIndex": 0
+          "trackIndex": 0,
+          "startTime": 35,
+          "durationSecs": 227,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19730001,
@@ -318,7 +454,10 @@
           "artist": "DEATH VALLEY SWEETHEARTS",
           "title": "Fire Horse Girls",
           "section": "Happy Year Of The Fire Horse!",
-          "trackIndex": 1
+          "trackIndex": 1,
+          "startTime": 262,
+          "durationSecs": 415,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19730002,
@@ -326,7 +465,10 @@
           "artist": "HORSE",
           "title": "Dignity",
           "section": "A Year of Bold Action and Innovation, With Potential For Impulsiveness",
-          "trackIndex": 2
+          "trackIndex": 2,
+          "startTime": 820,
+          "durationSecs": 158,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19730003,
@@ -334,7 +476,10 @@
           "artist": "RABBIT",
           "title": "Supreme Identity / Muck",
           "section": "A Year of Bold Action and Innovation, With Potential For Impulsiveness",
-          "trackIndex": 3
+          "trackIndex": 3,
+          "startTime": 978,
+          "durationSecs": 462,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19730004,
@@ -342,7 +487,10 @@
           "artist": "GRAND SCHEME",
           "title": "It’s On You",
           "section": "A Year of Bold Action and Innovation, With Potential For Impulsiveness",
-          "trackIndex": 4
+          "trackIndex": 4,
+          "startTime": 1440,
+          "durationSecs": 387,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19730005,
@@ -350,7 +498,10 @@
           "artist": "NISEMONO 偽者",
           "title": "不安な人生",
           "section": "A Year of Bold Action and Innovation, With Potential For Impulsiveness",
-          "trackIndex": 5
+          "trackIndex": 5,
+          "startTime": 1827,
+          "durationSecs": 200,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19730006,
@@ -358,7 +509,10 @@
           "artist": "MONK",
           "title": "Your Rules",
           "section": "2K25 Year End Top Twenty",
-          "trackIndex": 6
+          "trackIndex": 6,
+          "startTime": 2199,
+          "durationSecs": 192,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19730007,
@@ -366,7 +520,10 @@
           "artist": "GRAYCEON",
           "title": "3 Points of Light",
           "section": "2K25 Year End Top Twenty",
-          "trackIndex": 7
+          "trackIndex": 7,
+          "startTime": 2391,
+          "durationSecs": 140,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19730008,
@@ -374,7 +531,10 @@
           "artist": "PLOSIVS",
           "title": "Metacine",
           "section": "2K25 Year End Top Twenty",
-          "trackIndex": 8
+          "trackIndex": 8,
+          "startTime": 2531,
+          "durationSecs": 123,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19730009,
@@ -382,7 +542,10 @@
           "artist": "ALGERNON CADWALLADER",
           "title": "Shameless Faces (Even The Guy Who Made The Thing Was A Piece Of Shit)",
           "section": "Put Good Out There and Accept Good When Goodness Comes",
-          "trackIndex": 9
+          "trackIndex": 9,
+          "startTime": 2962,
+          "durationSecs": 213,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19730010,
@@ -390,7 +553,10 @@
           "artist": "BULL SHANNON",
           "title": "Dragon Boy",
           "section": "Put Good Out There and Accept Good When Goodness Comes",
-          "trackIndex": 10
+          "trackIndex": 10,
+          "startTime": 3175,
+          "durationSecs": 161,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19730011,
@@ -398,7 +564,10 @@
           "artist": "PIGEON ISLAND",
           "title": "Surfin The Yellow Room",
           "section": "Put Good Out There and Accept Good When Goodness Comes",
-          "trackIndex": 11
+          "trackIndex": 11,
+          "startTime": 3336,
+          "durationSecs": 79,
+          "startTimeConfidence": "low"
         },
         {
           "id": 19730012,
@@ -406,7 +575,10 @@
           "artist": "DROUGHT",
           "title": "Old Seed/New Grain",
           "section": "Here’s To 10 More Years",
-          "trackIndex": 12
+          "trackIndex": 12,
+          "startTime": 3440,
+          "durationSecs": 111,
+          "startTimeConfidence": "low"
         },
         {
           "id": 19730013,
@@ -414,16 +586,20 @@
           "artist": "BOY COMMANDOS",
           "title": "Life On A String",
           "section": "Here’s To 10 More Years",
-          "trackIndex": 13
+          "trackIndex": 13,
+          "startTime": 3551,
+          "durationSecs": 146,
+          "startTimeConfidence": "medium"
         }
-      ]
+      ],
+      "indexed": true
     },
     {
       "id": 1972,
       "date": "2026-01-25",
       "host": "Jennifer",
       "caption": "On this week's MRR Radio, Jennifer plays some of her favorite recent releases!Intro STREETS OF SEPARATION - You Miss Out (1) DISKET - Running COLD MEAT - FFP RIFLE - Protest NORM DOGS - Stains IMPLODERS - Eat, Sleep, Repeat (2) COFFEE STAIN - Shrink FLOWER POWER - Raw Power LAUGH",
-      "thumbnailUrl": null,
+      "thumbnailUrl": "https://www.maximumrocknroll.com/wp-content/uploads/2026/01/Screenshot-2026-01-25-at-9.19.08-AM-1000x1009.jpg",
       "mp3Url": "https://media.blubrry.com/mrrradio/www.maximumrocknroll.com/wp-content/uploads/2026/01/mrrradio1972.mp3",
       "durationSecs": 3117,
       "trackCount": 21,
@@ -435,7 +611,10 @@
           "artist": "STREETS OF SEPARATION",
           "title": "You Miss Out",
           "section": "Intro",
-          "trackIndex": 0
+          "trackIndex": 0,
+          "startTime": 32,
+          "durationSecs": 123,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19720001,
@@ -443,7 +622,10 @@
           "artist": "DISKET",
           "title": "Running",
           "section": "(1)",
-          "trackIndex": 1
+          "trackIndex": 1,
+          "startTime": 192,
+          "durationSecs": 99,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19720002,
@@ -451,7 +633,10 @@
           "artist": "COLD MEAT",
           "title": "FFP",
           "section": "(1)",
-          "trackIndex": 2
+          "trackIndex": 2,
+          "startTime": 291,
+          "durationSecs": 162,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19720003,
@@ -459,7 +644,10 @@
           "artist": "RIFLE",
           "title": "Protest",
           "section": "(1)",
-          "trackIndex": 3
+          "trackIndex": 3,
+          "startTime": 453,
+          "durationSecs": 92,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19720004,
@@ -467,7 +655,10 @@
           "artist": "NORM DOGS",
           "title": "Stains",
           "section": "(1)",
-          "trackIndex": 4
+          "trackIndex": 4,
+          "startTime": 545,
+          "durationSecs": 207,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19720005,
@@ -475,7 +666,10 @@
           "artist": "IMPLODERS",
           "title": "Eat, Sleep, Repeat",
           "section": "(1)",
-          "trackIndex": 5
+          "trackIndex": 5,
+          "startTime": 755,
+          "durationSecs": 90,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19720006,
@@ -483,7 +677,10 @@
           "artist": "COFFEE STAIN",
           "title": "Shrink",
           "section": "(2)",
-          "trackIndex": 6
+          "trackIndex": 6,
+          "startTime": 922,
+          "durationSecs": 104,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19720007,
@@ -491,7 +688,10 @@
           "artist": "FLOWER POWER",
           "title": "Raw Power",
           "section": "(2)",
-          "trackIndex": 7
+          "trackIndex": 7,
+          "startTime": 1058,
+          "durationSecs": 75,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19720008,
@@ -499,7 +699,10 @@
           "artist": "LAUGHING CORPSE",
           "title": "Revenge",
           "section": "(2)",
-          "trackIndex": 8
+          "trackIndex": 8,
+          "startTime": 1133,
+          "durationSecs": 82,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19720009,
@@ -507,7 +710,10 @@
           "artist": "SARNA",
           "title": "Gerardo",
           "section": "(2)",
-          "trackIndex": 9
+          "trackIndex": 9,
+          "startTime": 1215,
+          "durationSecs": 147,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19720010,
@@ -515,7 +721,10 @@
           "artist": "SCHENECTAVOIDZ",
           "title": "Held to Account",
           "section": "(2)",
-          "trackIndex": 10
+          "trackIndex": 10,
+          "startTime": 1362,
+          "durationSecs": 73,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19720011,
@@ -523,7 +732,10 @@
           "artist": "PILL MILL",
           "title": "Dead Minds",
           "section": "(2)",
-          "trackIndex": 11
+          "trackIndex": 11,
+          "startTime": 1435,
+          "durationSecs": 52,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19720012,
@@ -531,7 +743,10 @@
           "artist": "CLICKBAIT",
           "title": "Fish Fillet",
           "section": "(3)",
-          "trackIndex": 12
+          "trackIndex": 12,
+          "startTime": 1585,
+          "durationSecs": 154,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19720013,
@@ -539,7 +754,10 @@
           "artist": "FLIPPEUR",
           "title": "Plastique",
           "section": "(3)",
-          "trackIndex": 13
+          "trackIndex": 13,
+          "startTime": 1759,
+          "durationSecs": 99,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19720014,
@@ -547,7 +765,10 @@
           "artist": "DBR",
           "title": "The Nest",
           "section": "(3)",
-          "trackIndex": 14
+          "trackIndex": 14,
+          "startTime": 1878,
+          "durationSecs": 196,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19720015,
@@ -555,7 +776,10 @@
           "artist": "ZULO",
           "title": "Nueva Iglesia",
           "section": "(3)",
-          "trackIndex": 15
+          "trackIndex": 15,
+          "startTime": 2074,
+          "durationSecs": 62,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19720016,
@@ -563,7 +787,10 @@
           "artist": "ERROR DE PARALAJE",
           "title": "Nada",
           "section": "(4)",
-          "trackIndex": 16
+          "trackIndex": 16,
+          "startTime": 2136,
+          "durationSecs": 129,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19720017,
@@ -571,7 +798,10 @@
           "artist": "ONYON",
           "title": "The Figurine",
           "section": "(4)",
-          "trackIndex": 17
+          "trackIndex": 17,
+          "startTime": 2265,
+          "durationSecs": 169,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19720018,
@@ -579,7 +809,10 @@
           "artist": "FORMA",
           "title": "Aspettative",
           "section": "(4)",
-          "trackIndex": 18
+          "trackIndex": 18,
+          "startTime": 2434,
+          "durationSecs": 143,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19720019,
@@ -587,7 +820,10 @@
           "artist": "TAKER",
           "title": "Town",
           "section": "(4)",
-          "trackIndex": 19
+          "trackIndex": 19,
+          "startTime": 2577,
+          "durationSecs": 183,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19720020,
@@ -595,16 +831,20 @@
           "artist": "INSTIGATORS",
           "title": "The Blood Is On Your Hands",
           "section": "OUTRO",
-          "trackIndex": 20
+          "trackIndex": 20,
+          "startTime": 2941,
+          "durationSecs": 176,
+          "startTimeConfidence": "high"
         }
-      ]
+      ],
+      "indexed": true
     },
     {
       "id": 1971,
       "date": "2026-01-18",
       "host": "Cary",
       "caption": "On this week's MRR Radio, Cary Plays songs from his top ten releases of 2025 (mostly) Opener SCORNFUL - Fields of Decaying Obsidian Urn - Stagnant Stagnant Sex Mex - Repackaged II Left Me (In the Dark) Fucking It UP Tojo Yamamoto - Turning Face! Loser Leaves Town (A Cautiomary Ta",
-      "thumbnailUrl": null,
+      "thumbnailUrl": "https://www.maximumrocknroll.com/wp-content/uploads/2026/01/MKultras-500x379.jpg",
       "mp3Url": "https://media.blubrry.com/mrrradio/www.maximumrocknroll.com/wp-content/uploads/2026/01/MRR1971.mp3",
       "durationSecs": 3556,
       "trackCount": 1,
@@ -616,16 +856,20 @@
           "artist": "SCORNFUL",
           "title": "Fields of Decaying",
           "section": "Opener",
-          "trackIndex": 0
+          "trackIndex": 0,
+          "startTime": 425,
+          "durationSecs": 3131,
+          "startTimeConfidence": "medium"
         }
-      ]
+      ],
+      "indexed": true
     },
     {
       "id": 1970,
       "date": "2026-01-04",
       "host": "",
       "caption": "Rearrange your mind with this week's episode of MRR Radio brought to you by Erika Elizabeth.Intro CHANCE OPERATION – Din Can't Have a Life ?FOG – 5 Heads of State SHAKTI शक्ति – Maut मौत (Death) BAAT-BAAL – Taboo Death REAL IMITATORS – Make Up Your Mind An Indication of My State ",
-      "thumbnailUrl": null,
+      "thumbnailUrl": "https://www.maximumrocknroll.com/wp-content/uploads/2025/12/Chance-Operation-500x500.jpg",
       "mp3Url": "https://media.blubrry.com/mrrradio/www.maximumrocknroll.com/wp-content/uploads/2026/01/mrr-radio-1970.mp3",
       "durationSecs": 3457,
       "trackCount": 19,
@@ -637,7 +881,10 @@
           "artist": "CHANCE OPERATION",
           "title": "Din",
           "section": "Intro",
-          "trackIndex": 0
+          "trackIndex": 0,
+          "startTime": 0,
+          "durationSecs": 190,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19700001,
@@ -645,7 +892,10 @@
           "artist": "?FOG",
           "title": "5 Heads of State",
           "section": "Can't Have a Life",
-          "trackIndex": 1
+          "trackIndex": 1,
+          "startTime": 250,
+          "durationSecs": 131,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19700002,
@@ -653,7 +903,10 @@
           "artist": "SHAKTI शक्ति",
           "title": "Maut मौत (Death)",
           "section": "Can't Have a Life",
-          "trackIndex": 2
+          "trackIndex": 2,
+          "startTime": 381,
+          "durationSecs": 142,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19700003,
@@ -661,7 +914,10 @@
           "artist": "BAAT-BAAL",
           "title": "Taboo Death",
           "section": "Can't Have a Life",
-          "trackIndex": 3
+          "trackIndex": 3,
+          "startTime": 523,
+          "durationSecs": 135,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19700004,
@@ -669,7 +925,10 @@
           "artist": "REAL IMITATORS",
           "title": "Make Up Your Mind",
           "section": "Can't Have a Life",
-          "trackIndex": 4
+          "trackIndex": 4,
+          "startTime": 658,
+          "durationSecs": 254,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19700005,
@@ -677,7 +936,10 @@
           "artist": "PARISIAN ORGY",
           "title": "Come Pretty Pump Sleep",
           "section": "An Indication of My State of Mind",
-          "trackIndex": 5
+          "trackIndex": 5,
+          "startTime": 1021,
+          "durationSecs": 166,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19700006,
@@ -685,7 +947,10 @@
           "artist": "THE URINALS",
           "title": "Scholastic Aptitude",
           "section": "An Indication of My State of Mind",
-          "trackIndex": 6
+          "trackIndex": 6,
+          "startTime": 1187,
+          "durationSecs": 84,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19700007,
@@ -693,7 +958,10 @@
           "artist": "RHYTHM OF LIFE",
           "title": "Portrait of Heart",
           "section": "An Indication of My State of Mind",
-          "trackIndex": 7
+          "trackIndex": 7,
+          "startTime": 1271,
+          "durationSecs": 229,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19700008,
@@ -701,7 +969,10 @@
           "artist": "KABUKI",
           "title": "My Hair",
           "section": "An Indication of My State of Mind",
-          "trackIndex": 8
+          "trackIndex": 8,
+          "startTime": 1500,
+          "durationSecs": 145,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19700009,
@@ -709,7 +980,10 @@
           "artist": "ART REMAINS TANGIBLE",
           "title": "TV Nut",
           "section": "Quality Time is Flashing By",
-          "trackIndex": 9
+          "trackIndex": 9,
+          "startTime": 1720,
+          "durationSecs": 145,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19700010,
@@ -717,7 +991,10 @@
           "artist": "PERSONNEL",
           "title": "Close Quarters",
           "section": "Quality Time is Flashing By",
-          "trackIndex": 10
+          "trackIndex": 10,
+          "startTime": 1865,
+          "durationSecs": 265,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19700011,
@@ -725,7 +1002,10 @@
           "artist": "HÉLÈNE BARBIER",
           "title": "A House",
           "section": "Quality Time is Flashing By",
-          "trackIndex": 11
+          "trackIndex": 11,
+          "startTime": 2130,
+          "durationSecs": 98,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19700012,
@@ -733,7 +1013,10 @@
           "artist": "STOLEN POWER",
           "title": "Family Snapshots",
           "section": "Quality Time is Flashing By",
-          "trackIndex": 12
+          "trackIndex": 12,
+          "startTime": 2228,
+          "durationSecs": 154,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19700013,
@@ -741,7 +1024,10 @@
           "artist": "LA STRADA",
           "title": "On",
           "section": "Fantasy or Ecstasy",
-          "trackIndex": 13
+          "trackIndex": 13,
+          "startTime": 2465,
+          "durationSecs": 140,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19700014,
@@ -749,7 +1035,10 @@
           "artist": "OUR HEROES",
           "title": "Fantasenile",
           "section": "Fantasy or Ecstasy",
-          "trackIndex": 14
+          "trackIndex": 14,
+          "startTime": 2605,
+          "durationSecs": 181,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19700015,
@@ -757,7 +1046,10 @@
           "artist": "NEONBABIES",
           "title": "Die Krönung",
           "section": "Fantasy or Ecstasy",
-          "trackIndex": 15
+          "trackIndex": 15,
+          "startTime": 2786,
+          "durationSecs": 87,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19700016,
@@ -765,7 +1057,10 @@
           "artist": "BEAUTY PAGEANT",
           "title": "Lashes",
           "section": "Fantasy or Ecstasy",
-          "trackIndex": 16
+          "trackIndex": 16,
+          "startTime": 2873,
+          "durationSecs": 95,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19700017,
@@ -773,7 +1068,10 @@
           "artist": "THE NIXE",
           "title": "Commercial",
           "section": "Fantasy or Ecstasy",
-          "trackIndex": 17
+          "trackIndex": 17,
+          "startTime": 2968,
+          "durationSecs": 155,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19700018,
@@ -781,16 +1079,20 @@
           "artist": "PERFECT END",
           "title": "Puppets",
           "section": "Outro",
-          "trackIndex": 18
+          "trackIndex": 18,
+          "startTime": 3295,
+          "durationSecs": 162,
+          "startTimeConfidence": "high"
         }
-      ]
+      ],
+      "indexed": true
     },
     {
       "id": 1969,
       "date": "2025-12-21",
       "host": "Zu From All Over",
       "caption": "On this week's MRR Radio, Zu From All Over invites her dearest friend Michael From The North Bay back to the show for a super sneaky peek at their Year End Top Ten Lists for their annual YEET episode, with the best College Rock, Indie Punk, Hardcore, and Weirdo Punk that 2k25 had",
-      "thumbnailUrl": null,
+      "thumbnailUrl": "https://www.maximumrocknroll.com/wp-content/uploads/2025/12/HOME_FRONT-Live_on_September_27th_2025_at_Batiment_7_in_Montreal_Quebec-Photo_by_Seba_Musique-1-1000x664.jpg",
       "mp3Url": "https://media.blubrry.com/mrrradio/www.maximumrocknroll.com/wp-content/uploads/2025/12/mrrradio1969.mp3",
       "durationSecs": 3617,
       "trackCount": 16,
@@ -802,7 +1104,10 @@
           "artist": "HOME FRONT",
           "title": "Watch It Die",
           "section": "Michael and Zu from Hosford-Abernethy",
-          "trackIndex": 0
+          "trackIndex": 0,
+          "startTime": 38,
+          "durationSecs": 449,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19690001,
@@ -810,7 +1115,10 @@
           "artist": "MOVING TARGETS",
           "title": "Saw Too Much",
           "section": "Michael and Zu from Hosford-Abernethy",
-          "trackIndex": 1
+          "trackIndex": 1,
+          "startTime": 487,
+          "durationSecs": 296,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19690002,
@@ -818,7 +1126,10 @@
           "artist": "SUTRAS",
           "title": "Bloom Watch",
           "section": "Halfway Through, The Decade Starts To Define Itself",
-          "trackIndex": 2
+          "trackIndex": 2,
+          "startTime": 800,
+          "durationSecs": 161,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19690003,
@@ -826,7 +1137,10 @@
           "artist": "SWAIN",
           "title": "Cold Fever",
           "section": "Halfway Through, The Decade Starts To Define Itself",
-          "trackIndex": 3
+          "trackIndex": 3,
+          "startTime": 961,
+          "durationSecs": 127,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19690004,
@@ -834,7 +1148,10 @@
           "artist": "VISUAL LEARNER",
           "title": "Bullet Proof",
           "section": "Halfway Through, The Decade Starts To Define Itself",
-          "trackIndex": 4
+          "trackIndex": 4,
+          "startTime": 1088,
+          "durationSecs": 238,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19690005,
@@ -842,7 +1159,10 @@
           "artist": "TENTÁCULO",
           "title": "Estallar",
           "section": "Halfway Through, The Decade Starts To Define Itself",
-          "trackIndex": 5
+          "trackIndex": 5,
+          "startTime": 1326,
+          "durationSecs": 246,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19690006,
@@ -850,7 +1170,10 @@
           "artist": "DENEVÉR",
           "title": "Fast Forward",
           "section": "Have Everything Ready And By The Door",
-          "trackIndex": 6
+          "trackIndex": 6,
+          "startTime": 1685,
+          "durationSecs": 144,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19690007,
@@ -858,7 +1181,10 @@
           "artist": "HARAM",
           "title": "معركة العرب اليوم Battle of the Arab of Today",
           "section": "Have Everything Ready And By The Door",
-          "trackIndex": 7
+          "trackIndex": 7,
+          "startTime": 1829,
+          "durationSecs": 114,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19690008,
@@ -866,7 +1192,10 @@
           "artist": "TRITONIC",
           "title": "Alexamenos!",
           "section": "Have Everything Ready And By The Door",
-          "trackIndex": 8
+          "trackIndex": 8,
+          "startTime": 1943,
+          "durationSecs": 85,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19690009,
@@ -874,7 +1203,10 @@
           "artist": "LAST BIAS",
           "title": "You",
           "section": "Have Everything Ready And By The Door",
-          "trackIndex": 9
+          "trackIndex": 9,
+          "startTime": 2028,
+          "durationSecs": 137,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19690010,
@@ -882,7 +1214,10 @@
           "artist": "CÖSMIC PSYCHÖS",
           "title": "Have One More",
           "section": "Not Gonna Have Another Easy Year For A While",
-          "trackIndex": 10
+          "trackIndex": 10,
+          "startTime": 2200,
+          "durationSecs": 164,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19690011,
@@ -890,7 +1225,10 @@
           "artist": "ALIMENT",
           "title": "Futura degeneració",
           "section": "Not Gonna Have Another Easy Year For A While",
-          "trackIndex": 11
+          "trackIndex": 11,
+          "startTime": 2364,
+          "durationSecs": 128,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19690012,
@@ -898,7 +1236,10 @@
           "artist": "ZERO AZÚCAR FEATURING ÁLVARO BIZNAGA",
           "title": "Píxel",
           "section": "Not Gonna Have Another Easy Year For A While",
-          "trackIndex": 12
+          "trackIndex": 12,
+          "startTime": 2492,
+          "durationSecs": 189,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19690013,
@@ -906,7 +1247,10 @@
           "artist": "FRANKIE AND THE WITCH FINGERS",
           "title": "Eggs Laid Brain",
           "section": "Not Gonna Have Another Easy Year For A While",
-          "trackIndex": 13
+          "trackIndex": 13,
+          "startTime": 2681,
+          "durationSecs": 54,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19690014,
@@ -914,7 +1258,10 @@
           "artist": "SPARES",
           "title": "Influence",
           "section": "2k25 MVPs",
-          "trackIndex": 14
+          "trackIndex": 14,
+          "startTime": 2898,
+          "durationSecs": 475,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19690015,
@@ -922,16 +1269,20 @@
           "artist": "GONIES",
           "title": "Jonies",
           "section": "2k25 MVPs",
-          "trackIndex": 15
+          "trackIndex": 15,
+          "startTime": 3373,
+          "durationSecs": 244,
+          "startTimeConfidence": "high"
         }
-      ]
+      ],
+      "indexed": true
     },
     {
       "id": 1968,
       "date": "2025-12-14",
       "host": "Jennifer",
       "caption": "On this week's MRR Radio, Jennifer gifts you lots of new releases just in time for the holidays.Intro EXTRAŃA HUMANA - Enigma I SCREAMING EYES - Duality LUMPEN - DESPLAZADOS DURS CŒURS - Tempête FESTER - Blameless PUBLIC ERROR - make me sick II RATA NEGRA - Antonio SKEPTIS - Abl",
-      "thumbnailUrl": null,
+      "thumbnailUrl": "https://www.maximumrocknroll.com/wp-content/uploads/2025/12/NAPE-NECK-500x375.jpg",
       "mp3Url": "https://media.blubrry.com/mrrradio/www.maximumrocknroll.com/wp-content/uploads/2025/12/mrrradio1968.mp3",
       "durationSecs": 3192,
       "trackCount": 20,
@@ -943,7 +1294,10 @@
           "artist": "EXTRAŃA HUMANA",
           "title": "Enigma",
           "section": "Intro",
-          "trackIndex": 0
+          "trackIndex": 0,
+          "startTime": 35,
+          "durationSecs": 155,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19680001,
@@ -951,7 +1305,10 @@
           "artist": "SCREAMING EYES",
           "title": "Duality",
           "section": "I",
-          "trackIndex": 1
+          "trackIndex": 1,
+          "startTime": 285,
+          "durationSecs": 125,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19680002,
@@ -959,7 +1316,10 @@
           "artist": "LUMPEN",
           "title": "DESPLAZADOS",
           "section": "I",
-          "trackIndex": 2
+          "trackIndex": 2,
+          "startTime": 410,
+          "durationSecs": 120,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19680003,
@@ -967,7 +1327,10 @@
           "artist": "DURS CŒURS",
           "title": "Tempête",
           "section": "I",
-          "trackIndex": 3
+          "trackIndex": 3,
+          "startTime": 530,
+          "durationSecs": 236,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19680004,
@@ -975,7 +1338,10 @@
           "artist": "FESTER",
           "title": "Blameless",
           "section": "I",
-          "trackIndex": 4
+          "trackIndex": 4,
+          "startTime": 766,
+          "durationSecs": 54,
+          "startTimeConfidence": "low"
         },
         {
           "id": 19680005,
@@ -983,7 +1349,10 @@
           "artist": "PUBLIC ERROR",
           "title": "make me sick",
           "section": "I",
-          "trackIndex": 5
+          "trackIndex": 5,
+          "startTime": 820,
+          "durationSecs": 41,
+          "startTimeConfidence": "low"
         },
         {
           "id": 19680006,
@@ -991,7 +1360,10 @@
           "artist": "RATA NEGRA",
           "title": "Antonio",
           "section": "II",
-          "trackIndex": 6
+          "trackIndex": 6,
+          "startTime": 1017,
+          "durationSecs": 152,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19680007,
@@ -999,7 +1371,10 @@
           "artist": "SKEPTIS",
           "title": "Ablasa",
           "section": "II",
-          "trackIndex": 7
+          "trackIndex": 7,
+          "startTime": 1169,
+          "durationSecs": 118,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19680008,
@@ -1007,7 +1382,10 @@
           "artist": "RHDP",
           "title": "Sirang Plaka",
           "section": "II",
-          "trackIndex": 8
+          "trackIndex": 8,
+          "startTime": 1287,
+          "durationSecs": 93,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19680009,
@@ -1015,7 +1393,10 @@
           "artist": "BOTOX",
           "title": "Green Street",
           "section": "II",
-          "trackIndex": 9
+          "trackIndex": 9,
+          "startTime": 1380,
+          "durationSecs": 185,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19680010,
@@ -1023,7 +1404,10 @@
           "artist": "JODIE FASTER",
           "title": "Call Me Stupid",
           "section": "II",
-          "trackIndex": 10
+          "trackIndex": 10,
+          "startTime": 1565,
+          "durationSecs": 113,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19680011,
@@ -1031,7 +1415,10 @@
           "artist": "CIGARETTE CAMP",
           "title": "Sidewalks",
           "section": "II",
-          "trackIndex": 11
+          "trackIndex": 11,
+          "startTime": 1678,
+          "durationSecs": 72,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19680012,
@@ -1039,7 +1426,10 @@
           "artist": "KRISE",
           "title": "Fehl am Platz",
           "section": "II",
-          "trackIndex": 12
+          "trackIndex": 12,
+          "startTime": 1820,
+          "durationSecs": 84,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19680013,
@@ -1047,7 +1437,10 @@
           "artist": "CONTROL FREAKS",
           "title": "TV Generation",
           "section": "II",
-          "trackIndex": 13
+          "trackIndex": 13,
+          "startTime": 1904,
+          "durationSecs": 123,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19680014,
@@ -1055,7 +1448,10 @@
           "artist": "NAPE NECK",
           "title": "Dig For Misery",
           "section": "II",
-          "trackIndex": 14
+          "trackIndex": 14,
+          "startTime": 2027,
+          "durationSecs": 133,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19680015,
@@ -1063,7 +1459,10 @@
           "artist": "XRAY XEROXX",
           "title": "Bored and Loving It",
           "section": "II",
-          "trackIndex": 15
+          "trackIndex": 15,
+          "startTime": 2160,
+          "durationSecs": 170,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19680016,
@@ -1071,7 +1470,10 @@
           "artist": "BABY MUFFLER",
           "title": "Peach",
           "section": "II",
-          "trackIndex": 16
+          "trackIndex": 16,
+          "startTime": 2405,
+          "durationSecs": 107,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19680017,
@@ -1079,7 +1481,10 @@
           "artist": "WAVERS",
           "title": "Melodies",
           "section": "II",
-          "trackIndex": 17
+          "trackIndex": 17,
+          "startTime": 2512,
+          "durationSecs": 106,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19680018,
@@ -1087,7 +1492,10 @@
           "artist": "TEE VEE REPAIRMANN",
           "title": "Only a Memory",
           "section": "II",
-          "trackIndex": 18
+          "trackIndex": 18,
+          "startTime": 2618,
+          "durationSecs": 155,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19680019,
@@ -1095,16 +1503,20 @@
           "artist": "FINAL CONFLICT",
           "title": "AMERICAN SCREAM",
           "section": "II",
-          "trackIndex": 19
+          "trackIndex": 19,
+          "startTime": 3045,
+          "durationSecs": 147,
+          "startTimeConfidence": "high"
         }
-      ]
+      ],
+      "indexed": true
     },
     {
       "id": 1966,
       "date": "2025-11-23",
       "host": "Erika Elizabeth",
       "caption": "On this week's episode of MRR Radio, Erika Elizabeth plays uneasy sounds for unknown futures.Intro BLACK EYES – Break a Leg These Dreams Are Made to Make You Pay FAKE LAST NAME – Rules ATOL ATOL ATOL – Płytki Sen QUIX*O*TIC – Prediction of a Crash PUPPET WIPES – Puppets Jamboree ",
-      "thumbnailUrl": null,
+      "thumbnailUrl": "https://www.maximumrocknroll.com/wp-content/uploads/2025/11/The-Cannanes-1000x585.jpg",
       "mp3Url": "https://media.blubrry.com/mrrradio/www.maximumrocknroll.com/wp-content/uploads/2025/11/mrr-radio-1966.mp3",
       "durationSecs": 3470,
       "trackCount": 20,
@@ -1116,7 +1528,10 @@
           "artist": "BLACK EYES",
           "title": "Break a Leg",
           "section": "Intro",
-          "trackIndex": 0
+          "trackIndex": 0,
+          "startTime": 0,
+          "durationSecs": 274,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19660001,
@@ -1124,7 +1539,10 @@
           "artist": "FAKE LAST NAME",
           "title": "Rules",
           "section": "These Dreams Are Made to Make You Pay",
-          "trackIndex": 1
+          "trackIndex": 1,
+          "startTime": 322,
+          "durationSecs": 109,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19660002,
@@ -1132,7 +1550,10 @@
           "artist": "ATOL ATOL ATOL",
           "title": "Płytki Sen",
           "section": "These Dreams Are Made to Make You Pay",
-          "trackIndex": 2
+          "trackIndex": 2,
+          "startTime": 431,
+          "durationSecs": 148,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19660003,
@@ -1140,7 +1561,10 @@
           "artist": "QUIX*O*TIC",
           "title": "Prediction of a Crash",
           "section": "These Dreams Are Made to Make You Pay",
-          "trackIndex": 3
+          "trackIndex": 3,
+          "startTime": 579,
+          "durationSecs": 69,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19660004,
@@ -1148,7 +1572,10 @@
           "artist": "PUPPET WIPES",
           "title": "Puppets Jamboree",
           "section": "These Dreams Are Made to Make You Pay",
-          "trackIndex": 4
+          "trackIndex": 4,
+          "startTime": 648,
+          "durationSecs": 310,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19660005,
@@ -1156,7 +1583,10 @@
           "artist": "HUGGY BEAR",
           "title": "Hop Scorch",
           "section": "Looking the Other Way",
-          "trackIndex": 5
+          "trackIndex": 5,
+          "startTime": 1067,
+          "durationSecs": 82,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19660006,
@@ -1164,7 +1594,10 @@
           "artist": "SCORCHED EARTH POLICY",
           "title": "Paralysed",
           "section": "Looking the Other Way",
-          "trackIndex": 6
+          "trackIndex": 6,
+          "startTime": 1149,
+          "durationSecs": 165,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19660007,
@@ -1172,7 +1605,10 @@
           "artist": "KITCHENETTE",
           "title": "Piece of Glass",
           "section": "Looking the Other Way",
-          "trackIndex": 7
+          "trackIndex": 7,
+          "startTime": 1314,
+          "durationSecs": 110,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19660008,
@@ -1180,7 +1616,10 @@
           "artist": "HOT CHICKS",
           "title": "Curve",
           "section": "Looking the Other Way",
-          "trackIndex": 8
+          "trackIndex": 8,
+          "startTime": 1424,
+          "durationSecs": 118,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19660009,
@@ -1188,7 +1627,10 @@
           "artist": "THE CANNANES",
           "title": "Cardboard",
           "section": "Looking the Other Way",
-          "trackIndex": 9
+          "trackIndex": 9,
+          "startTime": 1542,
+          "durationSecs": 156,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19660010,
@@ -1196,7 +1638,10 @@
           "artist": "MARAUDEUR",
           "title": "Clever Sneaker",
           "section": "You Threw Me in the Bin",
-          "trackIndex": 10
+          "trackIndex": 10,
+          "startTime": 1777,
+          "durationSecs": 113,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19660011,
@@ -1204,7 +1649,10 @@
           "artist": "CLICKBAIT",
           "title": "Money",
           "section": "You Threw Me in the Bin",
-          "trackIndex": 11
+          "trackIndex": 11,
+          "startTime": 1890,
+          "durationSecs": 154,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19660012,
@@ -1212,7 +1660,10 @@
           "artist": "THE FRANTIC ELEVATORS",
           "title": "Every Day I Die",
           "section": "You Threw Me in the Bin",
-          "trackIndex": 12
+          "trackIndex": 12,
+          "startTime": 2044,
+          "durationSecs": 88,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19660013,
@@ -1220,7 +1671,10 @@
           "artist": "DIE BENJAMINS",
           "title": "In 10 Jahren",
           "section": "You Threw Me in the Bin",
-          "trackIndex": 13
+          "trackIndex": 13,
+          "startTime": 2132,
+          "durationSecs": 157,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19660014,
@@ -1228,7 +1682,10 @@
           "artist": "RUBY PINS",
           "title": "Chariot",
           "section": "You Threw Me in the Bin",
-          "trackIndex": 14
+          "trackIndex": 14,
+          "startTime": 2289,
+          "durationSecs": 122,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19660015,
@@ -1236,7 +1693,10 @@
           "artist": "HALF JAPANESE",
           "title": "Thing With a Hook",
           "section": "A Promise You Don't Understand",
-          "trackIndex": 15
+          "trackIndex": 15,
+          "startTime": 2491,
+          "durationSecs": 170,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19660016,
@@ -1244,7 +1704,10 @@
           "artist": "CHIME OBLIVION",
           "title": "Smoke Ring",
           "section": "A Promise You Don't Understand",
-          "trackIndex": 16
+          "trackIndex": 16,
+          "startTime": 2661,
+          "durationSecs": 92,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19660017,
@@ -1252,7 +1715,10 @@
           "artist": "SCHIMMEL ÜBER BERLIN",
           "title": "Komm Schon",
           "section": "A Promise You Don't Understand",
-          "trackIndex": 17
+          "trackIndex": 17,
+          "startTime": 2753,
+          "durationSecs": 201,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19660018,
@@ -1260,7 +1726,10 @@
           "artist": "FLESH WORLD",
           "title": "Sturdy Swiss Hiker",
           "section": "A Promise You Don't Understand",
-          "trackIndex": 18
+          "trackIndex": 18,
+          "startTime": 2954,
+          "durationSecs": 119,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19660019,
@@ -1268,16 +1737,20 @@
           "artist": "OPTIC SINK",
           "title": "How Can I Help You?",
           "section": "Outro",
-          "trackIndex": 19
+          "trackIndex": 19,
+          "startTime": 3234,
+          "durationSecs": 236,
+          "startTimeConfidence": "high"
         }
-      ]
+      ],
+      "indexed": true
     },
     {
       "id": 1965,
       "date": "2025-11-09",
       "host": "Zu From All Over",
       "caption": "On this week's MRR Radio, Zu From All Over brings her turntable into her empty bedroom to listen to 8 lengthy songs amplified by 4 reflective walls, with the best Proto-Slowcore, Post-Hardcore, Slacker Noise, and loudQUIETloud to drown out the outside world. 4 Walls With Nothing ",
-      "thumbnailUrl": null,
+      "thumbnailUrl": "https://www.maximumrocknroll.com/wp-content/uploads/2025/11/KEROSENE_454-Live_in_1995_at_The_Fireside_Bowl_in_Chicago_Illinois-1000x650.jpg",
       "mp3Url": "https://media.blubrry.com/mrrradio/www.maximumrocknroll.com/wp-content/uploads/2025/11/mrrradio1965.mp3",
       "durationSecs": 3740,
       "trackCount": 8,
@@ -1289,7 +1762,10 @@
           "artist": "THOUSANDAIRE",
           "title": "One Day I'll Finally Go Deaf",
           "section": "4 Walls With Nothing But Sound",
-          "trackIndex": 0
+          "trackIndex": 0,
+          "startTime": 30,
+          "durationSecs": 417,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19650001,
@@ -1297,7 +1773,10 @@
           "artist": "COMMON GIRL",
           "title": "i’d rather you not",
           "section": "4 Walls With Nothing But Sound",
-          "trackIndex": 1
+          "trackIndex": 1,
+          "startTime": 447,
+          "durationSecs": 273,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19650002,
@@ -1305,7 +1784,10 @@
           "artist": "SLUGFEAST",
           "title": "Heavy Heart",
           "section": "Soundwave Massage",
-          "trackIndex": 2
+          "trackIndex": 2,
+          "startTime": 975,
+          "durationSecs": 336,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19650003,
@@ -1313,7 +1795,10 @@
           "artist": "KEROSENE 454",
           "title": "Continued",
           "section": "Soundwave Massage",
-          "trackIndex": 3
+          "trackIndex": 3,
+          "startTime": 1311,
+          "durationSecs": 383,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19650004,
@@ -1321,7 +1806,10 @@
           "artist": "FLOODING",
           "title": "Silver Gilt",
           "section": "Let Them Make Their Point",
-          "trackIndex": 4
+          "trackIndex": 4,
+          "startTime": 1889,
+          "durationSecs": 239,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19650005,
@@ -1329,7 +1817,10 @@
           "artist": "A MINOR FOREST",
           "title": "The Loneliest Enuretic",
           "section": "Let Them Make Their Point",
-          "trackIndex": 5
+          "trackIndex": 5,
+          "startTime": 2128,
+          "durationSecs": 241,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19650006,
@@ -1337,7 +1828,10 @@
           "artist": "JUNE OF 44",
           "title": "Take It With A Grain of Salt",
           "section": "Final Hurrah of Solitude",
-          "trackIndex": 6
+          "trackIndex": 6,
+          "startTime": 2955,
+          "durationSecs": 265,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19650007,
@@ -1345,16 +1839,20 @@
           "artist": "OFFICE OF FUTURE PLANS",
           "title": "Salamander",
           "section": "Final Hurrah of Solitude",
-          "trackIndex": 7
+          "trackIndex": 7,
+          "startTime": 3220,
+          "durationSecs": 517,
+          "startTimeConfidence": "medium"
         }
-      ]
+      ],
+      "indexed": true
     },
     {
       "id": 1964,
       "date": "2025-11-02",
       "host": "Jennifer",
       "caption": "On this week's MRR Radio, Jennifer plays lots of new music!Intro DESENCARNATS - Mystica One NAVAJA - Pilas GOB - Infantino KISSLAND - Random One INTEL - Virtual Signal Fire SPLIT SYSTEM - Pull the Trigger JACKET BURNER - Re-Wire My Brain Two WIFE - Splintered Smile GOLDEN STARLET",
-      "thumbnailUrl": null,
+      "thumbnailUrl": "https://www.maximumrocknroll.com/wp-content/uploads/2025/11/KISSLAND-768x1016.jpg",
       "mp3Url": "https://media.blubrry.com/mrrradio/www.maximumrocknroll.com/wp-content/uploads/2025/11/mrrradio1964.mp3",
       "durationSecs": 3270,
       "trackCount": 22,
@@ -1366,7 +1864,10 @@
           "artist": "DESENCARNATS",
           "title": "Mystica",
           "section": "Intro",
-          "trackIndex": 0
+          "trackIndex": 0,
+          "startTime": 0,
+          "durationSecs": 224,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19640001,
@@ -1374,7 +1875,10 @@
           "artist": "NAVAJA",
           "title": "Pilas",
           "section": "One",
-          "trackIndex": 1
+          "trackIndex": 1,
+          "startTime": 310,
+          "durationSecs": 68,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19640002,
@@ -1382,7 +1886,10 @@
           "artist": "GOB",
           "title": "Infantino",
           "section": "One",
-          "trackIndex": 2
+          "trackIndex": 2,
+          "startTime": 378,
+          "durationSecs": 71,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19640003,
@@ -1390,7 +1897,10 @@
           "artist": "KISSLAND",
           "title": "Random One",
           "section": "One",
-          "trackIndex": 3
+          "trackIndex": 3,
+          "startTime": 449,
+          "durationSecs": 170,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19640004,
@@ -1398,7 +1908,10 @@
           "artist": "INTEL",
           "title": "Virtual Signal Fire",
           "section": "One",
-          "trackIndex": 4
+          "trackIndex": 4,
+          "startTime": 619,
+          "durationSecs": 162,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19640005,
@@ -1406,7 +1919,10 @@
           "artist": "SPLIT SYSTEM",
           "title": "Pull the Trigger",
           "section": "One",
-          "trackIndex": 5
+          "trackIndex": 5,
+          "startTime": 781,
+          "durationSecs": 51,
+          "startTimeConfidence": "low"
         },
         {
           "id": 19640006,
@@ -1414,7 +1930,10 @@
           "artist": "JACKET BURNER",
           "title": "Re-Wire My Brain",
           "section": "One",
-          "trackIndex": 6
+          "trackIndex": 6,
+          "startTime": 832,
+          "durationSecs": 52,
+          "startTimeConfidence": "low"
         },
         {
           "id": 19640007,
@@ -1422,7 +1941,10 @@
           "artist": "WIFE",
           "title": "Splintered Smile",
           "section": "Two",
-          "trackIndex": 7
+          "trackIndex": 7,
+          "startTime": 975,
+          "durationSecs": 172,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19640008,
@@ -1430,7 +1952,10 @@
           "artist": "GOLDEN STARLET",
           "title": "Stupid Punk Boy",
           "section": "Two",
-          "trackIndex": 8
+          "trackIndex": 8,
+          "startTime": 1147,
+          "durationSecs": 92,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19640009,
@@ -1438,7 +1963,10 @@
           "artist": "STUPID WORLD",
           "title": "Symbol",
           "section": "Two",
-          "trackIndex": 9
+          "trackIndex": 9,
+          "startTime": 1239,
+          "durationSecs": 122,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19640010,
@@ -1446,7 +1974,10 @@
           "artist": "BESTA QUADRADA",
           "title": "Spiral",
           "section": "Two",
-          "trackIndex": 10
+          "trackIndex": 10,
+          "startTime": 1361,
+          "durationSecs": 115,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19640011,
@@ -1454,7 +1985,10 @@
           "artist": "HOMEFRONT",
           "title": "Watch It Die",
           "section": "Two",
-          "trackIndex": 11
+          "trackIndex": 11,
+          "startTime": 1476,
+          "durationSecs": 197,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19640012,
@@ -1462,7 +1996,10 @@
           "artist": "BILLIAM",
           "title": "Houston We Have Rock",
           "section": "Three",
-          "trackIndex": 12
+          "trackIndex": 12,
+          "startTime": 1793,
+          "durationSecs": 40,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19640013,
@@ -1470,7 +2007,10 @@
           "artist": "MITRAILLE",
           "title": "Tired (Need a Break)",
           "section": "Three",
-          "trackIndex": 13
+          "trackIndex": 13,
+          "startTime": 1833,
+          "durationSecs": 115,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19640014,
@@ -1478,7 +2018,10 @@
           "artist": "GONIES",
           "title": "Dream Pop",
           "section": "Three",
-          "trackIndex": 14
+          "trackIndex": 14,
+          "startTime": 1948,
+          "durationSecs": 82,
+          "startTimeConfidence": "low"
         },
         {
           "id": 19640015,
@@ -1486,7 +2029,10 @@
           "artist": "PEGAMENTO",
           "title": "Pegamento",
           "section": "Three",
-          "trackIndex": 15
+          "trackIndex": 15,
+          "startTime": 2030,
+          "durationSecs": 70,
+          "startTimeConfidence": "low"
         },
         {
           "id": 19640016,
@@ -1494,7 +2040,10 @@
           "artist": "SNOOPER",
           "title": "Pom Pom",
           "section": "Three",
-          "trackIndex": 16
+          "trackIndex": 16,
+          "startTime": 2100,
+          "durationSecs": 80,
+          "startTimeConfidence": "low"
         },
         {
           "id": 19640017,
@@ -1502,7 +2051,10 @@
           "artist": "THE SEIZE",
           "title": "Wetbrain",
           "section": "Four",
-          "trackIndex": 17
+          "trackIndex": 17,
+          "startTime": 2299,
+          "durationSecs": 31,
+          "startTimeConfidence": "low"
         },
         {
           "id": 19640018,
@@ -1510,7 +2062,10 @@
           "artist": "FAVOURED STATE",
           "title": "I’ll Finish It",
           "section": "Four",
-          "trackIndex": 18
+          "trackIndex": 18,
+          "startTime": 2330,
+          "durationSecs": 31,
+          "startTimeConfidence": "low"
         },
         {
           "id": 19640019,
@@ -1518,7 +2073,10 @@
           "artist": "HEATHER THE JERK",
           "title": "No Animals",
           "section": "Four",
-          "trackIndex": 19
+          "trackIndex": 19,
+          "startTime": 2361,
+          "durationSecs": 31,
+          "startTimeConfidence": "low"
         },
         {
           "id": 19640020,
@@ -1526,7 +2084,10 @@
           "artist": "CARNIVEROUS FLOWER",
           "title": "All the Time",
           "section": "Four",
-          "trackIndex": 20
+          "trackIndex": 20,
+          "startTime": 2392,
+          "durationSecs": 31,
+          "startTimeConfidence": "low"
         },
         {
           "id": 19640021,
@@ -1534,16 +2095,20 @@
           "artist": "SPAZZ",
           "title": "Return of the Wall of Death",
           "section": "Outro",
-          "trackIndex": 21
+          "trackIndex": 21,
+          "startTime": 2497,
+          "durationSecs": 80,
+          "startTimeConfidence": "medium"
         }
-      ]
+      ],
+      "indexed": true
     },
     {
       "id": 1963,
       "date": "2025-10-26",
       "host": "Cary",
       "caption": "On this week's MRR Radio, Cary Plays a hodge Podge of Halloween Song! Opener THE DEADLINES – Go-Go To The Graveyard The Maximum Rock'n'Roll Picture Show THE MIGRAINES – I'm Going Home LOVE EQUALS DEATH – Dammit Janet BLACK LULLABIES– The Sword of Damocles QUEEN WOLF – Hot Patooti",
-      "thumbnailUrl": null,
+      "thumbnailUrl": "https://www.maximumrocknroll.com/wp-content/uploads/2025/10/huntingtons-500x501.webp",
       "mp3Url": "https://media.blubrry.com/mrrradio/www.maximumrocknroll.com/wp-content/uploads/2025/10/MRR1963.mp3",
       "durationSecs": 3474,
       "trackCount": 16,
@@ -1555,7 +2120,10 @@
           "artist": "THE DEADLINES",
           "title": "Go-Go To The Graveyard",
           "section": "Opener",
-          "trackIndex": 0
+          "trackIndex": 0,
+          "startTime": 0,
+          "durationSecs": 133,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19630001,
@@ -1563,7 +2131,10 @@
           "artist": "THE MIGRAINES",
           "title": "I'm Going Home",
           "section": "The Maximum Rock'n'Roll Picture Show",
-          "trackIndex": 1
+          "trackIndex": 1,
+          "startTime": 195,
+          "durationSecs": 160,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19630002,
@@ -1571,7 +2142,10 @@
           "artist": "LOVE EQUALS DEATH",
           "title": "Dammit Janet",
           "section": "The Maximum Rock'n'Roll Picture Show",
-          "trackIndex": 2
+          "trackIndex": 2,
+          "startTime": 355,
+          "durationSecs": 120,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19630003,
@@ -1579,7 +2153,10 @@
           "artist": "BLACK LULLABIES",
           "title": "The Sword of Damocles",
           "section": "The Maximum Rock'n'Roll Picture Show",
-          "trackIndex": 3
+          "trackIndex": 3,
+          "startTime": 475,
+          "durationSecs": 96,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19630004,
@@ -1587,7 +2164,10 @@
           "artist": "QUEEN WOLF",
           "title": "Hot Patootie",
           "section": "The Maximum Rock'n'Roll Picture Show",
-          "trackIndex": 4
+          "trackIndex": 4,
+          "startTime": 571,
+          "durationSecs": 169,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19630005,
@@ -1595,7 +2175,10 @@
           "artist": "HUNTINGTONS",
           "title": "Let's Go To Haddonfield",
           "section": "BOO",
-          "trackIndex": 5
+          "trackIndex": 5,
+          "startTime": 790,
+          "durationSecs": 178,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19630006,
@@ -1603,7 +2186,10 @@
           "artist": "TOGETHER PANGEA & THE RED PEARS",
           "title": "Halloween",
           "section": "BOO",
-          "trackIndex": 6
+          "trackIndex": 6,
+          "startTime": 968,
+          "durationSecs": 70,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19630007,
@@ -1611,7 +2197,10 @@
           "artist": "DRU THE DRIFTER",
           "title": "Rockin' The Monster House",
           "section": "BOO",
-          "trackIndex": 7
+          "trackIndex": 7,
+          "startTime": 1038,
+          "durationSecs": 232,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19630008,
@@ -1619,7 +2208,10 @@
           "artist": "UPCHUCK",
           "title": "Freaky",
           "section": "BOO",
-          "trackIndex": 8
+          "trackIndex": 8,
+          "startTime": 1270,
+          "durationSecs": 173,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19630009,
@@ -1627,7 +2219,10 @@
           "artist": "GUITAR WOLF",
           "title": "UFO Romantics",
           "section": "Coast to Coast MRR",
-          "trackIndex": 9
+          "trackIndex": 9,
+          "startTime": 1500,
+          "durationSecs": 321,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19630010,
@@ -1635,7 +2230,10 @@
           "artist": "THE SCREECH BOYS",
           "title": "We're From Outer Space",
           "section": "Coast to Coast MRR",
-          "trackIndex": 10
+          "trackIndex": 10,
+          "startTime": 1821,
+          "durationSecs": 142,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19630011,
@@ -1643,7 +2241,10 @@
           "artist": "CHERRY CHEEKS",
           "title": "UFO",
           "section": "Coast to Coast MRR",
-          "trackIndex": 11
+          "trackIndex": 11,
+          "startTime": 1963,
+          "durationSecs": 359,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19630012,
@@ -1651,7 +2252,10 @@
           "artist": "THE RED ORCHESTRA",
           "title": "Children of The Night Theme",
           "section": "Dark POP",
-          "trackIndex": 12
+          "trackIndex": 12,
+          "startTime": 2400,
+          "durationSecs": 193,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19630013,
@@ -1659,7 +2263,10 @@
           "artist": "ANNA RANGER",
           "title": "The Ghost of Soloman Grundy",
           "section": "Dark POP",
-          "trackIndex": 13
+          "trackIndex": 13,
+          "startTime": 2593,
+          "durationSecs": 207,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19630014,
@@ -1667,7 +2274,10 @@
           "artist": "FRANKIE AND THE WITCH FINGERS",
           "title": "Futurephobic",
           "section": "Dark POP",
-          "trackIndex": 14
+          "trackIndex": 14,
+          "startTime": 2800,
+          "durationSecs": 320,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19630015,
@@ -1675,16 +2285,20 @@
           "artist": "COFFIN SMOKE",
           "title": "Keepers of the Crypt",
           "section": "Closer",
-          "trackIndex": 15
+          "trackIndex": 15,
+          "startTime": 3210,
+          "durationSecs": 264,
+          "startTimeConfidence": "high"
         }
-      ]
+      ],
+      "indexed": true
     },
     {
       "id": 1962,
       "date": "2025-10-20",
       "host": "Eric",
       "caption": "On this week’s MRR Radio, Eric begins pondering his end-of-year lists with selections from hardcore punk records that came out in 2025.Set 1 THE MASSACRED - Allegiance THE HELL - Circling The Drain LANGUID - Highest Power HEADSPLITTERS - Onslaught For Peace NISEMONO - 諦めたい (Akira",
-      "thumbnailUrl": null,
+      "thumbnailUrl": "https://www.maximumrocknroll.com/wp-content/uploads/2025/10/image0-1000x1211.jpeg",
       "mp3Url": "https://media.blubrry.com/mrrradio/www.maximumrocknroll.com/wp-content/uploads/2025/10/mrrradio1962.mp3",
       "durationSecs": 3534,
       "trackCount": 30,
@@ -1696,7 +2310,10 @@
           "artist": "THE MASSACRED",
           "title": "Allegiance",
           "section": "Set 1",
-          "trackIndex": 0
+          "trackIndex": 0,
+          "startTime": 190,
+          "durationSecs": 88,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19620001,
@@ -1704,7 +2321,10 @@
           "artist": "THE HELL",
           "title": "Circling The Drain",
           "section": "Set 1",
-          "trackIndex": 1
+          "trackIndex": 1,
+          "startTime": 278,
+          "durationSecs": 100,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19620002,
@@ -1712,7 +2332,10 @@
           "artist": "LANGUID",
           "title": "Highest Power",
           "section": "Set 1",
-          "trackIndex": 2
+          "trackIndex": 2,
+          "startTime": 378,
+          "durationSecs": 61,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19620003,
@@ -1720,7 +2343,10 @@
           "artist": "HEADSPLITTERS",
           "title": "Onslaught For Peace",
           "section": "Set 1",
-          "trackIndex": 3
+          "trackIndex": 3,
+          "startTime": 439,
+          "durationSecs": 54,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19620004,
@@ -1728,7 +2354,10 @@
           "artist": "NISEMONO",
           "title": "諦めたい (Akirametai)",
           "section": "Set 1",
-          "trackIndex": 4
+          "trackIndex": 4,
+          "startTime": 493,
+          "durationSecs": 54,
+          "startTimeConfidence": "low"
         },
         {
           "id": 19620005,
@@ -1736,7 +2365,10 @@
           "artist": "TOTAL CON",
           "title": "Common Enemy",
           "section": "Set 2",
-          "trackIndex": 5
+          "trackIndex": 5,
+          "startTime": 597,
+          "durationSecs": 98,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19620006,
@@ -1744,7 +2376,10 @@
           "artist": "NECRON 9",
           "title": "Bad Habits",
           "section": "Set 2",
-          "trackIndex": 6
+          "trackIndex": 6,
+          "startTime": 695,
+          "durationSecs": 80,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19620007,
@@ -1752,7 +2387,10 @@
           "artist": "SISTEMA OBSOLETO",
           "title": "Esmagado Pela Engrenagem Capitalista",
           "section": "Set 2",
-          "trackIndex": 7
+          "trackIndex": 7,
+          "startTime": 775,
+          "durationSecs": 118,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19620008,
@@ -1760,7 +2398,10 @@
           "artist": "S.S.I.K.",
           "title": "Pressure",
           "section": "Set 2",
-          "trackIndex": 8
+          "trackIndex": 8,
+          "startTime": 893,
+          "durationSecs": 77,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19620009,
@@ -1768,7 +2409,10 @@
           "artist": "ULTIMATE DISASTER",
           "title": "March To Oblivion",
           "section": "Set 2",
-          "trackIndex": 9
+          "trackIndex": 9,
+          "startTime": 970,
+          "durationSecs": 111,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19620010,
@@ -1776,7 +2420,10 @@
           "artist": "PUÑAL",
           "title": "Nadie Te Puede Calmer",
           "section": "Set 3",
-          "trackIndex": 10
+          "trackIndex": 10,
+          "startTime": 1147,
+          "durationSecs": 95,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19620011,
@@ -1784,7 +2431,10 @@
           "artist": "KALEIDOSCOPE",
           "title": "Manufactured Squalor",
           "section": "Set 3",
-          "trackIndex": 11
+          "trackIndex": 11,
+          "startTime": 1242,
+          "durationSecs": 94,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19620012,
@@ -1792,7 +2442,10 @@
           "artist": "CONTRAST ATTITUDE",
           "title": "Resignation",
           "section": "Set 3",
-          "trackIndex": 12
+          "trackIndex": 12,
+          "startTime": 1336,
+          "durationSecs": 128,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19620013,
@@ -1800,7 +2453,10 @@
           "artist": "NO SECTOR",
           "title": "Flush Your Brain",
           "section": "Set 3",
-          "trackIndex": 13
+          "trackIndex": 13,
+          "startTime": 1464,
+          "durationSecs": 100,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19620014,
@@ -1808,7 +2464,10 @@
           "artist": "SUBVERSIVE RITE",
           "title": "Charge Into Chaos",
           "section": "Set 3",
-          "trackIndex": 14
+          "trackIndex": 14,
+          "startTime": 1564,
+          "durationSecs": 105,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19620015,
@@ -1816,7 +2475,10 @@
           "artist": "TOTAL NADA",
           "title": "Lamebotas",
           "section": "Set 4",
-          "trackIndex": 15
+          "trackIndex": 15,
+          "startTime": 1731,
+          "durationSecs": 94,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19620016,
@@ -1824,7 +2486,10 @@
           "artist": "ELECTRIC CHAIR",
           "title": "Barbed Wire Fence",
           "section": "Set 4",
-          "trackIndex": 16
+          "trackIndex": 16,
+          "startTime": 1825,
+          "durationSecs": 92,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19620017,
@@ -1832,7 +2497,10 @@
           "artist": "ALIENATOR",
           "title": "You’re Nothing",
           "section": "Set 4",
-          "trackIndex": 17
+          "trackIndex": 17,
+          "startTime": 1917,
+          "durationSecs": 74,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19620018,
@@ -1840,7 +2508,10 @@
           "artist": "NUCLEAR FEAR",
           "title": "D.T.Z.W.M.",
           "section": "Set 4",
-          "trackIndex": 18
+          "trackIndex": 18,
+          "startTime": 1991,
+          "durationSecs": 68,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19620019,
@@ -1848,7 +2519,10 @@
           "artist": "TRAMADOL",
           "title": "Crucifixion",
           "section": "Set 4",
-          "trackIndex": 19
+          "trackIndex": 19,
+          "startTime": 2059,
+          "durationSecs": 95,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19620020,
@@ -1856,7 +2530,10 @@
           "artist": "FUCKIN LOVERS",
           "title": "Arrogance",
           "section": "Set 5",
-          "trackIndex": 20
+          "trackIndex": 20,
+          "startTime": 2234,
+          "durationSecs": 74,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19620021,
@@ -1864,7 +2541,10 @@
           "artist": "WARTHOG",
           "title": "Iron Fist",
           "section": "Set 5",
-          "trackIndex": 21
+          "trackIndex": 21,
+          "startTime": 2308,
+          "durationSecs": 161,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19620022,
@@ -1872,7 +2552,10 @@
           "artist": "AYUCABA",
           "title": "Oxido",
           "section": "Set 5",
-          "trackIndex": 22
+          "trackIndex": 22,
+          "startTime": 2469,
+          "durationSecs": 97,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19620023,
@@ -1880,7 +2563,10 @@
           "artist": "PURE TERROR",
           "title": "Accused Of Terror",
           "section": "Set 5",
-          "trackIndex": 23
+          "trackIndex": 23,
+          "startTime": 2566,
+          "durationSecs": 122,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19620024,
@@ -1888,7 +2574,10 @@
           "artist": "NEGATIVE CHARGE",
           "title": "Chained To Life IV",
           "section": "Set 5",
-          "trackIndex": 24
+          "trackIndex": 24,
+          "startTime": 2688,
+          "durationSecs": 64,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19620025,
@@ -1896,7 +2585,10 @@
           "artist": "ACID CASUALTIES",
           "title": "Southern Cross",
           "section": "Set 6",
-          "trackIndex": 25
+          "trackIndex": 25,
+          "startTime": 2833,
+          "durationSecs": 134,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19620026,
@@ -1904,7 +2596,10 @@
           "artist": "DELETÄR",
           "title": "Funambule",
           "section": "Set 6",
-          "trackIndex": 26
+          "trackIndex": 26,
+          "startTime": 2967,
+          "durationSecs": 107,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19620027,
@@ -1912,7 +2607,10 @@
           "artist": "STUNTED YOUTH",
           "title": "You Are What You Hate",
           "section": "Set 6",
-          "trackIndex": 27
+          "trackIndex": 27,
+          "startTime": 3074,
+          "durationSecs": 81,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19620028,
@@ -1920,7 +2618,10 @@
           "artist": "TRAUMATIZER",
           "title": "Murder",
           "section": "Set 6",
-          "trackIndex": 28
+          "trackIndex": 28,
+          "startTime": 3155,
+          "durationSecs": 56,
+          "startTimeConfidence": "low"
         },
         {
           "id": 19620029,
@@ -1928,16 +2629,20 @@
           "artist": "HARAM",
           "title": "The Last Night",
           "section": "Set 6",
-          "trackIndex": 29
+          "trackIndex": 29,
+          "startTime": 3211,
+          "durationSecs": 57,
+          "startTimeConfidence": "low"
         }
-      ]
+      ],
+      "indexed": true
     },
     {
       "id": 1961,
       "date": "2025-10-12",
       "host": "",
       "caption": "It's another episode of MRR Radio brought to you by Erika Elizabeth!Intro THE RAINCOATS – Adventures Close to Home One Step Forward & Three Steps Back ALIBI – Attitüde BADGEWEARER – You Don't Look at the Fire When You're Poking the Mantlepiece TUNABUNNY – Chalked Up THE LIGGERS –",
-      "thumbnailUrl": null,
+      "thumbnailUrl": "https://www.maximumrocknroll.com/wp-content/uploads/2025/10/The-Liggers-768x524.jpg",
       "mp3Url": "https://media.blubrry.com/mrrradio/www.maximumrocknroll.com/wp-content/uploads/2025/10/mrr-radio-1961.mp3",
       "durationSecs": 3463,
       "trackCount": 18,
@@ -1949,7 +2654,10 @@
           "artist": "THE RAINCOATS",
           "title": "Adventures Close to Home",
           "section": "Intro",
-          "trackIndex": 0
+          "trackIndex": 0,
+          "startTime": 0,
+          "durationSecs": 142,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19610001,
@@ -1957,7 +2665,10 @@
           "artist": "ALIBI",
           "title": "Attitüde",
           "section": "One Step Forward & Three Steps Back",
-          "trackIndex": 1
+          "trackIndex": 1,
+          "startTime": 170,
+          "durationSecs": 149,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19610002,
@@ -1965,7 +2676,10 @@
           "artist": "BADGEWEARER",
           "title": "You Don't Look at the Fire When You're Poking the Mantlepiece",
           "section": "One Step Forward & Three Steps Back",
-          "trackIndex": 2
+          "trackIndex": 2,
+          "startTime": 319,
+          "durationSecs": 102,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19610003,
@@ -1973,7 +2687,10 @@
           "artist": "TUNABUNNY",
           "title": "Chalked Up",
           "section": "One Step Forward & Three Steps Back",
-          "trackIndex": 3
+          "trackIndex": 3,
+          "startTime": 421,
+          "durationSecs": 58,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19610004,
@@ -1981,7 +2698,10 @@
           "artist": "THE LIGGERS",
           "title": "Deathwish",
           "section": "One Step Forward & Three Steps Back",
-          "trackIndex": 4
+          "trackIndex": 4,
+          "startTime": 479,
+          "durationSecs": 108,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19610005,
@@ -1989,7 +2709,10 @@
           "artist": "VITAL IDLES",
           "title": "This is Real?",
           "section": "I Can't Make My Mind Up",
-          "trackIndex": 5
+          "trackIndex": 5,
+          "startTime": 610,
+          "durationSecs": 29,
+          "startTimeConfidence": "low"
         },
         {
           "id": 19610006,
@@ -1997,7 +2720,10 @@
           "artist": "UNIT 5",
           "title": "Decisions",
           "section": "I Can't Make My Mind Up",
-          "trackIndex": 6
+          "trackIndex": 6,
+          "startTime": 639,
+          "durationSecs": 51,
+          "startTimeConfidence": "low"
         },
         {
           "id": 19610007,
@@ -2005,7 +2731,10 @@
           "artist": "NO PEELING",
           "title": "Hi Vis",
           "section": "I Can't Make My Mind Up",
-          "trackIndex": 7
+          "trackIndex": 7,
+          "startTime": 690,
+          "durationSecs": 82,
+          "startTimeConfidence": "low"
         },
         {
           "id": 19610008,
@@ -2013,7 +2742,10 @@
           "artist": "BEACHOUSE",
           "title": "Soul by Soul",
           "section": "I Can't Make My Mind Up",
-          "trackIndex": 8
+          "trackIndex": 8,
+          "startTime": 772,
+          "durationSecs": 18,
+          "startTimeConfidence": "low"
         },
         {
           "id": 19610009,
@@ -2021,7 +2753,10 @@
           "artist": "E.D.P.S.",
           "title": "Death Composition",
           "section": "Now We're the Same",
-          "trackIndex": 9
+          "trackIndex": 9,
+          "startTime": 865,
+          "durationSecs": 115,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19610010,
@@ -2029,7 +2764,10 @@
           "artist": "MISERE",
           "title": "Abrieb",
           "section": "Now We're the Same",
-          "trackIndex": 10
+          "trackIndex": 10,
+          "startTime": 980,
+          "durationSecs": 261,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19610011,
@@ -2037,7 +2775,10 @@
           "artist": "PROBLEM DOGS",
           "title": "You Are the Knife",
           "section": "Now We're the Same",
-          "trackIndex": 11
+          "trackIndex": 11,
+          "startTime": 1241,
+          "durationSecs": 106,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19610012,
@@ -2045,7 +2786,10 @@
           "artist": "LIFE SUPPORT",
           "title": "Confusion",
           "section": "Now We're the Same",
-          "trackIndex": 12
+          "trackIndex": 12,
+          "startTime": 1347,
+          "durationSecs": 173,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19610013,
@@ -2053,7 +2797,10 @@
           "artist": "TYRANNA",
           "title": "Neighbour",
           "section": "Time is Money Burning",
-          "trackIndex": 13
+          "trackIndex": 13,
+          "startTime": 1572,
+          "durationSecs": 405,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19610014,
@@ -2061,7 +2808,10 @@
           "artist": "JILL KROESEN",
           "title": "I Am Not Seeing That You Are Here",
           "section": "Time is Money Burning",
-          "trackIndex": 14
+          "trackIndex": 14,
+          "startTime": 1977,
+          "durationSecs": 602,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19610015,
@@ -2069,7 +2819,10 @@
           "artist": "SNATCH",
           "title": "Trial by Fire",
           "section": "Time is Money Burning",
-          "trackIndex": 15
+          "trackIndex": 15,
+          "startTime": 2579,
+          "durationSecs": 181,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19610016,
@@ -2077,7 +2830,10 @@
           "artist": "UNMARRY ME",
           "title": "Spanner in the Hurt",
           "section": "Time is Money Burning",
-          "trackIndex": 16
+          "trackIndex": 16,
+          "startTime": 2760,
+          "durationSecs": 326,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19610017,
@@ -2085,16 +2841,20 @@
           "artist": "TUXEDOMOON",
           "title": "Dark Companion",
           "section": "Outro",
-          "trackIndex": 17
+          "trackIndex": 17,
+          "startTime": 3228,
+          "durationSecs": 233,
+          "startTimeConfidence": "high"
         }
-      ]
+      ],
+      "indexed": true
     },
     {
       "id": 1960,
       "date": "2025-09-28",
       "host": "Zu From All Over",
       "caption": "On this week's MRR Radio, Zu From All Over ushers in the Autumn season by chanting along with the best Oi!, Street Punk, and Hardcore, along with 2 middle fingers to Summer behind her. Smell Ya La8r Summer! (Oi Oi Oi!) THE DISCOCKS - Long Live Oi! UK SUBS - Young Criminals Breaki",
-      "thumbnailUrl": null,
+      "thumbnailUrl": "https://www.maximumrocknroll.com/wp-content/uploads/2025/09/CORRUPTED_YOUTH-live_on_June_30th_2017_for_the_5th_Annual_FYWROK_Fest_at_The_Vanguard_in_Tulsa_Oklahoma_photo_by_Adam_Degross-1000x1006.jpg",
       "mp3Url": "https://media.blubrry.com/mrrradio/www.maximumrocknroll.com/wp-content/uploads/2025/09/mrrradio1960.mp3",
       "durationSecs": 3600,
       "trackCount": 19,
@@ -2106,7 +2866,10 @@
           "artist": "THE DISCOCKS",
           "title": "Long Live Oi!",
           "section": "Smell Ya La8r Summer! (Oi Oi Oi!)",
-          "trackIndex": 0
+          "trackIndex": 0,
+          "startTime": 35,
+          "durationSecs": 89,
+          "startTimeConfidence": "low"
         },
         {
           "id": 19600001,
@@ -2114,7 +2877,10 @@
           "artist": "UK SUBS",
           "title": "Young Criminals",
           "section": "Smell Ya La8r Summer! (Oi Oi Oi!)",
-          "trackIndex": 1
+          "trackIndex": 1,
+          "startTime": 124,
+          "durationSecs": 246,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19600002,
@@ -2122,7 +2888,10 @@
           "artist": "ANTI-NOWHERE LEAGUE",
           "title": "World War III",
           "section": "Breaking Old Habits Makes Life New Again",
-          "trackIndex": 2
+          "trackIndex": 2,
+          "startTime": 385,
+          "durationSecs": 191,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19600003,
@@ -2130,7 +2899,10 @@
           "artist": "SYMPOS",
           "title": "soft society",
           "section": "Breaking Old Habits Makes Life New Again",
-          "trackIndex": 3
+          "trackIndex": 3,
+          "startTime": 576,
+          "durationSecs": 132,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19600004,
@@ -2138,7 +2910,10 @@
           "artist": "SMZB",
           "title": "阳光下的猜想",
           "section": "Breaking Old Habits Makes Life New Again",
-          "trackIndex": 4
+          "trackIndex": 4,
+          "startTime": 708,
+          "durationSecs": 149,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19600005,
@@ -2146,7 +2921,10 @@
           "artist": "STREET DOGS",
           "title": "Fading American Dream",
           "section": "Breaking Old Habits Makes Life New Again",
-          "trackIndex": 5
+          "trackIndex": 5,
+          "startTime": 857,
+          "durationSecs": 142,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19600006,
@@ -2154,7 +2932,10 @@
           "artist": "SORDID SHIP",
           "title": "Naufragé",
           "section": "Breaking Old Habits Makes Life New Again",
-          "trackIndex": 6
+          "trackIndex": 6,
+          "startTime": 999,
+          "durationSecs": 157,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19600007,
@@ -2162,7 +2943,10 @@
           "artist": "CHEAP SEX",
           "title": "It’s Up To You",
           "section": "Doesn’t Have To Feel Different in Flannel",
-          "trackIndex": 7
+          "trackIndex": 7,
+          "startTime": 1380,
+          "durationSecs": 99,
+          "startTimeConfidence": "low"
         },
         {
           "id": 19600008,
@@ -2170,7 +2954,10 @@
           "artist": "CONDITIONS APPLY",
           "title": "2 Words 1 Finger",
           "section": "Doesn’t Have To Feel Different in Flannel",
-          "trackIndex": 8
+          "trackIndex": 8,
+          "startTime": 1479,
+          "durationSecs": 156,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19600009,
@@ -2178,7 +2965,10 @@
           "artist": "THE RESTARTS",
           "title": "First World Problems",
           "section": "Doesn’t Have To Feel Different in Flannel",
-          "trackIndex": 9
+          "trackIndex": 9,
+          "startTime": 1635,
+          "durationSecs": 166,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19600010,
@@ -2186,7 +2976,10 @@
           "artist": "CORRUPTED YOUTH",
           "title": "Death On The Streets",
           "section": "Doesn’t Have To Feel Different in Flannel",
-          "trackIndex": 10
+          "trackIndex": 10,
+          "startTime": 1801,
+          "durationSecs": 166,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19600011,
@@ -2194,7 +2987,10 @@
           "artist": "GRAFFITI 3X",
           "title": "Unidad",
           "section": "Doesn’t Have To Feel Different in Flannel",
-          "trackIndex": 11
+          "trackIndex": 11,
+          "startTime": 1967,
+          "durationSecs": 270,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19600012,
@@ -2202,7 +2998,10 @@
           "artist": "THE BUSINESS",
           "title": "Real Enemy",
           "section": "Same Music Under A Different Backdrop",
-          "trackIndex": 12
+          "trackIndex": 12,
+          "startTime": 2375,
+          "durationSecs": 110,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19600013,
@@ -2210,7 +3009,10 @@
           "artist": "FACÇÃO OPPOSTA",
           "title": "Facção Opposta",
           "section": "Same Music Under A Different Backdrop",
-          "trackIndex": 13
+          "trackIndex": 13,
+          "startTime": 2485,
+          "durationSecs": 128,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19600014,
@@ -2218,7 +3020,10 @@
           "artist": "DEMERIT",
           "title": "愛與和平?",
           "section": "Same Music Under A Different Backdrop",
-          "trackIndex": 14
+          "trackIndex": 14,
+          "startTime": 2613,
+          "durationSecs": 84,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19600015,
@@ -2226,7 +3031,10 @@
           "artist": "CITY SAINTS",
           "title": "Nitad",
           "section": "Same Music Under A Different Backdrop",
-          "trackIndex": 15
+          "trackIndex": 15,
+          "startTime": 2697,
+          "durationSecs": 95,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19600016,
@@ -2234,7 +3042,10 @@
           "artist": "MARCHING ORDERS",
           "title": "Brothers In Arms",
           "section": "Same Music Under A Different Backdrop",
-          "trackIndex": 16
+          "trackIndex": 16,
+          "startTime": 2792,
+          "durationSecs": 140,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19600017,
@@ -2242,7 +3053,10 @@
           "artist": "BLITZ",
           "title": "Voice of a Generation",
           "section": "We Can Experience The Seasons In Whichever Order We Want",
-          "trackIndex": 17
+          "trackIndex": 17,
+          "startTime": 3368,
+          "durationSecs": 132,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19600018,
@@ -2250,9 +3064,13 @@
           "artist": "NOI!SE",
           "title": "Bottom of the Barrel",
           "section": "We Can Experience The Seasons In Whichever Order We Want",
-          "trackIndex": 18
+          "trackIndex": 18,
+          "startTime": 3500,
+          "durationSecs": 100,
+          "startTimeConfidence": "high"
         }
-      ]
+      ],
+      "indexed": true
     },
     {
       "id": 1959,
@@ -2271,7 +3089,10 @@
           "artist": "SHITTY HALFPIPE",
           "title": "Drain the Pool",
           "section": "Opener",
-          "trackIndex": 0
+          "trackIndex": 0,
+          "startTime": 29,
+          "durationSecs": 129,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19590001,
@@ -2279,7 +3100,10 @@
           "artist": "QUIT EVERYTHING",
           "title": "Minus Fatass",
           "section": "Set 1",
-          "trackIndex": 1
+          "trackIndex": 1,
+          "startTime": 245,
+          "durationSecs": 141,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19590002,
@@ -2287,7 +3111,10 @@
           "artist": "BUSY WEATHER",
           "title": "In on an Island",
           "section": "Set 1",
-          "trackIndex": 2
+          "trackIndex": 2,
+          "startTime": 386,
+          "durationSecs": 67,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19590003,
@@ -2295,7 +3122,10 @@
           "artist": "ACCIDENTS CLUB",
           "title": "WAR",
           "section": "Set 1",
-          "trackIndex": 3
+          "trackIndex": 3,
+          "startTime": 453,
+          "durationSecs": 147,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19590004,
@@ -2303,7 +3133,10 @@
           "artist": "NERVE ENDINGS",
           "title": "Incarcerate Me",
           "section": "Set 1",
-          "trackIndex": 4
+          "trackIndex": 4,
+          "startTime": 600,
+          "durationSecs": 68,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19590005,
@@ -2311,7 +3144,10 @@
           "artist": "L.I.P.S.",
           "title": "Family Man",
           "section": "Set 2",
-          "trackIndex": 5
+          "trackIndex": 5,
+          "startTime": 845,
+          "durationSecs": 65,
+          "startTimeConfidence": "low"
         },
         {
           "id": 19590006,
@@ -2319,7 +3155,10 @@
           "artist": "GHOULGASM",
           "title": "Dead is Dead",
           "section": "Set 2",
-          "trackIndex": 6
+          "trackIndex": 6,
+          "startTime": 910,
+          "durationSecs": 65,
+          "startTimeConfidence": "low"
         },
         {
           "id": 19590007,
@@ -2327,7 +3166,10 @@
           "artist": "FAILURE 2 CONFORM",
           "title": "Bang Bang",
           "section": "Set 2",
-          "trackIndex": 7
+          "trackIndex": 7,
+          "startTime": 975,
+          "durationSecs": 67,
+          "startTimeConfidence": "low"
         },
         {
           "id": 19590008,
@@ -2335,7 +3177,10 @@
           "artist": "DIE LAUGHING",
           "title": "Hellbound Blues",
           "section": "Set 2",
-          "trackIndex": 8
+          "trackIndex": 8,
+          "startTime": 1042,
+          "durationSecs": 115,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19590009,
@@ -2343,7 +3188,10 @@
           "artist": "EX PARENTS",
           "title": "Failure",
           "section": "Set 3",
-          "trackIndex": 9
+          "trackIndex": 9,
+          "startTime": 1260,
+          "durationSecs": 84,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19590010,
@@ -2351,7 +3199,10 @@
           "artist": "MAN! ILOVE....FROGS",
           "title": "Ego Check",
           "section": "Set 3",
-          "trackIndex": 10
+          "trackIndex": 10,
+          "startTime": 1344,
+          "durationSecs": 289,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19590011,
@@ -2359,7 +3210,10 @@
           "artist": "BACALOU",
           "title": "Hell From Above",
           "section": "Set 3",
-          "trackIndex": 11
+          "trackIndex": 11,
+          "startTime": 1633,
+          "durationSecs": 372,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19590012,
@@ -2367,7 +3221,10 @@
           "artist": "DRU THE DRIFTER",
           "title": "Social Part",
           "section": "Set 4",
-          "trackIndex": 12
+          "trackIndex": 12,
+          "startTime": 2075,
+          "durationSecs": 115,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19590013,
@@ -2375,7 +3232,10 @@
           "artist": "TOJO YAMAMOTO",
           "title": "Killer/Victim",
           "section": "Set 4",
-          "trackIndex": 13
+          "trackIndex": 13,
+          "startTime": 2190,
+          "durationSecs": 136,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19590014,
@@ -2383,7 +3243,10 @@
           "artist": "PART TIME FILTH",
           "title": "D.U.I In My U.F.O",
           "section": "Set 4",
-          "trackIndex": 14
+          "trackIndex": 14,
+          "startTime": 2326,
+          "durationSecs": 68,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19590015,
@@ -2391,7 +3254,10 @@
           "artist": "BLACK MARKET KIDNEY SURGEON",
           "title": "Wired Shut",
           "section": "Set 4",
-          "trackIndex": 15
+          "trackIndex": 15,
+          "startTime": 2394,
+          "durationSecs": 141,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19590016,
@@ -2399,16 +3265,20 @@
           "artist": "POVERTYBOMB",
           "title": "No Anchor",
           "section": "Closer",
-          "trackIndex": 16
+          "trackIndex": 16,
+          "startTime": 2610,
+          "durationSecs": 617,
+          "startTimeConfidence": "high"
         }
-      ]
+      ],
+      "indexed": true
     },
     {
       "id": 1958,
       "date": "2025-08-31",
       "host": "Erika Elizabeth",
       "caption": "Seek out answers to unasked questions on this week's episode of MRR Radio with Erika Elizabeth.Intro FRAU – Trouble Power of Persuasion NAPE NECK – Uh Oh HISSEY MIYAKE – Modern Life SYNTAX-ERROR – Remember Remember THE LO YO YO – No Answers Too Late to Go Home PRIMETIME – Right T",
-      "thumbnailUrl": null,
+      "thumbnailUrl": "https://www.maximumrocknroll.com/wp-content/uploads/2025/08/The-Lo-Yo-Yo-500x721.jpg",
       "mp3Url": "https://media.blubrry.com/mrrradio/www.maximumrocknroll.com/wp-content/uploads/2025/08/mrr-radio-1958.mp3",
       "durationSecs": 3579,
       "trackCount": 18,
@@ -2420,7 +3290,10 @@
           "artist": "FRAU",
           "title": "Trouble",
           "section": "Intro",
-          "trackIndex": 0
+          "trackIndex": 0,
+          "startTime": 33,
+          "durationSecs": 272,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19580001,
@@ -2428,7 +3301,10 @@
           "artist": "NAPE NECK",
           "title": "Uh Oh",
           "section": "Power of Persuasion",
-          "trackIndex": 1
+          "trackIndex": 1,
+          "startTime": 852,
+          "durationSecs": 262,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19580002,
@@ -2436,7 +3312,10 @@
           "artist": "HISSEY MIYAKE",
           "title": "Modern Life",
           "section": "Power of Persuasion",
-          "trackIndex": 2
+          "trackIndex": 2,
+          "startTime": 1114,
+          "durationSecs": 151,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19580003,
@@ -2444,7 +3323,10 @@
           "artist": "SYNTAX-ERROR",
           "title": "Remember Remember",
           "section": "Power of Persuasion",
-          "trackIndex": 3
+          "trackIndex": 3,
+          "startTime": 1265,
+          "durationSecs": 151,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19580004,
@@ -2452,7 +3334,10 @@
           "artist": "THE LO YO YO",
           "title": "No Answers",
           "section": "Power of Persuasion",
-          "trackIndex": 4
+          "trackIndex": 4,
+          "startTime": 1416,
+          "durationSecs": 594,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19580005,
@@ -2460,7 +3345,10 @@
           "artist": "PRIMETIME",
           "title": "Right Track",
           "section": "Too Late to Go Home",
-          "trackIndex": 5
+          "trackIndex": 5,
+          "startTime": 2285,
+          "durationSecs": 231,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19580006,
@@ -2468,7 +3356,10 @@
           "artist": "FLIN FLON",
           "title": "Floods",
           "section": "Too Late to Go Home",
-          "trackIndex": 6
+          "trackIndex": 6,
+          "startTime": 2516,
+          "durationSecs": 145,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19580007,
@@ -2476,7 +3367,10 @@
           "artist": "INTERNATIONAL EXILES",
           "title": "Note to Roger",
           "section": "Too Late to Go Home",
-          "trackIndex": 7
+          "trackIndex": 7,
+          "startTime": 2661,
+          "durationSecs": 89,
+          "startTimeConfidence": "low"
         },
         {
           "id": 19580008,
@@ -2484,7 +3378,10 @@
           "artist": "QUITE RIDICULOUS NONSENSE",
           "title": "Appropriate Blocks",
           "section": "Too Late to Go Home",
-          "trackIndex": 8
+          "trackIndex": 8,
+          "startTime": 2750,
+          "durationSecs": 113,
+          "startTimeConfidence": "low"
         },
         {
           "id": 19580009,
@@ -2492,7 +3389,10 @@
           "artist": "THE JELLIES",
           "title": "Jive Baby on a Saturday Night",
           "section": "I Could Have Told You",
-          "trackIndex": 9
+          "trackIndex": 9,
+          "startTime": 2938,
+          "durationSecs": 67,
+          "startTimeConfidence": "low"
         },
         {
           "id": 19580010,
@@ -2500,7 +3400,10 @@
           "artist": "FRIZBEE",
           "title": "So Sick",
           "section": "I Could Have Told You",
-          "trackIndex": 10
+          "trackIndex": 10,
+          "startTime": 3005,
+          "durationSecs": 68,
+          "startTimeConfidence": "low"
         },
         {
           "id": 19580011,
@@ -2508,7 +3411,10 @@
           "artist": "THE SNARES",
           "title": "The Enthusiasts",
           "section": "I Could Have Told You",
-          "trackIndex": 11
+          "trackIndex": 11,
+          "startTime": 3073,
+          "durationSecs": 47,
+          "startTimeConfidence": "low"
         },
         {
           "id": 19580012,
@@ -2516,7 +3422,10 @@
           "artist": "TERRA SOROR",
           "title": "Lover Nature",
           "section": "I Could Have Told You",
-          "trackIndex": 12
+          "trackIndex": 12,
+          "startTime": 3120,
+          "durationSecs": 52,
+          "startTimeConfidence": "low"
         },
         {
           "id": 19580013,
@@ -2524,7 +3433,10 @@
           "artist": "THE YOUNG SNAKES",
           "title": "Suit Me",
           "section": "No Change Without a Push",
-          "trackIndex": 13
+          "trackIndex": 13,
+          "startTime": 3191,
+          "durationSecs": 41,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19580014,
@@ -2532,7 +3444,10 @@
           "artist": "VATS",
           "title": "Green Glass Room",
           "section": "No Change Without a Push",
-          "trackIndex": 14
+          "trackIndex": 14,
+          "startTime": 3232,
+          "durationSecs": 60,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19580015,
@@ -2540,7 +3455,10 @@
           "artist": "BLUG",
           "title": "Tell a Lie",
           "section": "No Change Without a Push",
-          "trackIndex": 15
+          "trackIndex": 15,
+          "startTime": 3292,
+          "durationSecs": 26,
+          "startTimeConfidence": "low"
         },
         {
           "id": 19580016,
@@ -2548,7 +3466,10 @@
           "artist": "THE JANET AND JOHNS",
           "title": "Let Bygones Be Bygone",
           "section": "No Change Without a Push",
-          "trackIndex": 16
+          "trackIndex": 16,
+          "startTime": 3318,
+          "durationSecs": 26,
+          "startTimeConfidence": "low"
         },
         {
           "id": 19580017,
@@ -2556,16 +3477,20 @@
           "artist": "THE FALL",
           "title": "Hotel Blôedel",
           "section": "Outro",
-          "trackIndex": 17
+          "trackIndex": 17,
+          "startTime": 3370,
+          "durationSecs": 208,
+          "startTimeConfidence": "high"
         }
-      ]
+      ],
+      "indexed": true
     },
     {
       "id": 1957,
       "date": "2025-08-17",
       "host": "Zu From All Over",
       "caption": "On this week's MRR Radio, Zu From All Over involuntarily pulls an all-nighter with the best Hardcore, xhardcorex, and Crossover from around the world to muscle through the brain melting summer. A Warzone On Either Side of the Walls REPAIR - We Don't Need You SIBAFÜ - ぶどうの種 Sun Dr",
-      "thumbnailUrl": null,
+      "thumbnailUrl": "https://www.maximumrocknroll.com/wp-content/uploads/2025/08/FUTURE_SUCK-live_on_February_24th_2023-Relentless_Fest_at_Shotkickers_in_Melbourne_Victoria-photo_by_Nicole_Goodwin-1000x991.jpg",
       "mp3Url": "https://media.blubrry.com/mrrradio/www.maximumrocknroll.com/wp-content/uploads/2025/08/mrrradio1957.mp3",
       "durationSecs": 3240,
       "trackCount": 20,
@@ -2577,7 +3502,10 @@
           "artist": "REPAIR",
           "title": "We Don't Need You",
           "section": "A Warzone On Either Side of the Walls",
-          "trackIndex": 0
+          "trackIndex": 0,
+          "startTime": 25,
+          "durationSecs": 221,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19570001,
@@ -2585,7 +3513,10 @@
           "artist": "SIBAFÜ",
           "title": "ぶどうの種",
           "section": "A Warzone On Either Side of the Walls",
-          "trackIndex": 1
+          "trackIndex": 1,
+          "startTime": 246,
+          "durationSecs": 264,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19570002,
@@ -2593,7 +3524,10 @@
           "artist": "DISTANTE",
           "title": "Depende De Vos",
           "section": "Sun Drenched",
-          "trackIndex": 2
+          "trackIndex": 2,
+          "startTime": 695,
+          "durationSecs": 234,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19570003,
@@ -2601,7 +3535,10 @@
           "artist": "ELECTRIC CHAIR",
           "title": "Active Aggression",
           "section": "Sun Drenched",
-          "trackIndex": 3
+          "trackIndex": 3,
+          "startTime": 929,
+          "durationSecs": 245,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19570004,
@@ -2609,7 +3546,10 @@
           "artist": "SILENT DRAMA",
           "title": "Ignorance Is Blissing",
           "section": "Sun Drenched",
-          "trackIndex": 4
+          "trackIndex": 4,
+          "startTime": 1174,
+          "durationSecs": 140,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19570005,
@@ -2617,7 +3557,10 @@
           "artist": "FLUSH!!",
           "title": "Day By Day",
           "section": "Sun Drenched",
-          "trackIndex": 5
+          "trackIndex": 5,
+          "startTime": 1314,
+          "durationSecs": 134,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19570006,
@@ -2625,7 +3568,10 @@
           "artist": "HOOD RATS",
           "title": "Hate the Radio",
           "section": "Sun Drenched",
-          "trackIndex": 6
+          "trackIndex": 6,
+          "startTime": 1448,
+          "durationSecs": 239,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19570007,
@@ -2633,7 +3579,10 @@
           "artist": "VIOLIN",
           "title": "Last Breath",
           "section": "Sun Drenched",
-          "trackIndex": 7
+          "trackIndex": 7,
+          "startTime": 1687,
+          "durationSecs": 90,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19570008,
@@ -2641,7 +3590,10 @@
           "artist": "FATAL STATE",
           "title": "Ni Un Paso Atras",
           "section": "Drown the Heat Out",
-          "trackIndex": 8
+          "trackIndex": 8,
+          "startTime": 1898,
+          "durationSecs": 102,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19570009,
@@ -2649,7 +3601,10 @@
           "artist": "THE NECESSARY EVIL",
           "title": "Destruye Huye",
           "section": "Drown the Heat Out",
-          "trackIndex": 9
+          "trackIndex": 9,
+          "startTime": 2000,
+          "durationSecs": 167,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19570010,
@@ -2657,7 +3612,10 @@
           "artist": "DISCREET",
           "title": "Leave Everything Behind",
           "section": "Drown the Heat Out",
-          "trackIndex": 10
+          "trackIndex": 10,
+          "startTime": 2167,
+          "durationSecs": 84,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19570011,
@@ -2665,7 +3623,10 @@
           "artist": "SPAM CALLER",
           "title": "Crowded Room",
           "section": "Drown the Heat Out",
-          "trackIndex": 11
+          "trackIndex": 11,
+          "startTime": 2251,
+          "durationSecs": 154,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19570012,
@@ -2673,7 +3634,10 @@
           "artist": "FUSHOJIKI",
           "title": "Atypical",
           "section": "Drown the Heat Out",
-          "trackIndex": 12
+          "trackIndex": 12,
+          "startTime": 2405,
+          "durationSecs": 89,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19570013,
@@ -2681,7 +3645,10 @@
           "artist": "BAD JESUS EXPERIENCE",
           "title": "Rotta",
           "section": "Drown the Heat Out",
-          "trackIndex": 13
+          "trackIndex": 13,
+          "startTime": 2494,
+          "durationSecs": 76,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19570014,
@@ -2689,7 +3656,10 @@
           "artist": "STATICØ",
           "title": "Mind Castration",
           "section": "Molten, Melted, Mad",
-          "trackIndex": 14
+          "trackIndex": 14,
+          "startTime": 2595,
+          "durationSecs": 48,
+          "startTimeConfidence": "low"
         },
         {
           "id": 19570015,
@@ -2697,7 +3667,10 @@
           "artist": "UNSANITARY NAPKIN",
           "title": "TERF War",
           "section": "Molten, Melted, Mad",
-          "trackIndex": 15
+          "trackIndex": 15,
+          "startTime": 2643,
+          "durationSecs": 49,
+          "startTimeConfidence": "low"
         },
         {
           "id": 19570016,
@@ -2705,7 +3678,10 @@
           "artist": "WHITE COLLAR",
           "title": "Compassion Fatigue",
           "section": "Molten, Melted, Mad",
-          "trackIndex": 16
+          "trackIndex": 16,
+          "startTime": 2692,
+          "durationSecs": 64,
+          "startTimeConfidence": "medium"
         },
         {
           "id": 19570017,
@@ -2713,7 +3689,10 @@
           "artist": "FUTURE SUCK",
           "title": "Mantra",
           "section": "Molten, Melted, Mad",
-          "trackIndex": 17
+          "trackIndex": 17,
+          "startTime": 2756,
+          "durationSecs": 41,
+          "startTimeConfidence": "low"
         },
         {
           "id": 19570018,
@@ -2721,7 +3700,10 @@
           "artist": "HOTZA",
           "title": "Iturribideko Labanak",
           "section": "Molten, Melted, Mad",
-          "trackIndex": 18
+          "trackIndex": 18,
+          "startTime": 2797,
+          "durationSecs": 41,
+          "startTimeConfidence": "low"
         },
         {
           "id": 19570019,
@@ -2729,16 +3711,20 @@
           "artist": "MEDIOCORE",
           "title": "Keep Punching",
           "section": "Inflicted Insomnia",
-          "trackIndex": 19
+          "trackIndex": 19,
+          "startTime": 2866,
+          "durationSecs": 374,
+          "startTimeConfidence": "high"
         }
-      ]
+      ],
+      "indexed": true
     },
     {
       "id": 1956,
       "date": "2025-08-10",
       "host": "Jennifer",
       "caption": "On this week's MRR Radio, Jennifer plays lots of newbies!Intro NECIA - Necia I SNEER - Brain Dead CLASS ACT - Monkey Business BODY WORLD II - Illusion LA LLAMA - Psychotic Nerve BETA MAXIMO - Antimateria Auntiemateria II SNOOPER - Worldwide WEALTH GAP - makes me sick BESTA QUADRA",
-      "thumbnailUrl": null,
+      "thumbnailUrl": "https://www.maximumrocknroll.com/wp-content/uploads/2025/08/durex-1000x800.jpg",
       "mp3Url": "https://media.blubrry.com/mrrradio/www.maximumrocknroll.com/wp-content/uploads/2025/08/mrrradio1956.mp3",
       "durationSecs": 3323,
       "trackCount": 22,
@@ -2750,7 +3736,10 @@
           "artist": "NECIA",
           "title": "Necia",
           "section": "Intro",
-          "trackIndex": 0
+          "trackIndex": 0,
+          "startTime": 0,
+          "durationSecs": 197,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19560001,
@@ -2758,7 +3747,10 @@
           "artist": "SNEER",
           "title": "Brain Dead",
           "section": "I",
-          "trackIndex": 1
+          "trackIndex": 1,
+          "startTime": 289,
+          "durationSecs": 92,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19560002,
@@ -2766,7 +3758,10 @@
           "artist": "CLASS ACT",
           "title": "Monkey Business",
           "section": "I",
-          "trackIndex": 2
+          "trackIndex": 2,
+          "startTime": 381,
+          "durationSecs": 135,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19560003,
@@ -2774,7 +3769,10 @@
           "artist": "BODY WORLD II",
           "title": "Illusion",
           "section": "I",
-          "trackIndex": 3
+          "trackIndex": 3,
+          "startTime": 516,
+          "durationSecs": 125,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19560004,
@@ -2782,7 +3780,10 @@
           "artist": "LA LLAMA",
           "title": "Psychotic Nerve",
           "section": "I",
-          "trackIndex": 4
+          "trackIndex": 4,
+          "startTime": 641,
+          "durationSecs": 68,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19560005,
@@ -2790,7 +3791,10 @@
           "artist": "BETA MAXIMO",
           "title": "Antimateria Auntiemateria",
           "section": "I",
-          "trackIndex": 5
+          "trackIndex": 5,
+          "startTime": 709,
+          "durationSecs": 99,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19560006,
@@ -2798,7 +3802,10 @@
           "artist": "SNOOPER",
           "title": "Worldwide",
           "section": "II",
-          "trackIndex": 6
+          "trackIndex": 6,
+          "startTime": 884,
+          "durationSecs": 152,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19560007,
@@ -2806,7 +3813,10 @@
           "artist": "WEALTH GAP",
           "title": "makes me sick",
           "section": "II",
-          "trackIndex": 7
+          "trackIndex": 7,
+          "startTime": 1036,
+          "durationSecs": 100,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19560008,
@@ -2814,7 +3824,10 @@
           "artist": "BESTA QUADRADA",
           "title": "Running",
           "section": "II",
-          "trackIndex": 8
+          "trackIndex": 8,
+          "startTime": 1136,
+          "durationSecs": 101,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19560009,
@@ -2822,7 +3835,10 @@
           "artist": "MANTIS",
           "title": "Armas Cortas",
           "section": "II",
-          "trackIndex": 9
+          "trackIndex": 9,
+          "startTime": 1237,
+          "durationSecs": 116,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19560010,
@@ -2830,7 +3846,10 @@
           "artist": "DUREX",
           "title": "Boy Mode",
           "section": "II",
-          "trackIndex": 10
+          "trackIndex": 10,
+          "startTime": 1353,
+          "durationSecs": 60,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19560011,
@@ -2838,7 +3857,10 @@
           "artist": "BARAKA FACE JUNTA",
           "title": "Czysta Kultura",
           "section": "III",
-          "trackIndex": 11
+          "trackIndex": 11,
+          "startTime": 1520,
+          "durationSecs": 172,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19560012,
@@ -2846,7 +3868,10 @@
           "artist": "BODY MAINTENANCE",
           "title": "Symphony of Bliss",
           "section": "III",
-          "trackIndex": 12
+          "trackIndex": 12,
+          "startTime": 1692,
+          "durationSecs": 169,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19560013,
@@ -2854,7 +3879,10 @@
           "artist": "ZERO BARS",
           "title": "A.D.S",
           "section": "III",
-          "trackIndex": 13
+          "trackIndex": 13,
+          "startTime": 1861,
+          "durationSecs": 120,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19560014,
@@ -2862,7 +3890,10 @@
           "artist": "LAME",
           "title": "El Paco Del Horror",
           "section": "III",
-          "trackIndex": 14
+          "trackIndex": 14,
+          "startTime": 1981,
+          "durationSecs": 199,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19560015,
@@ -2870,7 +3901,10 @@
           "artist": "TVO",
           "title": "Sweet Spot",
           "section": "III",
-          "trackIndex": 15
+          "trackIndex": 15,
+          "startTime": 2180,
+          "durationSecs": 115,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19560016,
@@ -2878,7 +3912,10 @@
           "artist": "EYE BALL",
           "title": "If She Were Me (move first)",
           "section": "IV",
-          "trackIndex": 16
+          "trackIndex": 16,
+          "startTime": 2385,
+          "durationSecs": 181,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19560017,
@@ -2886,7 +3923,10 @@
           "artist": "METHO",
           "title": "Lonely Time",
           "section": "IV",
-          "trackIndex": 17
+          "trackIndex": 17,
+          "startTime": 2566,
+          "durationSecs": 100,
+          "startTimeConfidence": "high"
         },
         {
           "id": 19560018,
@@ -2894,7 +3934,10 @@
           "artist": "BALLOON THIEF",
           "title": "Hole In My Head",
           "section": "IV",
-          "trackIndex": 18
+          "trackIndex": 18,
+          "startTime": 2808,
+          "durationSecs": 15,
+          "startTimeConfidence": "low"
         },
         {
           "id": 19560019,
@@ -2902,7 +3945,10 @@
           "artist": "CIGARETTE CAMP",
           "title": "Quick Fix",
           "section": "IV",
-          "trackIndex": 19
+          "trackIndex": 19,
+          "startTime": 2823,
+          "durationSecs": 35,
+          "startTimeConfidence": "low"
         },
         {
           "id": 19560020,
@@ -2910,7 +3956,10 @@
           "artist": "ZANNY STARS",
           "title": "Here We Go Again",
           "section": "IV",
-          "trackIndex": 20
+          "trackIndex": 20,
+          "startTime": 2858,
+          "durationSecs": 40,
+          "startTimeConfidence": "low"
         },
         {
           "id": 19560021,
@@ -2918,9 +3967,13 @@
           "artist": "JAWBREAKER",
           "title": "Down",
           "section": "Outro",
-          "trackIndex": 21
+          "trackIndex": 21,
+          "startTime": 3120,
+          "durationSecs": 202,
+          "startTimeConfidence": "high"
         }
-      ]
+      ],
+      "indexed": true
     }
   ]
 }
