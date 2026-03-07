@@ -1,27 +1,22 @@
-name: Scrape new episodes
+name: Scrape new episodes                                                                                                   
 
   on:
     schedule:
-      # Every Tuesday at 10am UTC (MRR Radio drops weekly)
       - cron: '0 10 * * 2'
-    workflow_dispatch: # allow manual trigger from GitHub UI
+    workflow_dispatch:
 
   jobs:
     scrape:
       runs-on: ubuntu-latest
       permissions:
         contents: write
-
       steps:
         - uses: actions/checkout@v4
-
         - uses: actions/setup-node@v4
           with:
             node-version: '20'
-
         - name: Run scraper
           run: node scripts/scrape.mjs
-
         - name: Commit and push if episodes.json changed
           run: |
             git config user.name "github-actions[bot]"
