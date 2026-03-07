@@ -64,6 +64,12 @@ export function buildCard(ep, isPlayed, onClick) {
   dateEl.textContent = fmtDate(ep.date);
   meta.appendChild(numEl);
   meta.appendChild(dateEl);
+  if (ep.indexed) {
+    const badge = document.createElement('span');
+    badge.className = 'ep-indexed-badge';
+    badge.textContent = 'INDEXED';
+    meta.appendChild(badge);
+  }
   body.appendChild(meta);
 
   if (ep.host) {
@@ -87,13 +93,6 @@ export function buildCard(ep, isPlayed, onClick) {
     dot.className = 'ep-played-dot';
     dot.setAttribute('aria-label', 'Played');
     card.appendChild(dot);
-  }
-
-  if (ep.indexed) {
-    const badge = document.createElement('div');
-    badge.className = 'ep-indexed-badge';
-    badge.textContent = 'INDEXED';
-    card.appendChild(badge);
   }
 
   const handle = (e) => {

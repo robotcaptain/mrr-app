@@ -85,16 +85,14 @@ img { display: block; object-fit: cover; }
 
 /* Indexed episode badge on cards */
 .ep-indexed-badge {
-  position: absolute;
-  bottom: 10px;
-  right: 12px;
   font-size: 9px;
   font-weight: 700;
   letter-spacing: 0.08em;
-  color: var(--bg);
-  background: var(--accent);
+  color: var(--muted);
+  background: #333;
   padding: 1px 5px;
   text-transform: uppercase;
+  align-self: center;
 }
 
 /* Seekable track items in the player */
