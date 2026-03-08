@@ -91,6 +91,14 @@ searchInput.addEventListener('input', () => {
   if (artistIndex.isOpen) artistIndex.filter(searchInput.value.trim());
 });
 
+// Hide mini player when soft keyboard is visible
+if ('visualViewport' in window) {
+  window.visualViewport.addEventListener('resize', () => {
+    const keyboardUp = window.visualViewport.height < window.innerHeight - 150;
+    document.body.classList.toggle('keyboard-open', keyboardUp);
+  });
+}
+
 // ── Bootstrap ──────────────────────────────────────────────────────────────────
 async function boot() {
   // Register service worker

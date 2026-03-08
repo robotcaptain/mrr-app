@@ -79,6 +79,7 @@ export class PlayerUI {
 
   setEpisode(episode) {
     this._currentEpisode = episode;
+    document.body.classList.add('has-player');
     this._updateMiniInfo(episode);
     this._updateSheetInfo(episode);
     this._loadTracklist(episode.id);

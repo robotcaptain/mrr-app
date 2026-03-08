@@ -727,3 +727,14 @@ img { display: block; object-fit: cover; }
   flex-shrink: 0;
   white-space: nowrap;
 }
+
+/* ── Player visibility ──────────────────────────────────────────────────── */
+/* Shrink side panel to expose mini player when an episode is loaded */
+body.has-player .side-panel {
+  height: calc(100% - var(--player-h) - var(--safe-bottom));
+}
+
+/* Hide mini player when soft keyboard is up */
+body.keyboard-open .mini-player {
+  display: none;
+}
