@@ -7,6 +7,11 @@
     Cache-Control = "public, max-age=86400"
 
 [[headers]]
+  for = "/public/data/episodes-version.json"
+  [headers.values]
+    Cache-Control = "no-cache"
+
+[[headers]]
   for = "/sw.js"
   [headers.values]
     Cache-Control = "no-cache"

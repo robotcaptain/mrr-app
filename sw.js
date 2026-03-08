@@ -37,8 +37,9 @@ self.addEventListener('activate', (event) => {
 self.addEventListener('fetch', (event) => {
   const url = new URL(event.request.url);
 
-  // Never cache MP3 streams
-  if (url.pathname.endsWith('.mp3') || url.hostname.includes('blubrry')) {
+  // Never cache MP3 streams or version checks
+  if (url.pathname.endsWith('.mp3') || url.hostname.includes('blubrry')
+      || url.pathname.includes('episodes-version.json')) {
     return; // network only
   }
 

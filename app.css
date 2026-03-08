@@ -112,6 +112,7 @@ img { display: block; object-fit: cover; }
   animation: spin 1s linear infinite;
 }
 @keyframes spin { to { transform: rotate(360deg); } }
+.icon-btn.has-update { color: #e8b928; opacity: 1; }
 
 /* ─── Filter Bar ────────────────────────────────────────────────────────── */
 #filter-bar {

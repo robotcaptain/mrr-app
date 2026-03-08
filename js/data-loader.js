@@ -4,12 +4,15 @@
  * On first run: imports all episodes + tracks from the JSON file.
  * On subsequent runs: skips episodes already present (by id).
  * Exposes a sync() function for manually fetching new episodes in-app.
+ * Exposes checkForUpdate() to compare local vs remote version cheaply.
  */
 
 import { openDB, getEpisodeCount, getEpisodes, getEpisode, putEpisodes, putTracks } from './db.js';
 
 const EPISODES_JSON = '/public/data/episodes.json';
 const EPISODES_JSON_ALT = '/data/episodes.json';
+const VERSION_JSON = '/public/data/episodes-version.json';
+const VERSION_JSON_ALT = '/data/episodes-version.json';
 const DATA_VERSION_KEY = 'mrr-data-version';
 
 let _loadPromise = null;
@@ -31,8 +34,6 @@ async function _run(onProgress) {
   const count = await getEpisodeCount();
   if (count > 0) {
     onProgress?.(`${count} episodes loaded`);
-    // Background: refresh any episodes that gained timestamps since last import
-    _refreshIndexed().catch(() => {});
     return { count, imported: 0 };
   }
 
@@ -81,43 +82,35 @@ async function _run(onProgress) {
     await putTracks(trackRows.slice(i, i + CHUNK));
   }
 
+  // Store the version we just imported
+  const version = data.generated ?? null;
+  if (version) localStorage.setItem(DATA_VERSION_KEY, version);
+
   onProgress?.(`${episodeRows.length} episodes ready`);
   return { count: episodeRows.length, imported: episodeRows.length };
 }
 
 /**
- * Background: fetch episodes.json and update any episodes that are now
- * indexed (have track timestamps) but weren't when first imported.
+ * Check if a newer version of episodes.json is available.
+ * Fetches only the tiny version file (~60 bytes).
+ * @returns {Promise<boolean>} true if update available
  */
-async function _refreshIndexed() {
-  let data;
+export async function checkForUpdate() {
+  const localVersion = localStorage.getItem(DATA_VERSION_KEY);
+  if (!localVersion) return false; // first run, init() will handle it
+
+  let remote;
   try {
-    data = await _fetchJson(`${EPISODES_JSON}?t=${Date.now()}`);
+    remote = await _fetchJson(`${VERSION_JSON}?t=${Date.now()}`);
   } catch {
-    return;
-  }
-  const episodes = Array.isArray(data) ? data : (data.episodes ?? []);
-  const nowIndexed = episodes.filter((ep) => ep.indexed && Array.isArray(ep.tracks));
-  if (nowIndexed.length === 0) return;
-
-  const newVersion = data.generated ?? null;
-  const lastVersion = localStorage.getItem(DATA_VERSION_KEY);
-  const dataChanged = newVersion && newVersion !== lastVersion;
-
-  let didUpdate = false;
-  for (const ep of nowIndexed) {
-    const inDb = await getEpisode(ep.id);
-    if (!inDb?.indexed || dataChanged) {
-      const { tracks, ...epData } = ep;
-      await putEpisodes([epData]);
-      await putTracks(tracks);
-      didUpdate = true;
+    try {
+      remote = await _fetchJson(`${VERSION_JSON_ALT}?t=${Date.now()}`);
+    } catch {
+      return false;
     }
   }
 
-  if (didUpdate && newVersion) {
-    localStorage.setItem(DATA_VERSION_KEY, newVersion);
-  }
+  return remote.generated && remote.generated !== localVersion;
 }
 
 async function _fetchJson(url) {
@@ -161,20 +154,19 @@ export async function sync(onProgress) {
   const lastVersion = localStorage.getItem(DATA_VERSION_KEY);
   const dataChanged = newVersion && newVersion !== lastVersion;
 
-  const toRefresh = episodes.filter((ep) => {
-    if (!ep.indexed || !existingIds.has(ep.id)) return false;
-    const inDb = existing.find((e) => e.id === ep.id);
-    return !inDb?.indexed || dataChanged;
-  });
+  const toRefresh = dataChanged
+    ? episodes.filter((ep) => existingIds.has(ep.id))
+    : [];
 
   if (newEpisodes.length === 0 && toRefresh.length === 0) {
     onProgress?.('Already up to date');
+    if (newVersion) localStorage.setItem(DATA_VERSION_KEY, newVersion);
     return { added: 0 };
   }
 
   const allToWrite = [...newEpisodes, ...toRefresh];
   if (newEpisodes.length > 0) onProgress?.(`Adding ${newEpisodes.length} new episodes...`);
-  if (toRefresh.length > 0) onProgress?.(`Refreshing ${toRefresh.length} indexed episode(s)...`);
+  if (toRefresh.length > 0) onProgress?.(`Refreshing ${toRefresh.length} episode(s)...`);
 
   const episodeRows = [];
   const trackRows = [];

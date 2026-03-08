@@ -395,6 +395,11 @@ async function main() {
   };
 
   writeFileSync(OUTPUT_FILE, JSON.stringify(output, null, 2));
+
+  // Write lightweight version file for update checking
+  const versionFile = resolve(DATA_DIR, 'episodes-version.json');
+  writeFileSync(versionFile, JSON.stringify({ generated: output.generated, count: output.count }));
+
   console.log(`\n✓ ${merged.length} episodes written to public/data/episodes.json`);
   const totalTracks = merged.reduce((s, e) => s + (e.tracks?.length || 0), 0);
   console.log(`  ${totalTracks} total tracks`);

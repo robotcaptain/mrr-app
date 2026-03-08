@@ -4,7 +4,7 @@
  * Initialises all modules, wires state, handles episode playback flow.
  */
 
-import { init as initData, sync } from './data-loader.js';
+import { init as initData, sync, checkForUpdate } from './data-loader.js';
 import { getEpisodes, getEpisode, getPlayback, searchTracks } from './db.js';
 import { Player } from './player.js';
 import { Filters } from './ui/filters.js';
@@ -130,6 +130,11 @@ async function boot() {
   // Show last updated timestamp; set it now if first run
   if (!localStorage.getItem('mrr-last-updated')) markUpdatedNow();
   else updateLastUpdatedDisplay();
+
+  // Check for newer data (fetches ~60 byte version file)
+  checkForUpdate().then((hasUpdate) => {
+    if (hasUpdate) syncBtn.classList.add('has-update');
+  }).catch(() => {});
 }
 
 function showMain() {
@@ -233,6 +238,7 @@ syncBtn.addEventListener('click', async () => {
   if (lastUpdatedEl) lastUpdatedEl.textContent = 'Syncing…';
   try {
     const result = await sync((msg) => console.log('sync:', msg));
+    syncBtn.classList.remove('has-update');
     markUpdatedNow();
     if (result.added > 0) {
       state.allEpisodes = await getEpisodes();
