@@ -415,6 +415,10 @@ img { display: block; object-fit: cover; }
 }
 .player-sheet.open {
   transform: translateY(0);
+  z-index: 500;
+}
+.sheet-backdrop.visible {
+  z-index: 490;
 }
 
 .sheet-drag-handle {

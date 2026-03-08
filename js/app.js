@@ -205,6 +205,7 @@ async function handleEpisodeClick(episodeId) {
 
 // ── Artist click ───────────────────────────────────────────────────────────────
 function handleArtistClick(artistName) {
+  playerUI.closeSheet();
   artistView.open(artistName);
 }
 
