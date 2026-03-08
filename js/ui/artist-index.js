@@ -14,6 +14,11 @@ export class ArtistIndex {
     this._listEl = listEl;
     this._onArtistSelect = onArtistSelect;
     this._artists = null;
+
+    this._listEl.addEventListener('click', (e) => {
+      const row = e.target.closest('.artist-index-row');
+      if (row?.dataset.artist) this._onArtistSelect(row.dataset.artist);
+    });
   }
 
   async open() {
@@ -69,7 +74,7 @@ export class ArtistIndex {
         row.appendChild(count);
       }
 
-      row.addEventListener('click', () => this._onArtistSelect(artist));
+      row.dataset.artist = artist;
       this._listEl.appendChild(row);
     }
   }
