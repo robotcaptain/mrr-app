@@ -192,37 +192,6 @@ export function putTracks(tracks) {
 }
 
 /**
- * Search tracks by artist name (case-insensitive, starts-with).
- * Returns array of matching episodeIds (unique).
- */
-export async function searchArtist(query) {
-  if (!query) return [];
-  const normalized = query.toUpperCase().trim();
-  const db = await openDB();
-
-  return new Promise((resolve, reject) => {
-    const tx = db.transaction('tracks', 'readonly');
-    const idx = tx.objectStore('tracks').index('artist');
-
-    // Use IDBKeyRange for prefix matching on uppercased artist
-    const range = IDBKeyRange.bound(normalized, normalized + '\uffff', false, false);
-    const req = idx.openCursor(range);
-    const episodeIds = new Set();
-
-    req.onsuccess = (event) => {
-      const cursor = event.target.result;
-      if (cursor) {
-        episodeIds.add(cursor.value.episodeId);
-        cursor.continue();
-      } else {
-        resolve([...episodeIds]);
-      }
-    };
-    req.onerror = () => reject(req.error);
-  });
-}
-
-/**
  * Full-text search across artist + title (substring match).
  * Less efficient than index search; used for song title search.
  * Returns unique episodeIds.

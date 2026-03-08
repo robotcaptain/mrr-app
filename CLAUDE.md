@@ -22,9 +22,12 @@ js/ui/episode-list.js   — episode card renderer (buildCard, renderList)
 js/ui/filters.js        — host/year dropdowns + search input (debounced)
 js/ui/artist-view.js    — slide-in panel: episodes by artist
 js/ui/artist-index.js   — full-screen overlay: alphabetical artist list
-public/data/episodes.json  — 273 episodes (#1701–#1975), 6129 tracks
+public/data/episodes.json  — 789 episodes (#1194–#1975), 17565 tracks
+public/data/episodes-version.json — lightweight version check (~60 bytes)
+public/images/thumbs/   — locally cached episode thumbnails
 public/audio/           — downloaded MP3s (mrr-radio-<id>.mp3)
 scripts/scrape.mjs      — RSS scraper (node scripts/scrape.mjs [--all] [--since N] [--slow] [--download])
+scripts/download-thumbs.mjs — downloads episode thumbnails locally
 scripts/find-onsets.mjs — track timestamp detection via ffmpeg astats
 ```
 
@@ -56,7 +59,6 @@ scripts/find-onsets.mjs — track timestamp detection via ffmpeg astats
 ## Track timestamp detection
 Uses `scripts/find-onsets.mjs` — ffmpeg astats RMS + first-derivative onset detection.
 - Results are CANDIDATES requiring manual listening verification
-- `scripts/analyze-tracks.mjs` is deprecated (unreliable silence detection)
 
 ## npm scripts
 ```
@@ -68,7 +70,6 @@ node scripts/find-onsets.mjs <episodeId> [--dry-run] [--all-candidates]
 ```
 
 ## Backlog
-1. **Player sheet z-index bug** — expanded sheet opens behind the artist side panel. Should stay minimized when artist panel opens; expand on top when explicitly tapped.
-2. **Download MP3s** — download episodes for local indexing (start with recent ones).
-3. **Index track timestamps** — run find-onsets.mjs on downloaded MP3s, verify manually.
-4. **Scrape pre-#1700** — extend archive further back with `--since <N>`.
+1. **Download MP3s** — download episodes for local indexing (start with recent ones).
+2. **Index track timestamps** — run find-onsets.mjs on downloaded MP3s, verify manually.
+3. **Scrape pre-#1194** — extend archive further back with `--since <N>`.
