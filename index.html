@@ -45,6 +45,7 @@
         spellcheck="false"
       >
       <button id="search-clear" class="search-clear" hidden aria-label="Clear search">✕</button>
+      <button id="search-cancel" class="search-cancel" hidden aria-label="Cancel">Cancel</button>
     </div>
     <div class="filter-row">
       <select id="host-filter" aria-label="Filter by host">
@@ -54,6 +55,11 @@
         <option value="">All Years</option>
       </select>
     </div>
+  </div>
+
+  <!-- Artist index overlay -->
+  <div id="artist-index-overlay" hidden>
+    <div id="artist-index-list"></div>
   </div>
 
   <!-- Main content area -->
