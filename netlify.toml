@@ -4,7 +4,7 @@
 [[headers]]
   for = "/public/data/episodes.json"
   [headers.values]
-    Cache-Control = "public, max-age=60"
+    Cache-Control = "public, max-age=86400"
 
 [[headers]]
   for = "/sw.js"

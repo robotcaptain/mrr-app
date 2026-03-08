@@ -299,9 +299,10 @@ async function main() {
   console.log('\n── Fetching RSS ──');
   const rssItems = await fetchRssItems(SINCE_NUM ? 9999 : RECENT_COUNT);
 
+  const MODE_FORCE = args.includes('--force');
   const toImport = rssItems.filter((ep) => {
     if (SINCE_NUM && ep.epNum <= SINCE_NUM) return false;
-    if (!MODE_ALL && existingIds.has(ep.epNum)) return false;
+    if (existingIds.has(ep.epNum) && !MODE_FORCE) return false;
     return true;
   });
 
@@ -349,7 +350,19 @@ async function main() {
 
     console.log(`  #${ep.epNum} ${ep.date}  host="${ep.host}"  tracks=${ep.tracks.length}`);
     newEpisodes.push(episode);
-    if (MODE_SLOW) await delay(10000);
+
+    // Checkpoint every 25 new episodes — save progress to disk
+    if (newEpisodes.length % 25 === 0) {
+      const checkpoint = [
+        ...newEpisodes,
+        ...existing.filter((e) => !newEpisodes.find((n) => n.id === e.id)),
+      ].sort((a, b) => b.id - a.id);
+      writeFileSync(OUTPUT_FILE, JSON.stringify({ generated: new Date().toISOString(), count: checkpoint.length, episodes: checkpoint }, null, 2));
+      const ckTracks = checkpoint.reduce((s, e) => s + (e.tracks?.length || 0), 0);
+      console.log(`  ── checkpoint: ${checkpoint.length} episodes, ${ckTracks} tracks saved ──`);
+    }
+
+    if (MODE_SLOW) await delay(5000);
   }
 
   const merged = [
