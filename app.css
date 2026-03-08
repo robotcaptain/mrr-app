@@ -688,3 +688,41 @@ img { display: block; object-fit: cover; }
   clip: rect(0,0,0,0);
   white-space: nowrap;
 }
+
+/* ─── Artist Index Overlay ──────────────────────────────────────────────── */
+#artist-index-overlay {
+  position: fixed;
+  top: calc(var(--header-h) + env(safe-area-inset-top, 0px) + var(--filter-h));
+  left: 0; right: 0;
+  bottom: calc(var(--player-h) + var(--safe-bottom));
+  background: var(--bg);
+  z-index: 85;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.artist-index-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--border);
+  text-align: left;
+  gap: 8px;
+}
+.artist-index-row:active { background: var(--surface); }
+.artist-index-name { font-size: 14px; font-weight: 500; flex: 1; }
+.artist-index-count { font-size: 12px; color: var(--muted); flex-shrink: 0; }
+.artist-index-empty {
+  padding: 32px 16px;
+  color: var(--muted);
+  font-size: 14px;
+  text-align: center;
+}
+.search-cancel {
+  font-size: 14px;
+  color: var(--muted);
+  padding: 0 4px 0 8px;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
