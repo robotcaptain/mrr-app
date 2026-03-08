@@ -266,9 +266,8 @@ export async function getEpisodesByArtist(artistName) {
  * Get all artists with episode counts, sorted alphabetically.
  * Returns [{ artist, episodeCount }]
  */
-export async function getAllArtists() {
-  const db = await openDB();
-  return new Promise((resolve, reject) => {
+export function getAllArtists() {
+  return openDB().then((db) => new Promise((resolve, reject) => {
     const tx = db.transaction('tracks', 'readonly');
     const req = tx.objectStore('tracks').index('artist').openCursor();
     const map = new Map();
@@ -276,6 +275,7 @@ export async function getAllArtists() {
       const cursor = e.target.result;
       if (cursor) {
         const { artist, episodeId } = cursor.value;
+        if (!artist) { cursor.continue(); return; }
         if (!map.has(artist)) map.set(artist, new Set());
         map.get(artist).add(episodeId);
         cursor.continue();
@@ -288,7 +288,7 @@ export async function getAllArtists() {
       }
     };
     req.onerror = () => reject(req.error);
-  });
+  }));
 }
 
 // ─── Playback ─────────────────────────────────────────────────────────────────
