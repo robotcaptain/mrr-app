@@ -698,6 +698,7 @@ img { display: block; object-fit: cover; }
   background: var(--bg);
   z-index: 85;
   overflow-y: auto;
+  overscroll-behavior: contain;
   -webkit-overflow-scrolling: touch;
 }
 .artist-index-row {
