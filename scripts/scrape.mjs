@@ -30,6 +30,7 @@ const RSS_BASE = `${BASE_URL}/cat/mrr-radio/mrr-radio-podcast/feed/`;
 const args = process.argv.slice(2);
 const MODE_ALL = args.includes('--all');
 const MODE_DOWNLOAD = args.includes('--download');
+const MODE_SLOW = args.includes('--slow'); // 10s between episodes to avoid rate limiting
 const SINCE_IDX = args.indexOf('--since');
 const SINCE_NUM = SINCE_IDX !== -1 ? parseInt(args[SINCE_IDX + 1], 10) : 0;
 const RECENT_COUNT = 15;
@@ -266,7 +267,8 @@ async function fetchRssItems(targetCount) {
   while (true) {
     const url = page === 1 ? RSS_BASE : `${RSS_BASE}?paged=${page}`;
     console.log(`  RSS page ${page}: ${url}`);
-    const xml = await fetchUrl(url);
+    let xml;
+    try { xml = await fetchUrl(url); } catch { break; } // 404 = no more pages
     const pageItems = parseRssPage(xml);
     console.log(`    → ${pageItems.length} episodes parsed`);
     if (pageItems.length === 0) break;
@@ -347,6 +349,7 @@ async function main() {
 
     console.log(`  #${ep.epNum} ${ep.date}  host="${ep.host}"  tracks=${ep.tracks.length}`);
     newEpisodes.push(episode);
+    if (MODE_SLOW) await delay(10000);
   }
 
   const merged = [
