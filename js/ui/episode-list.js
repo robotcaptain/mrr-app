@@ -40,7 +40,7 @@ function buildThumb(ep) {
   return div;
 }
 
-export function buildCard(ep, isPlayed, onClick) {
+export function buildCard(ep, isPlayed, onClick, tracks) {
   const card = document.createElement('div');
   card.className = 'episode-card';
   card.dataset.id = ep.id;
@@ -86,6 +86,13 @@ export function buildCard(ep, isPlayed, onClick) {
     body.appendChild(caption);
   }
 
+  if (tracks && tracks.length > 0) {
+    const tracksEl = document.createElement('div');
+    tracksEl.className = 'ep-artist-tracks';
+    tracksEl.textContent = tracks.join(' · ');
+    body.appendChild(tracksEl);
+  }
+
   card.appendChild(body);
 
   if (isPlayed) {
@@ -106,10 +113,10 @@ export function buildCard(ep, isPlayed, onClick) {
   return card;
 }
 
-export function renderList(container, episodes, playedSet, onEpisodeClick) {
+export function renderList(container, episodes, playedSet, onEpisodeClick, tracksByEpisode) {
   const frag = document.createDocumentFragment();
   for (const ep of episodes) {
-    frag.appendChild(buildCard(ep, playedSet.has(ep.id), onEpisodeClick));
+    frag.appendChild(buildCard(ep, playedSet.has(ep.id), onEpisodeClick, tracksByEpisode?.get(ep.id)));
   }
   container.replaceChildren(frag);
 }

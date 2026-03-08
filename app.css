@@ -738,3 +738,13 @@ body.has-player .side-panel {
 body.keyboard-open .mini-player {
   display: none;
 }
+
+/* Track names in artist episode cards */
+.ep-artist-tracks {
+  font-size: 12px;
+  color: var(--accent);
+  margin-top: 3px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

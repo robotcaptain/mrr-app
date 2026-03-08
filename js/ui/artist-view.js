@@ -5,7 +5,7 @@
  * Uses the same episode card format as the main list.
  */
 
-import { getEpisodesByArtist, getEpisodes } from '../db.js';
+import { getEpisodesByArtist, getEpisodes, getTracksByArtist } from '../db.js';
 import { renderList } from './episode-list.js';
 
 export class ArtistView {
@@ -31,17 +31,24 @@ export class ArtistView {
   /** Open the panel for a given artist name */
   async open(artistName) {
     this._nameEl.textContent = artistName;
-    this._listEl.replaceChildren(); // clear while loading
+    this._listEl.replaceChildren();
 
-    // Show immediately
     this._panel.classList.add('open');
     this._panel.setAttribute('aria-hidden', 'false');
 
-    // Load episodes
-    const episodeIds = await getEpisodesByArtist(artistName);
-    const episodes = episodeIds.length
-      ? await getEpisodes({ episodeIds })
-      : [];
+    const [episodeIds, allTracks] = await Promise.all([
+      getEpisodesByArtist(artistName),
+      getTracksByArtist(artistName),
+    ]);
+
+    // Build map: episodeId → [title, ...]
+    const tracksByEpisode = new Map();
+    for (const { episodeId, title } of allTracks) {
+      if (!tracksByEpisode.has(episodeId)) tracksByEpisode.set(episodeId, []);
+      tracksByEpisode.get(episodeId).push(title);
+    }
+
+    const episodes = episodeIds.length ? await getEpisodes({ episodeIds }) : [];
 
     if (episodes.length === 0) {
       const msg = document.createElement('p');
@@ -51,8 +58,7 @@ export class ArtistView {
     } else {
       renderList(this._listEl, episodes, this._playedSet, (id) => {
         this._onEpisodeClick(id);
-        // Keep artist view open so user can go back to it
-      });
+      }, tracksByEpisode);
     }
   }
 
