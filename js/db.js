@@ -262,6 +262,35 @@ export async function getEpisodesByArtist(artistName) {
   });
 }
 
+/**
+ * Get all artists with episode counts, sorted alphabetically.
+ * Returns [{ artist, episodeCount }]
+ */
+export async function getAllArtists() {
+  const db = await openDB();
+  return new Promise((resolve, reject) => {
+    const tx = db.transaction('tracks', 'readonly');
+    const req = tx.objectStore('tracks').index('artist').openCursor();
+    const map = new Map();
+    req.onsuccess = (e) => {
+      const cursor = e.target.result;
+      if (cursor) {
+        const { artist, episodeId } = cursor.value;
+        if (!map.has(artist)) map.set(artist, new Set());
+        map.get(artist).add(episodeId);
+        cursor.continue();
+      } else {
+        resolve(
+          [...map.entries()]
+            .map(([artist, eps]) => ({ artist, episodeCount: eps.size }))
+            .sort((a, b) => a.artist.localeCompare(b.artist))
+        );
+      }
+    };
+    req.onerror = () => reject(req.error);
+  });
+}
+
 // ─── Playback ─────────────────────────────────────────────────────────────────
 
 export function getPlayback(episodeId) {
