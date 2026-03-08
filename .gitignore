@@ -3,3 +3,6 @@ node_modules/
 .DS_Store
 *.log
 public/data/rss/
+
+# Local Netlify folder
+.netlify
