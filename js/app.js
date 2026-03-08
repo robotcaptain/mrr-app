@@ -32,6 +32,7 @@ const lastUpdatedEl = document.getElementById('last-updated');
 
 const searchInput     = document.getElementById('search-input');
 const searchCancel    = document.getElementById('search-cancel');
+const searchClear     = document.getElementById('search-clear');
 const artistIndexEl   = document.getElementById('artist-index-overlay');
 const artistIndexList = document.getElementById('artist-index-list');
 
@@ -70,16 +71,18 @@ const filters = new Filters({
 });
 
 function openArtistIndex() {
+  if (artistIndex.isOpen) return;
   searchCancel.hidden = false;
-  document.getElementById('search-clear').hidden = true;
+  searchClear.hidden = true;
   artistIndex.open();
 }
 
 function closeArtistIndex() {
   searchCancel.hidden = true;
   searchInput.value = '';
-  searchInput.blur();
   artistIndex.close();
+  searchInput.dispatchEvent(new Event('input', { bubbles: true }));
+  searchInput.blur();
 }
 
 searchInput.addEventListener('focus', () => openArtistIndex());
