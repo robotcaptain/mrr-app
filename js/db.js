@@ -263,6 +263,22 @@ export async function getEpisodesByArtist(artistName) {
 }
 
 /**
+ * Get all tracks by a specific artist, across all episodes.
+ * Returns [{ episodeId, title }]
+ */
+export function getTracksByArtist(artistName) {
+  const normalized = artistName.toUpperCase().trim();
+  return openDB().then((db) => new Promise((resolve, reject) => {
+    const tx = db.transaction('tracks', 'readonly');
+    const req = tx.objectStore('tracks').index('artist').getAll(normalized);
+    req.onsuccess = () => {
+      resolve((req.result || []).map((t) => ({ episodeId: t.episodeId, title: t.title })));
+    };
+    req.onerror = () => reject(req.error);
+  }));
+}
+
+/**
  * Get all artists with episode counts, sorted alphabetically.
  * Returns [{ artist, episodeCount }]
  */
