@@ -101,7 +101,21 @@ function decode(s) {
 // ── Extract featured thumbnail from episode page ──────────────────────────────
 async function fetchThumbnail(epNum) {
   try {
-    const html = await fetchUrl(`${BASE_URL}/radio_show/mrr-radio-${epNum}/`);
+    // 1621.5 → "1621-5", 1583.52 → "1583-5-2" (Part 2)
+    const s = String(epNum);
+    let slug;
+    if (/\.\d{2,}$/.test(s)) {
+      slug = s.replace('.', '-').replace(/(\d)(\d)$/, '$1-$2');
+    } else {
+      slug = s.replace('.', '-');
+    }
+    let html;
+    try {
+      html = await fetchUrl(`${BASE_URL}/radio_show/mrr-radio-${slug}/`);
+    } catch {
+      // Some .5 episodes use "mrrradio" slug (e.g. mrrradio1598-5)
+      html = await fetchUrl(`${BASE_URL}/radio_show/mrrradio${slug}/`);
+    }
     const m = html.match(/<img class="lazyload border"[^>]+data-srcset="([^"]+)"/);
     if (!m) return null;
     const urls = m[1].split(',').map((s) => s.trim().split(' ')[0]);
@@ -192,8 +206,12 @@ function parseRssPage(xml) {
     const title = (block.match(/<title><!\[CDATA\[(.*?)\]\]><\/title>/) ||
       block.match(/<title>([^<]*)<\/title>/))?.[1]?.trim() || '';
 
-    const epNumMatch = title.match(/#(\d+)/);
-    const epNum = epNumMatch ? parseInt(epNumMatch[1], 10) : null;
+    const epNumMatch = title.match(/#(\d+(?:\.\d+)?)/);
+    if (!epNumMatch) continue;
+    let epNum = parseFloat(epNumMatch[1]);
+    // Handle "Part 1" / "Part 2" suffixes on .5 episodes (e.g. #1583.5 Part 2 → 1583.52)
+    const partMatch = title.match(/part\s*(\d)/i);
+    if (partMatch) epNum = parseFloat(epNum.toFixed(1) + partMatch[1]);
     if (!epNum) continue;
 
     // Link
@@ -326,7 +344,7 @@ async function main() {
       trackCount: ep.tracks.length,
       localAudio: false,
       tracks: ep.tracks.map((t, idx) => ({
-        id: ep.epNum * 10000 + idx,
+        id: Math.round(ep.epNum * 10) * 1000 + idx,
         episodeId: ep.epNum,
         ...t,
       })),
