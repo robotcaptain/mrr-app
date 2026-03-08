@@ -11,6 +11,7 @@ import { Filters } from './ui/filters.js';
 import { renderList, setActiveCard, markCardPlayed } from './ui/episode-list.js';
 import { PlayerUI } from './ui/player-ui.js';
 import { ArtistView } from './ui/artist-view.js';
+import { ArtistIndex } from './ui/artist-index.js';
 
 // ── State ──────────────────────────────────────────────────────────────────────
 const state = {
@@ -29,6 +30,11 @@ const episodeList   = document.getElementById('episode-list');
 const syncBtn       = document.getElementById('sync-btn');
 const lastUpdatedEl = document.getElementById('last-updated');
 
+const searchInput     = document.getElementById('search-input');
+const searchCancel    = document.getElementById('search-cancel');
+const artistIndexEl   = document.getElementById('artist-index-overlay');
+const artistIndexList = document.getElementById('artist-index-list');
+
 function updateLastUpdatedDisplay() {
   const raw = localStorage.getItem('mrr-last-updated');
   if (!raw || !lastUpdatedEl) return;
@@ -46,6 +52,14 @@ function markUpdatedNow() {
 const player = new Player();
 const playerUI = new PlayerUI(player, handleArtistClick);
 const artistView = new ArtistView(handleEpisodeClick, state.playedSet);
+const artistIndex = new ArtistIndex({
+  overlayEl: artistIndexEl,
+  listEl: artistIndexList,
+  onArtistSelect: (name) => {
+    closeArtistIndex();
+    handleArtistClick(name);
+  },
+});
 
 const filters = new Filters({
   searchEl: document.getElementById('search-input'),
@@ -53,6 +67,25 @@ const filters = new Filters({
   hostEl:   document.getElementById('host-filter'),
   yearEl:   document.getElementById('year-filter'),
   onFilterChange: handleFilterChange,
+});
+
+function openArtistIndex() {
+  searchCancel.hidden = false;
+  document.getElementById('search-clear').hidden = true;
+  artistIndex.open();
+}
+
+function closeArtistIndex() {
+  searchCancel.hidden = true;
+  searchInput.value = '';
+  searchInput.blur();
+  artistIndex.close();
+}
+
+searchInput.addEventListener('focus', () => openArtistIndex());
+searchCancel.addEventListener('click', () => closeArtistIndex());
+searchInput.addEventListener('input', () => {
+  if (artistIndex.isOpen) artistIndex.filter(searchInput.value.trim());
 });
 
 // ── Bootstrap ──────────────────────────────────────────────────────────────────
