@@ -1,5 +1,5 @@
 // Service Worker — MRR Radio
-const CACHE_NAME = 'mrr-radio-v2';
+const CACHE_NAME = 'mrr-radio-v3';
 const SHELL_ASSETS = [
   '/',
   '/index.html',
@@ -13,6 +13,9 @@ const SHELL_ASSETS = [
   '/js/ui/filters.js',
   '/js/ui/player-ui.js',
   '/js/ui/artist-view.js',
+  '/js/ui/artist-index.js',
+  '/js/ui/episode-detail.js',
+  '/js/ui/nav-stack.js',
   '/icons/icon-192.png',
   '/icons/icon-512.png',
   '/icons/apple-touch-icon.png',
