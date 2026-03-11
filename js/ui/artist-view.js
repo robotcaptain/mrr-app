@@ -12,17 +12,22 @@ export class ArtistView {
   /**
    * @param {function} onEpisodeClick  — (episodeId) => void  (plays the episode)
    * @param {Set}      playedSet       — live reference to played episode IDs
+   * @param {function} [onBack]        — optional callback when back button is pressed
    */
-  constructor(onEpisodeClick, playedSet) {
+  constructor(onEpisodeClick, playedSet, onBack) {
     this._onEpisodeClick = onEpisodeClick;
     this._playedSet = playedSet;
+    this._onBack = onBack || null;
 
     this._panel     = document.getElementById('artist-view');
     this._nameEl    = document.getElementById('artist-name');
     this._listEl    = document.getElementById('artist-episode-list');
     this._backBtn   = document.getElementById('artist-back-btn');
 
-    this._backBtn.addEventListener('click', () => this.close());
+    this._backBtn.addEventListener('click', () => {
+      this.close();
+      if (this._onBack) this._onBack();
+    });
 
     // Swipe back from left edge
     this._bindSwipeBack();
