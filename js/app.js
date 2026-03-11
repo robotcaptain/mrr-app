@@ -12,6 +12,8 @@ import { renderList, setActiveCard, markCardPlayed } from './ui/episode-list.js'
 import { PlayerUI } from './ui/player-ui.js';
 import { ArtistView } from './ui/artist-view.js';
 import { ArtistIndex } from './ui/artist-index.js';
+import { EpisodeDetail } from './ui/episode-detail.js';
+import { NavStack } from './ui/nav-stack.js';
 
 // ── State ──────────────────────────────────────────────────────────────────────
 const state = {
@@ -20,6 +22,7 @@ const state = {
   playedSet: new Set(), // episode IDs the user has played to completion
   filters: { query: '', host: '', year: '' },
   currentEpisodeId: null,
+  selectedEpisodeId: null,
 };
 
 // ── DOM refs ───────────────────────────────────────────────────────────────────
@@ -35,6 +38,15 @@ const searchCancel    = document.getElementById('search-cancel');
 const searchClear     = document.getElementById('search-clear');
 const artistIndexEl   = document.getElementById('artist-index-overlay');
 const artistIndexList = document.getElementById('artist-index-list');
+
+const leftColumn    = document.getElementById('left-column');
+const rightColumn   = document.getElementById('right-column');
+const detailEl      = document.getElementById('episode-detail');
+const navBackBtn    = document.getElementById('nav-back-btn');
+const navHomeBtn    = document.getElementById('nav-home-btn');
+const navButtonsEl  = document.getElementById('nav-buttons');
+const navTitleEl    = document.getElementById('nav-title');
+const appTitle      = document.querySelector('.app-title');
 
 function updateLastUpdatedDisplay() {
   const raw = localStorage.getItem('mrr-last-updated');
@@ -52,7 +64,57 @@ function markUpdatedNow() {
 // ── Modules ────────────────────────────────────────────────────────────────────
 const player = new Player();
 const playerUI = new PlayerUI(player, handleArtistClick);
-const artistView = new ArtistView(handleEpisodeClick, state.playedSet);
+const artistView = new ArtistView(handleEpisodeClick, state.playedSet, () => {
+  if (isMobile()) navStack.back();
+});
+
+const episodeDetail = new EpisodeDetail(detailEl, {
+  onPlay: handlePlayClick,
+  onArtistClick: handleArtistClick,
+});
+episodeDetail.clear();
+
+const isMobile = () => window.innerWidth < 768;
+
+const navStack = new NavStack((entry, depth) => {
+  if (!isMobile()) return;
+
+  if (depth <= 1) {
+    // Root — show app title, hide nav buttons
+    navButtonsEl.hidden = true;
+    navTitleEl.hidden = true;
+    appTitle.hidden = false;
+    document.body.classList.remove('mobile-detail');
+  } else {
+    // Deeper — show back, maybe home
+    navButtonsEl.hidden = false;
+    navBackBtn.hidden = false;
+    navHomeBtn.hidden = depth <= 2;
+    appTitle.hidden = true;
+    navTitleEl.hidden = false;
+    navTitleEl.textContent = entry.title || '';
+
+    if (entry.type === 'episode-detail') {
+      document.body.classList.add('mobile-detail');
+    } else {
+      document.body.classList.remove('mobile-detail');
+    }
+  }
+});
+
+navBackBtn.addEventListener('click', () => {
+  const prev = navStack.current;
+  navStack.back();
+  // If we backed out of episode detail, deselect
+  if (prev.type === 'episode-detail' && navStack.current.type !== 'episode-detail') {
+    document.body.classList.remove('mobile-detail');
+  }
+});
+navHomeBtn.addEventListener('click', () => {
+  navStack.home();
+  document.body.classList.remove('mobile-detail');
+});
+
 const artistIndex = new ArtistIndex({
   overlayEl: artistIndexEl,
   listEl: artistIndexList,
@@ -194,16 +256,29 @@ async function handleFilterChange(filterState) {
   showMain();
 }
 
-// ── Episode click → play ───────────────────────────────────────────────────────
+// ── Episode click → browse (show detail) ────────────────────────────────────────
 async function handleEpisodeClick(episodeId) {
   const episode = state.allEpisodes.find((e) => e.id === episodeId)
     || await getEpisode(episodeId);
+  if (!episode) return;
 
+  state.selectedEpisodeId = episodeId;
+  setActiveCard(episodeList, episodeId);
+  await episodeDetail.show(episode);
+
+  // On mobile, push to nav stack
+  if (isMobile()) {
+    navStack.push({ type: 'episode-detail', episodeId, title: `#${episodeId}` });
+  }
+}
+
+// ── Play click → start playback ─────────────────────────────────────────────────
+async function handlePlayClick(episodeId) {
+  const episode = state.allEpisodes.find((e) => e.id === episodeId)
+    || await getEpisode(episodeId);
   if (!episode) return;
 
   state.currentEpisodeId = episodeId;
-  setActiveCard(episodeList, episodeId);
-
   playerUI.setEpisode(episode);
   await player.play(episode);
 }
@@ -212,6 +287,10 @@ async function handleEpisodeClick(episodeId) {
 function handleArtistClick(artistName) {
   playerUI.closeSheet();
   artistView.open(artistName);
+
+  if (isMobile()) {
+    navStack.push({ type: 'artist-view', artist: artistName, title: artistName });
+  }
 }
 
 // ── Played state propagation ───────────────────────────────────────────────────
