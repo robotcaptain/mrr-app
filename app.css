@@ -170,6 +170,94 @@ img { display: block; object-fit: cover; }
   min-height: 100vh;
 }
 
+/* ─── Two-Column Layout ────────────────────────────────────────────────── */
+#app-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+#left-column {
+  flex: 1;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+}
+
+#right-column {
+  display: none; /* hidden on mobile by default */
+}
+
+@media (min-width: 768px) {
+  #app-main {
+    padding-top: calc(var(--header-h) + env(safe-area-inset-top, 0px));
+    padding-bottom: 0;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  #app-layout {
+    flex-direction: row;
+    flex: 1;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  #left-column {
+    width: 350px;
+    min-width: 350px;
+    flex-shrink: 0;
+    border-right: 1px solid var(--border);
+    overflow-y: auto;
+  }
+
+  #right-column {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    position: relative;
+  }
+
+  /* Filter bar: sticky inside left column on desktop */
+  #filter-bar {
+    position: sticky;
+    top: 0;
+    left: auto;
+    right: auto;
+    z-index: 10;
+  }
+
+  /* Mini player: spans full width on desktop too */
+  /* Player drawer: overlays right column only */
+  .player-sheet {
+    left: 350px;
+  }
+  .sheet-backdrop {
+    left: 350px;
+  }
+
+  /* Artist view: overlay left column only */
+  .side-panel {
+    width: 350px;
+    z-index: 95;
+  }
+
+  #artist-index-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: auto;
+  }
+
+  /* Hide mobile nav buttons on desktop */
+  .nav-buttons { display: none !important; }
+  .nav-title { display: none !important; }
+}
+
 /* ─── Status Views ──────────────────────────────────────────────────────── */
 .status-view {
   display: flex;
@@ -752,4 +840,108 @@ body.keyboard-open .mini-player {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+/* ─── Episode Detail (Right Column) ────────────────────────────────────── */
+.detail-empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  min-height: 300px;
+  color: var(--muted);
+  font-size: 14px;
+  text-align: center;
+  padding: 40px;
+}
+
+.detail-header {
+  display: flex;
+  gap: 16px;
+  padding: 24px 20px 16px;
+  align-items: flex-start;
+}
+
+.detail-art {
+  width: 120px;
+  height: 120px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  flex-shrink: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.detail-art img { width: 100%; height: 100%; object-fit: cover; }
+.detail-art-placeholder {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--muted);
+  text-align: center;
+}
+.detail-art-placeholder strong { display: block; font-size: 28px; color: var(--text); }
+
+.detail-info { flex: 1; min-width: 0; }
+.detail-title {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  margin-bottom: 4px;
+}
+.detail-host { font-size: 14px; font-weight: 500; margin-bottom: 2px; }
+.detail-date { font-size: 12px; color: var(--muted); }
+
+.detail-caption {
+  padding: 0 20px 16px;
+  font-size: 13px;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+.detail-play-btn {
+  display: block;
+  margin: 0 20px 20px;
+  padding: 12px 24px;
+  background: var(--text);
+  color: var(--bg);
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 6px;
+  cursor: pointer;
+  text-align: center;
+  transition: opacity 0.15s;
+}
+.detail-play-btn:active { opacity: 0.8; }
+
+.detail-tracklist { border-top: 1px solid var(--border); }
+
+/* ─── Mobile Navigation ────────────────────────────────────────────────── */
+.nav-buttons {
+  display: flex;
+  align-items: center;
+  gap: 0;
+}
+
+.nav-title {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  flex: 1;
+}
+
+@media (max-width: 767px) {
+  /* When viewing episode detail on mobile, show right column instead of left */
+  body.mobile-detail #left-column { display: none; }
+  body.mobile-detail #right-column { display: block; overflow-y: auto; flex: 1; }
+  body.mobile-detail #filter-bar { display: none; }
+
+  /* Right column on mobile needs padding for mini player */
+  body.mobile-detail #right-column {
+    padding-bottom: calc(var(--player-h) + var(--safe-bottom) + 16px);
+  }
 }
