@@ -91,14 +91,13 @@ function txPutBulk(storeName, items) {
     new Promise((resolve, reject) => {
       const tx = db.transaction(storeName, 'readwrite');
       const store = tx.objectStore(storeName);
-      let pending = items.length;
-      if (pending === 0) return resolve(0);
-      let done = 0;
+      if (items.length === 0) return resolve(0);
       for (const item of items) {
         const req = store.put(item);
-        req.onsuccess = () => { done++; if (done === pending) resolve(done); };
         req.onerror = () => reject(req.error);
       }
+      tx.oncomplete = () => resolve(items.length);
+      tx.onerror = () => reject(tx.error);
     })
   );
 }

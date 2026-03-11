@@ -316,14 +316,13 @@ syncBtn.addEventListener('click', async () => {
   syncBtn.classList.add('spinning');
   if (lastUpdatedEl) lastUpdatedEl.textContent = 'Syncing…';
   try {
-    const result = await sync((msg) => console.log('sync:', msg));
+    await sync((msg) => console.log('sync:', msg));
     syncBtn.classList.remove('has-update');
     markUpdatedNow();
-    if (result.added > 0) {
-      state.allEpisodes = await getEpisodes();
-      await handleFilterChange(state.filters);
-      await filters.populate();
-    }
+    // Always re-render — data may have been refreshed even if no new episodes
+    state.allEpisodes = await getEpisodes();
+    await handleFilterChange(state.filters);
+    await filters.populate();
   } catch (err) {
     console.warn('Sync failed:', err);
     updateLastUpdatedDisplay(); // restore previous text on error

@@ -180,6 +180,7 @@ export async function sync(onProgress) {
   if (trackRows.length) await putTracks(trackRows);
 
   if (newEpisodes.length > 0) onProgress?.(`Added ${newEpisodes.length} new episodes`);
+  if (toRefresh.length > 0) onProgress?.(`Refreshed ${toRefresh.length} episodes`);
   if (newVersion) localStorage.setItem(DATA_VERSION_KEY, newVersion);
-  return { added: newEpisodes.length };
+  return { added: newEpisodes.length, refreshed: toRefresh.length };
 }
