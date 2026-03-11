@@ -209,6 +209,8 @@ img { display: block; object-fit: cover; }
     flex-shrink: 0;
     border-right: 1px solid var(--border);
     overflow-y: auto;
+    overflow-x: hidden;
+    position: relative;
   }
 
   #right-column {
@@ -236,21 +238,6 @@ img { display: block; object-fit: cover; }
   }
   .sheet-backdrop {
     left: 350px;
-  }
-
-  /* Artist view: overlay left column only */
-  .side-panel {
-    width: 350px;
-    z-index: 95;
-  }
-
-  #artist-index-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: auto;
   }
 
   /* Hide mobile nav buttons on desktop */
@@ -734,6 +721,21 @@ img { display: block; object-fit: cover; }
 .side-panel.open {
   transform: translateX(0);
 }
+@media (min-width: 768px) {
+  .side-panel {
+    width: 350px;
+    left: 0;
+    right: auto;
+    top: calc(var(--header-h) + env(safe-area-inset-top, 0px));
+    height: auto;
+    bottom: 0;
+    z-index: 95;
+    transform: translateX(-100%);
+  }
+  .side-panel.open {
+    transform: translateX(0);
+  }
+}
 
 .side-panel-header {
   display: flex;
@@ -793,6 +795,16 @@ img { display: block; object-fit: cover; }
   overflow-y: auto;
   overscroll-behavior: contain;
   -webkit-overflow-scrolling: touch;
+}
+@media (min-width: 768px) {
+  #artist-index-overlay {
+    position: absolute;
+    top: var(--filter-h);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: auto;
+  }
 }
 .artist-index-row {
   display: flex;
