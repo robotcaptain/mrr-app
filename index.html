@@ -16,6 +16,20 @@
   <!-- Fixed header -->
   <header id="app-header">
     <h1 class="app-title">MRR RADIO</h1>
+    <div id="nav-buttons" class="nav-buttons" hidden>
+      <button id="nav-back-btn" class="back-btn" aria-label="Back">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <polyline points="15 18 9 12 15 6"></polyline>
+        </svg>
+      </button>
+      <button id="nav-home-btn" class="back-btn" aria-label="Home" hidden>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"></path>
+          <polyline points="9 22 9 12 15 12 15 22"></polyline>
+        </svg>
+      </button>
+    </div>
+    <span id="nav-title" class="nav-title" hidden></span>
     <div class="header-right">
       <span id="last-updated" class="last-updated"></span>
       <button id="sync-btn" class="icon-btn" title="Sync new episodes" aria-label="Sync new episodes">
@@ -28,55 +42,65 @@
     </div>
   </header>
 
-  <!-- Sticky filter bar -->
-  <div id="filter-bar">
-    <div class="search-wrap">
-      <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-        <circle cx="11" cy="11" r="8"></circle>
-        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-      </svg>
-      <input
-        type="search"
-        id="search-input"
-        placeholder="Search artists or songs..."
-        autocomplete="off"
-        autocorrect="off"
-        autocapitalize="off"
-        spellcheck="false"
-      >
-      <button id="search-clear" class="search-clear" hidden aria-label="Clear search">✕</button>
-      <button id="search-cancel" class="search-cancel" hidden aria-label="Cancel">Cancel</button>
-    </div>
-    <div class="filter-row">
-      <select id="host-filter" aria-label="Filter by host">
-        <option value="">All Hosts</option>
-      </select>
-      <select id="year-filter" aria-label="Filter by year">
-        <option value="">All Years</option>
-      </select>
-    </div>
-  </div>
-
-  <!-- Artist index overlay -->
-  <div id="artist-index-overlay" hidden>
-    <div id="artist-index-list"></div>
-  </div>
-
   <!-- Main content area -->
   <main id="app-main">
-    <!-- Loading state -->
-    <div id="loading-view" class="status-view">
-      <div class="loading-spinner"></div>
-      <p id="loading-msg">Loading episodes...</p>
-    </div>
+    <div id="app-layout">
+      <!-- Left column -->
+      <div id="left-column">
+        <!-- Filter bar -->
+        <div id="filter-bar">
+          <div class="search-wrap">
+            <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            <input
+              type="search"
+              id="search-input"
+              placeholder="Search artists or songs..."
+              autocomplete="off"
+              autocorrect="off"
+              autocapitalize="off"
+              spellcheck="false"
+            >
+            <button id="search-clear" class="search-clear" hidden aria-label="Clear search">✕</button>
+            <button id="search-cancel" class="search-cancel" hidden aria-label="Cancel">Cancel</button>
+          </div>
+          <div class="filter-row">
+            <select id="host-filter" aria-label="Filter by host">
+              <option value="">All Hosts</option>
+            </select>
+            <select id="year-filter" aria-label="Filter by year">
+              <option value="">All Years</option>
+            </select>
+          </div>
+        </div>
 
-    <!-- Empty state -->
-    <div id="empty-view" class="status-view" hidden>
-      <p>No episodes found.</p>
-    </div>
+        <!-- Loading state -->
+        <div id="loading-view" class="status-view">
+          <div class="loading-spinner"></div>
+          <p id="loading-msg">Loading episodes...</p>
+        </div>
 
-    <!-- Episode list -->
-    <div id="episode-list" hidden></div>
+        <!-- Empty state -->
+        <div id="empty-view" class="status-view" hidden>
+          <p>No episodes found.</p>
+        </div>
+
+        <!-- Episode list -->
+        <div id="episode-list" hidden></div>
+
+        <!-- Artist index overlay -->
+        <div id="artist-index-overlay" hidden>
+          <div id="artist-index-list"></div>
+        </div>
+      </div>
+
+      <!-- Right column -->
+      <div id="right-column">
+        <div id="episode-detail"></div>
+      </div>
+    </div>
   </main>
 
   <!-- Artist view (slides in from right) -->
