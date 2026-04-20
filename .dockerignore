@@ -1,0 +1,12 @@
+.git
+.github
+.netlify
+.claude
+node_modules
+docs
+tools
+scripts
+*.md
+*.png
+*.json5
+artist-review-results.json
