@@ -1,7 +1,7 @@
 # MRR Radio — Claude Context
 
 ## What this is
-A PWA for browsing and playing Maximum Rock N Roll Radio episodes. Deployed on Netlify (auto-deploy disabled — use `npx netlify deploy --prod`). GitHub Actions scrapes new episodes every Tuesday.
+A PWA for browsing and playing Maximum Rock N Roll Radio episodes. Hosted on Coolify (self-hosted DigitalOcean VPS). GitHub Actions scrapes new episodes every Tuesday.
 
 ## Tech stack
 - Vanilla JS ESM modules — no framework, no build step, no npm deps
@@ -24,7 +24,9 @@ js/ui/nav-stack.js      — mobile navigation stack (back/home buttons)
 js/ui/filters.js        — host/year dropdowns + search input (debounced)
 js/ui/artist-view.js    — slide-in panel: episodes by artist
 js/ui/artist-index.js   — overlay: alphabetical artist list
-public/data/episodes.json  — 789 episodes (#1181–#1975), ~17500 tracks
+Dockerfile              — nginx:alpine, copies static files, no build step
+nginx.conf              — production nginx config (gzip, cache-control, security headers)
+public/data/episodes.json  — ~792 episodes (#1181–#1978), ~17600 tracks
 public/data/episodes-version.json — lightweight version check (~60 bytes)
 public/images/thumbs/   — locally cached episode thumbnails (391 episodes)
 public/audio/           — downloaded MP3s (mrr-radio-<id>.mp3)
@@ -88,17 +90,23 @@ node scripts/find-onsets.mjs <episodeId> [--dry-run] [--all-candidates]
 ```
 
 ## Deployment
-- Netlify auto-deploy is DISABLED (`stop_builds: true`)
-- Deploy manually: `npx netlify deploy --prod`
-- ALWAYS get user approval before deploying
+- Hosted on Coolify (self-hosted on DigitalOcean VPS at 64.227.4.117)
+- Live at https://mrr.apps.michaelbrennan.work
+- Auto-deploys on push to `main` via GitHub App webhook ("coolify-mbrennan")
+- Dockerfile: nginx:alpine, no build step — just copies static files
+- Nginx: gzip enabled, cache-control headers, security headers at server level
+- Coolify dashboard: http://64.227.4.117:8000
+- DNS: `*.apps.michaelbrennan.work` → 64.227.4.117 (wildcard A record on Squarespace)
+- Local testing: `npx serve -l 3000 .`
 
 ## Backlog
-1. **Artist view full-height on desktop** — should fill entire left column (no episode list peeking through)
-2. **Mini player click-to-expand** — click anywhere on mini player to open drawer
-3. **Player drawer click-to-close** — click anywhere on drawer top area to close
-4. **Indexed timestamps not showing** — track timestamps stopped displaying on indexed episodes
-5. **Player drawer visual distinction** — stronger top border and/or lighter background shade
-6. **Post-scrape cleanup** — fix .5 episode IDs, improve host detection, add --local-rss mode
-7. **Download MP3s** — download episodes for local indexing
-8. **Index track timestamps** — run find-onsets.mjs on downloaded MP3s, verify manually
-9. **Favorites list** — requires user tracking (localStorage or login). Backburner.
+1. **Uptime monitoring** — set up UptimeRobot or similar for https://mrr.apps.michaelbrennan.work
+2. **Artist view full-height on desktop** — should fill entire left column (no episode list peeking through)
+3. **Mini player click-to-expand** — click anywhere on mini player to open drawer
+4. **Player drawer click-to-close** — click anywhere on drawer top area to close
+5. **Indexed timestamps not showing** — track timestamps stopped displaying on indexed episodes
+6. **Player drawer visual distinction** — stronger top border and/or lighter background shade
+7. **Post-scrape cleanup** — fix .5 episode IDs, improve host detection, add --local-rss mode
+8. **Download MP3s** — download episodes for local indexing
+9. **Index track timestamps** — run find-onsets.mjs on downloaded MP3s, verify manually
+10. **Favorites list** — requires user tracking (localStorage or login). Backburner.
