@@ -151,7 +151,7 @@ function parseTracklist(html) {
 
   // ── Format 1: <dl>/<dt>/<dd> (newer episodes) ────────────────────────────
   if (/<dl[^>]*>/i.test(content)) {
-    const dlRe = /<dl[^>]*>([\s\S]*?)(?:<\/dl>|<dl)/gi;
+    const dlRe = /<dl[^>]*>([\s\S]*?)(?:<\/dl>|(?=<dl))/gi;
     let dlMatch;
     while ((dlMatch = dlRe.exec(content)) !== null) {
       const block = dlMatch[1];
