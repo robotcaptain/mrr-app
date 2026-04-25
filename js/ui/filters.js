@@ -37,6 +37,10 @@ export class Filters {
   async populate() {
     const [hosts, years] = await Promise.all([getHosts(), getYears()]);
 
+    // Clear existing options (keep the first "All ..." sentinel)
+    while (this._hostEl.options.length > 1) this._hostEl.remove(1);
+    while (this._yearEl.options.length > 1) this._yearEl.remove(1);
+
     for (const host of hosts) {
       const opt = document.createElement('option');
       opt.value = host;

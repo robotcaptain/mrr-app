@@ -2,11 +2,15 @@
 .github
 .netlify
 .claude
+.playwright-mcp
 node_modules
 docs
 tools
 scripts
+public/audio
 *.md
 *.png
 *.json5
+*.skill
+*.py
 artist-review-results.json

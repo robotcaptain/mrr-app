@@ -281,6 +281,10 @@ export function getPlayback(episodeId) {
   return txGet('playback', episodeId);
 }
 
+export function getAllPlayback() {
+  return txGetAll('playback');
+}
+
 export function setPlayback(record) {
   return txPut('playback', record);
 }

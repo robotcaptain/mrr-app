@@ -99,5 +99,10 @@ export class ArtistView {
       if (delta > 100) this.close();
       startX = null;
     }, { passive: true });
+
+    panel.addEventListener('touchcancel', () => {
+      panel.style.transform = '';
+      startX = null;
+    }, { passive: true });
   }
 }

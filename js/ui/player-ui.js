@@ -332,5 +332,10 @@ export class PlayerUI {
       }
       startY = null;
     }, { passive: true });
+
+    sheet.addEventListener('touchcancel', () => {
+      sheet.style.transform = '';
+      startY = null;
+    }, { passive: true });
   }
 }

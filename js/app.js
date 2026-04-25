@@ -5,7 +5,7 @@
  */
 
 import { init as initData, sync, checkForUpdate } from './data-loader.js';
-import { getEpisodes, getEpisode, getPlayback, searchTracks } from './db.js';
+import { getEpisodes, getEpisode, getPlayback, getAllPlayback, searchTracks } from './db.js';
 import { Player } from './player.js';
 import { Filters } from './ui/filters.js';
 import { renderList, setActiveCard, markCardPlayed } from './ui/episode-list.js';
@@ -112,6 +112,7 @@ navBackBtn.addEventListener('click', () => {
 });
 navHomeBtn.addEventListener('click', () => {
   navStack.home();
+  artistView.close();
   document.body.classList.remove('mobile-detail');
 });
 
@@ -212,13 +213,10 @@ function showMain() {
 
 // ── Played set ─────────────────────────────────────────────────────────────────
 async function loadPlayedSet() {
-  // Batch-load playback records for all episodes in allEpisodes
-  // We do this by checking each — a full getAll on playback store would be ideal
-  // but the API doesn't expose that directly; load lazily as needed
   state.playedSet.clear();
-  for (const ep of state.allEpisodes) {
-    const pb = await getPlayback(ep.id);
-    if (pb?.played) state.playedSet.add(ep.id);
+  const allPb = await getAllPlayback();
+  for (const pb of allPb) {
+    if (pb.played) state.playedSet.add(pb.episodeId);
   }
 }
 
