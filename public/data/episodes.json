@@ -1,7 +1,156 @@
 {
-  "generated": "2026-05-12T11:52:34.978Z",
-  "count": 794,
+  "generated": "2026-06-09T12:34:57.270Z",
+  "count": 795,
   "episodes": [
+    {
+      "id": 1982,
+      "date": "2026-06-07",
+      "host": "Zu From All Over",
+      "caption": "On this week's MRR Radio, Zu From All Over throws down the gauntlet for a Punks vs Goths costume contest, with the best Punk, Hardcore, Oi!, and even some Goth to determine once and for all which side’s uniform is the most offensive! ’Cause All In All You're Just A, 'Nother Prick",
+      "thumbnailUrl": "https://www.maximumrocknroll.com/wp-content/uploads/2026/06/OVER-Live_on_September_26th_2019_at_Hotel_Vegas_in_Austin_Texas_for_San_La_Muerte_Fest_Day_1-photo_by_Johnny_Camacho-1000x659.jpg",
+      "mp3Url": "https://media.blubrry.com/mrrradio/www.maximumrocknroll.com/wp-content/uploads/2026/06/mrrradio1982_2.mp3",
+      "durationSecs": 3676,
+      "trackCount": 17,
+      "localAudio": false,
+      "tracks": [
+        {
+          "id": 19820000,
+          "episodeId": 1982,
+          "artist": "WHO KILLED SPIKEY JACKET?",
+          "title": "Punks Dress Punk",
+          "section": "’Cause All In All You're Just A, 'Nother Prick At The Door",
+          "trackIndex": 0
+        },
+        {
+          "id": 19820001,
+          "episodeId": 1982,
+          "artist": "THE EXPLOITED",
+          "title": "Punks Not Dead",
+          "section": "’Cause All In All You're Just A, 'Nother Prick At The Door",
+          "trackIndex": 1
+        },
+        {
+          "id": 19820002,
+          "episodeId": 1982,
+          "artist": "DIESEL BOY",
+          "title": "Punk Rock 101",
+          "section": "Newsflash Bucko",
+          "trackIndex": 2
+        },
+        {
+          "id": 19820003,
+          "episodeId": 1982,
+          "artist": "THE STEAL",
+          "title": "Wonderstuff",
+          "section": "Newsflash Bucko",
+          "trackIndex": 3
+        },
+        {
+          "id": 19820004,
+          "episodeId": 1982,
+          "artist": "NONE MORE BLACK",
+          "title": "Genuine Malaise And Misery",
+          "section": "Newsflash Bucko",
+          "trackIndex": 4
+        },
+        {
+          "id": 19820005,
+          "episodeId": 1982,
+          "artist": "FIFTEEN",
+          "title": "Punk Song",
+          "section": "Newsflash Bucko",
+          "trackIndex": 5
+        },
+        {
+          "id": 19820006,
+          "episodeId": 1982,
+          "artist": "THE UNSEEN",
+          "title": "Punks Attack!",
+          "section": "Scaring Normies and Signaling Like Mindeds",
+          "trackIndex": 6
+        },
+        {
+          "id": 19820007,
+          "episodeId": 1982,
+          "artist": "STREET DOGS",
+          "title": "Punk Rock And Roll",
+          "section": "Scaring Normies and Signaling Like Mindeds",
+          "trackIndex": 7
+        },
+        {
+          "id": 19820008,
+          "episodeId": 1982,
+          "artist": "H2O",
+          "title": "Nothing To Prove",
+          "section": "Scaring Normies and Signaling Like Mindeds",
+          "trackIndex": 8
+        },
+        {
+          "id": 19820009,
+          "episodeId": 1982,
+          "artist": "DANGERS",
+          "title": "We Broke the P.A.",
+          "section": "Scaring Normies and Signaling Like Mindeds",
+          "trackIndex": 9
+        },
+        {
+          "id": 19820010,
+          "episodeId": 1982,
+          "artist": "I SPY",
+          "title": "Appliances and Cars",
+          "section": "Scaring Normies and Signaling Like Mindeds",
+          "trackIndex": 10
+        },
+        {
+          "id": 19820011,
+          "episodeId": 1982,
+          "artist": "DEAD CELLS",
+          "title": "Salem",
+          "section": "Hiding From The Sunshine",
+          "trackIndex": 11
+        },
+        {
+          "id": 19820012,
+          "episodeId": 1982,
+          "artist": "OVER",
+          "title": "Silence",
+          "section": "Hiding From The Sunshine",
+          "trackIndex": 12
+        },
+        {
+          "id": 19820013,
+          "episodeId": 1982,
+          "artist": "CATAPHILES",
+          "title": "RUBBISH KIDS",
+          "section": "Hiding From The Sunshine",
+          "trackIndex": 13
+        },
+        {
+          "id": 19820014,
+          "episodeId": 1982,
+          "artist": "CHRISTIAN DEATH",
+          "title": "Spiritual Cramp",
+          "section": "Hiding From The Sunshine",
+          "trackIndex": 14
+        },
+        {
+          "id": 19820015,
+          "episodeId": 1982,
+          "artist": "CONVERGE",
+          "title": "Disintegration (THE CURE cover)",
+          "section": "Peace Offering?",
+          "trackIndex": 15
+        },
+        {
+          "id": 19820016,
+          "episodeId": 1982,
+          "artist": "SOME GIRLS",
+          "title": "Release The Bats (THE BIRTHDAY PARTY cover)",
+          "section": "Peace Offering?",
+          "trackIndex": 16
+        }
+      ]
+    },
     {
       "id": 1980,
       "date": "2026-05-10",
