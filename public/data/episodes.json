@@ -1,7 +1,172 @@
 {
-  "generated": "2026-06-09T12:34:57.270Z",
-  "count": 795,
+  "generated": "2026-06-23T12:30:39.068Z",
+  "count": 796,
   "episodes": [
+    {
+      "id": 1983,
+      "date": "2026-06-21",
+      "host": "",
+      "caption": "(Temporarily) escape harsh truths and distorted realities with this week's episode of MRR Radio from Erika Elizabeth.",
+      "thumbnailUrl": "https://www.maximumrocknroll.com/wp-content/uploads/2026/06/The-Terraplanes-768x577.jpg",
+      "mp3Url": "https://media.blubrry.com/mrrradio/www.maximumrocknroll.com/wp-content/uploads/2026/06/mrr-radio-1983.mp3",
+      "durationSecs": 3449,
+      "trackCount": 19,
+      "localAudio": false,
+      "tracks": [
+        {
+          "id": 19830000,
+          "episodeId": 1983,
+          "artist": "HEAT RASH",
+          "title": "Pretty Little Houses",
+          "section": "",
+          "trackIndex": 0
+        },
+        {
+          "id": 19830001,
+          "episodeId": 1983,
+          "artist": "GUIDING LIGHT",
+          "title": "Shackled by Lust",
+          "section": "",
+          "trackIndex": 1
+        },
+        {
+          "id": 19830002,
+          "episodeId": 1983,
+          "artist": "LIFE IN THE FRIDGE EXISTS",
+          "title": "Have You Checked the Children?",
+          "section": "",
+          "trackIndex": 2
+        },
+        {
+          "id": 19830003,
+          "episodeId": 1983,
+          "artist": "KENICKIE",
+          "title": "Private Buchowski",
+          "section": "",
+          "trackIndex": 3
+        },
+        {
+          "id": 19830004,
+          "episodeId": 1983,
+          "artist": "FRONT",
+          "title": "Alternativ",
+          "section": "",
+          "trackIndex": 4
+        },
+        {
+          "id": 19830005,
+          "episodeId": 1983,
+          "artist": "アケボノイズ (AKEVONOIZ)",
+          "title": "クレバス",
+          "section": "No Principles",
+          "trackIndex": 5
+        },
+        {
+          "id": 19830006,
+          "episodeId": 1983,
+          "artist": "SPEC REALISTS",
+          "title": "On a Frolic of Your Own",
+          "section": "No Principles",
+          "trackIndex": 6
+        },
+        {
+          "id": 19830007,
+          "episodeId": 1983,
+          "artist": "MAX AND THE MAKEUPS",
+          "title": "Let Go",
+          "section": "No Principles",
+          "trackIndex": 7
+        },
+        {
+          "id": 19830008,
+          "episodeId": 1983,
+          "artist": "LOST CHERREES",
+          "title": "You’re You I’m Me",
+          "section": "No Principles",
+          "trackIndex": 8
+        },
+        {
+          "id": 19830009,
+          "episodeId": 1983,
+          "artist": "LEXICON",
+          "title": "Shame",
+          "section": "No Principles",
+          "trackIndex": 9
+        },
+        {
+          "id": 19830010,
+          "episodeId": 1983,
+          "artist": "LAKE OF DRACULA",
+          "title": "Green-Glassed Moves",
+          "section": "No Principles",
+          "trackIndex": 10
+        },
+        {
+          "id": 19830011,
+          "episodeId": 1983,
+          "artist": "DEBT RAG",
+          "title": "Solar Shirt",
+          "section": "No Principles",
+          "trackIndex": 11
+        },
+        {
+          "id": 19830012,
+          "episodeId": 1983,
+          "artist": "MNK PROJECT",
+          "title": "Birthday Eve",
+          "section": "No Principles",
+          "trackIndex": 12
+        },
+        {
+          "id": 19830013,
+          "episodeId": 1983,
+          "artist": "CHOW-CHOW",
+          "title": "No More of This",
+          "section": "Facing the Past",
+          "trackIndex": 13
+        },
+        {
+          "id": 19830014,
+          "episodeId": 1983,
+          "artist": "NOXEEMA",
+          "title": "Sick",
+          "section": "Facing the Past",
+          "trackIndex": 14
+        },
+        {
+          "id": 19830015,
+          "episodeId": 1983,
+          "artist": "PARANOIA",
+          "title": "Shattered Glass",
+          "section": "Facing the Past",
+          "trackIndex": 15
+        },
+        {
+          "id": 19830016,
+          "episodeId": 1983,
+          "artist": "THE TERRAPLANES",
+          "title": "Treasure of the Damned",
+          "section": "Facing the Past",
+          "trackIndex": 16
+        },
+        {
+          "id": 19830017,
+          "episodeId": 1983,
+          "artist": "THE MAGGOTS",
+          "title": "2/2/79",
+          "section": "Facing the Past",
+          "trackIndex": 17
+        },
+        {
+          "id": 19830018,
+          "episodeId": 1983,
+          "artist": "EMILY",
+          "title": "Doomed to Fail",
+          "section": "Facing the Past",
+          "trackIndex": 18
+        }
+      ]
+    },
     {
       "id": 1982,
       "date": "2026-06-07",
