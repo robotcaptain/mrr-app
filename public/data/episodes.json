@@ -1,7 +1,148 @@
 {
-  "generated": "2026-06-23T12:30:39.068Z",
-  "count": 796,
+  "generated": "2026-07-07T12:25:11.454Z",
+  "count": 797,
   "episodes": [
+    {
+      "id": 1984,
+      "date": "2026-07-06",
+      "host": "Cary",
+      "caption": "On this week's MRR Radio, Cary plays new releases and new discoveries.",
+      "thumbnailUrl": "https://www.maximumrocknroll.com/wp-content/uploads/2026/07/IMG_1923-1000x750.jpeg",
+      "mp3Url": "https://media.blubrry.com/mrrradio/www.maximumrocknroll.com/wp-content/uploads/2026/07/MRR1984.mp3",
+      "durationSecs": 3430,
+      "trackCount": 16,
+      "localAudio": false,
+      "tracks": [
+        {
+          "id": 19840000,
+          "episodeId": 1984,
+          "artist": "THE AVENGERS",
+          "title": "The American in Me",
+          "section": "Opener",
+          "trackIndex": 0
+        },
+        {
+          "id": 19840001,
+          "episodeId": 1984,
+          "artist": "NAZI TAMPONS",
+          "title": "Moon Nazis",
+          "section": "Set 1",
+          "trackIndex": 1
+        },
+        {
+          "id": 19840002,
+          "episodeId": 1984,
+          "artist": "CHERRY CHEEKS",
+          "title": "Reapers",
+          "section": "Set 1",
+          "trackIndex": 2
+        },
+        {
+          "id": 19840003,
+          "episodeId": 1984,
+          "artist": "MOTHER'S CAKE",
+          "title": "WE R ALL GONNA DIE",
+          "section": "Set 1",
+          "trackIndex": 3
+        },
+        {
+          "id": 19840004,
+          "episodeId": 1984,
+          "artist": "G.U.N.",
+          "title": "Death Dealer",
+          "section": "Set 1",
+          "trackIndex": 4
+        },
+        {
+          "id": 19840005,
+          "episodeId": 1984,
+          "artist": "LIFECHEERIOSPAM",
+          "title": "I'm Not Seeing Anything",
+          "section": "Set 1",
+          "trackIndex": 5
+        },
+        {
+          "id": 19840006,
+          "episodeId": 1984,
+          "artist": "FIELD TRIP",
+          "title": "Burning Out",
+          "section": "Set 2",
+          "trackIndex": 6
+        },
+        {
+          "id": 19840007,
+          "episodeId": 1984,
+          "artist": "LITERALLY/NOBODY",
+          "title": "Aura",
+          "section": "Set 2",
+          "trackIndex": 7
+        },
+        {
+          "id": 19840008,
+          "episodeId": 1984,
+          "artist": "CS CLEANERS",
+          "title": "It Lives",
+          "section": "Set 2",
+          "trackIndex": 8
+        },
+        {
+          "id": 19840009,
+          "episodeId": 1984,
+          "artist": "CRIME IN ANTARCTICA",
+          "title": "Dehydrated",
+          "section": "Set 2",
+          "trackIndex": 9
+        },
+        {
+          "id": 19840010,
+          "episodeId": 1984,
+          "artist": "POISON RUÏN",
+          "title": "Eidolon",
+          "section": "Set 2",
+          "trackIndex": 10
+        },
+        {
+          "id": 19840011,
+          "episodeId": 1984,
+          "artist": "CHOPSAW",
+          "title": "Cosmic Joke",
+          "section": "Set 3",
+          "trackIndex": 11
+        },
+        {
+          "id": 19840012,
+          "episodeId": 1984,
+          "artist": "MK ULTRAS",
+          "title": "Chrome Crusher",
+          "section": "Set 3",
+          "trackIndex": 12
+        },
+        {
+          "id": 19840013,
+          "episodeId": 1984,
+          "artist": "GOLDFISH KASEEM",
+          "title": "Rock and Roll",
+          "section": "Set 3",
+          "trackIndex": 13
+        },
+        {
+          "id": 19840014,
+          "episodeId": 1984,
+          "artist": "DAN SPENCER",
+          "title": "Sin of Loneliness",
+          "section": "Set 3",
+          "trackIndex": 14
+        },
+        {
+          "id": 19840015,
+          "episodeId": 1984,
+          "artist": "REVOLUTION RADIO",
+          "title": "Gunfire over Ruins",
+          "section": "Closer",
+          "trackIndex": 15
+        }
+      ]
+    },
     {
       "id": 1983,
       "date": "2026-06-21",
