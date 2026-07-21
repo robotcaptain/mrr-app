@@ -1,7 +1,148 @@
 {
-  "generated": "2026-07-07T12:25:11.454Z",
-  "count": 797,
+  "generated": "2026-07-21T11:45:04.346Z",
+  "count": 798,
   "episodes": [
+    {
+      "id": 1985,
+      "date": "2026-07-19",
+      "host": "Zu From All Over",
+      "caption": "On this week's MRR Radio, Zu From All Over reminisces about her trip to the world famous Punk Rock Museum in fabulous Las Vegas Nevada, with the best Punk, Punkrock, and 3 (or so) chord punk to figure out what exactly punkrock even is?? Greetings From Fat Mike’s Punk Rock Museum ",
+      "thumbnailUrl": "https://www.maximumrocknroll.com/wp-content/uploads/2026/07/THE_PUNK_ROCK_MUSEUM_in_Las_Vegas_Nevada-photo_by_Dr_Allie-on_a_timer-1000x693.jpg",
+      "mp3Url": "https://media.blubrry.com/mrrradio/www.maximumrocknroll.com/wp-content/uploads/2026/07/mrrradio1985.mp3",
+      "durationSecs": 3609,
+      "trackCount": 16,
+      "localAudio": false,
+      "tracks": [
+        {
+          "id": 19850000,
+          "episodeId": 1985,
+          "artist": "NORCOS Y HORCHATA",
+          "title": "Live, Laugh, Toaster Bath",
+          "section": "Greetings From Fat Mike’s Punk Rock Museum & Wonder Emporium",
+          "trackIndex": 0
+        },
+        {
+          "id": 19850001,
+          "episodeId": 1985,
+          "artist": "NOSINDEPENDENCIA",
+          "title": "Positiva Libertad",
+          "section": "Greetings From Fat Mike’s Punk Rock Museum & Wonder Emporium",
+          "trackIndex": 1
+        },
+        {
+          "id": 19850002,
+          "episodeId": 1985,
+          "artist": "NASTY PARTY",
+          "title": "I Can’t Stand The Radio",
+          "section": "No Subgenres, Just the Pure Stuff",
+          "trackIndex": 2
+        },
+        {
+          "id": 19850003,
+          "episodeId": 1985,
+          "artist": "MOTORMOUTH",
+          "title": "Too Tough",
+          "section": "No Subgenres, Just the Pure Stuff",
+          "trackIndex": 3
+        },
+        {
+          "id": 19850004,
+          "episodeId": 1985,
+          "artist": "VIOLET RAY",
+          "title": "Brookpark Rd.",
+          "section": "No Subgenres, Just the Pure Stuff",
+          "trackIndex": 4
+        },
+        {
+          "id": 19850005,
+          "episodeId": 1985,
+          "artist": "THE MOLOTOVS",
+          "title": "More More More",
+          "section": "No Subgenres, Just the Pure Stuff",
+          "trackIndex": 5
+        },
+        {
+          "id": 19850006,
+          "episodeId": 1985,
+          "artist": "DOG LIPS",
+          "title": "Pub Stars",
+          "section": "Hard To Find The Core",
+          "trackIndex": 6
+        },
+        {
+          "id": 19850007,
+          "episodeId": 1985,
+          "artist": "R.O.B.O.",
+          "title": "Toxicidad",
+          "section": "Hard To Find The Core",
+          "trackIndex": 7
+        },
+        {
+          "id": 19850008,
+          "episodeId": 1985,
+          "artist": "DESEOS PRIMITIVOS",
+          "title": "Todo Todo",
+          "section": "Hard To Find The Core",
+          "trackIndex": 8
+        },
+        {
+          "id": 19850009,
+          "episodeId": 1985,
+          "artist": "THE STRESS BALLS",
+          "title": "Bootlicker Revolution",
+          "section": "Hard To Find The Core",
+          "trackIndex": 9
+        },
+        {
+          "id": 19850010,
+          "episodeId": 1985,
+          "artist": "SCONTRO",
+          "title": "One Way Out",
+          "section": "No Branches, No Leaves, What’s The Trunk??",
+          "trackIndex": 10
+        },
+        {
+          "id": 19850011,
+          "episodeId": 1985,
+          "artist": "GHOST IN THE WILLOW",
+          "title": "Westerberg",
+          "section": "No Branches, No Leaves, What’s The Trunk??",
+          "trackIndex": 11
+        },
+        {
+          "id": 19850012,
+          "episodeId": 1985,
+          "artist": "THE BAD SHAPES",
+          "title": "The Bad Shapes",
+          "section": "No Branches, No Leaves, What’s The Trunk??",
+          "trackIndex": 12
+        },
+        {
+          "id": 19850013,
+          "episodeId": 1985,
+          "artist": "TOY TIGER",
+          "title": "If You Love ‘Em, Remind ‘Em",
+          "section": "No Branches, No Leaves, What’s The Trunk??",
+          "trackIndex": 13
+        },
+        {
+          "id": 19850014,
+          "episodeId": 1985,
+          "artist": "THE DOLLHEADS",
+          "title": "Burger King Is Hiring",
+          "section": "A Collection From Friends",
+          "trackIndex": 14
+        },
+        {
+          "id": 19850015,
+          "episodeId": 1985,
+          "artist": "CHEAP WIGS",
+          "title": "Shopping Mall",
+          "section": "A Collection From Friends",
+          "trackIndex": 15
+        }
+      ]
+    },
     {
       "id": 1984,
       "date": "2026-07-06",
