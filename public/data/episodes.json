@@ -1,7 +1,172 @@
 {
-  "generated": "2026-07-21T11:45:04.346Z",
-  "count": 798,
+  "generated": "2026-08-04T12:00:48.874Z",
+  "count": 799,
   "episodes": [
+    {
+      "id": 1986,
+      "date": "2026-08-02",
+      "host": "",
+      "caption": "Step out of line with Erika Elizabeth on this week's episode of MRR Radio,Intro SCHLAFLOSE NÄ",
+      "thumbnailUrl": "https://www.maximumrocknroll.com/wp-content/uploads/2026/07/3-Teens-Kill-4-500x460.jpg",
+      "mp3Url": "https://media.blubrry.com/mrrradio/www.maximumrocknroll.com/wp-content/uploads/2026/07/MRR-Radio-1986-08_02_26.mp3",
+      "durationSecs": 3415,
+      "trackCount": 19,
+      "localAudio": false,
+      "tracks": [
+        {
+          "id": 19860000,
+          "episodeId": 1986,
+          "artist": "SCHLAFLOSE NÄCHTE",
+          "title": "Move",
+          "section": "Intro",
+          "trackIndex": 0
+        },
+        {
+          "id": 19860001,
+          "episodeId": 1986,
+          "artist": "FAST RELIEF",
+          "title": "What a Waste",
+          "section": "I've Already Lost Myself",
+          "trackIndex": 1
+        },
+        {
+          "id": 19860002,
+          "episodeId": 1986,
+          "artist": "NON PLUS TEMPS",
+          "title": "Heads of State",
+          "section": "I've Already Lost Myself",
+          "trackIndex": 2
+        },
+        {
+          "id": 19860003,
+          "episodeId": 1986,
+          "artist": "TABLE SUGAR",
+          "title": "Badlands",
+          "section": "I've Already Lost Myself",
+          "trackIndex": 3
+        },
+        {
+          "id": 19860004,
+          "episodeId": 1986,
+          "artist": "TOLLWUT",
+          "title": "Zivilisation",
+          "section": "I've Already Lost Myself",
+          "trackIndex": 4
+        },
+        {
+          "id": 19860005,
+          "episodeId": 1986,
+          "artist": "AMOS & SARA",
+          "title": "In a Hell-Bed",
+          "section": "A Problem That We've All Got",
+          "trackIndex": 5
+        },
+        {
+          "id": 19860006,
+          "episodeId": 1986,
+          "artist": "SUBTLE TURNHIPS",
+          "title": "Tweedle Dum",
+          "section": "A Problem That We've All Got",
+          "trackIndex": 6
+        },
+        {
+          "id": 19860007,
+          "episodeId": 1986,
+          "artist": "DEATH BY MILKFLOAT",
+          "title": "Vagrancy",
+          "section": "A Problem That We've All Got",
+          "trackIndex": 7
+        },
+        {
+          "id": 19860008,
+          "episodeId": 1986,
+          "artist": "SUBURBAN REPTILES",
+          "title": "Razor Smile",
+          "section": "A Problem That We've All Got",
+          "trackIndex": 8
+        },
+        {
+          "id": 19860009,
+          "episodeId": 1986,
+          "artist": "SCHUND",
+          "title": "Aufstand",
+          "section": "Things Which Are & Should Not Be",
+          "trackIndex": 9
+        },
+        {
+          "id": 19860010,
+          "episodeId": 1986,
+          "artist": "SIREN",
+          "title": "Breaking It Down",
+          "section": "Things Which Are & Should Not Be",
+          "trackIndex": 10
+        },
+        {
+          "id": 19860011,
+          "episodeId": 1986,
+          "artist": "RADON ABATEMENT",
+          "title": "ET Writes a Hit",
+          "section": "Things Which Are & Should Not Be",
+          "trackIndex": 11
+        },
+        {
+          "id": 19860012,
+          "episodeId": 1986,
+          "artist": "3 TEENS KILL 4",
+          "title": "Crime Drama",
+          "section": "Things Which Are & Should Not Be",
+          "trackIndex": 12
+        },
+        {
+          "id": 19860013,
+          "episodeId": 1986,
+          "artist": "ERASER",
+          "title": "Crindy",
+          "section": "New Way to Change Your Life",
+          "trackIndex": 13
+        },
+        {
+          "id": 19860014,
+          "episodeId": 1986,
+          "artist": "NOVEMBER GROUP",
+          "title": "The Popular Front",
+          "section": "New Way to Change Your Life",
+          "trackIndex": 14
+        },
+        {
+          "id": 19860015,
+          "episodeId": 1986,
+          "artist": "DROWNING IS EASY",
+          "title": "Lost Without a Map",
+          "section": "New Way to Change Your Life",
+          "trackIndex": 15
+        },
+        {
+          "id": 19860016,
+          "episodeId": 1986,
+          "artist": "CHRISTMAS",
+          "title": "Wilhelm Reich",
+          "section": "New Way to Change Your Life",
+          "trackIndex": 16
+        },
+        {
+          "id": 19860017,
+          "episodeId": 1986,
+          "artist": "ATIMS",
+          "title": "Women",
+          "section": "New Way to Change Your Life",
+          "trackIndex": 17
+        },
+        {
+          "id": 19860018,
+          "episodeId": 1986,
+          "artist": "ELECTRIC FANS",
+          "title": "Dying Star",
+          "section": "Outro",
+          "trackIndex": 18
+        }
+      ]
+    },
     {
       "id": 1985,
       "date": "2026-07-19",
