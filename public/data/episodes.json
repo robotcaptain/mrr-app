@@ -1,7 +1,172 @@
 {
-  "generated": "2026-08-04T12:00:48.874Z",
-  "count": 799,
+  "generated": "2026-08-18T10:24:43.488Z",
+  "count": 800,
   "episodes": [
+    {
+      "id": 1987,
+      "date": "2026-08-17",
+      "host": "Cary",
+      "caption": "On this week's MRR Radio, Cary plays something old, something new.",
+      "thumbnailUrl": "https://www.maximumrocknroll.com/wp-content/uploads/2026/08/Evil-Island-credit-Richie-Valdez_4-500x333.webp",
+      "mp3Url": "https://media.blubrry.com/mrrradio/www.maximumrocknroll.com/wp-content/uploads/2026/08/MRRradio1987.mp3",
+      "durationSecs": 3576,
+      "trackCount": 19,
+      "localAudio": false,
+      "tracks": [
+        {
+          "id": 19870000,
+          "episodeId": 1987,
+          "artist": "IRATA",
+          "title": "Weightless",
+          "section": "Opener",
+          "trackIndex": 0
+        },
+        {
+          "id": 19870001,
+          "episodeId": 1987,
+          "artist": "GET LÖST",
+          "title": "Tombstone",
+          "section": "Set 1",
+          "trackIndex": 1
+        },
+        {
+          "id": 19870002,
+          "episodeId": 1987,
+          "artist": "OFFICER NEGATIVE",
+          "title": "Stonewall",
+          "section": "Set 1",
+          "trackIndex": 2
+        },
+        {
+          "id": 19870003,
+          "episodeId": 1987,
+          "artist": "BOLT SWALLOWER",
+          "title": "Frontline Militia",
+          "section": "Set 1",
+          "trackIndex": 3
+        },
+        {
+          "id": 19870004,
+          "episodeId": 1987,
+          "artist": "EVIL ISLAND FT. GUY PICCIOTTO",
+          "title": "T-Hexx",
+          "section": "Set 1",
+          "trackIndex": 4
+        },
+        {
+          "id": 19870005,
+          "episodeId": 1987,
+          "artist": "COLOURNOISE",
+          "title": "Summer of Death",
+          "section": "Set 2",
+          "trackIndex": 5
+        },
+        {
+          "id": 19870006,
+          "episodeId": 1987,
+          "artist": "CEREMONY",
+          "title": "Dark Summer",
+          "section": "Set 2",
+          "trackIndex": 6
+        },
+        {
+          "id": 19870007,
+          "episodeId": 1987,
+          "artist": "MESH",
+          "title": "Atrophy",
+          "section": "Set 2",
+          "trackIndex": 7
+        },
+        {
+          "id": 19870008,
+          "episodeId": 1987,
+          "artist": "CAVVY",
+          "title": "im over it now",
+          "section": "Set 2",
+          "trackIndex": 8
+        },
+        {
+          "id": 19870009,
+          "episodeId": 1987,
+          "artist": "MOBY CLIT",
+          "title": "I H8 CIGZ",
+          "section": "Set 3",
+          "trackIndex": 9
+        },
+        {
+          "id": 19870010,
+          "episodeId": 1987,
+          "artist": "DEAD INTELLECT",
+          "title": "God Bless America",
+          "section": "Set 3",
+          "trackIndex": 10
+        },
+        {
+          "id": 19870011,
+          "episodeId": 1987,
+          "artist": "TV FREAKS",
+          "title": "One or Some or All or None",
+          "section": "Set 3",
+          "trackIndex": 11
+        },
+        {
+          "id": 19870012,
+          "episodeId": 1987,
+          "artist": "MOMMY LONG LEGS",
+          "title": "Alien",
+          "section": "Set 3",
+          "trackIndex": 12
+        },
+        {
+          "id": 19870013,
+          "episodeId": 1987,
+          "artist": "BUDDY WYNKOOP",
+          "title": "Head Trash",
+          "section": "Set 4",
+          "trackIndex": 13
+        },
+        {
+          "id": 19870014,
+          "episodeId": 1987,
+          "artist": "SKIRT.",
+          "title": "Killing Need",
+          "section": "Set 4",
+          "trackIndex": 14
+        },
+        {
+          "id": 19870015,
+          "episodeId": 1987,
+          "artist": "CONSCIOUS PILOT",
+          "title": "Wilful Delay",
+          "section": "Set 4",
+          "trackIndex": 15
+        },
+        {
+          "id": 19870016,
+          "episodeId": 1987,
+          "artist": "MIESHA AND THE SPANKS",
+          "title": "Smiling",
+          "section": "Set 4",
+          "trackIndex": 16
+        },
+        {
+          "id": 19870017,
+          "episodeId": 1987,
+          "artist": "DEZ DARE",
+          "title": "Bloodbath-on-HI",
+          "section": "Set 4",
+          "trackIndex": 17
+        },
+        {
+          "id": 19870018,
+          "episodeId": 1987,
+          "artist": "MOULD",
+          "title": "Misanthrope",
+          "section": "Closer",
+          "trackIndex": 18
+        }
+      ]
+    },
     {
       "id": 1986,
       "date": "2026-08-02",
