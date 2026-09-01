@@ -1,7 +1,409 @@
 {
-  "generated": "2026-08-18T10:24:43.488Z",
-  "count": 800,
+  "generated": "2026-09-01T14:29:57.992Z",
+  "count": 803,
   "episodes": [
+    {
+      "id": 1989,
+      "date": "2026-08-30",
+      "host": "Zu From All Over",
+      "caption": "On this week's MRR Radio, Zu From All Over and Michael From The North Bay get the ol’ team back together to showcase and celebrate MRR Radio’s independent radio station broadcasters! With the best Punk, Hardcore, Indie Punk, and College Rock to connect with the community and D.I.",
+      "thumbnailUrl": "https://www.maximumrocknroll.com/wp-content/uploads/2026/08/GIMIC-Live_on_June_10th_2023_at_The_Junction_in_Plymouth_Devon_UK_for_Crew_Cuts_Records_Presents_The_Nightmare_Continues_Fes-1000x1247.jpg",
+      "mp3Url": "https://media.blubrry.com/mrrradio/www.maximumrocknroll.com/wp-content/uploads/2026/08/mrrradio1989.mp3",
+      "durationSecs": 3600,
+      "trackCount": 15,
+      "localAudio": false,
+      "tracks": [
+        {
+          "id": 19890000,
+          "episodeId": 1989,
+          "artist": "BECOME",
+          "title": "Low Relief (Live on KCSB 91.9 FM)",
+          "section": "You’re Dial Is Set To Maximum Rocknroll Radio!",
+          "trackIndex": 0
+        },
+        {
+          "id": 19890001,
+          "episodeId": 1989,
+          "artist": "EGG IDIOT",
+          "title": "Nose Warriors",
+          "section": "You’re Dial Is Set To Maximum Rocknroll Radio!",
+          "trackIndex": 1
+        },
+        {
+          "id": 19890002,
+          "episodeId": 1989,
+          "artist": "SANTIAGO",
+          "title": "A Harbor To Dock To",
+          "section": "D.I.O. (Do. It. OURselves.)",
+          "trackIndex": 2
+        },
+        {
+          "id": 19890003,
+          "episodeId": 1989,
+          "artist": "SGT. PAPERS",
+          "title": "Fuga!",
+          "section": "D.I.O. (Do. It. OURselves.)",
+          "trackIndex": 3
+        },
+        {
+          "id": 19890004,
+          "episodeId": 1989,
+          "artist": "GIMIC",
+          "title": "Read The Rune",
+          "section": "D.I.O. (Do. It. OURselves.)",
+          "trackIndex": 4
+        },
+        {
+          "id": 19890005,
+          "episodeId": 1989,
+          "artist": "Z-PAK",
+          "title": "Inside Man",
+          "section": "World Wide Webbers & Radio Wavers",
+          "trackIndex": 5
+        },
+        {
+          "id": 19890006,
+          "episodeId": 1989,
+          "artist": "THE LOSERS",
+          "title": "SF Decay",
+          "section": "World Wide Webbers & Radio Wavers",
+          "trackIndex": 6
+        },
+        {
+          "id": 19890007,
+          "episodeId": 1989,
+          "artist": "SKEPTIC?",
+          "title": "When They Come For You",
+          "section": "World Wide Webbers & Radio Wavers",
+          "trackIndex": 7
+        },
+        {
+          "id": 19890008,
+          "episodeId": 1989,
+          "artist": "CORDUROY GIMP",
+          "title": "Coos Country Casualty",
+          "section": "World Wide Webbers & Radio Wavers",
+          "trackIndex": 8
+        },
+        {
+          "id": 19890009,
+          "episodeId": 1989,
+          "artist": "MINOT",
+          "title": "Puffy",
+          "section": "Even Better With Your Eyes Closed",
+          "trackIndex": 9
+        },
+        {
+          "id": 19890010,
+          "episodeId": 1989,
+          "artist": "PALMAR DE TROYA",
+          "title": "B/B",
+          "section": "Even Better With Your Eyes Closed",
+          "trackIndex": 10
+        },
+        {
+          "id": 19890011,
+          "episodeId": 1989,
+          "artist": "BOGUSMAN",
+          "title": "Straight Lines",
+          "section": "Even Better With Your Eyes Closed",
+          "trackIndex": 11
+        },
+        {
+          "id": 19890012,
+          "episodeId": 1989,
+          "artist": "THE BONADUCES",
+          "title": "Catherine O’Clock",
+          "section": "Even Better With Your Eyes Closed",
+          "trackIndex": 12
+        },
+        {
+          "id": 19890013,
+          "episodeId": 1989,
+          "artist": "GIRLTYPE BEHAVIORS",
+          "title": "She Drinks Human Blood! (Live on WESU 88.1 FM)",
+          "section": "And If I Don't See You, In A Long Long While, I'll Try To Find You...",
+          "trackIndex": 13
+        },
+        {
+          "id": 19890014,
+          "episodeId": 1989,
+          "artist": "THE TAXPAYERS",
+          "title": "Medicines (Live on KBOO 90.7 FM)",
+          "section": "And If I Don't See You, In A Long Long While, I'll Try To Find You...",
+          "trackIndex": 14
+        }
+      ]
+    },
+    {
+      "id": 1988,
+      "date": "2026-08-25",
+      "host": "Biff",
+      "caption": "On this week’s MRR Radio, Biff and Hobbes give a breakdown of DEMO FEST, playing some of their favorite tracks of the submissions benefiting Solidarity Across BordersBlock 1",
+      "thumbnailUrl": "https://www.maximumrocknroll.com/wp-content/uploads/2026/08/demofest-mrr-radio-1000x1000.jpg",
+      "mp3Url": "https://media.blubrry.com/mrrradio/www.maximumrocknroll.com/wp-content/uploads/2026/08/MRR-Radio-Demo-Fest-2025-.mp3",
+      "durationSecs": 3576,
+      "trackCount": 32,
+      "localAudio": false,
+      "tracks": [
+        {
+          "id": 19880000,
+          "episodeId": 1988,
+          "artist": "MAUX MARQUIS",
+          "title": "Sé Cateurs",
+          "section": "",
+          "trackIndex": 0
+        },
+        {
+          "id": 19880001,
+          "episodeId": 1988,
+          "artist": "MALWARE",
+          "title": "Organizer",
+          "section": "",
+          "trackIndex": 1
+        },
+        {
+          "id": 19880002,
+          "episodeId": 1988,
+          "artist": "CONTINGENCY ONE",
+          "title": "Warmonger",
+          "section": "",
+          "trackIndex": 2
+        },
+        {
+          "id": 19880003,
+          "episodeId": 1988,
+          "artist": "HANDS OF CHAOS",
+          "title": "What You Just Can’t Figure Out",
+          "section": "",
+          "trackIndex": 3
+        },
+        {
+          "id": 19880004,
+          "episodeId": 1988,
+          "artist": "NORMAL NOW",
+          "title": "Hidden Defect",
+          "section": "",
+          "trackIndex": 4
+        },
+        {
+          "id": 19880005,
+          "episodeId": 1988,
+          "artist": "PREMIUM SUITE",
+          "title": "The People on T.V.",
+          "section": "",
+          "trackIndex": 5
+        },
+        {
+          "id": 19880006,
+          "episodeId": 1988,
+          "artist": "PROGRESS?",
+          "title": "Survive",
+          "section": "",
+          "trackIndex": 6
+        },
+        {
+          "id": 19880007,
+          "episodeId": 1988,
+          "artist": "CITADEL",
+          "title": "Serpent’s Nest",
+          "section": "",
+          "trackIndex": 7
+        },
+        {
+          "id": 19880008,
+          "episodeId": 1988,
+          "artist": "MORORA",
+          "title": "Kosovo",
+          "section": "",
+          "trackIndex": 8
+        },
+        {
+          "id": 19880009,
+          "episodeId": 1988,
+          "artist": "HOT BEER",
+          "title": "I Don’t Even Care",
+          "section": "",
+          "trackIndex": 9
+        },
+        {
+          "id": 19880010,
+          "episodeId": 1988,
+          "artist": "HOTT LETTUCE",
+          "title": "Hott Sauce",
+          "section": "",
+          "trackIndex": 10
+        },
+        {
+          "id": 19880011,
+          "episodeId": 1988,
+          "artist": "AMARGI",
+          "title": "El Progreso Es Aniquilador",
+          "section": "",
+          "trackIndex": 11
+        },
+        {
+          "id": 19880012,
+          "episodeId": 1988,
+          "artist": "RECALL",
+          "title": "Apathy",
+          "section": "",
+          "trackIndex": 12
+        },
+        {
+          "id": 19880013,
+          "episodeId": 1988,
+          "artist": "NEGLECT",
+          "title": "Prove",
+          "section": "",
+          "trackIndex": 13
+        },
+        {
+          "id": 19880014,
+          "episodeId": 1988,
+          "artist": "BASTARD IDOL",
+          "title": "Battlefield",
+          "section": "",
+          "trackIndex": 14
+        },
+        {
+          "id": 19880015,
+          "episodeId": 1988,
+          "artist": "INVISIBLE LINES",
+          "title": "First Song",
+          "section": "",
+          "trackIndex": 15
+        },
+        {
+          "id": 19880016,
+          "episodeId": 1988,
+          "artist": "SYNAPTIC ISOLATION SYNDROME",
+          "title": "C.M.I.",
+          "section": "",
+          "trackIndex": 16
+        },
+        {
+          "id": 19880017,
+          "episodeId": 1988,
+          "artist": "TRENCHCOAT",
+          "title": "Trenchcoat",
+          "section": "",
+          "trackIndex": 17
+        },
+        {
+          "id": 19880018,
+          "episodeId": 1988,
+          "artist": "THE STEVE LAKE EXPERIENCE",
+          "title": "I’m In a State",
+          "section": "",
+          "trackIndex": 18
+        },
+        {
+          "id": 19880019,
+          "episodeId": 1988,
+          "artist": "PBS SKIDS",
+          "title": "Bite Down On the Sun",
+          "section": "",
+          "trackIndex": 19
+        },
+        {
+          "id": 19880020,
+          "episodeId": 1988,
+          "artist": "NERVE WAR",
+          "title": "Turcot Yards",
+          "section": "",
+          "trackIndex": 20
+        },
+        {
+          "id": 19880021,
+          "episodeId": 1988,
+          "artist": "CLONED",
+          "title": "Hand and One Half",
+          "section": "",
+          "trackIndex": 21
+        },
+        {
+          "id": 19880022,
+          "episodeId": 1988,
+          "artist": "SOOT",
+          "title": "Living a Lie",
+          "section": "",
+          "trackIndex": 22
+        },
+        {
+          "id": 19880023,
+          "episodeId": 1988,
+          "artist": "PROJECT CHARIOT",
+          "title": "30 Years",
+          "section": "",
+          "trackIndex": 23
+        },
+        {
+          "id": 19880024,
+          "episodeId": 1988,
+          "artist": "PICEA",
+          "title": "Progress",
+          "section": "",
+          "trackIndex": 24
+        },
+        {
+          "id": 19880025,
+          "episodeId": 1988,
+          "artist": "POLARITY CRISIS",
+          "title": "Tear Down the Walls",
+          "section": "",
+          "trackIndex": 25
+        },
+        {
+          "id": 19880026,
+          "episodeId": 1988,
+          "artist": "MICKEY DAGGER",
+          "title": "Burning Down",
+          "section": "",
+          "trackIndex": 26
+        },
+        {
+          "id": 19880027,
+          "episodeId": 1988,
+          "artist": "NEW VOGUE",
+          "title": "High Stakes For the Times",
+          "section": "",
+          "trackIndex": 27
+        },
+        {
+          "id": 19880028,
+          "episodeId": 1988,
+          "artist": "THE CARRINGTONS",
+          "title": "Wild",
+          "section": "",
+          "trackIndex": 28
+        },
+        {
+          "id": 19880029,
+          "episodeId": 1988,
+          "artist": "RITALIN F.M.",
+          "title": "Insecure All Out Crash Out Doom",
+          "section": "",
+          "trackIndex": 29
+        },
+        {
+          "id": 19880030,
+          "episodeId": 1988,
+          "artist": "CLICK REMOTE",
+          "title": "Sounds So Good",
+          "section": "",
+          "trackIndex": 30
+        },
+        {
+          "id": 19880031,
+          "episodeId": 1988,
+          "artist": "COSMIC CLUB",
+          "title": "Robobotic Lover",
+          "section": "",
+          "trackIndex": 31
+        }
+      ]
+    },
     {
       "id": 1987,
       "date": "2026-08-17",
@@ -925,6 +1327,203 @@
           "title": "Release The Bats (THE BIRTHDAY PARTY cover)",
           "section": "Peace Offering?",
           "trackIndex": 16
+        }
+      ]
+    },
+    {
+      "id": 1981,
+      "date": "2026-05-19",
+      "host": "Cary",
+      "caption": "On this week's MRR Radio, Cary celebrates his one year anniversary as a regular DJ on MRR Radio by playing Lofi Punk and noisey garage rock.",
+      "thumbnailUrl": "https://www.maximumrocknroll.com/wp-content/uploads/2026/05/671093305_17857920858688708_7458523851263032595_n-1000x750.jpg",
+      "mp3Url": "https://media.blubrry.com/mrrradio/www.maximumrocknroll.com/wp-content/uploads/2026/05/MRR1981.mp3",
+      "durationSecs": 3600,
+      "trackCount": 23,
+      "localAudio": false,
+      "tracks": [
+        {
+          "id": 19810000,
+          "episodeId": 1981,
+          "artist": "XRAY XEROXX",
+          "title": "I Just Wanna Have Fun with You",
+          "section": "Opener",
+          "trackIndex": 0
+        },
+        {
+          "id": 19810001,
+          "episodeId": 1981,
+          "artist": "SEX MEX",
+          "title": "Ride or Die",
+          "section": "Set 1",
+          "trackIndex": 1
+        },
+        {
+          "id": 19810002,
+          "episodeId": 1981,
+          "artist": "DRU THE DRIFTER",
+          "title": "Stand Alone",
+          "section": "Set 1",
+          "trackIndex": 2
+        },
+        {
+          "id": 19810003,
+          "episodeId": 1981,
+          "artist": "RAYA",
+          "title": "Ya no está",
+          "section": "Set 1",
+          "trackIndex": 3
+        },
+        {
+          "id": 19810004,
+          "episodeId": 1981,
+          "artist": "M.O.T.O.",
+          "title": "Gagging On the Edge of Love",
+          "section": "Set 1",
+          "trackIndex": 4
+        },
+        {
+          "id": 19810005,
+          "episodeId": 1981,
+          "artist": "BEER LEAGUE BENNY",
+          "title": "You Better Watch Out",
+          "section": "Set 1",
+          "trackIndex": 5
+        },
+        {
+          "id": 19810006,
+          "episodeId": 1981,
+          "artist": "WRISTWATCH",
+          "title": "Hints",
+          "section": "Set 2",
+          "trackIndex": 6
+        },
+        {
+          "id": 19810007,
+          "episodeId": 1981,
+          "artist": "PLEASANTS",
+          "title": "Sick Sad Situation",
+          "section": "Set 2",
+          "trackIndex": 7
+        },
+        {
+          "id": 19810008,
+          "episodeId": 1981,
+          "artist": "KOMAROV MAGNIFICENT BACKFLIP",
+          "title": "Jail Time",
+          "section": "Set 2",
+          "trackIndex": 8
+        },
+        {
+          "id": 19810009,
+          "episodeId": 1981,
+          "artist": "METH WAX",
+          "title": "Arachnophbia",
+          "section": "Set 2",
+          "trackIndex": 9
+        },
+        {
+          "id": 19810010,
+          "episodeId": 1981,
+          "artist": "FRIZBEE",
+          "title": "So Sick",
+          "section": "Set 3",
+          "trackIndex": 10
+        },
+        {
+          "id": 19810011,
+          "episodeId": 1981,
+          "artist": "SURREALISTIC PILLHEAD",
+          "title": "Chaos Stone",
+          "section": "Set 3",
+          "trackIndex": 11
+        },
+        {
+          "id": 19810012,
+          "episodeId": 1981,
+          "artist": "FEN FEN",
+          "title": "IN YER SIGHTS",
+          "section": "Set 3",
+          "trackIndex": 12
+        },
+        {
+          "id": 19810013,
+          "episodeId": 1981,
+          "artist": "POOLBOY",
+          "title": "Resistance",
+          "section": "Set 3",
+          "trackIndex": 13
+        },
+        {
+          "id": 19810014,
+          "episodeId": 1981,
+          "artist": "ISOTOPE SOAP",
+          "title": "Bones and Glass",
+          "section": "Set 3",
+          "trackIndex": 14
+        },
+        {
+          "id": 19810015,
+          "episodeId": 1981,
+          "artist": "CULT FIGURES",
+          "title": "Lunatic Friend",
+          "section": "Set 3",
+          "trackIndex": 15
+        },
+        {
+          "id": 19810016,
+          "episodeId": 1981,
+          "artist": "LOOMER",
+          "title": "This Is Violance",
+          "section": "Set 4",
+          "trackIndex": 16
+        },
+        {
+          "id": 19810017,
+          "episodeId": 1981,
+          "artist": "CALATRAVA",
+          "title": "La Espiral",
+          "section": "Set 4",
+          "trackIndex": 17
+        },
+        {
+          "id": 19810018,
+          "episodeId": 1981,
+          "artist": "BLITZER",
+          "title": "Goon",
+          "section": "Set 4",
+          "trackIndex": 18
+        },
+        {
+          "id": 19810019,
+          "episodeId": 1981,
+          "artist": "ZINC VACUUM",
+          "title": "Dollar",
+          "section": "Set 4",
+          "trackIndex": 19
+        },
+        {
+          "id": 19810020,
+          "episodeId": 1981,
+          "artist": "THE WISCONAUNT",
+          "title": "Let 'Em Roll",
+          "section": "Set 4",
+          "trackIndex": 20
+        },
+        {
+          "id": 19810021,
+          "episodeId": 1981,
+          "artist": "GAY AGAINST YOU",
+          "title": "Triple Schipol",
+          "section": "Set 4",
+          "trackIndex": 21
+        },
+        {
+          "id": 19810022,
+          "episodeId": 1981,
+          "artist": "CAMP REGRET",
+          "title": "Go Getter",
+          "section": "Closer",
+          "trackIndex": 22
         }
       ]
     },
