@@ -1,7 +1,180 @@
 {
-  "generated": "2026-09-01T14:29:57.992Z",
-  "count": 803,
+  "generated": "2026-09-15T14:37:27.555Z",
+  "count": 804,
   "episodes": [
+    {
+      "id": 1990,
+      "date": "2026-09-13",
+      "host": "",
+      "caption": "Erika Elizabeth calls the shots again on this week's episode of MRR Radio.Intro (R.I.P. David Fair)",
+      "thumbnailUrl": "https://www.maximumrocknroll.com/wp-content/uploads/2026/09/Mars-1000x831.jpg",
+      "mp3Url": "https://media.blubrry.com/mrrradio/www.maximumrocknroll.com/wp-content/uploads/2026/09/mrr-radio-1990.mp3",
+      "durationSecs": 3576,
+      "trackCount": 20,
+      "localAudio": false,
+      "tracks": [
+        {
+          "id": 19900000,
+          "episodeId": 1990,
+          "artist": "HALF JAPANESE",
+          "title": "Double Trouble",
+          "section": "Intro (R.I.P. David Fair)",
+          "trackIndex": 0
+        },
+        {
+          "id": 19900001,
+          "episodeId": 1990,
+          "artist": "CALIFORNIA LIGHTENING",
+          "title": "Basement",
+          "section": "Don't Believe What They Say Anymore",
+          "trackIndex": 1
+        },
+        {
+          "id": 19900002,
+          "episodeId": 1990,
+          "artist": "ALPACA BROTHERS",
+          "title": "The Lie",
+          "section": "Don't Believe What They Say Anymore",
+          "trackIndex": 2
+        },
+        {
+          "id": 19900003,
+          "episodeId": 1990,
+          "artist": "PLEBS",
+          "title": "Corporate War",
+          "section": "Don't Believe What They Say Anymore",
+          "trackIndex": 3
+        },
+        {
+          "id": 19900004,
+          "episodeId": 1990,
+          "artist": "TEAM WORK",
+          "title": "I Burnt My Tongue With F-icience This Morning",
+          "section": "Don't Believe What They Say Anymore",
+          "trackIndex": 4
+        },
+        {
+          "id": 19900005,
+          "episodeId": 1990,
+          "artist": "SPORTEN ÄR DÖD",
+          "title": "En Pistol Och Glas",
+          "section": "This is My Heresy",
+          "trackIndex": 5
+        },
+        {
+          "id": 19900006,
+          "episodeId": 1990,
+          "artist": "MARS",
+          "title": "Look at You",
+          "section": "This is My Heresy",
+          "trackIndex": 6
+        },
+        {
+          "id": 19900007,
+          "episodeId": 1990,
+          "artist": "DELTA Z",
+          "title": "Der Arbeiter",
+          "section": "This is My Heresy",
+          "trackIndex": 7
+        },
+        {
+          "id": 19900008,
+          "episodeId": 1990,
+          "artist": "SHADOWLAND",
+          "title": "Fire & Silver",
+          "section": "This is My Heresy",
+          "trackIndex": 8
+        },
+        {
+          "id": 19900009,
+          "episodeId": 1990,
+          "artist": "SHRINES",
+          "title": "Cathartic Life",
+          "section": "A Thousand Years Brings a Little Change",
+          "trackIndex": 9
+        },
+        {
+          "id": 19900010,
+          "episodeId": 1990,
+          "artist": "EX-DIEL",
+          "title": "Fishtank",
+          "section": "A Thousand Years Brings a Little Change",
+          "trackIndex": 10
+        },
+        {
+          "id": 19900011,
+          "episodeId": 1990,
+          "artist": "ALISON’S BIRTHDAY",
+          "title": "Further Than the Moon",
+          "section": "A Thousand Years Brings a Little Change",
+          "trackIndex": 11
+        },
+        {
+          "id": 19900012,
+          "episodeId": 1990,
+          "artist": "DRUM BUNNY",
+          "title": "Rhapsody in Purple",
+          "section": "A Thousand Years Brings a Little Change",
+          "trackIndex": 12
+        },
+        {
+          "id": 19900013,
+          "episodeId": 1990,
+          "artist": "SPREAD JOY",
+          "title": "Vindicated By",
+          "section": "A Thousand Years Brings a Little Change",
+          "trackIndex": 13
+        },
+        {
+          "id": 19900014,
+          "episodeId": 1990,
+          "artist": "SCREAMING SNEAKERS",
+          "title": "Abnormal Reflections",
+          "section": "Your Silence Will Not Save You",
+          "trackIndex": 14
+        },
+        {
+          "id": 19900015,
+          "episodeId": 1990,
+          "artist": "DADDY’S BOY",
+          "title": "Polite",
+          "section": "Your Silence Will Not Save You",
+          "trackIndex": 15
+        },
+        {
+          "id": 19900016,
+          "episodeId": 1990,
+          "artist": "SPLITTING IMAGE",
+          "title": "Unwilling Participant",
+          "section": "Your Silence Will Not Save You",
+          "trackIndex": 16
+        },
+        {
+          "id": 19900017,
+          "episodeId": 1990,
+          "artist": "SOFT SHOULDER",
+          "title": "The Ballad of a Mechanical Lull",
+          "section": "Your Silence Will Not Save You",
+          "trackIndex": 17
+        },
+        {
+          "id": 19900018,
+          "episodeId": 1990,
+          "artist": "MONOTON TID",
+          "title": "Vågorna",
+          "section": "Your Silence Will Not Save You",
+          "trackIndex": 18
+        },
+        {
+          "id": 19900019,
+          "episodeId": 1990,
+          "artist": "SECOND LANGUAGE",
+          "title": "On the Edge",
+          "section": "Outro",
+          "trackIndex": 19
+        }
+      ]
+    },
     {
       "id": 1989,
       "date": "2026-08-30",
