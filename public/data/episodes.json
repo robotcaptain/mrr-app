@@ -1,7 +1,228 @@
 {
-  "generated": "2026-09-15T14:37:27.555Z",
-  "count": 804,
+  "generated": "2026-09-22T14:19:27.392Z",
+  "count": 805,
   "episodes": [
+    {
+      "id": 1991,
+      "date": "2026-09-20",
+      "host": "Hobbes",
+      "caption": "On this week's MRR Radio, Hobbes has opened the lines for Askapunk Call-In Radio, prescribing music and bad advice to troubled punks.",
+      "thumbnailUrl": "https://www.maximumrocknroll.com/wp-content/uploads/2026/09/MRRRadioAskapunk1-500x500.jpg",
+      "mp3Url": "https://media.blubrry.com/mrrradio/www.maximumrocknroll.com/wp-content/uploads/2026/09/mrr-radio-1991.mp3",
+      "durationSecs": 3426,
+      "trackCount": 26,
+      "localAudio": false,
+      "tracks": [
+        {
+          "id": 19910000,
+          "episodeId": 1991,
+          "artist": "CYANIDE PILLS",
+          "title": "Cheap 'n' Nasty",
+          "section": "Block 1",
+          "trackIndex": 0
+        },
+        {
+          "id": 19910001,
+          "episodeId": 1991,
+          "artist": "HAN AND THE SOLOS",
+          "title": "Teenager From the Black Lagoon",
+          "section": "Block 1",
+          "trackIndex": 1
+        },
+        {
+          "id": 19910002,
+          "episodeId": 1991,
+          "artist": "GOOD THROB",
+          "title": "Mummy I'm Ugly",
+          "section": "Block 1",
+          "trackIndex": 2
+        },
+        {
+          "id": 19910003,
+          "episodeId": 1991,
+          "artist": "THE LEWD",
+          "title": "I'm Not Pretty",
+          "section": "Block 1",
+          "trackIndex": 3
+        },
+        {
+          "id": 19910004,
+          "episodeId": 1991,
+          "artist": "MAU MAUS",
+          "title": "Society's Rejects",
+          "section": "Block 1",
+          "trackIndex": 4
+        },
+        {
+          "id": 19910005,
+          "episodeId": 1991,
+          "artist": "UROCHROMES",
+          "title": "Ugly People",
+          "section": "Block 2",
+          "trackIndex": 5
+        },
+        {
+          "id": 19910006,
+          "episodeId": 1991,
+          "artist": "DOUBLE NEGATIVE",
+          "title": "Technically Disfigured",
+          "section": "Block 2",
+          "trackIndex": 6
+        },
+        {
+          "id": 19910007,
+          "episodeId": 1991,
+          "artist": "TOTALITÄR",
+          "title": "Allt Är Inom Dig",
+          "section": "Block 2",
+          "trackIndex": 7
+        },
+        {
+          "id": 19910008,
+          "episodeId": 1991,
+          "artist": "PISTONS",
+          "title": "Dirty Life",
+          "section": "Block 2",
+          "trackIndex": 8
+        },
+        {
+          "id": 19910009,
+          "episodeId": 1991,
+          "artist": "LEGION OF PARASITES",
+          "title": "Hard Mugs",
+          "section": "Block 2",
+          "trackIndex": 9
+        },
+        {
+          "id": 19910010,
+          "episodeId": 1991,
+          "artist": "KOLLETIVO",
+          "title": "Vomito",
+          "section": "Block 2",
+          "trackIndex": 10
+        },
+        {
+          "id": 19910011,
+          "episodeId": 1991,
+          "artist": "HETZE",
+          "title": "Vile",
+          "section": "Block 3",
+          "trackIndex": 11
+        },
+        {
+          "id": 19910012,
+          "episodeId": 1991,
+          "artist": "HELLKRUSHER",
+          "title": "Toxic Filth",
+          "section": "Block 3",
+          "trackIndex": 12
+        },
+        {
+          "id": 19910013,
+          "episodeId": 1991,
+          "artist": "DISCHANGE",
+          "title": "Agonized Faces",
+          "section": "Block 3",
+          "trackIndex": 13
+        },
+        {
+          "id": 19910014,
+          "episodeId": 1991,
+          "artist": "SICILIAN BLOOD",
+          "title": "Deform My Face",
+          "section": "Block 3",
+          "trackIndex": 14
+        },
+        {
+          "id": 19910015,
+          "episodeId": 1991,
+          "artist": "DEATH SIDE",
+          "title": "The Lowest",
+          "section": "Block 3",
+          "trackIndex": 15
+        },
+        {
+          "id": 19910016,
+          "episodeId": 1991,
+          "artist": "RUDIMENTARY PENI",
+          "title": "Slimy Member",
+          "section": "Block 4",
+          "trackIndex": 16
+        },
+        {
+          "id": 19910017,
+          "episodeId": 1991,
+          "artist": "TOTUUS",
+          "title": "Glamourin Varjossa",
+          "section": "Block 4",
+          "trackIndex": 17
+        },
+        {
+          "id": 19910018,
+          "episodeId": 1991,
+          "artist": "BORN WITHOUT A FACE",
+          "title": "Sloth",
+          "section": "Block 4",
+          "trackIndex": 18
+        },
+        {
+          "id": 19910019,
+          "episodeId": 1991,
+          "artist": "HONOR ROLE",
+          "title": "I'm A Nerd",
+          "section": "Block 4",
+          "trackIndex": 19
+        },
+        {
+          "id": 19910020,
+          "episodeId": 1991,
+          "artist": "THE TRAGICS",
+          "title": "Mommy I'm A Misfit",
+          "section": "Block 4",
+          "trackIndex": 20
+        },
+        {
+          "id": 19910021,
+          "episodeId": 1991,
+          "artist": "STRANGE ATTRACTOR",
+          "title": "Mutant Love",
+          "section": "Block 5",
+          "trackIndex": 21
+        },
+        {
+          "id": 19910022,
+          "episodeId": 1991,
+          "artist": "MORNINGTON CRESCENT",
+          "title": "Filth",
+          "section": "Block 5",
+          "trackIndex": 22
+        },
+        {
+          "id": 19910023,
+          "episodeId": 1991,
+          "artist": "DIODE",
+          "title": "Ugly",
+          "section": "Block 5",
+          "trackIndex": 23
+        },
+        {
+          "id": 19910024,
+          "episodeId": 1991,
+          "artist": "COUNT VERTIGO",
+          "title": "I'm A Mutant",
+          "section": "Block 5",
+          "trackIndex": 24
+        },
+        {
+          "id": 19910025,
+          "episodeId": 1991,
+          "artist": "INMATES",
+          "title": "I'm So Skummy",
+          "section": "Outro",
+          "trackIndex": 25
+        }
+      ]
+    },
     {
       "id": 1990,
       "date": "2026-09-13",
