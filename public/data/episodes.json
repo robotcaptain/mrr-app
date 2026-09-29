@@ -1,7 +1,180 @@
 {
-  "generated": "2026-09-22T14:19:27.392Z",
-  "count": 805,
+  "generated": "2026-09-29T16:19:19.647Z",
+  "count": 806,
   "episodes": [
+    {
+      "id": 1992,
+      "date": "2026-09-27",
+      "host": "Cary",
+      "caption": "On this week's MRR Radio, Cary ends summer with new releases.",
+      "thumbnailUrl": "https://www.maximumrocknroll.com/wp-content/uploads/2026/09/486823937_1062921239188049_6464868744594658544_n-1000x997.jpg",
+      "mp3Url": "https://media.blubrry.com/mrrradio/www.maximumrocknroll.com/wp-content/uploads/2026/09/MRR1992edit.mp3",
+      "durationSecs": 3468,
+      "trackCount": 20,
+      "localAudio": false,
+      "tracks": [
+        {
+          "id": 19920000,
+          "episodeId": 1992,
+          "artist": "DRU THE DRIFTER",
+          "title": "True Conspiracy",
+          "section": "Opener",
+          "trackIndex": 0
+        },
+        {
+          "id": 19920001,
+          "episodeId": 1992,
+          "artist": "LACK",
+          "title": "Kids With Kalashnikovs",
+          "section": "Set 1",
+          "trackIndex": 1
+        },
+        {
+          "id": 19920002,
+          "episodeId": 1992,
+          "artist": "UNITY",
+          "title": "Duck",
+          "section": "Set 1",
+          "trackIndex": 2
+        },
+        {
+          "id": 19920003,
+          "episodeId": 1992,
+          "artist": "流血ブリザード",
+          "title": "Resurrection",
+          "section": "Set 1",
+          "trackIndex": 3
+        },
+        {
+          "id": 19920004,
+          "episodeId": 1992,
+          "artist": "UPPER WILDS",
+          "title": "Death Song #3",
+          "section": "Set 1",
+          "trackIndex": 4
+        },
+        {
+          "id": 19920005,
+          "episodeId": 1992,
+          "artist": "PAUL SOLGER",
+          "title": "Invisible Me",
+          "section": "Set 1",
+          "trackIndex": 5
+        },
+        {
+          "id": 19920006,
+          "episodeId": 1992,
+          "artist": "GENERAL GOOP AND THE GREASE ARMY",
+          "title": "Comrade Sniper",
+          "section": "Set 2",
+          "trackIndex": 6
+        },
+        {
+          "id": 19920007,
+          "episodeId": 1992,
+          "artist": "DURRY MUMS",
+          "title": "Botany View Hotel",
+          "section": "Set 2",
+          "trackIndex": 7
+        },
+        {
+          "id": 19920008,
+          "episodeId": 1992,
+          "artist": "ANIMAL PANIC.",
+          "title": "Hurricane Touchdown",
+          "section": "Set 2",
+          "trackIndex": 8
+        },
+        {
+          "id": 19920009,
+          "episodeId": 1992,
+          "artist": "PLUM",
+          "title": "Deju Vu",
+          "section": "Set 2",
+          "trackIndex": 9
+        },
+        {
+          "id": 19920010,
+          "episodeId": 1992,
+          "artist": "CAVA",
+          "title": "M42",
+          "section": "Set 2",
+          "trackIndex": 10
+        },
+        {
+          "id": 19920011,
+          "episodeId": 1992,
+          "artist": "SANG BLEU",
+          "title": "STAND ON THINGS",
+          "section": "Set 3",
+          "trackIndex": 11
+        },
+        {
+          "id": 19920012,
+          "episodeId": 1992,
+          "artist": "THE SPANISH CANDLES",
+          "title": "Camp Girls",
+          "section": "Set 3",
+          "trackIndex": 12
+        },
+        {
+          "id": 19920013,
+          "episodeId": 1992,
+          "artist": "THE WILFUL BOYS",
+          "title": "A Watched Pot",
+          "section": "Set 3",
+          "trackIndex": 13
+        },
+        {
+          "id": 19920014,
+          "episodeId": 1992,
+          "artist": "MALLORY HAWK",
+          "title": "D'Anger",
+          "section": "Set 3",
+          "trackIndex": 14
+        },
+        {
+          "id": 19920015,
+          "episodeId": 1992,
+          "artist": "BUZZ-HOUND",
+          "title": "Revelation",
+          "section": "Set 4",
+          "trackIndex": 15
+        },
+        {
+          "id": 19920016,
+          "episodeId": 1992,
+          "artist": "OCCRASY",
+          "title": "All You Get",
+          "section": "Set 4",
+          "trackIndex": 16
+        },
+        {
+          "id": 19920017,
+          "episodeId": 1992,
+          "artist": "ELECTRIC PRAWNS 2",
+          "title": "Prawnmagedon",
+          "section": "Set 4",
+          "trackIndex": 17
+        },
+        {
+          "id": 19920018,
+          "episodeId": 1992,
+          "artist": "RUCKUS",
+          "title": "Talk Aint Cheap Enuff",
+          "section": "Set 4",
+          "trackIndex": 18
+        },
+        {
+          "id": 19920019,
+          "episodeId": 1992,
+          "artist": "NEKRA",
+          "title": "Risk Factor",
+          "section": "Closer",
+          "trackIndex": 19
+        }
+      ]
+    },
     {
       "id": 1991,
       "date": "2026-09-20",
