@@ -1,7 +1,196 @@
 {
-  "generated": "2026-09-29T16:19:19.647Z",
-  "count": 806,
+  "generated": "2026-10-06T16:29:02.474Z",
+  "count": 807,
   "episodes": [
+    {
+      "id": 1993,
+      "date": "2026-10-04",
+      "host": "Jennifer",
+      "caption": "On this week's MRR Radio, Jennifer plays some new gems!",
+      "thumbnailUrl": "https://www.maximumrocknroll.com/wp-content/uploads/2026/10/ESKUPA-1000x563.jpg",
+      "mp3Url": "https://media.blubrry.com/mrrradio/www.maximumrocknroll.com/wp-content/uploads/2026/10/mrrradio1993.mp3",
+      "durationSecs": 3566,
+      "trackCount": 22,
+      "localAudio": false,
+      "tracks": [
+        {
+          "id": 19930000,
+          "episodeId": 1993,
+          "artist": "OUST",
+          "title": "Idiots",
+          "section": "INTRO",
+          "trackIndex": 0
+        },
+        {
+          "id": 19930001,
+          "episodeId": 1993,
+          "artist": "SCIENCE MAN",
+          "title": "Top of the Chain",
+          "section": "EXHIBIT A",
+          "trackIndex": 1
+        },
+        {
+          "id": 19930002,
+          "episodeId": 1993,
+          "artist": "TENSE",
+          "title": "Convergence",
+          "section": "EXHIBIT A",
+          "trackIndex": 2
+        },
+        {
+          "id": 19930003,
+          "episodeId": 1993,
+          "artist": "GIMIC",
+          "title": "The Devil’s Rose",
+          "section": "EXHIBIT A",
+          "trackIndex": 3
+        },
+        {
+          "id": 19930004,
+          "episodeId": 1993,
+          "artist": "RAT CAGE",
+          "title": "Grass is Greener",
+          "section": "EXHIBIT A",
+          "trackIndex": 4
+        },
+        {
+          "id": 19930005,
+          "episodeId": 1993,
+          "artist": "NEKRA",
+          "title": "All We Got Is Us",
+          "section": "EXHIBIT A",
+          "trackIndex": 5
+        },
+        {
+          "id": 19930006,
+          "episodeId": 1993,
+          "artist": "ESKUPA",
+          "title": "Fatal",
+          "section": "EXHIBIT A",
+          "trackIndex": 6
+        },
+        {
+          "id": 19930007,
+          "episodeId": 1993,
+          "artist": "FUGITIVE BUBBLE",
+          "title": "Strand of Luck",
+          "section": "EXHIBIT B",
+          "trackIndex": 7
+        },
+        {
+          "id": 19930008,
+          "episodeId": 1993,
+          "artist": "DIAL PAINTERS",
+          "title": "Double Your Efforts",
+          "section": "EXHIBIT B",
+          "trackIndex": 8
+        },
+        {
+          "id": 19930009,
+          "episodeId": 1993,
+          "artist": "GOTRI",
+          "title": "Bludgeoned Nazi Scum",
+          "section": "EXHIBIT B",
+          "trackIndex": 9
+        },
+        {
+          "id": 19930010,
+          "episodeId": 1993,
+          "artist": "SNOUT FEVER",
+          "title": "Collecting Dust",
+          "section": "EXHIBIT B",
+          "trackIndex": 10
+        },
+        {
+          "id": 19930011,
+          "episodeId": 1993,
+          "artist": "REJEKTS",
+          "title": "Idiot City",
+          "section": "EXHIBIT B",
+          "trackIndex": 11
+        },
+        {
+          "id": 19930012,
+          "episodeId": 1993,
+          "artist": "SPREAD JOY",
+          "title": "Vindicated By",
+          "section": "EXHIBIT C",
+          "trackIndex": 12
+        },
+        {
+          "id": 19930013,
+          "episodeId": 1993,
+          "artist": "POWER PANTS",
+          "title": "Don’t Touch Me",
+          "section": "EXHIBIT C",
+          "trackIndex": 13
+        },
+        {
+          "id": 19930014,
+          "episodeId": 1993,
+          "artist": "BIG MODERN",
+          "title": "Gatekeep",
+          "section": "EXHIBIT C",
+          "trackIndex": 14
+        },
+        {
+          "id": 19930015,
+          "episodeId": 1993,
+          "artist": "SMIRK",
+          "title": "Perfect World",
+          "section": "EXHIBIT C",
+          "trackIndex": 15
+        },
+        {
+          "id": 19930016,
+          "episodeId": 1993,
+          "artist": "BASILISKO",
+          "title": "Destino",
+          "section": "EXHIBIT C",
+          "trackIndex": 16
+        },
+        {
+          "id": 19930017,
+          "episodeId": 1993,
+          "artist": "CIGARETTE CAMP",
+          "title": "Bumper Stickers",
+          "section": "EXHIBIT D",
+          "trackIndex": 17
+        },
+        {
+          "id": 19930018,
+          "episodeId": 1993,
+          "artist": "TWISTED TEENS",
+          "title": "Guided Thunder",
+          "section": "EXHIBIT D",
+          "trackIndex": 18
+        },
+        {
+          "id": 19930019,
+          "episodeId": 1993,
+          "artist": "HOSPITAL JOB",
+          "title": "Out of Phase",
+          "section": "EXHIBIT D",
+          "trackIndex": 19
+        },
+        {
+          "id": 19930020,
+          "episodeId": 1993,
+          "artist": "GLEETCH",
+          "title": "Nightmares",
+          "section": "EXHIBIT D",
+          "trackIndex": 20
+        },
+        {
+          "id": 19930021,
+          "episodeId": 1993,
+          "artist": "MAN AFRAID",
+          "title": "Cemetery Ridge",
+          "section": "OUTRO",
+          "trackIndex": 21
+        }
+      ]
+    },
     {
       "id": 1992,
       "date": "2026-09-27",
