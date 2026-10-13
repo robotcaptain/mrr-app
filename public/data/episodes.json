@@ -1,7 +1,140 @@
 {
-  "generated": "2026-10-06T16:29:02.474Z",
-  "count": 807,
+  "generated": "2026-10-13T17:20:23.994Z",
+  "count": 808,
   "episodes": [
+    {
+      "id": 1994,
+      "date": "2026-10-11",
+      "host": "Zu From All Over",
+      "caption": "On this week's MRR Radio, Zu From All Over celebrates her 3rd Annual Murderween Party by spinning “All Hell Breaks Loose - A Tribute To The Misfits” LP in it’s entirety! With the best Danish Horror Punk, Darkwave, Coldwave, and Deathrock to drown out the voices and usher in the s",
+      "thumbnailUrl": "https://www.maximumrocknroll.com/wp-content/uploads/2026/10/ARCHANGEL-Live_on_November_14th_2025_at_Resonanzwerk_in_Oberhausen_Ruhr_for_Dying_Victims_Metal_and_Hell_Festival_Vol_2-phot-1000x706.jpg",
+      "mp3Url": "https://media.blubrry.com/mrrradio/www.maximumrocknroll.com/wp-content/uploads/2026/10/mrrradio1994.mp3",
+      "durationSecs": 3514,
+      "trackCount": 15,
+      "localAudio": false,
+      "tracks": [
+        {
+          "id": 19940000,
+          "episodeId": 1994,
+          "artist": "TROOP TRANSPORT",
+          "title": "Vampira",
+          "section": "Murderween III: Party of Darkness (Side A)",
+          "trackIndex": 0
+        },
+        {
+          "id": 19940001,
+          "episodeId": 1994,
+          "artist": "BIG MESS",
+          "title": "I Turned Into A Martian",
+          "section": "Murderween III: Party of Darkness (Side A)",
+          "trackIndex": 1
+        },
+        {
+          "id": 19940002,
+          "episodeId": 1994,
+          "artist": "REBECCA LOU X RUNE RÅDDEN",
+          "title": "Ghouls Night Out",
+          "section": "There's Something Rådden In The State Of Denmark",
+          "trackIndex": 2
+        },
+        {
+          "id": 19940003,
+          "episodeId": 1994,
+          "artist": "LOST LOVES FEATURING PETER PETER",
+          "title": "Hybrid Moments",
+          "section": "There's Something Rådden In The State Of Denmark",
+          "trackIndex": 3
+        },
+        {
+          "id": 19940004,
+          "episodeId": 1994,
+          "artist": "FOREVER UNCLEAN",
+          "title": "Skulls",
+          "section": "There's Something Rådden In The State Of Denmark",
+          "trackIndex": 4
+        },
+        {
+          "id": 19940005,
+          "episodeId": 1994,
+          "artist": "MOTORSAV",
+          "title": "Violent World",
+          "section": "Fiend Clubbers",
+          "trackIndex": 5
+        },
+        {
+          "id": 19940006,
+          "episodeId": 1994,
+          "artist": "ST. DIGUE",
+          "title": "Hatebreeders",
+          "section": "Fiend Clubbers",
+          "trackIndex": 6
+        },
+        {
+          "id": 19940007,
+          "episodeId": 1994,
+          "artist": "SKIND OG BEN",
+          "title": "Some Kinda Hate",
+          "section": "Fiend Clubbers",
+          "trackIndex": 7
+        },
+        {
+          "id": 19940008,
+          "episodeId": 1994,
+          "artist": "WRITHE",
+          "title": "Return Of The Fly",
+          "section": "All Hell Breaks Loose! (Side B)",
+          "trackIndex": 8
+        },
+        {
+          "id": 19940009,
+          "episodeId": 1994,
+          "artist": "MAI SHARONA",
+          "title": "Hollywood Babylon",
+          "section": "All Hell Breaks Loose! (Side B)",
+          "trackIndex": 9
+        },
+        {
+          "id": 19940010,
+          "episodeId": 1994,
+          "artist": "KOLD FRONT",
+          "title": "Cough/Cool",
+          "section": "All Hell Breaks Loose! (Side B)",
+          "trackIndex": 10
+        },
+        {
+          "id": 19940011,
+          "episodeId": 1994,
+          "artist": "DUST BUGS",
+          "title": "She",
+          "section": "All Hell Breaks Loose! (Side B)",
+          "trackIndex": 11
+        },
+        {
+          "id": 19940012,
+          "episodeId": 1994,
+          "artist": "IMPERIAL SHARK",
+          "title": "Where Eagles Dare",
+          "section": "All Hell Breaks Loose! (Side B)",
+          "trackIndex": 12
+        },
+        {
+          "id": 19940013,
+          "episodeId": 1994,
+          "artist": "ARCHANGEL",
+          "title": "Horror Hotel",
+          "section": "Lyt Til Stemmerne I Dit Hoved",
+          "trackIndex": 13
+        },
+        {
+          "id": 19940014,
+          "episodeId": 1994,
+          "artist": "EARN YOUR SCARS",
+          "title": "Mommy, Can I Go Out And Kill Tonight?",
+          "section": "Lyt Til Stemmerne I Dit Hoved",
+          "trackIndex": 14
+        }
+      ]
+    },
     {
       "id": 1993,
       "date": "2026-10-04",
