@@ -1,7 +1,292 @@
 {
-  "generated": "2026-10-13T17:20:23.994Z",
-  "count": 808,
+  "generated": "2026-10-20T14:38:49.257Z",
+  "count": 809,
   "episodes": [
+    {
+      "id": 1995,
+      "date": "2026-10-18",
+      "host": "",
+      "caption": "Tim and Jeff talk super quickly and keep it brief in order to cram in all the hits of 1982 (part 1)! Digitized from MRR archive tapes at the Center for Popular Music at MTSU. Originally aired December 27, 1982.",
+      "thumbnailUrl": null,
+      "mp3Url": "https://media.blubrry.com/mrrradio/www.maximumrocknroll.com/wp-content/uploads/2026/10/mrr-radio-77.mp3",
+      "durationSecs": 3310,
+      "trackCount": 34,
+      "localAudio": false,
+      "tracks": [
+        {
+          "id": 19950000,
+          "episodeId": 1995,
+          "artist": "NEOS",
+          "title": "Churchgoers Motive",
+          "section": "",
+          "trackIndex": 0
+        },
+        {
+          "id": 19950001,
+          "episodeId": 1995,
+          "artist": "DISORDER",
+          "title": "Suicide Children",
+          "section": "",
+          "trackIndex": 1
+        },
+        {
+          "id": 19950002,
+          "episodeId": 1995,
+          "artist": "DISCHARGE",
+          "title": "Hear Nothing See Nothing Say Nothing",
+          "section": "",
+          "trackIndex": 2
+        },
+        {
+          "id": 19950003,
+          "episodeId": 1995,
+          "artist": "CHAOS UK",
+          "title": "No Security",
+          "section": "",
+          "trackIndex": 3
+        },
+        {
+          "id": 19950004,
+          "episodeId": 1995,
+          "artist": "CHAOTIC DISCHORD",
+          "title": "Fuck the World",
+          "section": "",
+          "trackIndex": 4
+        },
+        {
+          "id": 19950005,
+          "episodeId": 1995,
+          "artist": "THE INSANE",
+          "title": "Why Die",
+          "section": "",
+          "trackIndex": 5
+        },
+        {
+          "id": 19950006,
+          "episodeId": 1995,
+          "artist": "MAD",
+          "title": "Holocaust",
+          "section": "",
+          "trackIndex": 6
+        },
+        {
+          "id": 19950007,
+          "episodeId": 1995,
+          "artist": "MDC",
+          "title": "Dead Cops / America’s So Straight",
+          "section": "",
+          "trackIndex": 7
+        },
+        {
+          "id": 19950008,
+          "episodeId": 1995,
+          "artist": "CODE OF HONOR",
+          "title": "Be Fighting Still",
+          "section": "",
+          "trackIndex": 8
+        },
+        {
+          "id": 19950009,
+          "episodeId": 1995,
+          "artist": "REBEL TRUTH",
+          "title": "All I Know",
+          "section": "",
+          "trackIndex": 9
+        },
+        {
+          "id": 19950010,
+          "episodeId": 1995,
+          "artist": "BAD BRAINS",
+          "title": "How Low Can a Punk Get",
+          "section": "",
+          "trackIndex": 10
+        },
+        {
+          "id": 19950011,
+          "episodeId": 1995,
+          "artist": "THE MOB",
+          "title": "Common Criminal",
+          "section": "",
+          "trackIndex": 11
+        },
+        {
+          "id": 19950012,
+          "episodeId": 1995,
+          "artist": "BEASTIE BOYS",
+          "title": "Beastie Boy",
+          "section": "",
+          "trackIndex": 12
+        },
+        {
+          "id": 19950013,
+          "episodeId": 1995,
+          "artist": "LOST GENERATION",
+          "title": "Mind Control",
+          "section": "",
+          "trackIndex": 13
+        },
+        {
+          "id": 19950014,
+          "episodeId": 1995,
+          "artist": "SUBURBAN MUTILATION",
+          "title": "Menachem Begin",
+          "section": "",
+          "trackIndex": 14
+        },
+        {
+          "id": 19950015,
+          "episodeId": 1995,
+          "artist": "DIE KREUZEN",
+          "title": "Fighting",
+          "section": "",
+          "trackIndex": 15
+        },
+        {
+          "id": 19950016,
+          "episodeId": 1995,
+          "artist": "TAR BABIES",
+          "title": "Be Humble / New Poor",
+          "section": "",
+          "trackIndex": 16
+        },
+        {
+          "id": 19950017,
+          "episodeId": 1995,
+          "artist": "REJECTORS",
+          "title": "Go Die",
+          "section": "",
+          "trackIndex": 17
+        },
+        {
+          "id": 19950018,
+          "episodeId": 1995,
+          "artist": "POISON IDEA",
+          "title": "This Thing Called Progress",
+          "section": "",
+          "trackIndex": 18
+        },
+        {
+          "id": 19950019,
+          "episodeId": 1995,
+          "artist": "THE FARTZ",
+          "title": "The People United",
+          "section": "",
+          "trackIndex": 19
+        },
+        {
+          "id": 19950020,
+          "episodeId": 1995,
+          "artist": "TERVEET KÄDET",
+          "title": "Outo Maa",
+          "section": "",
+          "trackIndex": 20
+        },
+        {
+          "id": 19950021,
+          "episodeId": 1995,
+          "artist": "KAAOS",
+          "title": "Politiikka",
+          "section": "",
+          "trackIndex": 21
+        },
+        {
+          "id": 19950022,
+          "episodeId": 1995,
+          "artist": "NUKKETEATTERI",
+          "title": "Jos Sota Tulee…",
+          "section": "",
+          "trackIndex": 22
+        },
+        {
+          "id": 19950023,
+          "episodeId": 1995,
+          "artist": "REALLY RED",
+          "title": "No More Art",
+          "section": "",
+          "trackIndex": 23
+        },
+        {
+          "id": 19950024,
+          "episodeId": 1995,
+          "artist": "BUTTHOLE SURFERS",
+          "title": "I Hate My Job",
+          "section": "",
+          "trackIndex": 24
+        },
+        {
+          "id": 19950025,
+          "episodeId": 1995,
+          "artist": "JFA",
+          "title": "Preppie",
+          "section": "",
+          "trackIndex": 25
+        },
+        {
+          "id": 19950026,
+          "episodeId": 1995,
+          "artist": "MAU MAUS",
+          "title": "The Oath",
+          "section": "",
+          "trackIndex": 26
+        },
+        {
+          "id": 19950027,
+          "episodeId": 1995,
+          "artist": "MAYHEM",
+          "title": "Patriots",
+          "section": "",
+          "trackIndex": 27
+        },
+        {
+          "id": 19950028,
+          "episodeId": 1995,
+          "artist": "ONE WAY SYSTEM",
+          "title": "Jackie Was a Junkie",
+          "section": "",
+          "trackIndex": 28
+        },
+        {
+          "id": 19950029,
+          "episodeId": 1995,
+          "artist": "GOVERNMENT ISSUE",
+          "title": "Hey Ronnie",
+          "section": "",
+          "trackIndex": 29
+        },
+        {
+          "id": 19950030,
+          "episodeId": 1995,
+          "artist": "VOID",
+          "title": "Think",
+          "section": "",
+          "trackIndex": 30
+        },
+        {
+          "id": 19950031,
+          "episodeId": 1995,
+          "artist": "MINOR THREAT",
+          "title": "Out of Step",
+          "section": "",
+          "trackIndex": 31
+        },
+        {
+          "id": 19950032,
+          "episodeId": 1995,
+          "artist": "7 SECONDS",
+          "title": "Anti-Klan",
+          "section": "",
+          "trackIndex": 32
+        },
+        {
+          "id": 19950033,
+          "episodeId": 1995,
+          "artist": "M.I.A.",
+          "title": "Angry Youth",
+          "section": "",
+          "trackIndex": 33
+        }
+      ]
+    },
     {
       "id": 1994,
       "date": "2026-10-11",
