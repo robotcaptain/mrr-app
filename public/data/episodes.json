@@ -1,7 +1,180 @@
 {
-  "generated": "2026-10-20T14:38:49.257Z",
-  "count": 809,
+  "generated": "2026-10-27T15:42:18.738Z",
+  "count": 810,
   "episodes": [
+    {
+      "id": 1996,
+      "date": "2026-10-25",
+      "host": "",
+      "caption": "Erika Elizabeth plays the now sounds of then & the new sounds of now on this week's episode of MRR Radio.",
+      "thumbnailUrl": "https://www.maximumrocknroll.com/wp-content/uploads/2026/10/Linea-Vienesa-768x480.jpg",
+      "mp3Url": "https://media.blubrry.com/mrrradio/www.maximumrocknroll.com/wp-content/uploads/2026/10/mrr-radio-1996.mp3",
+      "durationSecs": 3579,
+      "trackCount": 20,
+      "localAudio": false,
+      "tracks": [
+        {
+          "id": 19960000,
+          "episodeId": 1996,
+          "artist": "STIGMA",
+          "title": "金属バット",
+          "section": "Intro",
+          "trackIndex": 0
+        },
+        {
+          "id": 19960001,
+          "episodeId": 1996,
+          "artist": "DEUTSCHER KAISER",
+          "title": "Halli Galli Tanzt Für Sie",
+          "section": "Too Many Fish in the Sea",
+          "trackIndex": 1
+        },
+        {
+          "id": 19960002,
+          "episodeId": 1996,
+          "artist": "MARY & THE IMMACULATES",
+          "title": "Trip to Jonestown",
+          "section": "Too Many Fish in the Sea",
+          "trackIndex": 2
+        },
+        {
+          "id": 19960003,
+          "episodeId": 1996,
+          "artist": "BUSH TETRAS",
+          "title": "Fess Up",
+          "section": "Too Many Fish in the Sea",
+          "trackIndex": 3
+        },
+        {
+          "id": 19960004,
+          "episodeId": 1996,
+          "artist": "MAGIC JOHNSON",
+          "title": "Las Malas",
+          "section": "Too Many Fish in the Sea",
+          "trackIndex": 4
+        },
+        {
+          "id": 19960005,
+          "episodeId": 1996,
+          "artist": "MAD TEA PARTY",
+          "title": "Hide & Seek",
+          "section": "Sacrifice With Style",
+          "trackIndex": 5
+        },
+        {
+          "id": 19960006,
+          "episodeId": 1996,
+          "artist": "G2G",
+          "title": "Half an Hour Cocktail Hour",
+          "section": "Sacrifice With Style",
+          "trackIndex": 6
+        },
+        {
+          "id": 19960007,
+          "episodeId": 1996,
+          "artist": "DAY AFTER",
+          "title": "Political Games",
+          "section": "Sacrifice With Style",
+          "trackIndex": 7
+        },
+        {
+          "id": 19960008,
+          "episodeId": 1996,
+          "artist": "LÍNEA VIENESA",
+          "title": "Te Vas A Morir",
+          "section": "Sacrifice With Style",
+          "trackIndex": 8
+        },
+        {
+          "id": 19960009,
+          "episodeId": 1996,
+          "artist": "THE WRECKS",
+          "title": "SBS",
+          "section": "Sacrifice With Style",
+          "trackIndex": 9
+        },
+        {
+          "id": 19960010,
+          "episodeId": 1996,
+          "artist": "BOOTS FOR DANCING",
+          "title": "Hold Up Half the Sky",
+          "section": "Are We So Innocent of Struggle?",
+          "trackIndex": 10
+        },
+        {
+          "id": 19960011,
+          "episodeId": 1996,
+          "artist": "GRASS WIDOW",
+          "title": "Advice",
+          "section": "Are We So Innocent of Struggle?",
+          "trackIndex": 11
+        },
+        {
+          "id": 19960012,
+          "episodeId": 1996,
+          "artist": "TAME O’MEARAS",
+          "title": "Sweat & Babble",
+          "section": "Are We So Innocent of Struggle?",
+          "trackIndex": 12
+        },
+        {
+          "id": 19960013,
+          "episodeId": 1996,
+          "artist": "SLEEPING DOGS",
+          "title": "(I Got My Tan in) El Salvador",
+          "section": "Are We So Innocent of Struggle?",
+          "trackIndex": 13
+        },
+        {
+          "id": 19960014,
+          "episodeId": 1996,
+          "artist": "FLYING TIGERS",
+          "title": "No Reply",
+          "section": "Are We So Innocent of Struggle?",
+          "trackIndex": 14
+        },
+        {
+          "id": 19960015,
+          "episodeId": 1996,
+          "artist": "KING ALFRED, MAN OF LEISURE",
+          "title": "The Curse",
+          "section": "Make It Happen",
+          "trackIndex": 15
+        },
+        {
+          "id": 19960016,
+          "episodeId": 1996,
+          "artist": "THE FRUMPIES",
+          "title": "You’ll See",
+          "section": "Make It Happen",
+          "trackIndex": 16
+        },
+        {
+          "id": 19960017,
+          "episodeId": 1996,
+          "artist": "FAMOUS MAMMALS",
+          "title": "In Any Case",
+          "section": "Make It Happen",
+          "trackIndex": 17
+        },
+        {
+          "id": 19960018,
+          "episodeId": 1996,
+          "artist": "ORANGE JUICE",
+          "title": "Breakfast Time",
+          "section": "Make It Happen",
+          "trackIndex": 18
+        },
+        {
+          "id": 19960019,
+          "episodeId": 1996,
+          "artist": "THE SHINING",
+          "title": "Embarrassment",
+          "section": "Outro",
+          "trackIndex": 19
+        }
+      ]
+    },
     {
       "id": 1995,
       "date": "2026-10-18",
