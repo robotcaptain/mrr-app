@@ -1,7 +1,228 @@
 {
-  "generated": "2026-10-27T15:42:18.738Z",
-  "count": 810,
+  "generated": "2026-11-03T17:31:05.370Z",
+  "count": 811,
   "episodes": [
+    {
+      "id": 1997,
+      "date": "2026-11-01",
+      "host": "Hobbes",
+      "caption": "On this week's MRR Radio, Hobbes opens the lines to hear your scariest punk nightmares for a Halloween edition of Askapunk Call-In Radio.",
+      "thumbnailUrl": "https://www.maximumrocknroll.com/wp-content/uploads/2026/10/mrr-radio-1997_ask-a-punk-768x768.jpg",
+      "mp3Url": "https://media.blubrry.com/mrrradio/www.maximumrocknroll.com/wp-content/uploads/2026/10/mrr-radio-1997.mp3",
+      "durationSecs": 3524,
+      "trackCount": 26,
+      "localAudio": false,
+      "tracks": [
+        {
+          "id": 19970000,
+          "episodeId": 1997,
+          "artist": "THE NORMALS",
+          "title": "Almost Ready",
+          "section": "Catastrophic Mohawk Accident",
+          "trackIndex": 0
+        },
+        {
+          "id": 19970001,
+          "episodeId": 1997,
+          "artist": "THE ELECTRIC CHAIRS",
+          "title": "Stuck on You",
+          "section": "Catastrophic Mohawk Accident",
+          "trackIndex": 1
+        },
+        {
+          "id": 19970002,
+          "episodeId": 1997,
+          "artist": "THE FINGERS",
+          "title": "Work It Out",
+          "section": "Catastrophic Mohawk Accident",
+          "trackIndex": 2
+        },
+        {
+          "id": 19970003,
+          "episodeId": 1997,
+          "artist": "CHAOTIC DISCHORD",
+          "title": "Where Have All the Glueheads Gone",
+          "section": "Catastrophic Mohawk Accident",
+          "trackIndex": 3
+        },
+        {
+          "id": 19970004,
+          "episodeId": 1997,
+          "artist": "ARLEQUIN",
+          "title": "Hold Up",
+          "section": "Catastrophic Mohawk Accident",
+          "trackIndex": 4
+        },
+        {
+          "id": 19970005,
+          "episodeId": 1997,
+          "artist": "SLOGUTIS",
+          "title": "Family Recipe",
+          "section": "That Wasn’t Veggie Stew",
+          "trackIndex": 5
+        },
+        {
+          "id": 19970006,
+          "episodeId": 1997,
+          "artist": "TOTALITÄR",
+          "title": "Följ Din Diagnos",
+          "section": "That Wasn’t Veggie Stew",
+          "trackIndex": 6
+        },
+        {
+          "id": 19970007,
+          "episodeId": 1997,
+          "artist": "FORMALDEHYDE JUNKIES",
+          "title": "Poison Control",
+          "section": "That Wasn’t Veggie Stew",
+          "trackIndex": 7
+        },
+        {
+          "id": 19970008,
+          "episodeId": 1997,
+          "artist": "ZERO BOYS",
+          "title": "Down the Drain",
+          "section": "That Wasn’t Veggie Stew",
+          "trackIndex": 8
+        },
+        {
+          "id": 19970009,
+          "episodeId": 1997,
+          "artist": "THE MAD",
+          "title": "Sick",
+          "section": "That Wasn’t Veggie Stew",
+          "trackIndex": 9
+        },
+        {
+          "id": 19970010,
+          "episodeId": 1997,
+          "artist": "KILL THE HIPPIES",
+          "title": "Mulligan Stew",
+          "section": "That Wasn’t Veggie Stew",
+          "trackIndex": 10
+        },
+        {
+          "id": 19970011,
+          "episodeId": 1997,
+          "artist": "DESTRUCT",
+          "title": "Truth in the Lie",
+          "section": "I Forgot to Book the Tour",
+          "trackIndex": 11
+        },
+        {
+          "id": 19970012,
+          "episodeId": 1997,
+          "artist": "TRIAGE",
+          "title": "Hide in Shame",
+          "section": "I Forgot to Book the Tour",
+          "trackIndex": 12
+        },
+        {
+          "id": 19970013,
+          "episodeId": 1997,
+          "artist": "INVERTEBRATES",
+          "title": "One for the Road",
+          "section": "I Forgot to Book the Tour",
+          "trackIndex": 13
+        },
+        {
+          "id": 19970014,
+          "episodeId": 1997,
+          "artist": "FRONTSECTOR",
+          "title": "How Much Time",
+          "section": "I Forgot to Book the Tour",
+          "trackIndex": 14
+        },
+        {
+          "id": 19970015,
+          "episodeId": 1997,
+          "artist": "BORSCHT",
+          "title": "Tired",
+          "section": "I Forgot to Book the Tour",
+          "trackIndex": 15
+        },
+        {
+          "id": 19970016,
+          "episodeId": 1997,
+          "artist": "HATED",
+          "title": "2:02 AM",
+          "section": "I Forgot to Book the Tour",
+          "trackIndex": 16
+        },
+        {
+          "id": 19970017,
+          "episodeId": 1997,
+          "artist": "DEAD MOON",
+          "title": "40 Miles Of Bad Road",
+          "section": "Meet Me in Topeka",
+          "trackIndex": 17
+        },
+        {
+          "id": 19970018,
+          "episodeId": 1997,
+          "artist": "EDDY CURRENT SUPPRESSION RING",
+          "title": "Which Way to Go",
+          "section": "Meet Me in Topeka",
+          "trackIndex": 18
+        },
+        {
+          "id": 19970019,
+          "episodeId": 1997,
+          "artist": "LES CALAMITÉS",
+          "title": "Toutes Les Nuits",
+          "section": "Meet Me in Topeka",
+          "trackIndex": 19
+        },
+        {
+          "id": 19970020,
+          "episodeId": 1997,
+          "artist": "AUTOR",
+          "title": "Ultra Gute Arbeit",
+          "section": "Meet Me in Topeka",
+          "trackIndex": 20
+        },
+        {
+          "id": 19970021,
+          "episodeId": 1997,
+          "artist": "ASILE",
+          "title": "Craindre la Technologie",
+          "section": "Too Many Cameras at the Gig",
+          "trackIndex": 21
+        },
+        {
+          "id": 19970022,
+          "episodeId": 1997,
+          "artist": "DISCHARGE",
+          "title": "Society’s Victim",
+          "section": "Too Many Cameras at the Gig",
+          "trackIndex": 22
+        },
+        {
+          "id": 19970023,
+          "episodeId": 1997,
+          "artist": "HAVANA SYNDROME",
+          "title": "Safe Surveillance",
+          "section": "Too Many Cameras at the Gig",
+          "trackIndex": 23
+        },
+        {
+          "id": 19970024,
+          "episodeId": 1997,
+          "artist": "B.O.R.N.",
+          "title": "Socialites",
+          "section": "Too Many Cameras at the Gig",
+          "trackIndex": 24
+        },
+        {
+          "id": 19970025,
+          "episodeId": 1997,
+          "artist": "SPOOKY VISIONS",
+          "title": "The Stranger",
+          "section": "Too Many Cameras at the Gig",
+          "trackIndex": 25
+        }
+      ]
+    },
     {
       "id": 1996,
       "date": "2026-10-25",
