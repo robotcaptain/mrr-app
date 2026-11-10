@@ -1,7 +1,172 @@
 {
-  "generated": "2026-11-03T17:31:05.370Z",
-  "count": 811,
+  "generated": "2026-11-10T17:28:36.337Z",
+  "count": 812,
   "episodes": [
+    {
+      "id": 1998,
+      "date": "2026-11-08",
+      "host": "Cary",
+      "caption": "On this week's MRR Radio, Cary plays songs to listen to at the end of the world.",
+      "thumbnailUrl": "https://www.maximumrocknroll.com/wp-content/uploads/2026/11/Sex-Mex-by-Dan-Perry_web-768x768.webp",
+      "mp3Url": "https://media.blubrry.com/mrrradio/www.maximumrocknroll.com/wp-content/uploads/2026/11/MRRradio1998.mp3",
+      "durationSecs": 3480,
+      "trackCount": 19,
+      "localAudio": false,
+      "tracks": [
+        {
+          "id": 19980000,
+          "episodeId": 1998,
+          "artist": "CULT CRIME",
+          "title": "Final Dose",
+          "section": "The Beginning of the End",
+          "trackIndex": 0
+        },
+        {
+          "id": 19980001,
+          "episodeId": 1998,
+          "artist": "SEX MEX",
+          "title": "Asshole",
+          "section": "Artificial Life",
+          "trackIndex": 1
+        },
+        {
+          "id": 19980002,
+          "episodeId": 1998,
+          "artist": "HIS LORDSHIP",
+          "title": "Nadine",
+          "section": "Artificial Life",
+          "trackIndex": 2
+        },
+        {
+          "id": 19980003,
+          "episodeId": 1998,
+          "artist": "XRAY XEROXX",
+          "title": "Rock and Roll Tonite",
+          "section": "Artificial Life",
+          "trackIndex": 3
+        },
+        {
+          "id": 19980004,
+          "episodeId": 1998,
+          "artist": "SHATTERED FIGURES",
+          "title": "Seperating",
+          "section": "Artificial Life",
+          "trackIndex": 4
+        },
+        {
+          "id": 19980005,
+          "episodeId": 1998,
+          "artist": "DEATH CASSETTE",
+          "title": "Cheaper to Die",
+          "section": "Artificial Bomb",
+          "trackIndex": 5
+        },
+        {
+          "id": 19980006,
+          "episodeId": 1998,
+          "artist": "PARDONER",
+          "title": "Canary",
+          "section": "Artificial Bomb",
+          "trackIndex": 6
+        },
+        {
+          "id": 19980007,
+          "episodeId": 1998,
+          "artist": "TV BUDDHA",
+          "title": "You've Been Changed",
+          "section": "Artificial Bomb",
+          "trackIndex": 7
+        },
+        {
+          "id": 19980008,
+          "episodeId": 1998,
+          "artist": "WHIPPETS",
+          "title": "See Through",
+          "section": "Artificial Bomb",
+          "trackIndex": 8
+        },
+        {
+          "id": 19980009,
+          "episodeId": 1998,
+          "artist": "SMALLWAYS.",
+          "title": "WHAT I\"M DOIN'",
+          "section": "Artificial Bomb",
+          "trackIndex": 9
+        },
+        {
+          "id": 19980010,
+          "episodeId": 1998,
+          "artist": "N I H I L I S T",
+          "title": "Imitator",
+          "section": "Artificial War",
+          "trackIndex": 10
+        },
+        {
+          "id": 19980011,
+          "episodeId": 1998,
+          "artist": "BELLRINGER",
+          "title": "Rocksteady",
+          "section": "Artificial War",
+          "trackIndex": 11
+        },
+        {
+          "id": 19980012,
+          "episodeId": 1998,
+          "artist": "BODY STUFF",
+          "title": "Transmission",
+          "section": "Artificial War",
+          "trackIndex": 12
+        },
+        {
+          "id": 19980013,
+          "episodeId": 1998,
+          "artist": "THE KLITTENS",
+          "title": "Badlands",
+          "section": "Artificial War",
+          "trackIndex": 13
+        },
+        {
+          "id": 19980014,
+          "episodeId": 1998,
+          "artist": "CCTV",
+          "title": "Empire of Blood",
+          "section": "Artificial War",
+          "trackIndex": 14
+        },
+        {
+          "id": 19980015,
+          "episodeId": 1998,
+          "artist": "HUSTLE CULTURE",
+          "title": "New Government Pyramid Scheme",
+          "section": "Artificial Death",
+          "trackIndex": 15
+        },
+        {
+          "id": 19980016,
+          "episodeId": 1998,
+          "artist": "TORTURE LOVE",
+          "title": "A Drone with a Lifestyle",
+          "section": "Artificial Death",
+          "trackIndex": 16
+        },
+        {
+          "id": 19980017,
+          "episodeId": 1998,
+          "artist": "PROBLEM ADDICT",
+          "title": "Death Traps",
+          "section": "Artificial Death",
+          "trackIndex": 17
+        },
+        {
+          "id": 19980018,
+          "episodeId": 1998,
+          "artist": "SIOUXIE AND THE SKUNKS",
+          "title": "Mira",
+          "section": "The End of the World (or just this show)",
+          "trackIndex": 18
+        }
+      ]
+    },
     {
       "id": 1997,
       "date": "2026-11-01",
