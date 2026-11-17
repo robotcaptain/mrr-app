@@ -1,7 +1,188 @@
 {
-  "generated": "2026-11-10T17:28:36.337Z",
-  "count": 812,
+  "generated": "2026-11-17T18:55:59.209Z",
+  "count": 813,
   "episodes": [
+    {
+      "id": 1999,
+      "date": "2026-11-15",
+      "host": "Jennifer",
+      "caption": "On this week's MRR Radio, Jennifer treats your ears with lots of new gems!",
+      "thumbnailUrl": "https://www.maximumrocknroll.com/wp-content/uploads/2026/11/Science-Man-1-1000x667.jpeg",
+      "mp3Url": "https://media.blubrry.com/mrrradio/www.maximumrocknroll.com/wp-content/uploads/2026/11/mrrradio1999.mp3",
+      "durationSecs": 3345,
+      "trackCount": 21,
+      "localAudio": false,
+      "tracks": [
+        {
+          "id": 19990000,
+          "episodeId": 1999,
+          "artist": "UNITED STARE",
+          "title": "I’ve Been Wronged",
+          "section": "Intro",
+          "trackIndex": 0
+        },
+        {
+          "id": 19990001,
+          "episodeId": 1999,
+          "artist": "CRYIN’ HAND",
+          "title": "Stricken with Fear",
+          "section": "Daddy Should Have Stayed in School",
+          "trackIndex": 1
+        },
+        {
+          "id": 19990002,
+          "episodeId": 1999,
+          "artist": "NU VILES",
+          "title": "Like Nu",
+          "section": "Daddy Should Have Stayed in School",
+          "trackIndex": 2
+        },
+        {
+          "id": 19990003,
+          "episodeId": 1999,
+          "artist": "BABY TYLER",
+          "title": "Unsatisfied",
+          "section": "Daddy Should Have Stayed in School",
+          "trackIndex": 3
+        },
+        {
+          "id": 19990004,
+          "episodeId": 1999,
+          "artist": "ACID TEST",
+          "title": "Stoned Again",
+          "section": "Daddy Should Have Stayed in School",
+          "trackIndex": 4
+        },
+        {
+          "id": 19990005,
+          "episodeId": 1999,
+          "artist": "ALLUSION",
+          "title": "Chaos",
+          "section": "Gonna Raise Hell",
+          "trackIndex": 5
+        },
+        {
+          "id": 19990006,
+          "episodeId": 1999,
+          "artist": "REAL SHOCKS",
+          "title": "Homegrown Disease",
+          "section": "Gonna Raise Hell",
+          "trackIndex": 6
+        },
+        {
+          "id": 19990007,
+          "episodeId": 1999,
+          "artist": "SCIENCE MAN",
+          "title": "Mind Rat",
+          "section": "Gonna Raise Hell",
+          "trackIndex": 7
+        },
+        {
+          "id": 19990008,
+          "episodeId": 1999,
+          "artist": "PUST",
+          "title": "Cuire",
+          "section": "Gonna Raise Hell",
+          "trackIndex": 8
+        },
+        {
+          "id": 19990009,
+          "episodeId": 1999,
+          "artist": "SNOOPER",
+          "title": "Gran Prix",
+          "section": "Gonna Raise Hell",
+          "trackIndex": 9
+        },
+        {
+          "id": 19990010,
+          "episodeId": 1999,
+          "artist": "SOCAL’S PARISHONERS",
+          "title": "Eat You Alive",
+          "section": "Gonna Raise Hell",
+          "trackIndex": 10
+        },
+        {
+          "id": 19990011,
+          "episodeId": 1999,
+          "artist": "GLAUKOM",
+          "title": "Elle",
+          "section": "Surrender",
+          "trackIndex": 11
+        },
+        {
+          "id": 19990012,
+          "episodeId": 1999,
+          "artist": "NARCO",
+          "title": "Code Reaction",
+          "section": "Surrender",
+          "trackIndex": 12
+        },
+        {
+          "id": 19990013,
+          "episodeId": 1999,
+          "artist": "MILIEU",
+          "title": "A Faint Wind",
+          "section": "Surrender",
+          "trackIndex": 13
+        },
+        {
+          "id": 19990014,
+          "episodeId": 1999,
+          "artist": "CCTV",
+          "title": "Cowboy Song",
+          "section": "Surrender",
+          "trackIndex": 14
+        },
+        {
+          "id": 19990015,
+          "episodeId": 1999,
+          "artist": "EASON",
+          "title": "No Money, But Good Friends",
+          "section": "Big Eyes",
+          "trackIndex": 15
+        },
+        {
+          "id": 19990016,
+          "episodeId": 1999,
+          "artist": "SAD GLUE",
+          "title": "Quiet Australians",
+          "section": "Big Eyes",
+          "trackIndex": 16
+        },
+        {
+          "id": 19990017,
+          "episodeId": 1999,
+          "artist": "TEAMWORK",
+          "title": "horse eating an apple",
+          "section": "Big Eyes",
+          "trackIndex": 17
+        },
+        {
+          "id": 19990018,
+          "episodeId": 1999,
+          "artist": "ERASER",
+          "title": "Talk to Me",
+          "section": "Big Eyes",
+          "trackIndex": 18
+        },
+        {
+          "id": 19990019,
+          "episodeId": 1999,
+          "artist": "PORK BELLY",
+          "title": "A Million Knots",
+          "section": "Big Eyes",
+          "trackIndex": 19
+        },
+        {
+          "id": 19990020,
+          "episodeId": 1999,
+          "artist": "CIVIL DISOBEDIENCE",
+          "title": "Planet of the Fakes",
+          "section": "Outro",
+          "trackIndex": 20
+        }
+      ]
+    },
     {
       "id": 1998,
       "date": "2026-11-08",
